@@ -80,7 +80,7 @@ There are several methods, including two tools commonly used to assess the magni
 
 The first, Value at Risk (VaR), is a statistical indicator that measures, over a given period, the extent of the risk and the probability that financial losses will occur.
 
-[![VaR illustration](/assets/images/blog/risque-financier/inline-2.webp)](https://meritis.fr/blog/vous-saurez-tout-sur-la-var/)
+![VaR illustration](/assets/images/blog/risque-financier/inline-2.webp)
 
 #### Beta
 

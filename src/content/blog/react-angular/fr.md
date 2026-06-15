@@ -48,9 +48,9 @@ Google a aussi connu des vagues de licenciements ces dernières années : 12 0
 
 **Vous ne voulez pas dépendre de frameworks lourds pour vos backends ?**
 
-👉 Regardez le replay de notre meetup [« Meritis x Programmez : Frameworkless en Java »](https://meritis.fr/livres-blancs/replay-meetup-meritis-et-programmez-frameworkless-en-java/)
+👉 Regardez le replay de notre meetup « Meritis x Programmez : Frameworkless en Java »
 
-[![Rec replay meetup programmez Frameworkless en Java](/assets/images/blog/react-vs-angular/inline-2.webp)](https://meritis.fr/livres-blancs/replay-meetup-meritis-et-programmez-frameworkless-en-java/)
+![Rec replay meetup programmez Frameworkless en Java](/assets/images/blog/react-vs-angular/inline-2.webp)
 
 #### Le cas Flutter
 
@@ -68,9 +68,9 @@ On peut mettre dans la balance la criticité beaucoup plus importante pour Googl
 
 **Besoin d’une boîte à outil complète du développeur Full Stack ?**
 
-👉 Téléchargez dès maintenant la [« Boîte à outil du Développeur Full Stack »](https://meritis.fr/livres-blancs/la-boite-a-outils-du-developpeur-full-stack-faite-par-des-developpeurs-full-stack/), faite par des Développeurs Full Stack eux-mêmes !
+👉 Téléchargez dès maintenant la « Boîte à outil du Développeur Full Stack », faite par des Développeurs Full Stack eux-mêmes !
 
-[![boite à outils du développeur fullstack](/assets/images/blog/react-vs-angular/inline-4.webp)](https://meritis.fr/livres-blancs/la-boite-a-outils-du-developpeur-full-stack-faite-par-des-developpeurs-full-stack/)
+![boite à outils du développeur fullstack](/assets/images/blog/react-vs-angular/inline-4.webp)
 
 ### React, une gouvernance contestable ?
 
@@ -117,9 +117,9 @@ Un changement assez incompréhensible par les devs les plus calés sur le sujet 
 
 **Envie de découvrir comment utiliser les Hooks de React ?**
 
-👉 Lisez notre article [« Démarrer avec les hooks de React : un aperçu du hook useState »](https://meritis.fr/blog/demarrer-avec-les-hooks-de-react-un-apercu-du-hook-usestate/)
+👉 Lisez notre article « Démarrer avec les hooks de React : un aperçu du hook useState »
 
-[![hooks de React - meritis noir et blanc](/assets/images/blog/react-vs-angular/inline-6.webp)](https://meritis.fr/blog/demarrer-avec-les-hooks-de-react-un-apercu-du-hook-usestate/)
+![hooks de React - meritis noir et blanc](/assets/images/blog/react-vs-angular/inline-6.webp)
 
 ### Pourquoi tout cela est-il problématique ?
 

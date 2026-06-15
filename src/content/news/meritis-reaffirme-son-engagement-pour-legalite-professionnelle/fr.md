@@ -8,7 +8,6 @@ tags: ["Actualités"]
 excerpt: "Meritis atteint un score de 94/100 à l’Index égalité femmes-hommes 2024, confirmant son engagement en faveur de la diversité et de l’inclusion."
 image: "/assets/images/news/meritis-reaffirme-son-engagement-pour-legalite-professionnelle/cover.png"
 imageAlt: "Meritis indice égalité hommes femmes"
-sourceUrl: "https://meritis.fr/actualites/meritis-reaffirme-son-engagement-pour-legalite-professionnelle/"
 ---
 
 <p>Dans un secteur technologique encore largement masculin, garantir l&rsquo;égalité professionnelle entre les femmes et les hommes reste un défi majeur. Chez Meritis, nous faisons de cette ambition une priorité quotidienne. Pour l&rsquo;année 2024, notre engagement se traduit une nouvelle fois par un score élevé de <strong>94/100</strong> à l’Index de l’égalité professionnelle pour toutes nos entités, confirmant ainsi nos efforts constants en faveur de la mixité et de l&rsquo;inclusion.</p>
@@ -99,14 +98,14 @@ sourceUrl: "https://meritis.fr/actualites/meritis-reaffirme-son-engagement-pour-
 
 <p>Chez Meritis, nous restons fidèles à nos engagements et poursuivons nos efforts en faveur d’un monde professionnel plus inclusif et équitable. Nous continuerons à mettre en place des actions concrètes pour promouvoir la mixité, sensibiliser nos collaborateurs et collaboratrices, et encourager l’accès des femmes aux métiers de la tech.</p>
 
-<p>Cet engagement s’inscrit dans une démarche RSE ambitieuse, illustrée par <a href="https://meritis.fr/actualites/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/">l’obtention de la labellisation B Corp™ </a>au début de l’année 2025. Cette reconnaissance témoigne de notre volonté de bâtir un modèle d’entreprise plus vertueux, intégrant pleinement les dimensions sociales, environnementales et éthiques au cœur de notre stratégie. Elle marque une nouvelle étape dans notre quête d’amélioration continue, où performance économique et impact positif vont de pair.</p>
+<p>Cet engagement s’inscrit dans une démarche RSE ambitieuse, illustrée par l’obtention de la labellisation B Corp™ au début de l’année 2025. Cette reconnaissance témoigne de notre volonté de bâtir un modèle d’entreprise plus vertueux, intégrant pleinement les dimensions sociales, environnementales et éthiques au cœur de notre stratégie. Elle marque une nouvelle étape dans notre quête d’amélioration continue, où performance économique et impact positif vont de pair.</p>
 
 <p>Notre ambition est de faire de Meritis un acteur de référence en matière d’égalité professionnelle, en mettant en place des solutions concrètes et mesurables pour favoriser la parité et l’inclusion.</p>
 
 <p><strong>Découvrez nos engagements RSE et notre démarche en faveur de la mixité !</strong></p>
 
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link has-black-color has-yellow-background-color has-text-color has-background has-link-color wp-element-button" href="https://meritis.fr/la-rse-chez-meritis/">Notre politique RSE</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-black-color has-yellow-background-color has-text-color has-background has-link-color wp-element-button" href="/fr/la-rse-chez-meritis/">Notre politique RSE</a></div>
 </div>
 
 <h3 class="wp-block-heading" id="h-"></h3>

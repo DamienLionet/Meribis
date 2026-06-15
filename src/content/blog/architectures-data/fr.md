@@ -26,9 +26,9 @@ Dans la suite de cet article, nous nous attachons à vous présenter les princip
 
 **Envie de découvrir l’histoire des architectures data plus en détail ?**
 
-👉 Découvrez notre article [« Comment les architectures Data ont transformé le stockage et l’analyse des données en 50 ans ? »](https://meritis.fr/blog/evolution-des-architectures-data/)
+👉 Découvrez notre article « Comment les architectures Data ont transformé le stockage et l’analyse des données en 50 ans ? »
 
-[](https://meritis.fr/blog/evolution-des-architectures-data/)
+
 
 ### Quels sont les différents types d’architecture de données ?
 
@@ -100,9 +100,9 @@ Teradata, IBM DB2 warehouse, MS SQL – SSAS.
 
 **Téléchargez la version complète de ce contenu, enrichie de ressources supplémentaires.**
 
-👉 Découvrez notre livre blanc [« Quelle architecture data choisir pour votre entreprise ? »](https://meritis.fr/livres-blancs/quelle-architecture-data-choisir-pour-votre-entreprise/)
+👉 Découvrez notre livre blanc « Quelle architecture data choisir pour votre entreprise ? »
 
-[](https://meritis.fr/livres-blancs/quelle-architecture-data-choisir-pour-votre-entreprise/)
+
 
 #### 2- Data lake – Définition, fonctionnement et cas d’usage
 
@@ -161,9 +161,9 @@ Hadoop HDFS, AWS S3, Azure Data Lake Storage, Google Cloud Storage.
 
 **Vous souhaitez mettre en place un Datalake ? Rien de mieux qu’un cas concret pour bien préparer votre projet !**
 
-👉 Découvrez notre cas client [« Mise en place d’un Data Lake full Cloud »](https://meritis.fr/livres-blancs/cas-client-mise-en-place-dun-data-lake-full-cloud/)
+👉 Découvrez notre cas client « Mise en place d’un Data Lake full Cloud »
 
-[](https://meritis.fr/livres-blancs/cas-client-mise-en-place-dun-data-lake-ful)
+
 
 #### 3- Modern Data Warehouse (MDW) – Définition, fonctionnement et cas d’usage
 
@@ -229,7 +229,7 @@ Une fois que les données sont dans le DW dans un format facile à comprendre, l
 > Actuellement, la gouvernance des données est considérée comme une composante stratégique essentielle pour créer de la valeur à partir des données, garantir leur sécurité et leur confidentialité, et réduire les risques juridiques.
 >
 >
-> **Pour plus d’information, vous pouvez consulter notre article :** « [C’est quoi la gouvernance des données en entreprise ? »](https://meritis.fr/blog/quest-ce-que-la-gouvernance-des-donnees-en-entreprise/)
+> **Pour plus d’information, vous pouvez consulter notre article :** « C’est quoi la gouvernance des données en entreprise ? »
 
 **Voici quelques cas d’usage d’un modern data warehouse :**
 
@@ -243,9 +243,9 @@ AWS Redshift, Azure Synapse Analytics, Google BigQuery et Snowflake..
 
 **Les problèmes de gouvernance des données ne sont pas une fatalité !**
 
-👉 Découvrez notre livre blanc [« Gouvernance des données : guide pratique en 8 étapes clés »](https://meritis.fr/livres-blancs/livre-blanc-data-gouvernance/)
+👉 Découvrez notre livre blanc « Gouvernance des données : guide pratique en 8 étapes clés »
 
-[](https://meritis.fr/livres-blancs/livre-blanc-data-gouvernance/)
+
 
 #### 4- Data fabric – Définition, fonctionnement et cas d’usage
 
@@ -363,9 +363,9 @@ Cependant, certains MDW ont évolué ces dernières années pour tendre vers un 
 
 **Vous avez un projet d’intelligence artificielle ?**
 
-👉 [Découvrez notre guide d’une IA décomplexée pour votre entreprise !](https://meritis.fr/livres-blancs/intelligence-artificielle-guide-ia/)
+👉 Découvrez notre guide d’une IA décomplexée pour votre entreprise !
 
-[](https://meritis.fr/livres-blancs/intelligence-artificielle-guide-ia/)
+
 
 #### 6- Data Mesh – Définition, fonctionnement et cas d’usage
 
@@ -441,9 +441,9 @@ En résumé, une architecture data mesh offre une agilité et une scalabilité e
 
 Analyse descriptive, Batch processing, Datalake, Deep learning, IoT…**Envoie d’un glossaire complet sur le Big DATA ?**
 
-👉 Découvrez notre glossaire [« Big Data : le lexique à connaître »](https://meritis.fr/livres-blancs/glossaire-big-data-lexique/)
+👉 Découvrez notre glossaire « Big Data : le lexique à connaître »
 
-[](https://meritis.fr/livres-blancs/glossaire-big-data-lexique/)
+
 
 ### Comparatif des différentes architectures Data
 
@@ -461,9 +461,9 @@ Comparatif des différentes architectures Data  
 
 **Vous avez besoin d’accompagnement pour mettre en place votre architecture data ?**
 
-**👉** [Découvrez un exemple d’accompagnement dans le secteur des services financiers et des paiements.](https://meritis.fr/livres-blancs/cas-client-finance-cadrage-et-conception-architecture-data-neobanque/)
+**👉** Découvrez un exemple d’accompagnement dans le secteur des services financiers et des paiements.
 
-[](https://meritis.fr/livres-blancs/cas-client-finance-cadrage-et-conception-architecture-data-neobanque/)
+
 
 ### Conclusion
 
@@ -482,6 +482,6 @@ Ces dernières années, plusieurs changements majeurs ont transformé le paysage
 **Êtes-vous certain de valoriser et exploiter au maximum
 vos données d’entreprise ?**
 
-👉 [Testez votre maturité Data !](https://meritis.fr/livres-blancs/diagnostic-testez-votre-maturite-data/)
+👉 Testez votre maturité Data !
 
-[](https://meritis.fr/livres-blancs/diagnostic-testez-votre-maturite-data/)
+

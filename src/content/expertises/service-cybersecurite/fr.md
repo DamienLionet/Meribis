@@ -84,7 +84,7 @@ Profitez des avantages qu’offre la méthode **DevOps** en incorporant une phas
 
 ### Développement, Opérations et Sécurité : les piliers d’une approche DevSecOps
 
-[La méthode **DevOps**](https://meritis.fr/expertise/devops/) garantit un **développement rapide** et **fréquent** des applications, toutefois elle ne prend pas en considération un aspect critique du développement, celui de **la sécurité des applications**.
+[La méthode **DevOps**](/fr/expertises/devops/) garantit un **développement rapide** et **fréquent** des applications, toutefois elle ne prend pas en considération un aspect critique du développement, celui de **la sécurité des applications**.
 C’est pour répondre à cette problématique que la **méthode DevSecOps** a été conçue.
 **L’intégration de la sécurité informatique dans l’ensemble du cycle de vie de l’application garantit le succès de vos projets.**
 
@@ -117,7 +117,7 @@ Nos experts interviennent chez nos clients pour les aider à identifier les fail
 
 ### La protection des données de nos clients est primordiale, sécuriser notre système d’information l’est tout autant !
 
-Délivrée par l’AFNOR Certification, la [norme internationale ISO 27001:2022](https://meritis.fr/actualites/meritis-obtient-la-certification-iso/) certifie un système de management de la sécurité de l’information (SMSI) efficace face aux menaces.
+Délivrée par l’AFNOR Certification, la norme internationale ISO 27001:2022 certifie un système de management de la sécurité de l’information (SMSI) efficace face aux menaces.
 Meritis est certifié sur le périmètre des missions d’assistance technique, prestations à engagement et projets de transformation numérique depuis janvier 2021.
 
 * * *

@@ -8,7 +8,6 @@ tags: ["Actualités"]
 excerpt: "Depuis sa création en 2007, Meritis a toujours mis en avant l’exigence, la rigueur et la proximité avec ses clients. Aujourd’hui, nous franchissons une nouvelle étape avec le déploiement de …"
 image: "/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/cover.jpg"
 imageAlt: "nouveau logo de la charte graphique Meritis"
-sourceUrl: "https://meritis.fr/actualites/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/"
 ---
 
 <p><em>Depuis sa création en 2007, Meritis a toujours mis en avant l’exigence, la rigueur et la proximité avec ses clients. Aujourd’hui, nous franchissons une nouvelle étape avec le déploiement de notre nouvelle charte graphique.</em></p>

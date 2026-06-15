@@ -8,7 +8,6 @@ tags: ["Actualités"]
 excerpt: "Meritis lance OpenRAG, un outil open source permettant de comparer les performances de plus de 20 architectures RAG (Retrieval-Augmented Generation). Objectif : aider les équipes techniques à faire des choix …"
 image: "/assets/images/news/openrag-meritis-publie-un-comparateur-open-source-pour-benchmarker-les-systemes-rag/cover.jpg"
 imageAlt: "OPENRAG MERITIS Le benchmark open source pour les RAG"
-sourceUrl: "https://meritis.fr/actualites/openrag-meritis-publie-un-comparateur-open-source-pour-benchmarker-les-systemes-rag/"
 ---
 
 <p><strong>Meritis lance OpenRAG</strong>, un outil open source permettant de comparer les performances de plus de 20 architectures RAG (Retrieval-Augmented Generation). Objectif : aider les équipes techniques à faire des choix éclairés pour leurs projets IA générative, à partir de <strong>données concrètes, mesurables et reproductibles</strong>.</p>

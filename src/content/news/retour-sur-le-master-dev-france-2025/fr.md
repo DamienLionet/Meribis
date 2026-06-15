@@ -8,7 +8,6 @@ tags: ["Actualités"]
 excerpt: "Le Master Dev France 2025 a tenu toutes ses promesses ! Cet événement phare de la communauté tech a rassemblé plus de 800 développeurs en compétition et 3 000 visiteurs …"
 image: "/assets/images/news/retour-sur-le-master-dev-france-2025/cover.png"
 imageAlt: "MDF COUVERTURE"
-sourceUrl: "https://meritis.fr/actualites/retour-sur-le-master-dev-france-2025/"
 ---
 
 <p>Le <a href="https://www.masterdevfrance.com/" target="_blank" rel="noreferrer noopener"><strong>Master Dev France 2025</strong> </a>a tenu toutes ses promesses ! Cet événement phare de la communauté tech a rassemblé plus de <strong>800 développeurs en compétition</strong> et <strong>3 000 visiteurs passionnés</strong>, venus assister à une journée placée sous le signe de la performance, de l’innovation et du partage.</p>
@@ -277,6 +276,6 @@ sourceUrl: "https://meritis.fr/actualites/retour-sur-le-master-dev-france-2025/"
 <div class="wp-block-button"><a class="wp-block-button__link has-black-color has-yellow-background-color has-text-color has-background has-link-color wp-element-button" href="https://codeontime.fr/">CodeOnTime.fr</a></div>
 </div>
 
-<p class="has-small-font-size">PS : <a href="https://meritis.fr/blog/code-on-time-2025-nettoyage-des-mers-decryptage-des-solutions/"><strong>Les pistes de résolutions </strong></a>sont là pour vous aider !</p>
+<p class="has-small-font-size">PS : <strong>Les pistes de résolutions </strong>sont là pour vous aider !</p>
 </div>
 </div>

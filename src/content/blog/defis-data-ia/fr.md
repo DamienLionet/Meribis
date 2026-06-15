@@ -36,7 +36,7 @@ On peut donc considérer que le « jeu en vaut la chandelle » quand les projets
 ![ROI et intégration des initiatives IA Gen - meritis Navigacom](/assets/images/blog/defis-data-ia-generative/inline-3.webp)
 
 ROI et intégration des initiatives IA Gen
-Pour approfondir cette thématique, découvrez les [cas d’usage IA générative entreprise](https://meritis.fr/evenements/ia-generative-en-entreprise-cas-dusage-concrets-et-comment-maximiser-son-impact-avec-le-rag/) les plus performants et leurs facteurs de succès.
+Pour approfondir cette thématique, découvrez les cas d’usage IA générative entreprise les plus performants et leurs facteurs de succès.
 
 ### Cas d’usage IA générative : assistants virtuels, marketing et personnalisation
 
@@ -67,7 +67,7 @@ Pour comprendre ce chiffre, il faut réaliser qu’une initiative IA est indisso
 
 -   **Qualité des données insuffisante :** Plus d’un tiers des entreprises européennes citent la mauvaise qualité des données comme obstacle principal à la concrétisation de leurs projets d’IA générative.
 
-    📖Ces problèmes de qualité sont précisément ce qui empêche les projets de passer en production. [Découvrez comment les anticiper dans notre livre blanc sur l’industrialisation des projets IA](https://meritis.fr/livres-blancs/industrialiser-projets-ia/?utm_campaign=44958388-EST_LG_IA&utm_source=Blog&utm_medium=ia-gen-en-entreprise&utm_content=LB_projet_IA)
+    📖Ces problèmes de qualité sont précisément ce qui empêche les projets de passer en production. Découvrez comment les anticiper dans notre livre blanc sur l’industrialisation des projets IA
 
 -   **Infrastructures cloisonnées :** La combinaison d’infrastructures héritées, de systèmes obsolètes et d’un manque de gouvernance freine l’adoption de technologies prometteuses.
 -   **Compétences internes & Gouvernance Data :** Selon une étude de Forbes Insights (5),  83 % des organisations considèrent la gestion des données comme leur principal défi. 43 % estiment leurs outils analytiques et infrastructures dépassés. En France, seuls 25 % des décideurs déclarent disposer de données disponibles en temps voulu. Le manque d’expertise interne sur les métiers spécifiques de la Data & l’IA est également cité régulièrement. 

@@ -95,7 +95,7 @@ Recently integrated into the GitLab environment, this team reports significant s
 
 #### Team 2 - RED Team
 
-Generally satisfied with execution times, this team nevertheless observes occasional slowness and wants better control over these variations to stabilise the experience for its [developers and the evolution of their role](https://meritis.fr/lia-et-les-developpeurs-revolution-ou-simple-evolution-du-metier/).
+Generally satisfied with execution times, this team nevertheless observes occasional slowness and wants better control over these variations to stabilise the experience for its developers and the evolution of their role.
 
 #### Team 3 - GREEN Team
 

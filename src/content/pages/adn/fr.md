@@ -4,7 +4,6 @@ permalink: "/fr/adn-meritis/"
 title: "Notre culture"
 lead: "Qui sommes-nous ?"
 description: "La culture Meritis : mission, valeurs, différence, aventure entrepreneuriale et chiffres clés."
-sourceUrl: "https://meritis.fr/adn-meritis/"
 ---
 <p>La révolution numérique est un défi stratégique et humain pour nos entreprises. Chez Meritis, notre mission est de contribuer à leur donner un temps d'avance en connectant les meilleurs talents au service de la transformation numérique.</p>
 

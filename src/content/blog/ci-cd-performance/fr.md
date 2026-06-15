@@ -94,7 +94,7 @@ Récemment intégrée à l’environnement GitLab, cette équipe constate d’i
 
 #### Équipe 2 – RED Team
 
-Globalement satisfaite des temps d’exécution, cette équipe observe néanmoins des lenteurs occasionnelles et souhaite une meilleure maîtrise de ces variations pour stabiliser l’expérience de ses [développeurs et l’évolution de leur métier](https://meritis.fr/lia-et-les-developpeurs-revolution-ou-simple-evolution-du-metier/). 
+Globalement satisfaite des temps d’exécution, cette équipe observe néanmoins des lenteurs occasionnelles et souhaite une meilleure maîtrise de ces variations pour stabiliser l’expérience de ses développeurs et l’évolution de leur métier. 
 
 #### Équipe 3 – GREEN Team
 

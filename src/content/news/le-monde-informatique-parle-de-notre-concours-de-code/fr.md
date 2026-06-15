@@ -8,7 +8,6 @@ tags: ["Actualités"]
 excerpt: "Le Monde Informatique met en avant la 5ᵉ édition de Code On Time, un concours de code immersif signé Meritis. Revivez l'expérience sur CodeOnTime.fr !"
 image: "/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/cover.png"
 imageAlt: "Meritis - Code On Time dans Le monde informatique"
-sourceUrl: "https://meritis.fr/actualites/le-monde-informatique-parle-de-notre-concours-de-code/"
 ---
 
 <div class="wp-block-image">

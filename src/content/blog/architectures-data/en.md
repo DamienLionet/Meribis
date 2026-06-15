@@ -25,9 +25,9 @@ In the rest of this article, we present the main data architectures developed ov
 
 **Want to explore the history of data architectures in more detail?**
 
-Read our article ["How data architectures transformed data storage and analysis over 50 years"](https://meritis.fr/blog/evolution-des-architectures-data/)
+Read our article "How data architectures transformed data storage and analysis over 50 years"
 
-[](https://meritis.fr/blog/evolution-des-architectures-data/)
+
 
 ### What Are The Different Types Of Data Architecture?
 
@@ -99,9 +99,9 @@ Teradata, IBM DB2 Warehouse, MS SQL - SSAS.
 
 **Download the full version of this content, enriched with additional resources.**
 
-Discover our white paper ["Which data architecture should you choose for your company?"](https://meritis.fr/livres-blancs/quelle-architecture-data-choisir-pour-votre-entreprise/)
+Discover our white paper "Which data architecture should you choose for your company?"
 
-[](https://meritis.fr/livres-blancs/quelle-architecture-data-choisir-pour-votre-entreprise/)
+
 
 #### 2- Data Lake - Definition, Operation And Use Cases
 
@@ -160,9 +160,9 @@ Hadoop HDFS, AWS S3, Azure Data Lake Storage, Google Cloud Storage.
 
 **Want to implement a data lake? There is nothing like a concrete case to prepare your project properly.**
 
-Discover our client case ["Implementation of a full-cloud data lake"](https://meritis.fr/livres-blancs/cas-client-mise-en-place-dun-data-lake-full-cloud/)
+Discover our client case "Implementation of a full-cloud data lake"
 
-[](https://meritis.fr/livres-blancs/cas-client-mise-en-place-dun-data-lake-ful)
+
 
 #### 3- Modern Data Warehouse (MDW) - Definition, Operation And Use Cases
 
@@ -228,7 +228,7 @@ Once the data is in the DW in an easy-to-understand format, users can consult an
 > Today, data governance is considered an essential strategic component for creating value from data, guaranteeing its security and confidentiality, and reducing legal risks.
 >
 >
-> **For more information, you can read our article:** ["What is data governance in business?"](https://meritis.fr/blog/quest-ce-que-la-gouvernance-des-donnees-en-entreprise/)
+> **For more information, you can read our article:** "What is data governance in business?"
 
 **Some modern data warehouse use cases:**
 
@@ -242,9 +242,9 @@ AWS Redshift, Azure Synapse Analytics, Google BigQuery and Snowflake.
 
 **Data governance problems are not inevitable.**
 
-Discover our white paper ["Data governance: practical guide in 8 key steps"](https://meritis.fr/livres-blancs/livre-blanc-data-gouvernance/)
+Discover our white paper "Data governance: practical guide in 8 key steps"
 
-[](https://meritis.fr/livres-blancs/livre-blanc-data-gouvernance/)
+
 
 #### 4- Data Fabric - Definition, Operation And Use Cases
 
@@ -362,9 +362,9 @@ However, some MDWs have evolved in recent years towards a data lakehouse model, 
 
 **Do you have an artificial intelligence project?**
 
-[Discover our guide to demystified AI for your company.](https://meritis.fr/livres-blancs/intelligence-artificielle-guide-ia/)
+Discover our guide to demystified AI for your company.
 
-[](https://meritis.fr/livres-blancs/intelligence-artificielle-guide-ia/)
+
 
 #### 6- Data Mesh - Definition, Operation And Use Cases
 
@@ -440,9 +440,9 @@ In summary, a data mesh architecture offers essential agility and scalability in
 
 Descriptive analytics, batch processing, data lake, deep learning, IoT... **Need a complete glossary on Big Data?**
 
-Discover our glossary ["Big Data: the vocabulary you need to know"](https://meritis.fr/livres-blancs/glossaire-big-data-lexique/)
+Discover our glossary "Big Data: the vocabulary you need to know"
 
-[](https://meritis.fr/livres-blancs/glossaire-big-data-lexique/)
+
 
 ### Comparison Of The Different Data Architectures
 
@@ -460,9 +460,9 @@ Comparison of the different data architectures.
 
 **Do you need support to implement your data architecture?**
 
-[Discover an example of support in the financial services and payments sector.](https://meritis.fr/livres-blancs/cas-client-finance-cadrage-et-conception-architecture-data-neobanque/)
+Discover an example of support in the financial services and payments sector.
 
-[](https://meritis.fr/livres-blancs/cas-client-finance-cadrage-et-conception-architecture-data-neobanque/)
+
 
 ### Conclusion
 
@@ -481,6 +481,6 @@ In the future, data architectures will evolve towards even more automation, with
 **Are you sure you are getting the maximum value from
 your enterprise data?**
 
-[Test your data maturity.](https://meritis.fr/livres-blancs/diagnostic-testez-votre-maturite-data/)
+Test your data maturity.
 
-[](https://meritis.fr/livres-blancs/diagnostic-testez-votre-maturite-data/)
+

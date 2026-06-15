@@ -8,7 +8,6 @@ tags: ["Actualités"]
 excerpt: "Le média Alliancy consacre un article à Sébastien Videment, fondateur et dirigeant de Meritis, autour d’un thème central : comment piloter une ESN dans un contexte de mutation profonde du …"
 image: "/assets/images/news/alliancy-met-en-lumiere-la-meritocratie-bienveillante-de-meritis/cover.png"
 imageAlt: "logo alliancy le mag site meritis"
-sourceUrl: "https://meritis.fr/actualites/alliancy-met-en-lumiere-la-meritocratie-bienveillante-de-meritis/"
 ---
 
 <p>Le média Alliancy consacre un article à Sébastien Videment, fondateur et dirigeant de Meritis, autour d’un thème central : <strong>comment piloter une ESN dans un contexte de mutation profonde du numérique</strong>, en s’appuyant sur un modèle managérial fondé sur la « <strong>méritocratie bienveillante</strong>« .</p>

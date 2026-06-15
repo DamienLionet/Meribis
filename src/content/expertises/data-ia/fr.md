@@ -300,7 +300,7 @@ Projets IA : les conditions de réussite, du cadrage à la production
 
 Gouvernance, données, organisation, mise à l’échelle : les leviers concrets pour transformer l’IA en valeur durable.
 
-[Télécharger](https://meritis.fr/livres-blancs/industrialiser-projets-ia/)
+Télécharger
 
 ![Livre Blanc Architecture Data Meritis](/assets/images/expertises/data-ia/inline-8.webp)
 
@@ -310,7 +310,7 @@ Quelle architecture Data choisir pour votre entreprise ?
 
 Data Lake, Lakehouse, Warehouse : comprendre les différences et choisir l’architecture adaptée à votre contexte.
 
-[Télécharger](https://meritis.fr/livres-blancs/quelle-architecture-data-choisir-pour-votre-entreprise/)
+Télécharger
 
 Livre blanc
 
@@ -318,7 +318,7 @@ Quelle architecture Data choisir pour votre entreprise ?
 
 Data Lake, Lakehouse, Warehouse : comprendre les différences et choisir l’architecture adaptée à votre contexte.
 
-[Télécharger](https://meritis.fr/livres-blancs/quelle-architecture-data-choisir-pour-votre-entreprise/)
+Télécharger
 
 ## Questions fréquentes sur la Data & l’IA en entreprise
 

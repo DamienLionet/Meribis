@@ -36,7 +36,7 @@ We can therefore consider that the "game is worth the candle" when projects reac
 
 ROI and integration of GenAI initiatives
 
-To explore this topic further, discover the most effective [enterprise generative AI use cases](https://meritis.fr/evenements/ia-generative-en-entreprise-cas-dusage-concrets-et-comment-maximiser-son-impact-avec-le-rag/) and their success factors.
+To explore this topic further, discover the most effective enterprise generative AI use cases and their success factors.
 
 ### Generative AI Use Cases: Virtual Assistants, Marketing And Personalisation
 
@@ -68,7 +68,7 @@ To understand this figure, it is important to realise that an AI initiative is i
 
 -   **Insufficient data quality:** more than a third of European companies cite poor data quality as the main obstacle to making their generative AI projects concrete.
 
-    These quality issues are precisely what prevent projects from moving into production. [Discover how to anticipate them in our white paper on industrialising AI projects](https://meritis.fr/livres-blancs/industrialiser-projets-ia/?utm_campaign=44958388-EST_LG_IA&utm_source=Blog&utm_medium=ia-gen-en-entreprise&utm_content=LB_projet_IA)
+    These quality issues are precisely what prevent projects from moving into production. Discover how to anticipate them in our white paper on industrialising AI projects
 
 -   **Siloed infrastructure:** the combination of legacy infrastructure, obsolete systems and a lack of governance slows the adoption of promising technologies.
 -   **Internal skills and data governance:** according to a Forbes Insights study (5), 83% of organisations consider data management to be their main challenge. 43% believe their analytics tools and infrastructure are outdated. In France, only 25% of decision-makers say they have data available in time. The lack of internal expertise in specific data and AI roles is also regularly cited.

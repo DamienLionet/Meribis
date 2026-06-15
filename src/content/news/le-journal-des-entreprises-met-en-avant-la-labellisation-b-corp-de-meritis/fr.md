@@ -8,7 +8,6 @@ tags: ["Actualités"]
 excerpt: "Le Journal des Entreprises parle de la labellisation B Corp™ de Meritis, une reconnaissance de son engagement sociétal et durable."
 image: "/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/cover.png"
 imageAlt: "Meritis - Le journal des entreprises"
-sourceUrl: "https://meritis.fr/actualites/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/"
 ---
 
 <figure class="wp-block-image size-large"><img width="1024" height="256" src="/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/inline-01.png" alt="Meritis est labelisée B Corp" class="wp-image-54043" /></figure>
@@ -36,7 +35,7 @@ sourceUrl: "https://meritis.fr/actualites/le-journal-des-entreprises-met-en-avan
 <p>Vous souhaitez en savoir plus concernant nos engagements ? </p>
 
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link has-black-background-color has-background wp-element-button" href="https://meritis.fr/la-rse-chez-meritis/"><strong>Découvrez nos engagements</strong></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-black-background-color has-background wp-element-button" href="/fr/la-rse-chez-meritis/"><strong>Découvrez nos engagements</strong></a></div>
 
 <div class="wp-block-button"><a class="wp-block-button__link has-black-color has-yellow-background-color has-text-color has-background has-link-color wp-element-button" href="https://www.lejournaldesentreprises.com/breve/meritis-obtient-la-labellisation-b-corp-2112636" target="_blank" rel="noreferrer noopener"><strong>Lire l&rsquo;article</strong></a></div>
 </div>

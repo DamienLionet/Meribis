@@ -103,9 +103,9 @@ _\*c’est la note obtenue lors d’un sondage de satisfactions sur un échantil
 
 ## Pour aller plus loin
 
-[![BforBank fait appel à meritis pour refondre ses applications mobiles](/assets/images/expertises/finance/inline-2.webp)](https://meritis.fr/reference/b-for-bank-refonte-applications-mobiles/)
+![BforBank fait appel à meritis pour refondre ses applications mobiles](/assets/images/expertises/finance/inline-2.webp)
 
-[![cas client Meritis - blockchain](/assets/images/expertises/finance/inline-3.webp)](https://meritis.fr/reference/creation-dune-plateforme-de-distribution-digitale-pour-une-grande-banque/)
+![cas client Meritis - blockchain](/assets/images/expertises/finance/inline-3.webp)
 
 [![](/assets/images/expertises/finance/inline-4.webp)](/fr/contact/)
 
@@ -119,7 +119,7 @@ Car chez Meritis, nous sommes convaincus que la transformation numérique et mé
 
 ![](/assets/images/expertises/finance/inline-5.webp)
 
-[Voir nos cas clients](https://meritis.fr/categorie-livre-blanc/cas-clients/)
+Voir nos cas clients
 
 ## Vous souhaitez prendre un rendez-vous, demander un devis ou en savoir plus ?
 

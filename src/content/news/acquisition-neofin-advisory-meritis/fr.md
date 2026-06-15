@@ -8,7 +8,6 @@ tags: ["Actualités"]
 excerpt: "Meritis poursuit son expansion stratégique avec l’acquisition de Neofin Adisory, cabinet de conseil reconnu pour son expertise en gestion des risques, réglementation bancaire, compliance et finance durable. Une nouvelle étape …"
 image: "/assets/images/news/acquisition-neofin-advisory-meritis/cover.jpg"
 imageAlt: "Neofin Advisory logo"
-sourceUrl: "https://meritis.fr/actualites/acquisition-neofin-advisory-meritis/"
 ---
 
 <p><strong><em>Meritis poursuit son expansion stratégique avec l’acquisition de <a href="https://neofin.co.uk/" target="_blank" rel="noreferrer noopener">Neofin Adisory</a>, cabinet de conseil reconnu pour son expertise en gestion des risques, réglementation bancaire, compliance et finance durable.</em></strong></p>
@@ -17,7 +16,7 @@ sourceUrl: "https://meritis.fr/actualites/acquisition-neofin-advisory-meritis/"
 
 <h2 class="wp-block-heading" id="h-une-nouvelle-etape-strategique-pour-meritis">Une nouvelle étape stratégique pour Meritis</h2>
 
-<p>Après l’<a href="https://meritis.fr/actualites/meritis-rachete-navigacom-et-lance-le-coup-denvoi-de-sa-strategie-de-croissance-externe/">intégration réussie de Navigacom en 2024</a>, cette nouvelle opération s’inscrit pleinement dans notre stratégie de croissance, à la fois sur le plan sectoriel et géographique. Elle marque une volonté forte : renforcer notre positionnement sur les métiers de la finance tout en consolidant notre présence à l’international, avec une nouvelle implantation stratégique à Londres, capitale mondiale de la finance.</p>
+<p>Après l’intégration réussie de Navigacom en 2024, cette nouvelle opération s’inscrit pleinement dans notre stratégie de croissance, à la fois sur le plan sectoriel et géographique. Elle marque une volonté forte : renforcer notre positionnement sur les métiers de la finance tout en consolidant notre présence à l’international, avec une nouvelle implantation stratégique à Londres, capitale mondiale de la finance.</p>
 
 <h2 class="wp-block-heading" id="h-une-expertise-metier-enrichie">Une expertise métier enrichie</h2>
 

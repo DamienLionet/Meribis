@@ -4,7 +4,6 @@ permalink: "/fr/la-rse-chez-meritis/"
 title: "La RSE chez Meritis"
 lead: "Nos engagements"
 description: "La démarche RSE de Meritis : qualité de vie au travail, diversité, égalité professionnelle, environnement, handicap, labels et partenaires."
-sourceUrl: "https://meritis.fr/la-rse-chez-meritis/"
 ---
 <p>La Responsabilité Sociétale des Entreprises fait partie de l'engagement global de Meritis pour une société tournée vers ses collaborateurs et le bien-être au travail.</p>
 
@@ -59,9 +58,9 @@ sourceUrl: "https://meritis.fr/la-rse-chez-meritis/"
 <p>De ces actions découle un sentiment d&rsquo;équité très important entre tous les collaborateurs.</p>
 <p>Par exemple, 97% des collaborateurs Meritis estiment être <strong>traités équitablement en fonction de leur sexe</strong>.</p>
 </p>
-                                                    <a class="btn btn-cta-blue" href="https://meritis.fr/actualites/top-3-great-place-to-work/">
+                                                    
                                 Découvrir tous nos résultats                                 <span class="screen-reader-text">A propos Qualité de Vie au Travail</span>
-                            </a>
+                            
                                             </div>
 				</div>
 			</div>
@@ -100,9 +99,9 @@ sourceUrl: "https://meritis.fr/la-rse-chez-meritis/"
 <li>Indicateur hautes rémunérations : 5/10</li>
 </ul>
 </p>
-                                                    <a class="btn btn-cta-blue" href="https://meritis.fr/actualites/women-in-tech-focus-sur-les-femmes-dans-la-tech-chez-meritis/">
+                                                    
                                 Découvrir nos Women in Tech                                <span class="screen-reader-text">A propos Egalité F/H</span>
-                            </a>
+                            
                                             </div>
 				</div>
 			</div>
@@ -185,7 +184,7 @@ sourceUrl: "https://meritis.fr/la-rse-chez-meritis/"
 <p><strong>Depuis 2017</strong>, Meritis prend part régulièrement à l’évaluation <strong>Great Place to Work®</strong> afin de recueillir les avis de ses collaborateurs. Au fil des années, l&rsquo;entreprise a régulièrement été reconnue pour son environnement de travail, notamment grâce à son engagement envers le<strong> bien-être professionnel et personnel de ses équipes</strong>. Ces distinctions sont le fruit d’un travail constant et de la participation active de tous nos collaborateurs, à qui nous exprimons notre profonde gratitude. En 2025, Meritis continue de recevoir cette reconnaissance dans sa catégorie, confirmant ainsi la qualité de son environnement de travail. </p>
 
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-black-color has-yellow-background-color has-text-color has-background wp-element-button" href="https://meritis.fr/gptw/"><strong>E</strong>n savoir plus</a></div>
+<div class="wp-block-button is-style-fill"><strong>E</strong>n savoir plus</div>
 </div>
 </div>
 </div>
@@ -235,7 +234,7 @@ sourceUrl: "https://meritis.fr/la-rse-chez-meritis/"
 </blockquote>
 
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link has-black-color has-yellow-background-color has-text-color has-background wp-element-button" href="https://meritis.fr/actualites/meritis-obtient-la-certification-iso/" target="_blank" rel="noreferrer noopener">Découvrir nos engagements</a></div>
+<div class="wp-block-button">Découvrir nos engagements</div>
 </div>
 </div>
 </div>

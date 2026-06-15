@@ -26,9 +26,9 @@ La gestion des tests ne se résume pas à une tâche isolée, mais représente p
 
 **Envie d’approfondir les tests dans un contexte agile ?**
 
-👉 Découvrez notre article [« Les tests dans une équipe agile »](https://meritis.fr/blog/les-tests-dans-une-equipe-agile/)
+👉 Découvrez notre article « Les tests dans une équipe agile »
 
-[![Test logiciel agile Meritis](/assets/images/blog/reussir-projet-test-logiciel/inline-2.webp)](https://meritis.fr/blog/les-tests-dans-une-equipe-agile/)
+![Test logiciel agile Meritis](/assets/images/blog/reussir-projet-test-logiciel/inline-2.webp)
 
 ### Les étapes de la gestion des tests
 
@@ -60,9 +60,9 @@ Cette étape consiste à déterminer approximativement l’effort nécessaire en
 
 **A la recherche d’une ressource généraliste sur les tests ?**
 
-👉 Découvrez notre article « [Tests informatiques, les bonnes pratiques »](https://meritis.fr/blog/tests-informatiques-bonnes-pratiques/)
+👉 Découvrez notre article « Tests informatiques, les bonnes pratiques »
 
-[![test informatiques ](/assets/images/blog/reussir-projet-test-logiciel/inline-5.webp)](https://meritis.fr/blog/tests-informatiques-bonnes-pratiques/)
+![test informatiques ](/assets/images/blog/reussir-projet-test-logiciel/inline-5.webp)
 
 ##### Planification des tests
 
@@ -155,9 +155,9 @@ Cela permet d’assurer une couverture de tests complète et auditable.
 
 **Envie de savoir comment rédiger des cas de test à partir des exigences ?**
 
-👉 Découvrez notre article [« Méthode de rédaction des cas de test à partir des exigences »](https://meritis.fr/blog/methode-de-redaction-cas-de-test-a-partir-exigences/)
+👉 Découvrez notre article « Méthode de rédaction des cas de test à partir des exigences »
 
-[![Méthode de rédaction des cas de test à partir des exigences blog meritis](/assets/images/blog/reussir-projet-test-logiciel/inline-6.webp)](https://meritis.fr/blog/methode-de-redaction-cas-de-test-a-partir-exigences/)
+![Méthode de rédaction des cas de test à partir des exigences blog meritis](/assets/images/blog/reussir-projet-test-logiciel/inline-6.webp)
 
 #### Phase 4 : implémentation
 
@@ -238,9 +238,9 @@ En prenant du recul sur l’expérience passée, l’équipe de test peut ainsi 
 
 **Envie de découvrir comment optimiser votre production logicielle avec les concepts de DevOps et de Lean ?**
 
-👉 Découvrez notre article [« DevOps, Lean, chaîne de valeur : optimiser la production logicielle »](https://meritis.fr/blog/devops-lean-chaine-de-valeur-optimiser-la-production-logicielle/)
+👉 Découvrez notre article « DevOps, Lean, chaîne de valeur : optimiser la production logicielle »
 
-[](https://meritis.fr/blog/devops-lean-chaine-de-valeur-optimiser-la-production-logicielle/)
+
 
 ### Que retenir de la gestion des tests ?
 

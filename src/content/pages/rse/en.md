@@ -4,7 +4,6 @@ permalink: "/en/meritis-csr/"
 title: "Meritis CSR"
 lead: "Our commitments"
 description: "Meritis CSR policy: quality of life at work, diversity, gender equality, environment, labels and partners."
-sourceUrl: "https://meritis.fr/en/meritis-csr/"
 ---
 <p>Corporate Social Responsibility is part of Meritis' overall commitment to an employee-oriented company and well-being at work.</p>
 
@@ -13,7 +12,7 @@ sourceUrl: "https://meritis.fr/en/meritis-csr/"
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://infos.meritis.fr/hubfs/03_RSE/SUSTAINABILITY_REPORT_meritis_2025.pdf" target="_blank" rel="noreferrer noopener">Our 2025 VSME Report</a></div>
+<div class="wp-block-button">Our 2025 VSME Report</div>
 </div>
 </div>
 

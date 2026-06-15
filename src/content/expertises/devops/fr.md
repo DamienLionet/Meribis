@@ -19,7 +19,7 @@ _\*Gartner Magic Quadrant for DevOps Platforms, 2024_
 ![](/assets/images/expertises/devops/inline-1.webp)
 
 **Une solution stratégique pour vos défis techniques.**
-Dans un monde où l’agilité et la performance des systèmes IT sont des facteurs clés de réussite, [le DevOps](https://meritis.fr/devops-comment-ca-marche/) est un levier incontournable. Vous êtes CTO, CIO ou Responsable IT au sein d’une ETI spécialisée dans les services numériques ? Meritis vous accompagne dans la transformation de vos infrastructures pour accélérer vos cycles de développement, améliorer la collaboration et maximiser la valeur générée par vos équipes.
+Dans un monde où l’agilité et la performance des systèmes IT sont des facteurs clés de réussite, le DevOps est un levier incontournable. Vous êtes CTO, CIO ou Responsable IT au sein d’une ETI spécialisée dans les services numériques ? Meritis vous accompagne dans la transformation de vos infrastructures pour accélérer vos cycles de développement, améliorer la collaboration et maximiser la valeur générée par vos équipes.
 
 * * *
 
@@ -156,16 +156,16 @@ Qu’est-ce que le DevOps et pourquoi est-il stratégique ?
 
 Le DevOps est une méthodologie qui vise à améliorer la collaboration entre les équipes de développement et d’exploitation, permettant d’accélérer les cycles de développement, de réduire les incidents, et d’améliorer la qualité des livrables.
 
-?? **[Découvrez notre article de blog](https://meritis.fr/devops-comment-ca-marche/)** qui explique le DevOps en détail.
+?? **Découvrez notre article de blog** qui explique le DevOps en détail.
 
 **Pour aller plus loin :**
 
--   **[5 bonnes pratiques DevOps](https://meritis.fr/livres-blancs/infographie-devops-concepts-fondamentaux-et-bonnes-pratiques/)**
--   **[Glossaire DevOps](https://meritis.fr/livres-blancs/glossaire-devops/),**
--   [**Ressources**](https://meritis.fr/livres-blancs/) et [**articles de blog**](https://meritis.fr/blog/)
+-   **5 bonnes pratiques DevOps**
+-   **Glossaire DevOps,**
+-   **Ressources** et [**articles de blog**](/fr/blog/)
 
 ? **Découvrez également notre livre blanc :**
-_« [6 facteurs clés pour réussir sa démarche DevOps](https://meritis.fr/livres-blancs/devops-6-facteurs-cles/)«_  – Un guide complet pour structurer votre transformation DevOps et maximiser vos résultats.
+_« 6 facteurs clés pour réussir sa démarche DevOps«_  – Un guide complet pour structurer votre transformation DevOps et maximiser vos résultats.
 
 Quels sont les 6 facteurs clés pour implémenter sa méthode DevOps avec succès
 

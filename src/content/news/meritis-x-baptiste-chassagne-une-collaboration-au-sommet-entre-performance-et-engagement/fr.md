@@ -8,7 +8,6 @@ tags: ["Actualités"]
 excerpt: "Chez Meritis, entreprise labellisée B Corp™, nous sommes intimement convaincus que le sport dépasse largement le cadre de la compétition : il est un formidable vecteur de valeurs, de cohésion, …"
 image: "/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/cover.png"
 imageAlt: "Meritis collabore avec baptiste chassagne"
-sourceUrl: "https://meritis.fr/actualites/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/"
 ---
 
 <p><strong>Chez Meritis, entreprise labellisée B Corp™, nous sommes intimement convaincus que le sport dépasse largement le cadre de la compétition : il est un formidable vecteur de valeurs, de cohésion, d’inspiration et de résilience. Dans cet esprit, nous sommes fiers et enthousiastes d’annoncer une nouvelle collaboration avec <a href="https://www.instagram.com/baptiste.chassagne/" target="_blank" rel="noreferrer noopener nofollow">Baptiste Chassagne</a>, athlète de haut niveau en trail-running, discipline exigeante et authentique, à l’image des engagements que nous portons.&nbsp;</strong></p>
@@ -33,7 +32,7 @@ sourceUrl: "https://meritis.fr/actualites/meritis-x-baptiste-chassagne-une-colla
 
 <p>Cette collaboration s’inscrit dans la continuité de notre engagement de longue date en faveur du sport et de ses vertus, que nous avons déjà concrétisé à travers le soutien à Sébastien Rogues, Sébastien Camus ou encore la <strong><a href="https://www.epouvant-trail.com/qui-sommes-nous/" target="_blank" rel="noreferrer noopener nofollow">création de l’Épouvant Trail</a>,</strong> course nature organisée avec et pour nos collaborateurs.&nbsp;</p>
 
-<p>En nous associant à Baptiste Chassagne, nous réaffirmons notre volonté de promouvoir un sport porteur de sens, vecteur d’un mieux-être individuel et collectif, mais aussi reflet de notre engagement sociétal en tant qu’<a href="https://meritis.fr/la-rse-chez-meritis/"><strong>entreprise responsable</strong></a>.&nbsp;</p>
+<p>En nous associant à Baptiste Chassagne, nous réaffirmons notre volonté de promouvoir un sport porteur de sens, vecteur d’un mieux-être individuel et collectif, mais aussi reflet de notre engagement sociétal en tant qu’<a href="/fr/la-rse-chez-meritis/"><strong>entreprise responsable</strong></a>.&nbsp;</p>
 
 <p>Merci à Baptiste pour sa confiance. Nous sommes impatients d’écrire avec lui les premières pages de ce nouveau chapitre, riche en émotions, en partages et en aventures humaines.&nbsp;</p>
 

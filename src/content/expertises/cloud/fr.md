@@ -82,7 +82,7 @@ Tous nos collaborateurs maîtrisent la législation en vigueur
 
 ![](/assets/images/expertises/cloud/inline-1.webp)
 
-L’objectif du [mouvement DevOps](https://meritis.fr/devops-comment-ca-marche/) reste avant tout de **mobiliser l’ensemble des acteurs à collaborer de façon transparente et à porter la responsabilité de leur contribution de bout en bout**, c’est-à-dire de la production jusqu’à la collecte des retours utilisateurs en passant par la supervision, la sécurisation ou le déploiement des composants.
+L’objectif du mouvement DevOps reste avant tout de **mobiliser l’ensemble des acteurs à collaborer de façon transparente et à porter la responsabilité de leur contribution de bout en bout**, c’est-à-dire de la production jusqu’à la collecte des retours utilisateurs en passant par la supervision, la sécurisation ou le déploiement des composants.
 
 **Chez Meritis, nous avons la conviction que l’humain est au cœur du succès d’une bonne Migration Cloud, c’est pourquoi nous mettons à l’honneur** la collaboration et le savoir-être d’une part, mais également **la formation et l’acquisition des compétences technique**s d’autre part.
 

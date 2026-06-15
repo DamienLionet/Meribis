@@ -47,9 +47,9 @@ Google has also experienced waves of layoffs in recent years: 12,000 people in J
 
 **Do you want to avoid depending on heavy frameworks for your backends?**
 
-Watch the replay of our meetup ["Meritis x Programmez: Frameworkless in Java"](https://meritis.fr/livres-blancs/replay-meetup-meritis-et-programmez-frameworkless-en-java/)
+Watch the replay of our meetup "Meritis x Programmez: Frameworkless in Java"
 
-[![Replay recording of the Programmez Frameworkless in Java meetup](/assets/images/blog/react-vs-angular/inline-2.webp)](https://meritis.fr/livres-blancs/replay-meetup-meritis-et-programmez-frameworkless-en-java/)
+![Replay recording of the Programmez Frameworkless in Java meetup](/assets/images/blog/react-vs-angular/inline-2.webp)
 
 #### The Flutter Case
 
@@ -67,9 +67,9 @@ Angular's much greater criticality for Google compared with Flutter should be we
 
 **Need a complete full-stack developer toolkit?**
 
-Download the ["Full Stack Developer Toolkit"](https://meritis.fr/livres-blancs/la-boite-a-outils-du-developpeur-full-stack-faite-par-des-developpeurs-full-stack/), created by full-stack developers themselves.
+Download the "Full Stack Developer Toolkit", created by full-stack developers themselves.
 
-[![Full-stack developer toolkit](/assets/images/blog/react-vs-angular/inline-4.webp)](https://meritis.fr/livres-blancs/la-boite-a-outils-du-developpeur-full-stack-faite-par-des-developpeurs-full-stack/)
+![Full-stack developer toolkit](/assets/images/blog/react-vs-angular/inline-4.webp)
 
 ### React: Questionable Governance?
 
@@ -116,9 +116,9 @@ This change was fairly incomprehensible to developers most familiar with the sub
 
 **Want to discover how to use React Hooks?**
 
-Read our article ["Getting started with React hooks: an overview of the useState hook"](https://meritis.fr/blog/demarrer-avec-les-hooks-de-react-un-apercu-du-hook-usestate/)
+Read our article "Getting started with React hooks: an overview of the useState hook"
 
-[![React hooks - Meritis black and white](/assets/images/blog/react-vs-angular/inline-6.webp)](https://meritis.fr/blog/demarrer-avec-les-hooks-de-react-un-apercu-du-hook-usestate/)
+![React hooks - Meritis black and white](/assets/images/blog/react-vs-angular/inline-6.webp)
 
 ### Why Is All This A Problem?
 
