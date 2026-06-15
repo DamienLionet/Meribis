@@ -36,6 +36,14 @@ export default function (eleventyConfig) {
     });
   });
 
+  // Les images insérées en Markdown utilisent des chemins racine `/assets/...`
+  // qui ne passent pas par le filtre `url` : on leur applique le pathPrefix ici.
+  eleventyConfig.addTransform("prefixRootAssets", function (content) {
+    if (!(this.page.outputPath || "").endsWith(".html")) return content;
+    const prefix = (process.env.PATH_PREFIX || "/Meribis/").replace(/\/+$/, "");
+    return content.replace(/(src|href)="\/(assets\/[^"]*)"/g, `$1="${prefix}/$2"`);
+  });
+
   // Collections blog / offres par langue (published !== false, tri date décroissante).
   const isPublished = (item) => item.data.published !== false;
   const byDateDesc = (a, b) => b.date - a.date;
