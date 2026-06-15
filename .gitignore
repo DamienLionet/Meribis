@@ -1,0 +1,15 @@
+# Dépendances
+node_modules/
+
+# Sortie de build (régénérée par `npm run build:all`)
+dist/
+
+# Logs & divers
+npm-debug.log*
+*.log
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
