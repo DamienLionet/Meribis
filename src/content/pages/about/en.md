@@ -79,6 +79,10 @@ We are called in when transformation has a lasting impact on an organisation's p
 
 Our priority is to deliver measurable value, not just a promise. Each assignment relies on selected profiles, regular steering, shared indicators and clear commitments.
 
+## Our Culture And Commitments
+
+The Meritis DNA is built on high standards, proximity, humility and care. Discover [our DNA](/en/our-dna/) and [our CSR commitment](/en/meritis-csr/).
+
 ## Close To Teams
 
 Meritis operates across France and Europe. Our offices and local presence help us stay close to clients, consultants and regional ecosystems.

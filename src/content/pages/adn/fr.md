@@ -2,10 +2,14 @@
 layout: layouts/page.njk
 permalink: "/fr/adn-meritis/"
 title: "Notre culture"
-lead: "L'ADN Meritis : exigence, humilité, bienveillance et proximité au service d'une dynamique collective."
+lead: "Qui sommes-nous ?"
 description: "La culture Meritis : mission, valeurs, différence, aventure entrepreneuriale et chiffres clés."
 sourceUrl: "https://meritis.fr/adn-meritis/"
 ---
+<p>La révolution numérique est un défi stratégique et humain pour nos entreprises. Chez Meritis, notre mission est de contribuer à leur donner un temps d'avance en connectant les meilleurs talents au service de la transformation numérique.</p>
+
+<p>Nous conjuguons vision stratégique des métiers et expertise de nos talents sur l'ensemble de la chaîne de valeur. Exigence, humilité, bienveillance, proximité : ces quatre valeurs clés nous engagent pour créer une dynamique de progrès et d'excellence partagée par nos clients et collaborateurs.</p>
+
 <div id="media-text-decale-block_9844ba167f3df7454a6ede3edf34daa4" class="media-text-decale alignwide custom-block">
 			<div class="media-text-wrapper">
 		            <div class="media-content">
@@ -115,7 +119,7 @@ sourceUrl: "https://meritis.fr/adn-meritis/"
             <clipPath id="imageclip">
                 <use xlink:href="#oval"/>
             </clipPath>
-            <image clip-path="url(#imageclip)" width="100%" height="100%" xlink:href="https://meritis.fr/wp-content/uploads/2022/12/meritis5hd-min-scaled.jpg"></image>
+            <image clip-path="url(#imageclip)" width="100%" height="100%" xlink:href="/assets/images/pages/adn/fr/image-10.jpg"></image>
             <use xlink:href="#oval"/>
             </svg>
         </div>
@@ -135,7 +139,7 @@ sourceUrl: "https://meritis.fr/adn-meritis/"
     <div class="chiffres-intro">
         <div class="intro-container">
 			<h2>Meritis en quelques chiffres</h2>
-			<p><p><img class="alignnone wp-image-49085 " src="/assets/images/pages/adn/fr/image-08.png" alt="Badge GPTW in tech 2024" width="176" height="174" /><img class="" src="https://www.greatplacetowork.fr/hs-fs/hubfs/Website%202024/Label/Best_Workplaces_nonvectoris%C3%A9_cat.webp?width=1876&amp;height=1876&amp;name=Best_Workplaces_nonvectoris%C3%A9_cat.webp" width="197" height="197" /></p>
+			<p><p><img class="alignnone wp-image-49085 " src="/assets/images/pages/adn/fr/image-08.png" alt="Badge GPTW in tech 2024" width="176" height="174" /><img class="" src="/assets/images/pages/adn/fr/image-09.webp" width="197" height="197" /></p>
 <p>Meritis met un point d&rsquo;honneur à accompagner de manière individualisée ses collaborateurs, quelles que soient leurs fonctions dans l&rsquo;entreprise, en les écoutant et en les aidant à réaliser leurs souhaits d&rsquo;évolution professionnelle et personnelle.</p>
 </p>
 			                            <div class="btn-link">

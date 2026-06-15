@@ -2,10 +2,14 @@
 layout: layouts/page.njk
 permalink: "/en/our-dna/"
 title: "Our DNA"
-lead: "The Meritis DNA: care, proximity, humility and high standards as a shared collective dynamic."
+lead: "About us"
 description: "Meritis culture: mission, values, difference, entrepreneurial story and key numbers."
 sourceUrl: "https://meritis.fr/en/our-dna/"
 ---
+<p>Meritis is a consulting firm specialising in the transformation of information systems and organisations.</p>
+
+<p>Our mission is to support our clients with their digital and business transformation projects by matching them with the very best talents for the job. Our credo is 'fulfilled talents result in satisfied customers'.</p>
+
 <div id="media-text-decale-block_a80b19ac3033ebd9f636a43d3b80ad92" class="media-text-decale alignwide custom-block">
 			<div class="media-text-wrapper media-right">
 		            <div class="media-content">
@@ -95,7 +99,7 @@ sourceUrl: "https://meritis.fr/en/our-dna/"
             <clipPath id="imageclip">
                 <use xlink:href="#oval"/>
             </clipPath>
-            <image clip-path="url(#imageclip)" width="100%" height="100%" xlink:href="https://meritis.fr/wp-content/uploads/2020/08/sebastien-videment.jpg"></image>
+            <image clip-path="url(#imageclip)" width="100%" height="100%" xlink:href="/assets/images/pages/adn/en/image-09.jpg"></image>
             <use xlink:href="#oval"/>
             </svg>
         </div>
@@ -115,7 +119,7 @@ sourceUrl: "https://meritis.fr/en/our-dna/"
     <div class="chiffres-intro">
         <div class="intro-container">
 			<h2>Meritis key numbers</h2>
-			<p><p><img class="alignnone wp-image-49085" src="/assets/images/pages/adn/en/image-07.png" alt="Badge GPTW in tech 2024" width="186" height="183" /><img class="" src="https://www.greatplacetowork.fr/hs-fs/hubfs/Website%202024/Label/Best_Workplaces_nonvectoris%C3%A9_cat.webp?width=1876&amp;height=1876&amp;name=Best_Workplaces_nonvectoris%C3%A9_cat.webp" width="202" height="202" /></p>
+			<p><p><img class="alignnone wp-image-49085" src="/assets/images/pages/adn/en/image-07.png" alt="Badge GPTW in tech 2024" width="186" height="183" /><img class="" src="/assets/images/pages/adn/en/image-08.webp" width="202" height="202" /></p>
 
 <p>At Meritis, we place great importance on providing personalised support to all collaborators regardless their position in the company. We do this by listening to them and helping them achieve their professional and personal development goals.</p>
 </p>

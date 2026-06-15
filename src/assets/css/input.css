@@ -177,9 +177,95 @@
   border: 0;
   border-radius: var(--radius-card);
 }
+.prose-meritis .custom-block {
+  margin-top: 2.5rem;
+}
+.prose-meritis .tabs-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+  padding-left: 0;
+}
+.prose-meritis .tab-link a,
+.prose-meritis .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-button);
+  background: var(--color-brand-blue);
+  color: white;
+  padding: 0.75rem 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.prose-meritis .tab-link a:hover,
+.prose-meritis .btn:hover {
+  background: var(--color-brand-blue-dark);
+}
+.prose-meritis .media-text-wrapper,
+.prose-meritis .onglet-container,
+.prose-meritis .temoignage {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+}
+.prose-meritis .media-content img,
+.prose-meritis .onglet-thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-card);
+}
+.prose-meritis .reassurance-wrapper,
+.prose-meritis .chiffres-cles {
+  border-radius: var(--radius-card);
+  background: white;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-soft);
+}
+.prose-meritis .columns-container,
+.prose-meritis .chiffres-container {
+  display: grid;
+  gap: 1rem;
+}
+.prose-meritis .reassurance-col,
+.prose-meritis .chiffre-vignette {
+  border-radius: 1rem;
+  background: var(--color-brand-light);
+  padding: 1.25rem;
+}
+.prose-meritis .picto img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+}
+.prose-meritis .text-main,
+.prose-meritis .chiffre {
+  color: var(--color-brand-blue);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.prose-meritis .temoignage svg {
+  max-width: 12rem;
+}
+.prose-meritis .temoignage-blockquote {
+  margin: 0;
+}
 @media (min-width: 768px) {
   .prose-meritis .wp-block-columns {
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  }
+  .prose-meritis .media-text-wrapper,
+  .prose-meritis .onglet-container,
+  .prose-meritis .temoignage {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  }
+  .prose-meritis .media-text-wrapper.media-right .media-content {
+    order: 2;
+  }
+  .prose-meritis .columns-container,
+  .prose-meritis .chiffres-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 

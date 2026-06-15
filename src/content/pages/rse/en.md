@@ -2,10 +2,12 @@
 layout: layouts/page.njk
 permalink: "/en/meritis-csr/"
 title: "Meritis CSR"
-lead: "Our commitments to quality of life at work, diversity, gender equality, the environment and inclusion."
+lead: "Our commitments"
 description: "Meritis CSR policy: quality of life at work, diversity, gender equality, environment, labels and partners."
 sourceUrl: "https://meritis.fr/en/meritis-csr/"
 ---
+<p>Corporate Social Responsibility is part of Meritis' overall commitment to an employee-oriented company and well-being at work.</p>
+
 <h2 class="wp-block-heading has-text-align-left has-black-color has-light-pink-background-color has-text-color has-background" id="h-our-csr-policy">Our CSR policy</h2>
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">

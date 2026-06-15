@@ -2,10 +2,12 @@
 layout: layouts/page.njk
 permalink: "/fr/la-rse-chez-meritis/"
 title: "La RSE chez Meritis"
-lead: "Nos engagements en faveur de la qualité de vie au travail, de la diversité, de l'égalité, de l'environnement et de l'inclusion."
+lead: "Nos engagements"
 description: "La démarche RSE de Meritis : qualité de vie au travail, diversité, égalité professionnelle, environnement, handicap, labels et partenaires."
 sourceUrl: "https://meritis.fr/la-rse-chez-meritis/"
 ---
+<p>La Responsabilité Sociétale des Entreprises fait partie de l'engagement global de Meritis pour une société tournée vers ses collaborateurs et le bien-être au travail.</p>
+
 <h2 class="wp-block-heading has-text-align-left has-black-color has-light-pink-background-color has-text-color has-background" id="h-notre-politique-rse">Notre politique RSE</h2>
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">

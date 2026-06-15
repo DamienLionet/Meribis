@@ -79,6 +79,10 @@ Nous sommes sollicités lorsque la transformation engage durablement la performa
 
 Notre priorité est de livrer de la valeur mesurable, pas seulement une promesse. Chaque mission s'appuie sur des profils sélectionnés, un pilotage régulier, des indicateurs partagés et des engagements clairs.
 
+## Notre culture et nos engagements
+
+L'ADN Meritis repose sur une exigence forte, une relation de proximité, l'humilité et la bienveillance. Découvrez [notre culture](/fr/adn-meritis/) et [notre démarche RSE](/fr/la-rse-chez-meritis/).
+
 ## Une présence au plus près des équipes
 
 Meritis intervient sur l'ensemble du territoire français et en Europe. Nos bureaux et présences locales permettent de rester proches des clients, des consultants et des écosystèmes régionaux.

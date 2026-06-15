@@ -2,14 +2,20 @@
   "fr": [
     { "label": "Ressources", "url": "/fr/ressources/" },
     { "label": "Contact", "url": "/fr/contact/" },
+    { "label": "Rejoindre le groupe", "url": "/fr/rejoindre-le-groupe/" },
     { "label": "Nous trouver", "url": "/fr/nous-trouver/" },
+    { "label": "ADN Meritis", "url": "/fr/adn-meritis/" },
+    { "label": "RSE chez Meritis", "url": "/fr/la-rse-chez-meritis/" },
     { "label": "Mentions légales", "url": "/fr/mentions-legales/" },
     { "label": "Politique de confidentialité", "url": "/fr/politique-confidentialite/" }
   ],
   "en": [
     { "label": "Resources", "url": "/en/resources/" },
     { "label": "Contact", "url": "/en/contact/" },
+    { "label": "Join us", "url": "/en/join-us/" },
     { "label": "Find us", "url": "/en/find-us/" },
+    { "label": "Our DNA", "url": "/en/our-dna/" },
+    { "label": "CSR commitment", "url": "/en/meritis-csr/" },
     { "label": "Legal notice", "url": "/en/legal-notice/" },
     { "label": "Privacy policy", "url": "/en/privacy-policy/" }
   ]
