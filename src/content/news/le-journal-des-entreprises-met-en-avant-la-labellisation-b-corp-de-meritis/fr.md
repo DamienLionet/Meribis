@@ -6,11 +6,11 @@ author: "Meriteam"
 category: "Actualités"
 tags: ["Actualités"]
 excerpt: "Le Journal des Entreprises parle de la labellisation B Corp™ de Meritis, une reconnaissance de son engagement sociétal et durable."
-image: "/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/cover.png"
+image: "/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/cover.webp"
 imageAlt: "Meritis - Le journal des entreprises"
 ---
 
-<figure class="wp-block-image size-large"><img width="1024" height="256" src="/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/inline-01.png" alt="Meritis est labelisée B Corp" class="wp-image-54043" /></figure>
+<figure class="wp-block-image size-large"><img width="1024" height="256" src="/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/inline-01.webp" alt="Meritis est labelisée B Corp" class="wp-image-54043" /></figure>
 
 <p>Le 4 février 2025, <strong>Le Journal des Entreprises</strong> a consacré un article à l’obtention par <strong>Meritis</strong> de la <strong>labellisation B Corp™</strong>, une reconnaissance qui vient souligner son engagement en faveur d’un modèle économique plus responsable et durable.</p>
 
@@ -20,7 +20,7 @@ imageAlt: "Meritis - Le journal des entreprises"
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:15%"><div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/inline-02.png" alt="" class="wp-image-54038" style="width:116px;height:auto" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/inline-02.webp" alt="" class="wp-image-54038" style="width:116px;height:auto" /></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:80%">

@@ -6,7 +6,7 @@ author: "Meriteam"
 category: "News"
 tags: ["News"]
 excerpt: "Since its founding in 2007, Meritis has always championed excellence, rigour, and closeness to its clients. Today, we take a new step forward with the rollout of …"
-image: "/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/cover.jpg"
+image: "/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/cover.webp"
 imageAlt: "new Meritis visual identity logo"
 ---
 
@@ -32,7 +32,7 @@ imageAlt: "new Meritis visual identity logo"
 
 <p>Since our founding, our logo has evolved regularly to accompany the development and transformations of Meritis. The 2025 version marks a key milestone in that journey.</p>
 
-<figure class="wp-block-image size-large"><img width="1024" height="576" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-01.jpg" alt="image showing the evolution of the Meritis logo since its founding in 2007" class="wp-image-55781" /></figure>
+<figure class="wp-block-image size-large"><img width="1024" height="576" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-01.webp" alt="image showing the evolution of the Meritis logo since its founding in 2007" class="wp-image-55781" /></figure>
 
 <h2 class="wp-block-heading" id="h-une-identite-visuelle-revisitee">A refreshed visual identity</h2>
 
@@ -80,7 +80,7 @@ imageAlt: "new Meritis visual identity logo"
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%"><div class="wp-block-image is-style-rounded">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-02.png" alt="Sébastien VIDEMENT photo" class="wp-image-55654" style="width:168px;height:auto" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-02.webp" alt="Sébastien VIDEMENT photo" class="wp-image-55654" style="width:168px;height:auto" /></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
@@ -110,7 +110,7 @@ imageAlt: "new Meritis visual identity logo"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55784" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-03.png" alt="Meritis primary logo in colour" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55784" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-03.webp" alt="Meritis primary logo in colour" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -122,7 +122,7 @@ imageAlt: "new Meritis visual identity logo"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55791" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-04.png" alt="team collaborating in black and white 2" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55791" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-04.webp" alt="team collaborating in black and white 2" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -134,7 +134,7 @@ imageAlt: "new Meritis visual identity logo"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55787" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-05.png" alt="Meritis primary logo white on blue background 2025" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55787" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-05.webp" alt="Meritis primary logo white on blue background 2025" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -146,7 +146,7 @@ imageAlt: "new Meritis visual identity logo"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55786" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-06.png" alt="Meritis primary logo white on yellow background" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55786" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-06.webp" alt="Meritis primary logo white on yellow background" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -162,7 +162,7 @@ imageAlt: "new Meritis visual identity logo"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55790" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-07.png" alt="team in black and white" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55790" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-07.webp" alt="team in black and white" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -174,7 +174,7 @@ imageAlt: "new Meritis visual identity logo"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55789" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-08.png" alt="2025 colour palette" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55789" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-08.webp" alt="2025 colour palette" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -186,7 +186,7 @@ imageAlt: "new Meritis visual identity logo"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55792" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-09.png" alt="team collaborating in black and white 1" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55792" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-09.webp" alt="team collaborating in black and white 1" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -198,7 +198,7 @@ imageAlt: "new Meritis visual identity logo"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55795" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-10.png" alt="" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55795" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-10.webp" alt="" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         

@@ -43,7 +43,7 @@ noHeroImage: true
 		</div>
 								<div class="onglet-container">
 				<div class="onglet-thumb">
-					<img width="2000" height="682" src="/assets/images/pages/rse/en/image-01.jpg" class="attachment-full size-full" alt="Meritis - bienveillance, proximité, exigence et humilité." />				</div>
+					<img width="2000" height="682" src="/assets/images/pages/rse/en/image-01.webp" class="attachment-full size-full" alt="Meritis - bienveillance, proximité, exigence et humilité." />				</div>
 				<div class="onglet-content">
 					<h2>Quality of life at work</h2>
 					<div class="onglet-detail">
@@ -61,7 +61,7 @@ noHeroImage: true
 			</div>
 								<div class="onglet-container">
 				<div class="onglet-thumb">
-					<img width="880" height="855" src="/assets/images/pages/rse/en/image-02.jpg" class="attachment-full size-full" alt="" />				</div>
+					<img width="880" height="855" src="/assets/images/pages/rse/en/image-02.webp" class="attachment-full size-full" alt="" />				</div>
 				<div class="onglet-content">
 					<h2>Diversity</h2>
 					<div class="onglet-detail">
@@ -79,7 +79,7 @@ noHeroImage: true
 			</div>
 								<div class="onglet-container">
 				<div class="onglet-thumb">
-					<img width="572" height="566" src="/assets/images/pages/rse/en/image-03.jpg" class="attachment-full size-full" alt="" />				</div>
+					<img width="572" height="566" src="/assets/images/pages/rse/en/image-03.webp" class="attachment-full size-full" alt="" />				</div>
 				<div class="onglet-content">
 					<h2>Gender equality</h2>
 					<div class="onglet-detail">
@@ -98,7 +98,7 @@ noHeroImage: true
 			</div>
 								<div class="onglet-container">
 				<div class="onglet-thumb">
-					<img width="839" height="818" src="/assets/images/pages/rse/en/image-04.png" class="attachment-full size-full" alt="" />				</div>
+					<img width="839" height="818" src="/assets/images/pages/rse/en/image-04.webp" class="attachment-full size-full" alt="" />				</div>
 				<div class="onglet-content">
 					<h2>Environnement</h2>
 					<div class="onglet-detail">
@@ -143,13 +143,13 @@ noHeroImage: true
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="404" height="680" src="/assets/images/pages/rse/en/image-05.png" alt="Meritis est désormais certifiée B Corp" class="wp-image-53208" style="width:170px" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="404" height="680" src="/assets/images/pages/rse/en/image-05.webp" alt="Meritis est désormais certifiée B Corp" class="wp-image-53208" style="width:170px" /></figure>
 </div></div>
 </div>
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<figure class="wp-block-image size-large"><img width="378" height="378" src="/assets/images/pages/rse/en/image-06.png" alt="" class="wp-image-20410" /></figure>
+<figure class="wp-block-image size-large"><img width="378" height="378" src="/assets/images/pages/rse/en/image-06.webp" alt="" class="wp-image-20410" /></figure>
 </div>
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
@@ -182,13 +182,13 @@ noHeroImage: true
 </div>
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<figure class="wp-block-image size-large"><img width="378" height="378" src="/assets/images/pages/rse/en/image-07.png" alt="" class="wp-image-20415" /></figure>
+<figure class="wp-block-image size-large"><img width="378" height="378" src="/assets/images/pages/rse/en/image-07.webp" alt="" class="wp-image-20415" /></figure>
 </div>
 </div>
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<figure class="wp-block-image size-full"><img width="539" height="539" src="/assets/images/pages/rse/en/image-08.jpg" alt="iso 27001 noir et blanc meritis certified " class="wp-image-53225" /></figure>
+<figure class="wp-block-image size-full"><img width="539" height="539" src="/assets/images/pages/rse/en/image-08.webp" alt="iso 27001 noir et blanc meritis certified " class="wp-image-53225" /></figure>
 </div>
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
@@ -211,13 +211,13 @@ noHeroImage: true
 </div>
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<figure class="wp-block-image size-large"><img width="1024" height="487" src="/assets/images/pages/rse/en/image-09.jpg" alt="" class="wp-image-38589" /></figure>
+<figure class="wp-block-image size-large"><img width="1024" height="487" src="/assets/images/pages/rse/en/image-09.webp" alt="" class="wp-image-38589" /></figure>
 </div>
 </div>
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<figure class="wp-block-image size-large"><img width="378" height="378" src="/assets/images/pages/rse/en/image-10.png" alt="" class="wp-image-20433" /></figure>
+<figure class="wp-block-image size-large"><img width="378" height="378" src="/assets/images/pages/rse/en/image-10.webp" alt="" class="wp-image-20433" /></figure>
 </div>
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
@@ -229,7 +229,7 @@ noHeroImage: true
 
 <h2 class="wp-block-heading has-black-color has-light-pink-background-color has-text-color has-background" id="h-our-commitments-and-partners">Our commitments and partners</h2>
 
-<figure class="wp-block-image size-large"><img width="1024" height="307" src="/assets/images/pages/rse/en/image-11.png" alt="" class="wp-image-20446" /></figure>
+<figure class="wp-block-image size-large"><img width="1024" height="307" src="/assets/images/pages/rse/en/image-11.webp" alt="" class="wp-image-20446" /></figure>
 
 <p class="has-text-align-left">In addition to the labels and awards that we received, we also work with companies and associations that help us achieve our CSR objectives.</p>
 

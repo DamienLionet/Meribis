@@ -13,7 +13,7 @@ noHeroImage: true
 <div id="media-text-decale-block_9844ba167f3df7454a6ede3edf34daa4" class="media-text-decale alignwide custom-block">
 			<div class="media-text-wrapper">
 		            <div class="media-content">
-	            <img width="2000" height="1333" src="/assets/images/pages/adn/fr/image-01.jpg" class="attachment-full size-full" alt="happy meritis team" />            </div>
+	            <img width="2000" height="1333" src="/assets/images/pages/adn/fr/image-01.webp" class="attachment-full size-full" alt="happy meritis team" />            </div>
 			<div class="text-content">
                                      <h2 class="title">
 		                 Le lien et la reconnaissance                     </h2>
@@ -33,7 +33,7 @@ noHeroImage: true
 <div id="media-text-decale-block_ab52101bf97e94059044fbf5e7a6cb29" class="media-text-decale alignwide custom-block">
 			<div class="media-text-wrapper media-right">
 		            <div class="media-content">
-	            <img width="2000" height="1333" src="/assets/images/pages/adn/fr/image-02.jpg" class="attachment-full size-full" alt="" />            </div>
+	            <img width="2000" height="1333" src="/assets/images/pages/adn/fr/image-02.webp" class="attachment-full size-full" alt="" />            </div>
 			<div class="text-content">
                                      <h2 class="title">
 		                 Notre différence                      </h2>
@@ -61,25 +61,25 @@ noHeroImage: true
             		<div class="columns-container reassurance-slides">
 																	<div class="reassurance-col">
 						<div class="picto">
-							<img width="1024" height="1024" src="/assets/images/pages/adn/fr/image-03.png" class="attachment-large size-large" alt="Exigence icon" />						</div>
+							<img width="1024" height="1024" src="/assets/images/pages/adn/fr/image-03.webp" class="attachment-large size-large" alt="Exigence icon" />						</div>
 						<p class="text-main">Exigence</p>
 						<p>Notre exigence s’exprime dans notre recherche constante d’exemplarité. Elle se traduit par la rigueur, le sérieux et l’implication que nous mettons dans chacun de nos projets. Elle est aussi le moteur de notre capacité à innover, à anticiper les évolutions et à offrir des solutions qui créent un impact réel et durable.</p>
 					</div>
 														<div class="reassurance-col">
 						<div class="picto">
-							<img width="1024" height="1024" src="/assets/images/pages/adn/fr/image-04.png" class="attachment-large size-large" alt="Bienveillance icon" />						</div>
+							<img width="1024" height="1024" src="/assets/images/pages/adn/fr/image-04.webp" class="attachment-large size-large" alt="Bienveillance icon" />						</div>
 						<p class="text-main">Bienveillance</p>
 						<p>Nous plaçons la bienveillance au cœur de toutes nos relations. Elle nous permet d’accueillir chaque situation avec un regard positif, d’encourager l’entraide et de créer un environnement constructif où chacun peut progresser et s’épanouir.</p>
 					</div>
 														<div class="reassurance-col">
 						<div class="picto">
-							<img width="1024" height="1024" src="/assets/images/pages/adn/fr/image-05.png" class="attachment-large size-large" alt="Humilité icon" />						</div>
+							<img width="1024" height="1024" src="/assets/images/pages/adn/fr/image-05.webp" class="attachment-large size-large" alt="Humilité icon" />						</div>
 						<p class="text-main">Humilité</p>
 						<p>Nous considérons chaque succès comme une étape collective et chaque échec comme une opportunité d’apprentissage. Cette humilité nourrit la confiance, encourage l’écoute et ouvre la voie à une amélioration continue.</p>
 					</div>
 														<div class="reassurance-col">
 						<div class="picto">
-							<img width="1024" height="1024" src="/assets/images/pages/adn/fr/image-06.png" class="attachment-large size-large" alt="Proximité icon" />						</div>
+							<img width="1024" height="1024" src="/assets/images/pages/adn/fr/image-06.webp" class="attachment-large size-large" alt="Proximité icon" />						</div>
 						<p class="text-main">Proximité</p>
 						<p>Être au plus près de nos collaborateurs et de nos clients est une conviction forte. C’est en comprenant en profondeur leurs besoins, leurs enjeux et leurs aspirations que nous construisons des relations solides, fondées sur l’écoute et la confiance.</p>
 					</div>
@@ -91,7 +91,7 @@ noHeroImage: true
 <div id="media-text-decale-block_f27c77fb51d4e7d7424bff8acc6769da" class="media-text-decale alignwide custom-block">
 			<div class="media-text-wrapper">
 		            <div class="media-content">
-	            <img width="1086" height="724" src="/assets/images/pages/adn/fr/image-07.jpg" class="attachment-full size-full" alt="" />            </div>
+	            <img width="1086" height="724" src="/assets/images/pages/adn/fr/image-07.webp" class="attachment-full size-full" alt="" />            </div>
 			<div class="text-content">
                                      <h2 class="title">
 		                 Une aventure entrepreneuriale                     </h2>
@@ -119,7 +119,7 @@ noHeroImage: true
             <clipPath id="imageclip">
                 <use xlink:href="#oval"/>
             </clipPath>
-            <image clip-path="url(#imageclip)" width="100%" height="100%" xlink:href="/assets/images/pages/adn/fr/image-10.jpg"></image>
+            <image clip-path="url(#imageclip)" width="100%" height="100%" xlink:href="/assets/images/pages/adn/fr/image-10.webp"></image>
             <use xlink:href="#oval"/>
             </svg>
         </div>
@@ -139,7 +139,7 @@ noHeroImage: true
     <div class="chiffres-intro">
         <div class="intro-container">
 			<h2>Meritis en quelques chiffres</h2>
-			<p><p><img class="alignnone wp-image-49085 illustration" src="/assets/images/pages/adn/fr/image-08.png" alt="Badge GPTW in tech 2024" width="176" height="174" /><img class="illustration" src="/assets/images/pages/adn/fr/image-09.webp" alt="Label Great Place to Work" width="197" height="197" /></p>
+			<p><p><img class="alignnone wp-image-49085 illustration" src="/assets/images/pages/adn/fr/image-08.webp" alt="Badge GPTW in tech 2024" width="176" height="174" /><img class="illustration" src="/assets/images/pages/adn/fr/image-09.webp" alt="Label Great Place to Work" width="197" height="197" /></p>
 <p>Meritis met un point d&rsquo;honneur à accompagner de manière individualisée ses collaborateurs, quelles que soient leurs fonctions dans l&rsquo;entreprise, en les écoutant et en les aidant à réaliser leurs souhaits d&rsquo;évolution professionnelle et personnelle.</p>
 </p>
 			                            <div class="btn-link">

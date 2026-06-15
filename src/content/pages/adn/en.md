@@ -13,7 +13,7 @@ noHeroImage: true
 <div id="media-text-decale-block_a80b19ac3033ebd9f636a43d3b80ad92" class="media-text-decale alignwide custom-block">
 			<div class="media-text-wrapper media-right">
 		            <div class="media-content">
-	            <img width="441" height="459" src="/assets/images/pages/adn/en/image-01.jpeg" class="attachment-full size-full" alt="" />            </div>
+	            <img width="441" height="459" src="/assets/images/pages/adn/en/image-01.webp" class="attachment-full size-full" alt="" />            </div>
 			<div class="text-content">
                                      <h2 class="title">
 		                 Our difference                     </h2>
@@ -41,25 +41,25 @@ noHeroImage: true
             		<div class="columns-container reassurance-slides">
 																	<div class="reassurance-col">
 						<div class="picto">
-							<img width="1024" height="1024" src="/assets/images/pages/adn/en/image-02.png" class="attachment-large size-large" alt="Bienveillance icon" />						</div>
+							<img width="1024" height="1024" src="/assets/images/pages/adn/en/image-02.webp" class="attachment-large size-large" alt="Bienveillance icon" />						</div>
 						<p class="text-main">Care</p>
 						<p>Caring is at the heart of all our relationships, enabling everyone to have a positive attitude in every situation and to demonstrate constructive approaches.</p>
 					</div>
 														<div class="reassurance-col">
 						<div class="picto">
-							<img width="1024" height="1024" src="/assets/images/pages/adn/en/image-03.png" class="attachment-large size-large" alt="Proximité icon" />						</div>
+							<img width="1024" height="1024" src="/assets/images/pages/adn/en/image-03.webp" class="attachment-large size-large" alt="Proximité icon" />						</div>
 						<p class="text-main">Proximity</p>
 						<p>To stay as close as we can with our collaborators and customers to better understand their needs, expectations, and desires.</p>
 					</div>
 														<div class="reassurance-col">
 						<div class="picto">
-							<img width="1024" height="1024" src="/assets/images/pages/adn/en/image-04.png" class="attachment-large size-large" alt="Exigence icon" />						</div>
+							<img width="1024" height="1024" src="/assets/images/pages/adn/en/image-04.webp" class="attachment-large size-large" alt="Exigence icon" />						</div>
 						<p class="text-main">High standards</p>
 						<p>High standards at Meritis are characterized by our constant quest for excellence, and our willingness to give the best of ourselves in all of our actions</p>
 					</div>
 														<div class="reassurance-col">
 						<div class="picto">
-							<img width="1024" height="1024" src="/assets/images/pages/adn/en/image-05.png" class="attachment-large size-large" alt="Humilité icon" />						</div>
+							<img width="1024" height="1024" src="/assets/images/pages/adn/en/image-05.webp" class="attachment-large size-large" alt="Humilité icon" />						</div>
 						<p class="text-main">Humility</p>
 						<p>By accepting and valuing our failures, we create a climate of trust in which everyone listens to each other’s advice and is supported to make progress</p>
 					</div>
@@ -71,7 +71,7 @@ noHeroImage: true
 <div id="media-text-decale-block_2dc24a4dd069dd8593f86edbe5598d94" class="media-text-decale alignwide custom-block">
 			<div class="media-text-wrapper">
 		            <div class="media-content">
-	            <img width="1086" height="724" src="/assets/images/pages/adn/en/image-06.jpg" class="attachment-full size-full" alt="" />            </div>
+	            <img width="1086" height="724" src="/assets/images/pages/adn/en/image-06.webp" class="attachment-full size-full" alt="" />            </div>
 			<div class="text-content">
                                      <h2 class="title">
 		                 An entrepreneurial adventure                     </h2>
@@ -99,7 +99,7 @@ noHeroImage: true
             <clipPath id="imageclip">
                 <use xlink:href="#oval"/>
             </clipPath>
-            <image clip-path="url(#imageclip)" width="100%" height="100%" xlink:href="/assets/images/pages/adn/en/image-09.jpg"></image>
+            <image clip-path="url(#imageclip)" width="100%" height="100%" xlink:href="/assets/images/pages/adn/en/image-09.webp"></image>
             <use xlink:href="#oval"/>
             </svg>
         </div>
@@ -119,7 +119,7 @@ noHeroImage: true
     <div class="chiffres-intro">
         <div class="intro-container">
 			<h2>Meritis key numbers</h2>
-			<p><p><img class="alignnone wp-image-49085 illustration" src="/assets/images/pages/adn/en/image-07.png" alt="Badge GPTW in tech 2024" width="186" height="183" /><img class="illustration" src="/assets/images/pages/adn/en/image-08.webp" alt="Great Place to Work label" width="202" height="202" /></p>
+			<p><p><img class="alignnone wp-image-49085 illustration" src="/assets/images/pages/adn/en/image-07.webp" alt="Badge GPTW in tech 2024" width="186" height="183" /><img class="illustration" src="/assets/images/pages/adn/en/image-08.webp" alt="Great Place to Work label" width="202" height="202" /></p>
 
 <p>At Meritis, we place great importance on providing personalised support to all collaborators regardless their position in the company. We do this by listening to them and helping them achieve their professional and personal development goals.</p>
 </p>

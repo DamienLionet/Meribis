@@ -22,7 +22,7 @@ layout: layouts/base.njk
   </header>
 
   {% if image %}
-  <img src="{{ image | url }}" alt="{{ imageAlt or title }}" width="1200" height="628" decoding="async" class="mt-8 aspect-[1200/628] w-full rounded-card object-cover" />
+  <img src="{{ image | url }}" alt="{{ imageAlt or title }}" width="1200" height="628" loading="eager" decoding="async" class="mt-8 aspect-[1200/628] w-full rounded-card object-cover" />
   {% endif %}
 
   <div class="prose-meritis mt-8">

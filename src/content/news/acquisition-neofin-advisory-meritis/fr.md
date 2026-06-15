@@ -6,13 +6,13 @@ author: "Meriteam"
 category: "Actualités"
 tags: ["Actualités"]
 excerpt: "Meritis poursuit son expansion stratégique avec l’acquisition de Neofin Adisory, cabinet de conseil reconnu pour son expertise en gestion des risques, réglementation bancaire, compliance et finance durable. Une nouvelle étape …"
-image: "/assets/images/news/acquisition-neofin-advisory-meritis/cover.jpg"
+image: "/assets/images/news/acquisition-neofin-advisory-meritis/cover.webp"
 imageAlt: "Neofin Advisory logo"
 ---
 
 <p><strong><em>Meritis poursuit son expansion stratégique avec l’acquisition de <a href="https://neofin.co.uk/" target="_blank" rel="noreferrer noopener">Neofin Adisory</a>, cabinet de conseil reconnu pour son expertise en gestion des risques, réglementation bancaire, compliance et finance durable.</em></strong></p>
 
-<figure class="wp-block-image size-large"><img width="1024" height="576" src="/assets/images/news/acquisition-neofin-advisory-meritis/inline-01.jpg" alt="Neofin Advisory logo" class="wp-image-55443" /></figure>
+<figure class="wp-block-image size-large"><img width="1024" height="576" src="/assets/images/news/acquisition-neofin-advisory-meritis/inline-01.webp" alt="Neofin Advisory logo" class="wp-image-55443" /></figure>
 
 <h2 class="wp-block-heading" id="h-une-nouvelle-etape-strategique-pour-meritis">Une nouvelle étape stratégique pour Meritis</h2>
 
@@ -24,7 +24,7 @@ imageAlt: "Neofin Advisory logo"
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%"><div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/acquisition-neofin-advisory-meritis/inline-02.png" alt="photo de Sébastien Videment CEO de Meritis" class="wp-image-55442" style="width:168px;height:auto" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/acquisition-neofin-advisory-meritis/inline-02.webp" alt="photo de Sébastien Videment CEO de Meritis" class="wp-image-55442" style="width:168px;height:auto" /></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
@@ -40,7 +40,7 @@ imageAlt: "Neofin Advisory logo"
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%"><div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/acquisition-neofin-advisory-meritis/inline-03.png" alt="Photo d'Alain Amador dos Santos Meritis et Neofin" class="wp-image-55441" style="width:168px" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/acquisition-neofin-advisory-meritis/inline-03.webp" alt="Photo d'Alain Amador dos Santos Meritis et Neofin" class="wp-image-55441" style="width:168px" /></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
@@ -64,7 +64,7 @@ imageAlt: "Neofin Advisory logo"
 
 <p><strong>Vous souhaitez en savoir plus ou échanger avec nos experts ?</strong></p>
 
-<div class="wp-block-media-text is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img width="1024" height="683" src="/assets/images/news/acquisition-neofin-advisory-meritis/inline-04.jpeg" alt="" class="wp-image-10406 size-full" /></figure><div class="wp-block-media-text__content">
+<div class="wp-block-media-text is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img width="1024" height="683" src="/assets/images/news/acquisition-neofin-advisory-meritis/inline-04.webp" alt="" class="wp-image-10406 size-full" /></figure><div class="wp-block-media-text__content">
 <p class="has-text-align-center has-medium-font-size"><strong>Vous souhaitez en savoir plus ou échanger avec nos experts ?</strong></p>
 
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">

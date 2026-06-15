@@ -12,7 +12,7 @@ Meritis ouvre ses premiers locaux à Paris en 2007, puis étend progressivement 
 
 ## Une présence européenne
 
-![Carte des implantations et présences Meritis en France et en Europe](/assets/images/brand/meritis-map-2025.png)
+![Carte des implantations et présences Meritis en France et en Europe](/assets/images/brand/meritis-map-2025.webp)
 
 Après des débuts parisiens, Meritis a renforcé son ancrage régional à partir de 2016 avec des implantations dans des villes stratégiques comme Sophia Antipolis, Aix-en-Provence, Nantes, Montpellier, Lille, Lyon, Toulouse, Rennes ou Bordeaux.
 

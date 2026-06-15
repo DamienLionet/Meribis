@@ -6,7 +6,7 @@ author: "Meriteam"
 category: "News"
 tags: ["News"]
 excerpt: "Meritis achieves a score of 94/100 on the 2024 Gender Equality Index, confirming its commitment to diversity and inclusion."
-image: "/assets/images/news/meritis-reaffirme-son-engagement-pour-legalite-professionnelle/cover.png"
+image: "/assets/images/news/meritis-reaffirme-son-engagement-pour-legalite-professionnelle/cover.webp"
 imageAlt: "Meritis gender equality index"
 ---
 
@@ -18,7 +18,7 @@ imageAlt: "Meritis gender equality index"
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:43%"><div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/meritis-reaffirme-son-engagement-pour-legalite-professionnelle/inline-01.png" alt="Meritis - Gender Equality Index 2024: 94/100" class="wp-image-54385" style="width:345px;height:auto" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/meritis-reaffirme-son-engagement-pour-legalite-professionnelle/inline-01.webp" alt="Meritis - Gender Equality Index 2024: 94/100" class="wp-image-54385" style="width:345px;height:auto" /></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
@@ -58,7 +58,7 @@ imageAlt: "Meritis gender equality index"
 </div>
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:43%"><div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/meritis-reaffirme-son-engagement-pour-legalite-professionnelle/inline-02.png" alt="Meritis Gender Equality Index 2024 - score breakdown" class="wp-image-54373" style="width:429px;height:auto" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/meritis-reaffirme-son-engagement-pour-legalite-professionnelle/inline-02.webp" alt="Meritis Gender Equality Index 2024 - score breakdown" class="wp-image-54373" style="width:429px;height:auto" /></figure>
 </div></div>
 </div>
 
@@ -68,7 +68,7 @@ imageAlt: "Meritis gender equality index"
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:12%"><div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/meritis-reaffirme-son-engagement-pour-legalite-professionnelle/inline-03.png" alt="" class="wp-image-54617" style="width:100px" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/meritis-reaffirme-son-engagement-pour-legalite-professionnelle/inline-03.webp" alt="" class="wp-image-54617" style="width:100px" /></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:85%">

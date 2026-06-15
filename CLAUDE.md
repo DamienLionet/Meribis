@@ -65,11 +65,22 @@ divergence (la spec décrivait Tailwind v3 / `.eleventy.js` CommonJS — c'est o
 
 ```
 npm start            # dev : eleventy --serve + tailwind --watch en parallèle
-npm run build:all    # pipeline complet : CSS → site → index de recherche
+npm run build:all    # pipeline complet : CSS → site → JS → index de recherche
   # 1. build:css     -> tailwindcss CLI v4, minifié, vers dist/assets/css/
-  # 2. build         -> eleventy (génère dist/ avec pathPrefix /Meribis/)
-  # 3. build:search  -> pagefind --site dist (indexe le HTML généré)
+  # 2. build         -> eleventy (génère dist/ ; minifie le HTML en mode build)
+  # 3. build:js      -> terser minifie src/assets/js/*.js vers dist/assets/js/
+  # 4. build:search  -> pagefind --site dist (indexe le HTML généré)
+
+npm run optimize:images   # hors pipeline : convertit/redimensionne les images source
+  # en WebP (≤1600px) et met à jour les références. À lancer après avoir AJOUTÉ des
+  # images ; idempotent (no-op si tout est déjà optimisé). Résultat commité.
 ```
+
+> **Optimisation des assets** : CSS minifié par Tailwind, JS par terser, HTML par
+> `html-minifier-terser` (transform Eleventy, **uniquement en mode `build`** — le dev
+> `--serve` garde une sortie lisible). Les images sont optimisées **à la source** (donc
+> pas de coût en CI) ; un transform ajoute `loading="lazy"`/`decoding="async"` aux images
+> hors héros (les héros portent `loading="eager"` dans les templates).
 
 > **Windows** : machine de dev sous Windows / PowerShell. Les scripts npm qui préfixent une variable
 > d'env en syntaxe POSIX (`NODE_ENV=production …`) **échouent** tel quel. Utiliser `cross-env` dans

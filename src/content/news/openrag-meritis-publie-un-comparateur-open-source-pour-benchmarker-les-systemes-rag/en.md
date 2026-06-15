@@ -6,14 +6,14 @@ author: "Meriteam"
 category: "News"
 tags: ["News"]
 excerpt: "Meritis launches OpenRAG, an open-source tool for comparing the performance of more than 20 RAG (Retrieval-Augmented Generation) architectures. The goal: to help technical teams make informed decisions for their generative AI projects, based on concrete, measurable, and reproducible data …"
-image: "/assets/images/news/openrag-meritis-publie-un-comparateur-open-source-pour-benchmarker-les-systemes-rag/cover.jpg"
+image: "/assets/images/news/openrag-meritis-publie-un-comparateur-open-source-pour-benchmarker-les-systemes-rag/cover.webp"
 imageAlt: "OPENRAG MERITIS The open-source benchmark for RAG systems"
 ---
 
 <p><strong>Meritis launches OpenRAG</strong>, an open-source tool for comparing the performance of more than 20 RAG (Retrieval-Augmented Generation) architectures. The goal: to help technical teams make informed decisions for their generative AI projects, based on <strong>concrete, measurable, and reproducible data</strong>.</p>
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="576" src="/assets/images/news/openrag-meritis-publie-un-comparateur-open-source-pour-benchmarker-les-systemes-rag/inline-01.jpg" alt="OPENRAG MERITIS The open-source benchmark for RAG systems" class="wp-image-55565" style="width:719px;height:auto" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="576" src="/assets/images/news/openrag-meritis-publie-un-comparateur-open-source-pour-benchmarker-les-systemes-rag/inline-01.webp" alt="OPENRAG MERITIS The open-source benchmark for RAG systems" class="wp-image-55565" style="width:719px;height:auto" /></figure>
 </div>
 
 <h2 class="wp-block-heading" id="h-benchmarker-les-rag-sur-vos-donnees-en-toute-transparence">Benchmarking RAG systems on your data, with full transparency</h2>
@@ -80,7 +80,7 @@ imageAlt: "OPENRAG MERITIS The open-source benchmark for RAG systems"
 
 <p>The initiative is part of a broader commitment: to encourage <strong>responsible adoption of generative technologies</strong> by providing lean, auditable tools that can be integrated into demanding environments.</p>
 
-<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img width="1024" height="536" src="/assets/images/news/openrag-meritis-publie-un-comparateur-open-source-pour-benchmarker-les-systemes-rag/inline-02.png" alt="OpenRAG by Meritis interface" class="wp-image-55516 size-full" /></figure><div class="wp-block-media-text__content">
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img width="1024" height="536" src="/assets/images/news/openrag-meritis-publie-un-comparateur-open-source-pour-benchmarker-les-systemes-rag/inline-02.webp" alt="OpenRAG by Meritis interface" class="wp-image-55516 size-full" /></figure><div class="wp-block-media-text__content">
 <h2 class="wp-block-heading" id="h-lancez-votre-benchmark">Run your benchmark 🚀</h2>
 
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">

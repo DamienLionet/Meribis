@@ -93,31 +93,51 @@ Meribis/
 
 ## 4. Pipeline de build
 
-Trois étapes, **dans cet ordre** — Pagefind indexe la sortie d'Eleventy, jamais l'inverse :
+Quatre étapes, **dans cet ordre** — Pagefind indexe la sortie d'Eleventy, jamais l'inverse :
 
 ```mermaid
 flowchart LR
   subgraph sources [src/]
     T["templates .njk / .md"]
     C["assets/css/input.css"]
-    A["assets/js + images"]
+    J["assets/js/*.js"]
+    A["images (déjà WebP)"]
   end
   C -->|"1 · tailwindcss CLI v4 (--minify)"| CSS["dist/assets/css/main.css"]
-  T -->|"2 · eleventy build"| HTML["dist/ (HTML + assets passthrough)"]
+  T -->|"2 · eleventy build (HTML minifié)"| HTML["dist/ (HTML + assets passthrough)"]
   A -->|passthrough| HTML
-  HTML -->|"3 · pagefind --site dist"| IDX["dist/pagefind/ (index recherche)"]
+  J -->|"3 · terser (--minify)"| JS["dist/assets/js/*.js"]
+  HTML -->|"4 · pagefind --site dist"| IDX["dist/pagefind/ (index recherche)"]
 ```
 
 Commandes (cf. `package.json`) :
 
 | Script | Rôle |
 |---|---|
-| `npm start` | Dev : `eleventy --serve` + `tailwindcss --watch` en parallèle |
+| `npm start` | Dev : `eleventy --serve` + `tailwindcss --watch` en parallèle (sans minification) |
 | `npm run build:css` | Compile + minifie le CSS vers `dist/` |
-| `npm run build` | Génère le site avec Eleventy (`PATH_PREFIX` appliqué) |
+| `npm run build` | Génère le site avec Eleventy (`PATH_PREFIX` appliqué) ; minifie le HTML en mode `build` |
+| `npm run build:js` | Minifie `src/assets/js/*.js` (terser) vers `dist/assets/js/` |
 | `npm run build:search` | Génère l'index Pagefind dans `dist/pagefind/` |
 | `npm run clean` | Vide `dist/` (évite les pages périmées après renommage/suppression) |
-| `npm run build:all` | `clean` puis enchaîne les trois (= ce que lance la CI) |
+| `npm run build:all` | `clean` puis enchaîne les quatre (= ce que lance la CI) |
+| `npm run optimize:images` | **Hors pipeline** : optimise les images source (voir §4 bis) |
+
+### 4 bis. Optimisation des assets
+
+- **CSS** : minifié par la CLI Tailwind (`--minify`). **JS** : minifié par terser (`build:js`).
+  **HTML** : minifié par `html-minifier-terser` via un transform Eleventy, **actif uniquement
+  quand `ELEVENTY_RUN_MODE === "build"`** (le dev `--serve` garde une sortie lisible ;
+  `minifyJS:false` protège le JSON-LD et les scripts inline).
+- **Images** : optimisées **à la source** (commitées), pas en CI. `npm run optimize:images`
+  (`scripts/optimize-images.mjs`, sharp) convertit chaque PNG/JPG en **WebP**, redimensionne le
+  bord long à **≤ 1600 px**, choisit *lossless* (logos/pictos) ou *lossy* q80 (photos, en gardant
+  le plus léger des deux), supprime l'original **et réécrit les références** `/assets/images/*` →
+  `.webp`. Idempotent : à relancer après avoir ajouté des images. Convention : **toutes** les
+  images du site sont en WebP.
+- **Lazy-loading** : un transform Eleventy ajoute `loading="lazy"` + `decoding="async"` aux `<img>`
+  sans attribut `loading`. Les images critiques (logo, cover d'article, photo de la home) portent
+  `loading="eager"` dans les templates et sont laissées intactes (pas de régression LCP).
 
 > **Windows / PowerShell** : les scripts préfixant une variable d'env utilisent `cross-env` pour
 > rester identiques en local **et** dans la CI Linux.
@@ -229,8 +249,8 @@ flowchart LR
 ## 11. État d'avancement
 
 > **Mise à jour** : socle, chrome bilingue, collections, contenus, recherche et filtres sont en
-> place ; le site est **entièrement bilingue FR/EN** et la home a été enrichie. Le dernier `build:all`
-> validé datait d'avant les ajouts EN / home / recherche — penser à le relancer pour revalider.
+> place ; le site est **entièrement bilingue FR/EN**, la home a été enrichie et les **assets sont
+> optimisés** (images WebP, minification CSS/JS/HTML). Dernier `build:all` rejoué et validé.
 
 | Étape | Contenu | Statut |
 |---|---|---|
@@ -239,9 +259,8 @@ flowchart LR
 | **2. Chrome + bilingue** | layouts `base` + `page`, partials header/footer/language-switcher/breadcrumbs/cta-block/page-hero/decor-bubbles, `i18n.json` / `navigation.json` / `footerLinks.json` | **✅ Fait** |
 | **3. Collections + contenus** | layouts `blog-post` / `news-post` / `job-post` (+ JSON-LD), `card-blog` / `card-job` (lien étiré), pages liste FR/EN, collections `blog_*` / `news_*` / `jobs_*` / `featured_blog_*`, `taxonomies.json` ; 10 articles + 10 actualités + 16 offres | **✅ Fait** |
 | **4. Recherche + filtres** | Pagefind UI **inline** dans la page recherche (+ état vide : recherches fréquentes + accès rapides), filtres combinés vanilla (`filters.js`) + partials `filters-blog` / `filters-jobs` | **✅ Fait** |
-| **5. Bilingue complet + home** | versions **EN** des 9 expertises, des 10 actualités et de la liste actualités ; nav EN alignée sur le FR (menu déroulant + News) ; home refondue (indicateurs, expertises condensées, 3 entités, secteurs clients, bloc RSE/B Corp, teasers blog + offres) | **✅ Fait** — non rebuildé dans cette passe |
+| **5. Bilingue complet + home** | versions **EN** des 9 expertises, des 10 actualités et de la liste actualités ; nav EN alignée sur le FR (menu déroulant + News) ; home refondue (indicateurs, expertises condensées, 3 entités, secteurs clients, bloc RSE/B Corp, teasers blog + offres) | **✅ Fait** |
+| **6. Optimisation des assets** | images source en **WebP** (≤1600px) + réécriture des refs (`optimize:images`) ; minification **JS** (terser) et **HTML** (transform build-only) ; **lazy-loading** des images hors héros. Images **17 → 8 Mo** | **✅ Fait** |
 
-> **Prochaine action concrète** : relancer `npm run build:all` pour revalider la sortie (les derniers
-> ajouts EN / home / recherche n'ont pas été rebuildés), puis nettoyer les reliquats WordPress des
-> contenus importés, intégrer les **logos clients** (bande « secteurs » en attendant) et faire la
-> relecture éditoriale FR/EN.
+> **Prochaine action concrète** : nettoyer les reliquats WordPress des contenus importés, intégrer
+> les **logos clients** (bande « secteurs » en attendant) et faire la relecture éditoriale FR/EN.

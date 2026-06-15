@@ -6,12 +6,12 @@ author: "Meriteam"
 category: "News"
 tags: ["News"]
 excerpt: "We are proud to announce that Meritis is joining B Corp, the community of businesses committed to serving the common good."
-image: "/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/cover.png"
+image: "/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/cover.webp"
 imageAlt: "Meritis joins the B Corp community!"
 ---
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="1200" height="628" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-01.png" alt="Meritis is B Corp certified" class="wp-image-53133" style="width:750px" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="1200" height="628" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-01.webp" alt="Meritis is B Corp certified" class="wp-image-53133" style="width:750px" /></figure>
 </div>
 
 <p>Meritis is now <a href="https://bcorporation.fr/" target="_blank" rel="noreferrer noopener nofollow">B Corp™</a> certified! This recognition bears witness to <a href="/en/meritis-csr/">our commitments</a> in the areas of environmental responsibility, social ethics and transparency, whilst reinforcing our determination to combine economic performance with positive impact.</p>
@@ -29,7 +29,7 @@ imageAlt: "Meritis joins the B Corp community!"
 <p>This determination <strong>to place Meritis within a virtuous system</strong> is in keeping with the <a href="/en/our-dna/"> values</a> that have guided us since our founding: benevolence, closeness, rigour and humility.</p>
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="349" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-02.jpg" alt="Meritis - benevolence, closeness, rigour and humility. values" class="wp-image-53109" style="width:750px" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="349" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-02.webp" alt="Meritis - benevolence, closeness, rigour and humility. values" class="wp-image-53109" style="width:750px" /></figure>
 </div>
 
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -41,7 +41,7 @@ imageAlt: "Meritis joins the B Corp community!"
 <p>Awarded by the independent non-profit organisation <a href="https://www.bcorporation.net/en-us/movement/about-b-lab/" target="_blank" rel="noreferrer noopener nofollow">B Lab™</a>, the B Corp™ label is recognised as one of the most demanding in the world. It is based on an in-depth assessment of organisations&rsquo; impacts across <strong>five key areas</strong>: governance, environmental stewardship, employee policies, client relations, and community engagement. &nbsp;</p>
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="613" height="595" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-03.png" alt="Meritis - B Corp Areas" class="wp-image-53142" style="width:550px" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="613" height="595" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-03.webp" alt="Meritis - B Corp Areas" class="wp-image-53142" style="width:550px" /></figure>
 </div>
 
 <p>In addition to meeting high standards in terms of social and environmental impact, obtaining B Corp™ certification means having made a legal commitment to stakeholder governance and having demonstrated transparency by making one&rsquo;s <a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/meritis/" target="_blank" rel="noreferrer noopener">B Corp performance report</a> publicly available.</p>
@@ -54,7 +54,7 @@ imageAlt: "Meritis joins the B Corp community!"
 
 <p>With a score of 89.5 points, well above the required threshold of 80, Meritis intends to go further by strengthening its commitments in the future. </p>
 
-<figure class="wp-block-image size-large"><a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/meritis/" target="_blank" rel="noreferrer noopener"><img width="1024" height="319" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-04.jpg" alt="Overall B Impact Score - Meritis 2025 - B Corp certified 89.5" class="wp-image-53161" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://www.bcorporation.net/en-us/find-a-b-corp/company/meritis/" target="_blank" rel="noreferrer noopener"><img width="1024" height="319" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-04.webp" alt="Overall B Impact Score - Meritis 2025 - B Corp certified 89.5" class="wp-image-53161" /></a></figure>
 
 <p>Indeed, obtaining the B Corp™ label is not an end in itself, but rather an additional step in our continuous improvement journey. We have already identified areas for progress in order to strengthen our social and environmental actions. Since its founding, Meritis has placed people at the heart of its strategy, firmly convinced that achievements and developments are above all driven by individuals.</p>
 
@@ -73,7 +73,7 @@ imageAlt: "Meritis joins the B Corp community!"
 </blockquote>
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="556" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-05.jpg" alt="Meritis team at the Paris offices" class="wp-image-53115" style="width:750px" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="556" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-05.webp" alt="Meritis team at the Paris offices" class="wp-image-53115" style="width:750px" /></figure>
 </div>
 
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -82,7 +82,7 @@ imageAlt: "Meritis joins the B Corp community!"
 
 <p><em>B Corp is a project that aims to bring together as many actors as possible so that its goals can be achieved. If you would like to join the movement, do not hesitate to find out more on the <a href="https://bcorporation.fr/devenir-b-corp/processus-de-labellisation/" target="_blank" rel="noreferrer noopener nofollow">organisation&rsquo;s website</a>.</em></p>
 
-<div class="wp-block-media-text" style="grid-template-columns:22% auto"><figure class="wp-block-media-text__media"><a href="/en/contact/"><img width="1024" height="1024" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-06.png" alt="" class="wp-image-53169 size-full" /></a></figure><div class="wp-block-media-text__content">
+<div class="wp-block-media-text" style="grid-template-columns:22% auto"><figure class="wp-block-media-text__media"><a href="/en/contact/"><img width="1024" height="1024" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-06.webp" alt="" class="wp-image-53169 size-full" /></a></figure><div class="wp-block-media-text__content">
 <p>Would your organisation like to work with a responsible partner? Do not hesitate to get in touch with us!</p>
 
 <div class="wp-block-buttons is-content-justification-right is-layout-flex wp-container-core-buttons-is-layout-765c4724 wp-block-buttons-is-layout-flex">
@@ -92,7 +92,7 @@ imageAlt: "Meritis joins the B Corp community!"
 
 <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 
-<div class="wp-block-media-text" style="grid-template-columns:22% auto"><figure class="wp-block-media-text__media"><a href="/en/join-us/"><img width="1024" height="1024" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-07.png" alt="" class="wp-image-53170 size-full" /></a></figure><div class="wp-block-media-text__content">
+<div class="wp-block-media-text" style="grid-template-columns:22% auto"><figure class="wp-block-media-text__media"><a href="/en/join-us/"><img width="1024" height="1024" src="/assets/images/news/meritis-obtient-la-labellisation-b-corp-un-engagement-reaffirme-pour-un-impact-positif/inline-07.webp" alt="" class="wp-image-53170 size-full" /></a></figure><div class="wp-block-media-text__content">
 <p>Would you like to join a company that places its <a href="https://www.greatplacetowork.fr/entreprises-certifiees/3026710246">employees at the heart of its concerns</a><a href="https://www.greatplacetowork.fr/entreprises-certifiees/3026710246" target="_blank" rel="noreferrer noopener nofollow">s</a> whilst respecting the environment? </p>
 
 <div class="wp-block-buttons is-content-justification-right is-layout-flex wp-container-core-buttons-is-layout-765c4724 wp-block-buttons-is-layout-flex">

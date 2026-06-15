@@ -6,7 +6,7 @@ author: "Meriteam"
 category: "News"
 tags: ["News"]
 excerpt: "The media outlet Alliancy dedicates an article to Sébastien Videment, founder and chief executive of Meritis, centred on a key theme: how to steer an IT services firm through a period of profound digital transformation …"
-image: "/assets/images/news/alliancy-met-en-lumiere-la-meritocratie-bienveillante-de-meritis/cover.png"
+image: "/assets/images/news/alliancy-met-en-lumiere-la-meritocratie-bienveillante-de-meritis/cover.webp"
 imageAlt: "Alliancy le mag logo — Meritis website"
 ---
 
@@ -20,7 +20,7 @@ imageAlt: "Alliancy le mag logo — Meritis website"
 <li>through to the recent acquisition of companies such as Neofin Advisory (business consulting and finance) and Navigacom (IT strategy), which strengthen the group's advisory dimension.</li>
 </ul>
 
-<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:30% auto"><figure class="wp-block-media-text__media"><img width="1024" height="1024" src="/assets/images/news/alliancy-met-en-lumiere-la-meritocratie-bienveillante-de-meritis/inline-01.png" alt="Sébastien VIDEMENT colour photo Meritis" class="wp-image-56302 size-full" /></figure><div class="wp-block-media-text__content">
+<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:30% auto"><figure class="wp-block-media-text__media"><img width="1024" height="1024" src="/assets/images/news/alliancy-met-en-lumiere-la-meritocratie-bienveillante-de-meritis/inline-01.webp" alt="Sébastien VIDEMENT colour photo Meritis" class="wp-image-56302 size-full" /></figure><div class="wp-block-media-text__content">
 <p class="has-text-align-center">« <em>Benevolence and negligence are sometimes confused. Yet without demanding standards, performance erodes</em>. »<br><br>Sébastien Videment, Founder of Meritis</p>
 </div></div>
 

@@ -6,14 +6,14 @@ author: "Meriteam"
 category: "News"
 tags: ["News"]
 excerpt: "At Meritis, a B Corp™-certified company, we firmly believe that sport extends far beyond competition: it is a remarkable vehicle for shared values, team cohesion, …"
-image: "/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/cover.png"
+image: "/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/cover.webp"
 imageAlt: "Meritis collaborates with Baptiste Chassagne"
 ---
 
 <p><strong>At Meritis, a B Corp™-certified company, we firmly believe that sport extends far beyond competition: it is a remarkable vehicle for shared values, team cohesion, inspiration and resilience. In that spirit, we are proud and delighted to announce a new partnership with <a href="https://www.instagram.com/baptiste.chassagne/" target="_blank" rel="noreferrer noopener nofollow">Baptiste Chassagne</a>, an elite trail-running athlete — a demanding and authentic discipline that mirrors the commitments we uphold.&nbsp;</strong></p>
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="536" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-01.png" alt="Meritis collaborates with Baptiste Chassagne!" class="wp-image-55219" style="width:750px" /><figcaption class="wp-element-caption">📸 <strong>Photo credits:</strong> Léo Girard / @leoskovic</figcaption></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="536" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-01.webp" alt="Meritis collaborates with Baptiste Chassagne!" class="wp-image-55219" style="width:750px" /><figcaption class="wp-element-caption">📸 <strong>Photo credits:</strong> Léo Girard / @leoskovic</figcaption></figure>
 </div>
 
 <h2 class="wp-block-heading" id="h-des-valeurs-communes-nbsp"><strong>Shared values</strong>&nbsp;</h2>
@@ -50,7 +50,7 @@ imageAlt: "Meritis collaborates with Baptiste Chassagne"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55225" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-02.png" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55225" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-02.webp" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -62,7 +62,7 @@ imageAlt: "Meritis collaborates with Baptiste Chassagne"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55226" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-03.png" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55226" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-03.webp" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -74,7 +74,7 @@ imageAlt: "Meritis collaborates with Baptiste Chassagne"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55227" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-04.png" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55227" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-04.webp" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -86,59 +86,7 @@ imageAlt: "Meritis collaborates with Baptiste Chassagne"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55228" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-05.png" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                            </div>
-                        </div>
-                                            <div class="chiffre-item">
-                            <div class="chiffre-item-inner">
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55229" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-06.png" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55230" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-07.png" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55232" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-08.png" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55233" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-09.png" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55228" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-05.webp" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -154,7 +102,7 @@ imageAlt: "Meritis collaborates with Baptiste Chassagne"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55234" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-10.png" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55229" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-06.webp" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -166,7 +114,59 @@ imageAlt: "Meritis collaborates with Baptiste Chassagne"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55235" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-11.png" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-55230" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-07.webp" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                        
+                                        
+                                                                                                                    <!-- Format 1-->
+                                            <div class="format-1 chiffres-format">
+                                                <div class="chiffre-container">
+                                                                                                    </div>
+                                                <div class="txt-container">
+                                                    <p><img class="alignnone size-medium wp-image-55232" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-08.webp" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                        
+                                        
+                                                                                                                    <!-- Format 1-->
+                                            <div class="format-1 chiffres-format">
+                                                <div class="chiffre-container">
+                                                                                                    </div>
+                                                <div class="txt-container">
+                                                    <p><img class="alignnone size-medium wp-image-55233" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-09.webp" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                        
+                                        
+                                                            </div>
+                        </div>
+                                            <div class="chiffre-item">
+                            <div class="chiffre-item-inner">
+                                                                                                                    <!-- Format 1-->
+                                            <div class="format-1 chiffres-format">
+                                                <div class="chiffre-container">
+                                                                                                    </div>
+                                                <div class="txt-container">
+                                                    <p><img class="alignnone size-medium wp-image-55234" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-10.webp" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                        
+                                        
+                                                                                                                    <!-- Format 1-->
+                                            <div class="format-1 chiffres-format">
+                                                <div class="chiffre-container">
+                                                                                                    </div>
+                                                <div class="txt-container">
+                                                    <p><img class="alignnone size-medium wp-image-55235" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-11.webp" alt="Meritis collaborates with Baptiste Chassagne" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         

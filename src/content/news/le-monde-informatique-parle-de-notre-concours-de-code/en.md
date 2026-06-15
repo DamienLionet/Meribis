@@ -6,12 +6,12 @@ author: "Meriteam"
 category: "News"
 tags: ["News"]
 excerpt: "Le Monde Informatique highlights the 5th edition of Code On Time, an immersive coding contest by Meritis. Relive the experience at CodeOnTime.fr!"
-image: "/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/cover.png"
+image: "/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/cover.webp"
 imageAlt: "Meritis - Code On Time in Le Monde Informatique"
 ---
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="620" src="/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-01.png" alt="Code On Time by Meritis" class="wp-image-54046" style="width:142px;height:auto" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="620" src="/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-01.webp" alt="Code On Time by Meritis" class="wp-image-54046" style="width:142px;height:auto" /></figure>
 </div>
 
 <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -33,7 +33,7 @@ imageAlt: "Meritis - Code On Time in Le Monde Informatique"
 <p><strong>Fancy trying again or replaying previous editions?</strong> Head over to <strong>CodeOnTime.fr</strong>! ?</p>
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><a href="https://codeontime.fr/" target="_blank" rel="noreferrer noopener"><img width="1656" height="600" src="/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-02.png" alt="Meritis - CodeOnTime.fr" class="wp-image-54050" style="width:738px;height:auto" /></a></figure>
+<figure class="aligncenter size-full is-resized"><a href="https://codeontime.fr/" target="_blank" rel="noreferrer noopener"><img width="1656" height="600" src="/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-02.webp" alt="Meritis - CodeOnTime.fr" class="wp-image-54050" style="width:738px;height:auto" /></a></figure>
 </div>
 
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">

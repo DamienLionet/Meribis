@@ -6,11 +6,11 @@ author: "Meriteam"
 category: "News"
 tags: ["News"]
 excerpt: "Le Journal des Entreprises covers Meritis's B Corp™ certification, a recognition of its societal and sustainability commitments."
-image: "/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/cover.png"
+image: "/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/cover.webp"
 imageAlt: "Meritis - Le Journal des Entreprises"
 ---
 
-<figure class="wp-block-image size-large"><img width="1024" height="256" src="/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/inline-01.png" alt="Meritis is B Corp certified" class="wp-image-54043" /></figure>
+<figure class="wp-block-image size-large"><img width="1024" height="256" src="/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/inline-01.webp" alt="Meritis is B Corp certified" class="wp-image-54043" /></figure>
 
 <p>On 4 February 2025, <strong>Le Journal des Entreprises</strong> devoted an article to <strong>Meritis</strong>'s achievement of <strong>B Corp™ certification</strong>, a recognition that underscores its commitment to a more responsible and sustainable business model.</p>
 
@@ -20,7 +20,7 @@ imageAlt: "Meritis - Le Journal des Entreprises"
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:15%"><div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/inline-02.png" alt="" class="wp-image-54038" style="width:116px;height:auto" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/le-journal-des-entreprises-met-en-avant-la-labellisation-b-corp-de-meritis/inline-02.webp" alt="" class="wp-image-54038" style="width:116px;height:auto" /></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:80%">

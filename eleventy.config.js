@@ -1,6 +1,8 @@
 // Configuration Eleventy v3 (ESM). La spec décrivait un `.eleventy.js` CommonJS : obsolète.
 // pathPrefix /Meribis/ (GitHub Pages, page projet) — surchargé par PATH_PREFIX (ex. `/` en local).
 
+import { minify as minifyHtml } from "html-minifier-terser";
+
 export default function (eleventyConfig) {
   // Assets copiés tels quels vers dist/ (le CSS est géré séparément par la CLI Tailwind).
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "assets/js" });
@@ -47,6 +49,36 @@ export default function (eleventyConfig) {
     const re = new RegExp(`(src|href)="(/(?!${prefix.slice(1)}/)[^"]*)"`, "g");
     return content.replace(re, `$1="${prefix}$2"`);
   });
+
+  // Lazy-loading des images : ajoute loading="lazy" + decoding="async" aux <img>
+  // sans attribut loading. Les héros critiques (logo, covers d'articles, photo home)
+  // portent loading="eager" dans les templates et sont donc laissés tels quels (LCP).
+  eleventyConfig.addTransform("lazyImages", function (content) {
+    if (!(this.page.outputPath || "").endsWith(".html")) return content;
+    return content.replace(/<img\b(?![^>]*\bloading=)[^>]*>/gi, (tag) => {
+      let out = tag;
+      if (!/\bdecoding=/i.test(out)) out = out.replace(/<img\b/i, '<img decoding="async"');
+      return out.replace(/<img\b/i, '<img loading="lazy"');
+    });
+  });
+
+  // Minification HTML — uniquement à la build de production (ELEVENTY_RUN_MODE=build),
+  // pas en dev `--serve` où l'on veut une sortie lisible. minifyJS:false protège le
+  // JSON-LD et les scripts inline ; conservativeCollapse évite de souder le texte inline.
+  if (process.env.ELEVENTY_RUN_MODE === "build") {
+    eleventyConfig.addTransform("htmlmin", async function (content) {
+      if (!(this.page.outputPath || "").endsWith(".html")) return content;
+      return minifyHtml(content, {
+        collapseWhitespace: true,
+        conservativeCollapse: true,
+        removeComments: true,
+        minifyCSS: true,
+        minifyJS: false,
+        keepClosingSlash: true,
+        continueOnParseError: true,
+      });
+    });
+  }
 
   // Collections blog / offres par langue (published !== false, tri date décroissante).
   const isPublished = (item) => item.data.published !== false;

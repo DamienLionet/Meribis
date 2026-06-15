@@ -6,7 +6,7 @@ author: "Meriteam"
 category: "Actualités"
 tags: ["Actualités"]
 excerpt: "Le média Alliancy consacre un article à Sébastien Videment, fondateur et dirigeant de Meritis, autour d’un thème central : comment piloter une ESN dans un contexte de mutation profonde du …"
-image: "/assets/images/news/alliancy-met-en-lumiere-la-meritocratie-bienveillante-de-meritis/cover.png"
+image: "/assets/images/news/alliancy-met-en-lumiere-la-meritocratie-bienveillante-de-meritis/cover.webp"
 imageAlt: "logo alliancy le mag site meritis"
 ---
 
@@ -20,7 +20,7 @@ imageAlt: "logo alliancy le mag site meritis"
 <li>jusqu’à l’acquisition récente de sociétés comme Neofin Advisory (conseil métier et finance) et Navigacom (stratégie IT), qui renforcent la dimension conseil du groupe.</li>
 </ul>
 
-<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:30% auto"><figure class="wp-block-media-text__media"><img width="1024" height="1024" src="/assets/images/news/alliancy-met-en-lumiere-la-meritocratie-bienveillante-de-meritis/inline-01.png" alt="Sébastien VIDEMENT photo couleur meritis" class="wp-image-56302 size-full" /></figure><div class="wp-block-media-text__content">
+<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:30% auto"><figure class="wp-block-media-text__media"><img width="1024" height="1024" src="/assets/images/news/alliancy-met-en-lumiere-la-meritocratie-bienveillante-de-meritis/inline-01.webp" alt="Sébastien VIDEMENT photo couleur meritis" class="wp-image-56302 size-full" /></figure><div class="wp-block-media-text__content">
 <p class="has-text-align-center">« <em>On mélange parfois bienveillance et négligence. Or, sans exigence, la performance s’érode</em>. »<br><br>Sébastien Videment, Fondateur de Meritis</p>
 </div></div>
 

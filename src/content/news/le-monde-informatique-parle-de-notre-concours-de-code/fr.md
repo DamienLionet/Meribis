@@ -6,12 +6,12 @@ author: "Meriteam"
 category: "Actualités"
 tags: ["Actualités"]
 excerpt: "Le Monde Informatique met en avant la 5ᵉ édition de Code On Time, un concours de code immersif signé Meritis. Revivez l'expérience sur CodeOnTime.fr !"
-image: "/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/cover.png"
+image: "/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/cover.webp"
 imageAlt: "Meritis - Code On Time dans Le monde informatique"
 ---
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="620" src="/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-01.png" alt="Code On Time by Meritis" class="wp-image-54046" style="width:142px;height:auto" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="620" src="/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-01.webp" alt="Code On Time by Meritis" class="wp-image-54046" style="width:142px;height:auto" /></figure>
 </div>
 
 <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -33,7 +33,7 @@ imageAlt: "Meritis - Code On Time dans Le monde informatique"
 <p><strong>Envie de retenter l’expérience ou de rejouer aux éditions précédentes ?</strong> Rendez-vous sur <strong>CodeOnTime.fr</strong> ! ?</p>
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><a href="https://codeontime.fr/" target="_blank" rel="noreferrer noopener"><img width="1656" height="600" src="/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-02.png" alt="Meritis - CodeOnTime.fr" class="wp-image-54050" style="width:738px;height:auto" /></a></figure>
+<figure class="aligncenter size-full is-resized"><a href="https://codeontime.fr/" target="_blank" rel="noreferrer noopener"><img width="1656" height="600" src="/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-02.webp" alt="Meritis - CodeOnTime.fr" class="wp-image-54050" style="width:738px;height:auto" /></a></figure>
 </div>
 
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">

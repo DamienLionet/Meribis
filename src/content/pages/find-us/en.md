@@ -12,7 +12,7 @@ Meritis opened its first office in Paris in 2007, then progressively expanded ac
 
 ## A European Presence
 
-![Map of Meritis locations and presence in France and Europe](/assets/images/brand/meritis-map-2025.png)
+![Map of Meritis locations and presence in France and Europe](/assets/images/brand/meritis-map-2025.webp)
 
 After its Paris beginnings, Meritis strengthened its regional footprint from 2016 onwards with locations in strategic cities such as Sophia Antipolis, Aix-en-Provence, Nantes, Montpellier, Lille, Lyon, Toulouse, Rennes and Bordeaux.
 

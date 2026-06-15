@@ -6,14 +6,14 @@ author: "Meriteam"
 category: "Actualités"
 tags: ["Actualités"]
 excerpt: "Le Master Dev France 2025 a tenu toutes ses promesses ! Cet événement phare de la communauté tech a rassemblé plus de 800 développeurs en compétition et 3 000 visiteurs …"
-image: "/assets/images/news/retour-sur-le-master-dev-france-2025/cover.png"
+image: "/assets/images/news/retour-sur-le-master-dev-france-2025/cover.webp"
 imageAlt: "MDF COUVERTURE"
 ---
 
 <p>Le <a href="https://www.masterdevfrance.com/" target="_blank" rel="noreferrer noopener"><strong>Master Dev France 2025</strong> </a>a tenu toutes ses promesses ! Cet événement phare de la communauté tech a rassemblé plus de <strong>800 développeurs en compétition</strong> et <strong>3 000 visiteurs passionnés</strong>, venus assister à une journée placée sous le signe de la performance, de l’innovation et du partage.</p>
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="536" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-01.png" alt="" class="wp-image-54525" style="width:750px" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="536" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-01.webp" alt="" class="wp-image-54525" style="width:750px" /></figure>
 </div>
 
 <p>Après avoir organisé notre propre concours en ligne <a href="#jouer_codeontime"><strong>Code On Time sur notre nouvelle plateforme</strong></a>, c&rsquo;était à nous de nous challenger pour la 5e année consécutive sur cet évènement phare ! Retour sur notre participation.</p>
@@ -24,7 +24,7 @@ imageAlt: "MDF COUVERTURE"
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
-<figure class="wp-block-image size-full"><img width="200" height="320" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-02.png" alt="" class="wp-image-54526" /></figure>
+<figure class="wp-block-image size-full"><img width="200" height="320" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-02.webp" alt="" class="wp-image-54526" /></figure>
 </div>
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
@@ -45,7 +45,7 @@ imageAlt: "MDF COUVERTURE"
 <p>Pour la 5e année consécutive, Meritis a aligné une équipe de développeurs prêts à relever le défi. Face à une concurrence de très haut niveau, nos talents ont donné le meilleur d’eux-mêmes tout au long de la journée. </p>
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="536" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-03.png" alt="" class="wp-image-54524" style="width:750px" /></figure>
+<figure class="aligncenter size-large is-resized"><img width="1024" height="536" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-03.webp" alt="" class="wp-image-54524" style="width:750px" /></figure>
 </div>
 
 <p>Quatre d&rsquo;entre eux <strong>se sont hissés jusqu’en finale</strong>, une belle performance dans une compétition aussi exigeante :</p>
@@ -78,7 +78,7 @@ imageAlt: "MDF COUVERTURE"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-54529" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-04.png" alt="" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-54529" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-04.webp" alt="" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -90,7 +90,7 @@ imageAlt: "MDF COUVERTURE"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-54530" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-05.png" alt="" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-54530" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-05.webp" alt="" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -102,7 +102,7 @@ imageAlt: "MDF COUVERTURE"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-54531" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-06.png" alt="" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-54531" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-06.webp" alt="" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -114,7 +114,7 @@ imageAlt: "MDF COUVERTURE"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-54532" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-07.png" alt="" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-54532" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-07.webp" alt="" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -130,7 +130,7 @@ imageAlt: "MDF COUVERTURE"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-54533" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-08.png" alt="" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-54533" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-08.webp" alt="" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -142,7 +142,7 @@ imageAlt: "MDF COUVERTURE"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-54534" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-09.png" alt="" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-54534" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-09.webp" alt="" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -154,7 +154,7 @@ imageAlt: "MDF COUVERTURE"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-54535" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-10.png" alt="" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-54535" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-10.webp" alt="" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -166,7 +166,7 @@ imageAlt: "MDF COUVERTURE"
                                                 <div class="chiffre-container">
                                                                                                     </div>
                                                 <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-54536" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-11.png" alt="" width="300" height="300" /></p>
+                                                    <p><img class="alignnone size-medium wp-image-54536" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-11.webp" alt="" width="300" height="300" /></p>
                                                 </div>
                                             </div>
                                         
@@ -192,7 +192,7 @@ imageAlt: "MDF COUVERTURE"
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:20%"><div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-12.png" alt="Gaëtan Interview MDF" class="wp-image-54588" style="width:120px" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-12.webp" alt="Gaëtan Interview MDF" class="wp-image-54588" style="width:120px" /></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:80%">
@@ -214,13 +214,13 @@ imageAlt: "MDF COUVERTURE"
 </div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:20%"><div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-13.png" alt="Yoann Interview MDF" class="wp-image-54591" style="width:120px" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-13.webp" alt="Yoann Interview MDF" class="wp-image-54591" style="width:120px" /></figure>
 </div></div>
 </div>
 
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:20%"><div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-14.png" alt="Vincent interview MDF" class="wp-image-54592" style="width:120px" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-14.webp" alt="Vincent interview MDF" class="wp-image-54592" style="width:120px" /></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:80%">
@@ -242,13 +242,13 @@ imageAlt: "MDF COUVERTURE"
 </div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:20%"><div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-15.png" alt="Parekh interview" class="wp-image-54593" style="width:120px" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-15.webp" alt="Parekh interview" class="wp-image-54593" style="width:120px" /></figure>
 </div></div>
 </div>
 
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:20%"><div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-16.png" alt="Clément Interview MDF" class="wp-image-54590" style="width:120px" /></figure>
+<figure class="aligncenter size-full is-resized"><img width="500" height="500" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-16.webp" alt="Clément Interview MDF" class="wp-image-54590" style="width:120px" /></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:80%">
@@ -264,7 +264,7 @@ imageAlt: "MDF COUVERTURE"
 
 <div class="wp-block-columns has-light-grey-background-color has-background is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex" id="jouer_codeontime">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><a href="https://codeontime.fr/"><img width="1024" height="785" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-17.png" alt="Code On Time édition 2025" class="wp-image-53903" style="width:323px;height:auto" /></a></figure>
+<figure class="aligncenter size-large is-resized"><a href="https://codeontime.fr/"><img width="1024" height="785" src="/assets/images/news/retour-sur-le-master-dev-france-2025/inline-17.webp" alt="Code On Time édition 2025" class="wp-image-53903" style="width:323px;height:auto" /></a></figure>
 </div></div>
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
