@@ -10,6 +10,10 @@ npm-debug.log*
 .env
 .env.*
 
+# Polices source Aptos (livraison brute TTF + EULA) — seuls les woff2 réellement
+# servis (src/assets/fonts/) sont versionnés. Aptos © Microsoft, police propriétaire.
+/src/aptos/
+
 # OS
 .DS_Store
 Thumbs.db

@@ -5,6 +5,7 @@ export default function (eleventyConfig) {
   // Assets copiés tels quels vers dist/ (le CSS est géré séparément par la CLI Tailwind).
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "assets/js" });
   eleventyConfig.addPassthroughCopy({ "src/assets/images": "assets/images" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
 
   // Fichier .nojekyll : désactive le traitement Jekyll sur GitHub Pages.
   eleventyConfig.addPassthroughCopy({ "src/.nojekyll": ".nojekyll" });
