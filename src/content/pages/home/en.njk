@@ -32,27 +32,143 @@ description: "Meritis — IT, finance and transformation consulting. Expert cons
   </div>
 </section>
 
-<section id="expertise" class="mx-auto max-w-6xl px-6 py-20">
-  <h2 class="text-3xl font-semibold tracking-tight text-brand-charcoal md:text-4xl">Our areas of expertise</h2>
-  <p class="mt-4 max-w-2xl text-lg text-brand-charcoal">
-    Teams that support technology transformation end to end.
-  </p>
-  <ul class="mt-12 grid list-none gap-6 p-0 md:grid-cols-3">
-    <li class="rounded-card bg-white p-8 shadow-soft">
-      <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-deep">01</span>
-      <h3 class="mt-3 text-xl font-semibold text-brand-blue">Application development</h3>
-      <p class="mt-3 leading-relaxed text-brand-charcoal">Software architecture, DevOps and code quality to accelerate your delivery cycles.</p>
-    </li>
-    <li class="rounded-card bg-white p-8 shadow-soft">
-      <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-deep">02</span>
-      <h3 class="mt-3 text-xl font-semibold text-brand-blue">Data &amp; AI</h3>
-      <p class="mt-3 leading-relaxed text-brand-charcoal">Data pipelines, analytics platforms and artificial intelligence with high added value.</p>
-    </li>
-    <li class="rounded-card bg-white p-8 shadow-soft">
-      <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-deep">03</span>
-      <h3 class="mt-3 text-xl font-semibold text-brand-blue">Finance &amp; risk</h3>
-      <p class="mt-3 leading-relaxed text-brand-charcoal">Support for capital markets, risk and regulatory compliance business lines.</p>
-    </li>
+{# --- Key figures --- #}
+<section class="border-b border-brand-gray/40 bg-brand-light">
+  <div class="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-6 py-12 text-center md:grid-cols-4 md:py-14">
+    <div>
+      <p class="text-4xl font-semibold text-brand-blue md:text-5xl">900<span class="text-brand-gold">+</span></p>
+      <p class="mt-2 text-sm leading-snug text-brand-charcoal">expert consultants</p>
+    </div>
+    <div>
+      <p class="text-4xl font-semibold text-brand-blue md:text-5xl">1,600<span class="text-brand-gold">+</span></p>
+      <p class="mt-2 text-sm leading-snug text-brand-charcoal">clients supported</p>
+    </div>
+    <div>
+      <p class="text-4xl font-semibold text-brand-blue md:text-5xl">4.5<span class="text-2xl text-brand-gold">/5</span></p>
+      <p class="mt-2 text-sm leading-snug text-brand-charcoal">client satisfaction</p>
+    </div>
+    <div>
+      <p class="text-4xl font-semibold text-brand-blue md:text-5xl">B&nbsp;Corp</p>
+      <p class="mt-2 text-sm leading-snug text-brand-charcoal">certified impact company</p>
+    </div>
+  </div>
+</section>
+
+{# --- Our expertise (condensed) --- #}
+<section id="expertise" class="relative isolate overflow-hidden bg-white">
+  {% set decorClass = "right-[-40px] top-1/2 hidden h-[26rem] w-[26rem] -translate-y-1/2 text-brand-gray md:block" %}
+  {% include "partials/decor-bubbles.njk" %}
+  <div class="relative z-10 mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
+    <div>
+      <h2 class="text-3xl font-semibold tracking-tight text-brand-charcoal md:text-4xl">Our expertise</h2>
+      <p class="mt-4 max-w-md text-lg leading-relaxed text-brand-charcoal">
+        Our 900+ consultants support you with agility across all your technology transformation
+        projects. One goal: to take you further.
+      </p>
+      <a href="{{ '/en/expertise/' | url }}" class="mt-6 inline-flex items-center gap-2 font-semibold text-brand-blue transition hover:text-brand-blue-dark">
+        All our expertise <span aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
+    <ul class="grid list-none gap-3 p-0 sm:grid-cols-2">
+      <li><a href="{{ '/en/expertise/data-ai/' | url }}" class="block rounded-card border border-brand-gray/60 bg-white px-5 py-4 text-center font-medium text-brand-blue shadow-sm transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">Data &amp; AI</a></li>
+      <li><a href="{{ '/en/expertise/digital-workspace/' | url }}" class="block rounded-card border border-brand-gray/60 bg-white px-5 py-4 text-center font-medium text-brand-blue shadow-sm transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">Digital Workspace</a></li>
+      <li><a href="{{ '/en/expertise/agile/' | url }}" class="block rounded-card border border-brand-gray/60 bg-white px-5 py-4 text-center font-medium text-brand-blue shadow-sm transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">Agile</a></li>
+      <li><a href="{{ '/en/expertise/cloud/' | url }}" class="block rounded-card border border-brand-gray/60 bg-white px-5 py-4 text-center font-medium text-brand-blue shadow-sm transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">Cloud</a></li>
+      <li><a href="{{ '/en/expertise/devops/' | url }}" class="block rounded-card border border-brand-gray/60 bg-white px-5 py-4 text-center font-medium text-brand-blue shadow-sm transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">DevOps</a></li>
+      <li><a href="{{ '/en/expertise/finance/' | url }}" class="block rounded-card border border-brand-gray/60 bg-white px-5 py-4 text-center font-medium text-brand-blue shadow-sm transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">Finance</a></li>
+      <li><a href="{{ '/en/expertise/software-factory/' | url }}" class="block rounded-card border border-brand-gray/60 bg-white px-5 py-4 text-center font-medium text-brand-blue shadow-sm transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">Software Factory</a></li>
+      <li><a href="{{ '/en/expertise/cybersecurity/' | url }}" class="block rounded-card border border-brand-gray/60 bg-white px-5 py-4 text-center font-medium text-brand-blue shadow-sm transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">Cybersecurity</a></li>
+      <li><a href="{{ '/en/expertise/project-management/' | url }}" class="block rounded-card border border-brand-gray/60 bg-white px-5 py-4 text-center font-medium text-brand-blue shadow-sm transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">Project management</a></li>
+    </ul>
+  </div>
+</section>
+
+{# --- 3 entities, 1 governance --- #}
+<section class="bg-brand-blue-dark text-brand-ivory">
+  <div class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+    <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">3 expert entities, 1 unified governance</h2>
+    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-brand-ivory">
+      The group brings together three complementary entities, ensuring strategic coherence, sector
+      depth and execution continuity.
+    </p>
+    <ul class="mt-10 grid list-none gap-6 p-0 md:grid-cols-3">
+      <li class="rounded-card bg-white/5 p-8 ring-1 ring-white/10">
+        <h3 class="text-lg font-semibold text-brand-gold">Navigacom</h3>
+        <p class="mt-2 leading-relaxed text-brand-ivory">Strategic information-system architecture.</p>
+      </li>
+      <li class="rounded-card bg-white/5 p-8 ring-1 ring-white/10">
+        <h3 class="text-lg font-semibold text-brand-gold">Neofin Advisory</h3>
+        <p class="mt-2 leading-relaxed text-brand-ivory">Transformation of Finance and CIB business lines.</p>
+      </li>
+      <li class="rounded-card bg-white/5 p-8 ring-1 ring-white/10">
+        <h3 class="text-lg font-semibold text-brand-gold">Meritis</h3>
+        <p class="mt-2 leading-relaxed text-brand-ivory">Technology engineering and delivery.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+{# --- Trusted by (sectors; ready for client logos) --- #}
+<section class="bg-brand-light">
+  <div class="mx-auto max-w-6xl px-6 py-14 text-center md:py-16">
+    <p class="text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold-deep">They trust us</p>
+    <h2 class="mt-3 text-2xl font-semibold tracking-tight text-brand-charcoal md:text-3xl">Large accounts in the most demanding sectors</h2>
+    <ul class="mt-8 flex flex-wrap justify-center gap-3 p-0">
+      <li class="rounded-button bg-white px-5 py-2.5 text-sm font-medium text-brand-blue shadow-sm">Banking &amp; Insurance</li>
+      <li class="rounded-button bg-white px-5 py-2.5 text-sm font-medium text-brand-blue shadow-sm">Capital markets &amp; CIB</li>
+      <li class="rounded-button bg-white px-5 py-2.5 text-sm font-medium text-brand-blue shadow-sm">Industry</li>
+      <li class="rounded-button bg-white px-5 py-2.5 text-sm font-medium text-brand-blue shadow-sm">Energy</li>
+      <li class="rounded-button bg-white px-5 py-2.5 text-sm font-medium text-brand-blue shadow-sm">Transport</li>
+      <li class="rounded-button bg-white px-5 py-2.5 text-sm font-medium text-brand-blue shadow-sm">Luxury</li>
+      <li class="rounded-button bg-white px-5 py-2.5 text-sm font-medium text-brand-blue shadow-sm">Public sector</li>
+    </ul>
+  </div>
+</section>
+
+{# --- Impact-driven company (CSR / B Corp) --- #}
+<section class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+  <div class="grid items-center gap-8 rounded-card bg-brand-blue p-8 text-brand-ivory shadow-soft md:grid-cols-[1fr_auto] md:p-12">
+    <div>
+      <p class="text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold">Impact-driven company</p>
+      <h2 class="mt-3 text-2xl font-semibold tracking-tight md:text-3xl">Economic performance and positive impact</h2>
+      <p class="mt-3 max-w-2xl leading-relaxed text-brand-ivory">
+        B Corp certified, committed to workplace equality and responsible digital: we place people and
+        the environment at the heart of our model.
+      </p>
+    </div>
+    <a href="{{ '/en/meritis-csr/' | url }}" class="shrink-0 rounded-button bg-brand-gold px-7 py-3 font-semibold text-brand-blue-dark transition hover:bg-brand-gold-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-gold">
+      Our CSR commitment
+    </a>
+  </div>
+</section>
+
+{# --- The Meritis blog --- #}
+<section class="bg-brand-light">
+  <div class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+    <div class="flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <h2 class="text-3xl font-semibold tracking-tight text-brand-charcoal md:text-4xl">The Meritis blog</h2>
+        <p class="mt-3 max-w-xl text-lg text-brand-charcoal">Articles, insights and field experience from our consultants.</p>
+      </div>
+      <a href="{{ '/en/blog/' | url }}" class="font-semibold text-brand-blue transition hover:text-brand-blue-dark">All articles <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <ul class="mt-10 grid list-none gap-6 p-0 md:grid-cols-3">
+      {% for post in collections.blog_en %}{% if loop.index0 < 3 %}{% include "partials/card-blog.njk" %}{% endif %}{% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# --- Join our teams --- #}
+<section class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+  <div class="flex flex-wrap items-end justify-between gap-4">
+    <div>
+      <h2 class="text-3xl font-semibold tracking-tight text-brand-charcoal md:text-4xl">Join our teams</h2>
+      <p class="mt-3 max-w-xl text-lg text-brand-charcoal">Explore our opportunities and build your career at Meritis.</p>
+    </div>
+    <a href="{{ '/en/jobs/' | url }}" class="font-semibold text-brand-blue transition hover:text-brand-blue-dark">All jobs <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <ul class="mt-10 grid list-none gap-6 p-0 md:grid-cols-3">
+    {% for post in collections.jobs_en %}{% if loop.index0 < 3 %}{% include "partials/card-job.njk" %}{% endif %}{% endfor %}
   </ul>
 </section>
 
