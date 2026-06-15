@@ -1,0 +1,29 @@
+{
+  "name": "meribis",
+  "version": "0.1.0",
+  "description": "Recréation du site Meritis — site statique bilingue FR/EN (Eleventy v3 + Tailwind CSS v4 + JS vanilla).",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "eleventy --serve",
+    "watch:css": "tailwindcss -i ./src/assets/css/input.css -o ./dist/assets/css/main.css --watch",
+    "start": "run-p watch:css dev",
+    "build:css": "tailwindcss -i ./src/assets/css/input.css -o ./dist/assets/css/main.css --minify",
+    "build": "eleventy",
+    "build:search": "pagefind --site dist",
+    "build:all": "run-s build:css build build:search",
+    "build:local": "cross-env PATH_PREFIX=/ run-s build:css build build:search"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@tailwindcss/cli": "^4.3.1",
+    "cross-env": "^7.0.3",
+    "npm-run-all2": "^7.0.2",
+    "pagefind": "^1.5.2",
+    "tailwindcss": "^4.3.1"
+  }
+}

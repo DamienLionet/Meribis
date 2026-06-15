@@ -1,0 +1,81 @@
+---
+layout: layouts/base.njk
+permalink: /fr/
+locale: fr
+title: Accueil
+description: "Meritis — conseil en IT, finance et transformation. Page de démonstration du socle technique Meribis (Eleventy v3 + Tailwind CSS v4)."
+---
+<a href="#contenu" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-button focus:bg-brand-gold focus:px-5 focus:py-2 focus:font-semibold focus:text-brand-blue-dark">Aller au contenu principal</a>
+
+<header class="border-b border-brand-gray/60">
+  <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+    <span class="text-xl font-semibold tracking-tight text-brand-blue">Meritis<span class="text-brand-gold">.</span></span>
+    <span class="rounded-button border border-brand-blue/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-brand-blue-muted">Démo · socle technique</span>
+  </div>
+</header>
+
+<main id="contenu">
+  <section class="bg-brand-blue text-brand-ivory">
+    <div class="mx-auto max-w-6xl px-6 py-20 md:py-28">
+      <p class="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold">Conseil · IT · Finance · Transformation</p>
+      <h1 class="max-w-3xl text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
+        Une expertise technologique au service des grands comptes.
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg leading-relaxed text-brand-ivory/85 md:text-xl">
+        Recréation du site Meritis sur une stack légère et maintenable : Eleventy, Tailwind CSS et
+        JavaScript vanilla. Cette page valide le socle technique — design tokens, build et déploiement.
+      </p>
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a href="#expertises" class="rounded-button bg-brand-gold px-7 py-3 font-semibold text-brand-blue-dark transition hover:bg-brand-gold-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-gold">
+          Découvrir nos expertises
+        </a>
+        <a href="#contact" class="rounded-button border border-brand-ivory/40 px-7 py-3 font-semibold text-brand-ivory transition hover:bg-brand-ivory/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-ivory">
+          Parlons de votre projet
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="expertises" class="mx-auto max-w-6xl px-6 py-20">
+    <h2 class="text-3xl font-semibold tracking-tight text-brand-charcoal md:text-4xl">Nos domaines d'expertise</h2>
+    <p class="mt-4 max-w-2xl text-lg text-brand-charcoal/70">
+      Des équipes de consultants qui accompagnent la transformation technologique de bout en bout.
+    </p>
+    <ul class="mt-12 grid list-none gap-6 p-0 md:grid-cols-3">
+      <li class="rounded-card bg-white p-8 shadow-soft">
+        <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-dark">01</span>
+        <h3 class="mt-3 text-xl font-semibold text-brand-blue">Développement applicatif</h3>
+        <p class="mt-3 leading-relaxed text-brand-charcoal/75">Architecture logicielle, DevOps et qualité de code pour accélérer vos cycles de livraison.</p>
+      </li>
+      <li class="rounded-card bg-white p-8 shadow-soft">
+        <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-dark">02</span>
+        <h3 class="mt-3 text-xl font-semibold text-brand-blue">Data &amp; IA</h3>
+        <p class="mt-3 leading-relaxed text-brand-charcoal/75">Pipelines de données, plateformes analytiques et intelligence artificielle à forte valeur ajoutée.</p>
+      </li>
+      <li class="rounded-card bg-white p-8 shadow-soft">
+        <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-dark">03</span>
+        <h3 class="mt-3 text-xl font-semibold text-brand-blue">Finance &amp; risques</h3>
+        <p class="mt-3 leading-relaxed text-brand-charcoal/75">Accompagnement des métiers de la finance de marché, du risque et de la conformité réglementaire.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact" class="bg-brand-blue-dark text-brand-ivory">
+    <div class="mx-auto flex max-w-6xl flex-col items-start gap-8 px-6 py-20 md:flex-row md:items-center md:justify-between">
+      <div>
+        <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Un projet à accompagner ?</h2>
+        <p class="mt-3 max-w-xl text-lg text-brand-ivory/80">Échangeons sur vos enjeux technologiques et la façon dont nos consultants peuvent y répondre.</p>
+      </div>
+      <a href="#contenu" class="shrink-0 rounded-button bg-brand-gold px-7 py-3 font-semibold text-brand-blue-dark transition hover:bg-brand-gold-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-gold">
+        Nous contacter
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="border-t border-brand-gray/60">
+  <div class="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-8 text-sm text-brand-charcoal/60 md:flex-row md:items-center md:justify-between">
+    <span>© Meritis — page de démonstration (socle Meribis).</span>
+    <span>Logo et assets de marque à valider (droits d'usage).</span>
+  </div>
+</footer>

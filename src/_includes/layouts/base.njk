@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ locale or site.lang }}" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{% if title %}{{ title }} · {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
+    <meta name="description" content="{{ description or site.description }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url | url }}" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ site.name }}" />
+    <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.name }}{% endif %}" />
+    <meta property="og:description" content="{{ description or site.description }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url | url }}" />
+    <meta property="og:locale" content="{{ locale or site.lang }}" />
+
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}" />
+  </head>
+  <body class="min-h-screen bg-brand-ivory text-brand-charcoal antialiased">
+    {{ content | safe }}
+    <script type="module" src="{{ '/assets/js/main.js' | url }}"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Tailwind v4 scanne ces sources pour ne générer que les classes utilisées
+   (chemin relatif à ce fichier ; ../../ = src/). */
+@source "../../**/*.{njk,md,html,js}";
+
+/* Tokens de marque Meritis (charte 2025), exposés en variables @theme.
+   Chaque token génère ses utilitaires Tailwind :
+     --color-brand-blue  -> bg-brand-blue / text-brand-blue / border-brand-blue …
+     --radius-card       -> rounded-card
+     --shadow-soft       -> shadow-soft
+   Valeurs à confirmer avec les assets officiels (cf. project-spec.md §11). */
+@theme {
+  --color-brand-blue: #005a6a;
+  --color-brand-gold: #e1b55e;
+  --color-brand-charcoal: #3a3a3a;
+  --color-brand-light: #f3f3f3;
+  --color-brand-ivory: #fcf9f3;
+
+  --color-brand-blue-dark: #0a3840;
+  --color-brand-gold-dark: #b7934c;
+  --color-brand-blue-light: #9dcdf1;
+  --color-brand-gray: #d9d9d9;
+  --color-brand-blue-muted: #6ca3ab;
+
+  --radius-card: 1.25rem;
+  --radius-button: 9999px;
+
+  --shadow-soft: 0 18px 60px rgb(0 0 0 / 0.08);
+}

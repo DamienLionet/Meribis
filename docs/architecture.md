@@ -57,11 +57,11 @@ Meribis/
 │  ├─ project-spec.md           ✅ spec produit (source de vérité fonctionnelle)
 │  └─ architecture.md           ✅ ce document
 ├─ .github/workflows/
-│  └─ deploy.yml                ⬜ (étape 4) build + déploiement Pages
+│  └─ deploy.yml                ✅ build + déploiement Pages (via Actions)
 └─ src/
-   ├─ index.njk                 ✅ page de fumée (remplacée étape 2)
+   ├─ index.njk                 ✅ redirection racine / → /fr/
    ├─ _data/
-   │  ├─ site.json              ⬜ config globale + formEndpoint
+   │  ├─ site.json              ✅ config globale + formEndpoint
    │  ├─ navigation.json        ⬜
    │  ├─ i18n.json              ⬜ libellés UI FR/EN
    │  └─ taxonomies.json        ⬜
@@ -222,12 +222,18 @@ flowchart LR
 
 ## 11. État d'avancement
 
+> **Correction du 2026-06-15** : ce tableau marquait auparavant le socle comme « fichiers créés »
+> alors que le dépôt était réellement vierge (hors docs) sur le disque. Le socle a depuis été
+> **créé, installé et vérifié** — `npm run build:all` produit un `dist/` conforme (CSS de marque,
+> liens préfixés `/Meribis/`, index Pagefind, `.nojekyll`).
+
 | Étape | Contenu | Statut |
 |---|---|---|
-| **1. Socle build** | `package.json`, `eleventy.config.js`, `input.css` (@theme), `base.njk`, page de fumée, `.gitignore` | **Fichiers créés** — `npm install` + `npm start` **non encore lancés** |
-| 2. Layouts + données | layouts, partials, `_data/*`, filtre `url`, redirect racine, structure FR/EN | À faire |
-| 3. Collections + types | `blog-post`/`job-post`, collections, contenus d'exemple | À faire |
-| 4. Recherche + filtres + CI | Pagefind, filtres/recherche vanilla, workflow Actions, `.nojekyll` | À faire |
+| **1. Socle build** | deps installées, `eleventy.config.js`, `input.css` (@theme + tokens), `base.njk`, `site.json`, `main.js`, page démo `/fr/`, redirect racine, `.gitignore` | **✅ Fait** — `build:all` vérifié |
+| **Déploiement (anticipé)** | workflow GitHub Actions, indexation Pagefind dans `build:all`, `.nojekyll` | **✅ Fait** — reste à activer Pages (Settings → Pages → Source : GitHub Actions) + push `main` |
+| 2. Layouts + données | layouts `page`/`blog-post`/`job-post`, partials (header, footer, nav, language-switcher, breadcrumbs, cta, cards, filters), `navigation.json` / `i18n.json` / `taxonomies.json`, arborescence EN reliée par `translationKey` | À faire |
+| 3. Collections + types | collections `blog_*` / `jobs_*` (+ `featured_*` / `published_*`), contenus d'exemple FR/EN | À faire |
+| 4. Recherche + filtres (front) | UI Pagefind (`search.js`), filtres combinés vanilla (`filters.js`), partials `filters-*` | À faire |
 
-> **Prochaine action concrète** : installer les dépendances puis valider l'étape 1
-> (`npm install` → `npm start` doit servir la page de fumée avec les couleurs de marque appliquées).
+> **Prochaine action concrète** : déployer (activer Pages + push `main`), puis l'étape 2 — layouts
+> secondaires, partials, données globales et arborescence EN.

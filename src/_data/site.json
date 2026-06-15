@@ -1,0 +1,9 @@
+{
+  "name": "Meritis",
+  "description": "Conseil en IT, finance et transformation. Meritis accompagne les grands comptes sur leurs projets technologiques à forte valeur ajoutée.",
+  "url": "https://damienlionet.github.io",
+  "lang": "fr",
+  "locales": ["fr", "en"],
+  "defaultLocale": "fr",
+  "formEndpoint": ""
+}
