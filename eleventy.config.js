@@ -24,6 +24,36 @@ export default function (eleventyConfig) {
       .filter((item) => item.data.translationKey && item.data.locale)
   );
 
+  // Dates : ISO (données structurées) + affichage localisé.
+  eleventyConfig.addFilter("isoDate", (d) => (d instanceof Date ? d.toISOString() : String(d)));
+  eleventyConfig.addFilter("displayDate", (d, locale) => {
+    const date = d instanceof Date ? d : new Date(d);
+    return date.toLocaleDateString(locale === "en" ? "en-GB" : "fr-FR", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  });
+
+  // Collections blog / offres par langue (published !== false, tri date décroissante).
+  const isPublished = (item) => item.data.published !== false;
+  const byDateDesc = (a, b) => b.date - a.date;
+  for (const loc of ["fr", "en"]) {
+    eleventyConfig.addCollection(`blog_${loc}`, (api) =>
+      api.getFilteredByGlob(`src/content/${loc}/blog/*.md`).filter(isPublished).sort(byDateDesc)
+    );
+    eleventyConfig.addCollection(`jobs_${loc}`, (api) =>
+      api.getFilteredByGlob(`src/content/${loc}/jobs/*.md`).filter(isPublished).sort(byDateDesc)
+    );
+    eleventyConfig.addCollection(`featured_blog_${loc}`, (api) =>
+      api
+        .getFilteredByGlob(`src/content/${loc}/blog/*.md`)
+        .filter(isPublished)
+        .filter((item) => item.data.featured)
+        .sort(byDateDesc)
+    );
+  }
+
   return {
     dir: {
       input: "src",

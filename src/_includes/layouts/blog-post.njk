@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+---
+{% set parent = { "label": i18n[locale].blog, "url": "/" + locale + "/blog/" } %}
+<article class="mx-auto max-w-3xl px-6 py-12 md:py-16">
+  {% include "partials/breadcrumbs.njk" %}
+
+  <header class="mt-6">
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+      {% if category %}<span class="rounded-button bg-brand-blue/10 px-3 py-1 font-semibold text-brand-blue">{{ category }}</span>{% endif %}
+      <span class="text-brand-charcoal/55">{{ i18n[locale].publishedOn }} <time datetime="{{ page.date | isoDate }}">{{ page.date | displayDate(locale) }}</time>{% if author %} · {{ i18n[locale].by }} {{ author }}{% endif %}</span>
+    </div>
+    <h1 class="mt-4 text-4xl font-semibold tracking-tight text-brand-charcoal md:text-5xl">{{ title }}</h1>
+    {% if excerpt %}<p class="mt-4 text-xl leading-relaxed text-brand-charcoal/70">{{ excerpt }}</p>{% endif %}
+  </header>
+
+  <div class="prose-meritis mt-8">
+    {{ content | safe }}
+  </div>
+
+  {% if tags %}
+  <ul class="mt-8 flex flex-wrap gap-2 p-0">
+    {% for tag in tags %}<li class="rounded-button bg-brand-light px-3 py-1 text-sm text-brand-charcoal/70">{{ tag }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  <div class="mt-10">
+    <a href="{{ parent.url | url }}" class="font-semibold text-brand-blue transition hover:text-brand-blue-dark">← {{ i18n[locale].backToBlog }}</a>
+  </div>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ title | dump | safe }},
+  {% if excerpt %}"description": {{ excerpt | dump | safe }},{% endif %}
+  "datePublished": "{{ page.date | isoDate }}",
+  {% if author %}"author": { "@type": "Person", "name": {{ author | dump | safe }} },{% endif %}
+  "publisher": { "@type": "Organization", "name": "{{ site.name }}" },
+  "inLanguage": "{{ locale }}",
+  "mainEntityOfPage": "{{ site.url }}{{ page.url | url }}"
+}
+</script>

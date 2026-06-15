@@ -1,0 +1,19 @@
+{
+  "blogCategories": {
+    "fr": ["Développement applicatif", "Data & IA", "Finance & risques", "Conseil"],
+    "en": ["Application development", "Data & AI", "Finance & risk", "Consulting"]
+  },
+  "jobContracts": {
+    "fr": ["CDI", "CDD", "Stage", "Alternance"],
+    "en": ["Permanent", "Fixed-term", "Internship", "Apprenticeship"]
+  },
+  "jobTypes": {
+    "fr": ["Consultant", "Manager", "Fonction support"],
+    "en": ["Consultant", "Manager", "Support role"]
+  },
+  "businessLines": {
+    "fr": ["Développement applicatif", "Data & IA", "Finance & risques"],
+    "en": ["Application development", "Data & AI", "Finance & risk"]
+  },
+  "locations": ["Paris", "Lyon", "Nantes", "Bordeaux"]
+}

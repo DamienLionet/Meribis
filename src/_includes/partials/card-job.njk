@@ -1,0 +1,16 @@
+<li class="rounded-card bg-white p-6 shadow-soft transition hover:-translate-y-0.5">
+  <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+    <div>
+      <h3 class="text-xl font-semibold text-brand-blue">
+        <a href="{{ post.url | url }}" class="transition hover:underline">{{ post.data.title }}</a>
+      </h3>
+      <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-1 p-0 text-sm text-brand-charcoal/60">
+        {% if post.data.contract %}<li>{{ post.data.contract }}</li>{% endif %}
+        {% if post.data.location %}<li>{{ post.data.location }}</li>{% endif %}
+        {% if post.data.remote %}<li>{{ post.data.remote }}</li>{% endif %}
+        {% if post.data.businessLine %}<li>{{ post.data.businessLine }}</li>{% endif %}
+      </ul>
+    </div>
+    <a href="{{ post.url | url }}" class="shrink-0 rounded-button border border-brand-blue px-5 py-2 text-sm font-semibold text-brand-blue transition hover:bg-brand-blue hover:text-white">{{ i18n[locale].viewJob }}</a>
+  </div>
+</li>

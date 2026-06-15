@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/job-post.njk",
+  "permalink": "/en/jobs/{{ slug or page.fileSlug }}/"
+}
