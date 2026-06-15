@@ -9,6 +9,7 @@ parent:
   url: "/fr/expertises/"
 ---
 
+
 ## Gagnez en flexibilité pour faire évoluer rapidement votre infrastructure IT tout en optimisant vos coûts !
 
 Des entreprises de toutes tailles et tous secteurs confondus se convertissent chaque jour un peu plus au cloud. En effet, l’externalisation des serveurs est une pratique sûre, qui offre de nombreux avantages. Cependant une migration Cloud sécurisée doit s’appuyer sur des partenaires expérimentés et des méthodes industrialisées incluant la sécurité, la performance et le développement de nouvelles fonctionnalités.
@@ -58,21 +59,24 @@ Tous nos collaborateurs maîtrisent la législation en vigueur
 
 ## Bénéficiez de tous les avantages du Cloud
 
-Résilience
-
-Améliorez la continuité des activités en proposant des fonctionnalités de sauvegarde et de récupération intégrées
-
-Sécurité
-
-Sécurisez votre infrastructure grâce à des correctifs de sécurité appliqués automatiquement
-
-Time to Market
-
-Fournissez de nouveaux services plus rapidement afin de rester compétitif
-
-Elasticité
-
-Facilitez le passage à l’échelle et offrez une meilleure élasticité d’accès
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Résilience</p>
+<p class="text-brand-charcoal">Améliorez la continuité des activités en proposant des fonctionnalités de sauvegarde et de récupération intégrées</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Sécurité</p>
+<p class="text-brand-charcoal">Sécurisez votre infrastructure grâce à des correctifs de sécurité appliqués automatiquement</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Time to Market</p>
+<p class="text-brand-charcoal">Fournissez de nouveaux services plus rapidement afin de rester compétitif</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Elasticité</p>
+<p class="text-brand-charcoal">Facilitez le passage à l’échelle et offrez une meilleure élasticité d’accès</p>
+</div>
+</div>
 
 ## La méthode DevOps pour une migration Cloud réussie
 
@@ -88,17 +92,20 @@ L’objectif du [mouvement DevOps](https://meritis.fr/devops-comment-ca-marche/)
 
 Nos experts interviennent chez nos clients pour les aider à faire le bon choix d’architecture des plateformes Cloud pour générer de la valeur et de la sécurité.
 
-### Cadrage
-
-Audit et analyse de l’existant, des sources et de vos modèles de construction Data
-
-### Déploiement
-
-Aide au choix fournisseur Cloud adapté et mise en place de la solution
-
-### Accompagnement
-
-Stratégie de migration Cloud à travers vos valeurs, la sécurité, performance …
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Cadrage</p>
+<p class="text-brand-charcoal">Audit et analyse de l’existant, des sources et de vos modèles de construction Data</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Déploiement</p>
+<p class="text-brand-charcoal">Aide au choix fournisseur Cloud adapté et mise en place de la solution</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Accompagnement</p>
+<p class="text-brand-charcoal">Stratégie de migration Cloud à travers vos valeurs, la sécurité, performance …</p>
+</div>
+</div>
 
 ## Ils en parlent mieux que nous !
 

@@ -9,6 +9,7 @@ parent:
   url: "/fr/expertises/"
 ---
 
+
 ## Construire et délivrer votre plateforme web 100% sur mesure de manière résiliente, évolutive et sécurisée
 
 Face à des problématiques de performance, de sécurité, d’évolutivité, de maintenance ou encore d’alignement business, il n’est pas toujours facile de mettre en place la bonne solution. Experts du développement de solutions sur mesure, **Meritis conçoit, produit et délivre vos plateformes web.** Meritis s’occupe également de la maintenance corrective et applicative des plateformes web mises en service.
@@ -24,21 +25,24 @@ Meritis propose également à ses clients de les accompagner lors du déploiemen
 
 ## Les avantages de nos applications
 
-ENVIRONNEMENT : Cloud ready
-
-Nos produits, basés sur une architecture en conteneurs, peuvent être facilement déployés sur un cloud privé ou public.
-
-INTERFACE ADAPTEE : API
-
-Tous nos produits sont basés sur des API afin d’améliorer leur réutilisabilité et leur intégration au sein du SI du client.
-
-SECURISATION PRODUIT
-
-Nos produits sont audités en interne avec Qualys pour protéger les données de nos clients et éviter toute fuite de données.
-
-GESTION DE LA DONNEE
-
-Notre pool de Data Engineers offre différentes possibilités concernant la gestion des données client : création de datalakes, analyse et visualisation de données, etc.
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">ENVIRONNEMENT : Cloud ready</p>
+<p class="text-brand-charcoal">Nos produits, basés sur une architecture en conteneurs, peuvent être facilement déployés sur un cloud privé ou public.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">INTERFACE ADAPTEE : API</p>
+<p class="text-brand-charcoal">Tous nos produits sont basés sur des API afin d’améliorer leur réutilisabilité et leur intégration au sein du SI du client.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">SECURISATION PRODUIT</p>
+<p class="text-brand-charcoal">Nos produits sont audités en interne avec Qualys pour protéger les données de nos clients et éviter toute fuite de données.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">GESTION DE LA DONNEE</p>
+<p class="text-brand-charcoal">Notre pool de Data Engineers offre différentes possibilités concernant la gestion des données client : création de datalakes, analyse et visualisation de données, etc.</p>
+</div>
+</div>
 
 ### Nos technologies
 

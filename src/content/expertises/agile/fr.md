@@ -9,6 +9,7 @@ parent:
   url: "/fr/expertises/"
 ---
 
+
 ## Développez l’agilité qui vous correspond et optimisez votre Time To Market
 
 **Appliquer les principes d’agilité, c’est se donner les moyens de livrer une solution rapidement à ses utilisateurs et de continuer à améliorer cette solution en permanence.** Bien plus qu’une urgence de rentabilité, l’agilité doit combiner adaptation continue (aux contraintes et à la réalité) et prospection (créativité et compréhension utilisateur).
@@ -54,21 +55,24 @@ Chez Meritis, nous sommes convaincus que les méthodes et pratiques agiles **gar
 
 ## Optez pour la méthode Agile
 
-Rapidité
-
-Accélérer le Time To Maket de vos produits et/ou nouvelles fonctionnalités
-
-Fiabilité
-
-Optimiser la qualité de vos applications et livrez en toute confiance
-
-Satisfaction client
-
-S’adapter au comportement et aux besoins du client
-
-Collaboration
-
-Optimiser la communication et l’autonomie des équipes
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Rapidité</p>
+<p class="text-brand-charcoal">Accélérer le Time To Maket de vos produits et/ou nouvelles fonctionnalités</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Fiabilité</p>
+<p class="text-brand-charcoal">Optimiser la qualité de vos applications et livrez en toute confiance</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Satisfaction client</p>
+<p class="text-brand-charcoal">S’adapter au comportement et aux besoins du client</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Collaboration</p>
+<p class="text-brand-charcoal">Optimiser la communication et l’autonomie des équipes</p>
+</div>
+</div>
 
 ## Meritis, un accompagnement de bout en bout
 
@@ -76,16 +80,19 @@ Optimiser la communication et l’autonomie des équipes
 
 #### Nos experts interviennent chez nos clients pour les aider à identifier les points bloquants, mais aussi à faire le bon choix d’architecture et d’outillage.
 
-Cadrage
-
-Audit et analyse de l’existant
-
-Déploiement
-
-Développement applicatif : accompagnement et coaching
-
-Formation métier
-
-Acculturation, coordination et formation des équipes
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Cadrage</p>
+<p class="text-brand-charcoal">Audit et analyse de l’existant</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Déploiement</p>
+<p class="text-brand-charcoal">Développement applicatif : accompagnement et coaching</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Formation métier</p>
+<p class="text-brand-charcoal">Acculturation, coordination et formation des équipes</p>
+</div>
+</div>
 
 ## Vous avez une question ? un projet ? contactez-nous

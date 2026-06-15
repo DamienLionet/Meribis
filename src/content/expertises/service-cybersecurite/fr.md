@@ -9,6 +9,7 @@ parent:
   url: "/fr/expertises/"
 ---
 
+
 ## Meritis Cybersécurité : notre expertise au service de votre sécurité
 
 **Ransomware** & **malware** (logiciels malveillants), **phishing** (hameçonnage par des fraudeurs) ou **intrusion au niveau du système d’information** (vol de données, usurpation d’identité , espionnage industriel) ; les sociétés sont toutes vulnérables face à ces menaces. Selon l’agence nationale de la sécurité des systèmes d’information ([ANSSI](https://cyber.gouv.fr/)), les **cyberattaques** ciblant des sociétés Françaises sont **de plus en plus nombreuses** avec des **pertes estimées à plusieurs millions d’euros**.
@@ -97,18 +98,20 @@ Nos compétences Techniques et Métier nous permettent de couvrir l’ensemble
 
 Nos experts interviennent chez nos clients pour les aider à identifier les failles de sécurité, à mettre en place une stratégie efficace et à obtenir les certifications essentielles.
 
-Cadrage
-
-Audit et analyse de l’existant pour identifier les failles potentiellement exploitables par les cybercriminels.
-
-Déploiement
-
-Mise en place d’une stratégie de cybersécurité, extraction des menaces présentes dans l’infrastructure réseau et obtention de certifications.
-
-Formation métier
-
-Accompagnement, coordination et formation des équipes aux méthodes et outils DevSecOps.
-Sensibilisation et formation à la cybersécurité.
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Cadrage</p>
+<p class="text-brand-charcoal">Audit et analyse de l’existant pour identifier les failles potentiellement exploitables par les cybercriminels.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Déploiement</p>
+<p class="text-brand-charcoal">Mise en place d’une stratégie de cybersécurité, extraction des menaces présentes dans l’infrastructure réseau et obtention de certifications.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Formation métier</p>
+<p class="text-brand-charcoal">Accompagnement, coordination et formation des équipes aux méthodes et outils DevSecOps. Sensibilisation et formation à la cybersécurité.</p>
+</div>
+</div>
 
 ## Meritis est certifiée ISO 27001
 

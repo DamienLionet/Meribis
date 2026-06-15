@@ -9,6 +9,7 @@ parent:
   url: "/fr/expertises/"
 ---
 
+
 ## Modernisez vos bureaux et créez un environnement de travail digital performant
 
 Nous vous accompagnons la conception et le déploiement d’une stratégie Digital Workspace alignée sur vos enjeux business et IT.
@@ -33,42 +34,57 @@ Un **Digital Workspace performant** doit être pensé comme un levier stratégi
 
 ![Digital Workspace - french](/assets/images/expertises/digital-workspace/inline-2.webp)
 
-### Mobilité & expérience collaborateur
-
--   Accès sécurisé aux ressources depuis n’importe quel appareil et n’importe où
--   Stratégie voix & data mobile (4G/5G) et Private Mobile Network
--   Unified endpoint management (UEM, EMM) pour une gestion simplifiée des terminaux
-
-### Workplace & collaboration
-
--   Intégration Microsoft 365, Google Workspace, Webex, Zoom…
--   Expérience fluide sur site et en télétravail
--   Digital workplace moderne, flexible et sécurisé
-
-### Communications unifiées & performance
-
--   Stratégie de téléphonie d’entreprise et fin du réseau cuivre
--   Optimisation des salles de réunion et outils de visioconférence
--   Interopérabilité et intégration des plateformes collaboratives
-
-### Transformation & Gouvernance
-
--   Structuration des processus et pilotage de l’organisation
--   Métrologie des outils collaboratifs (TEM) pour une gestion efficace des performances et des coûts
--   Conduite du changement pour favoriser l’adoption et maximiser l’efficacité des nouvelles solutions
-
-### Centre de contact & relation client
-
--   Modernisation des infrastructures et migration vers le cloud (CC legacy, CCaaS)
--   Automatisation et gestion omnicanale des échanges pour une relation client optimisée
--   Amélioration de l’expérience client et intégration des solutions CRM pour des interactions optimisées
-
-### Smart Office & Smart Building
-
--   Une solution clé en main pour des bâtiments et espaces de travail intelligents, connectés et optimisés.
--   Gestion optimisée des espaces, des consommations énergétiques et des équipements pour plus de confort et d’efficacité.
--   Pilotage centralisé, maintenance prédictive et sécurisation des accès pour une gestion simplifiée.
--   Des services aux utilisateurs pour favoriser la collaboration et tenir compte des nouveaux modes de travail
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Mobilité & expérience collaborateur</p>
+<ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
+<li>Accès sécurisé aux ressources depuis n’importe quel appareil et n’importe où</li>
+<li>Stratégie voix & data mobile (4G/5G) et Private Mobile Network</li>
+<li>Unified endpoint management (UEM, EMM) pour une gestion simplifiée des terminaux</li>
+</ul>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Workplace & collaboration</p>
+<ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
+<li>Intégration Microsoft 365, Google Workspace, Webex, Zoom…</li>
+<li>Expérience fluide sur site et en télétravail</li>
+<li>Digital workplace moderne, flexible et sécurisé</li>
+</ul>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Communications unifiées & performance</p>
+<ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
+<li>Stratégie de téléphonie d’entreprise et fin du réseau cuivre</li>
+<li>Optimisation des salles de réunion et outils de visioconférence</li>
+<li>Interopérabilité et intégration des plateformes collaboratives</li>
+</ul>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Transformation & Gouvernance</p>
+<ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
+<li>Structuration des processus et pilotage de l’organisation</li>
+<li>Métrologie des outils collaboratifs (TEM) pour une gestion efficace des performances et des coûts</li>
+<li>Conduite du changement pour favoriser l’adoption et maximiser l’efficacité des nouvelles solutions</li>
+</ul>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Centre de contact & relation client</p>
+<ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
+<li>Modernisation des infrastructures et migration vers le cloud (CC legacy, CCaaS)</li>
+<li>Automatisation et gestion omnicanale des échanges pour une relation client optimisée</li>
+<li>Amélioration de l’expérience client et intégration des solutions CRM pour des interactions optimisées</li>
+</ul>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Smart Office & Smart Building</p>
+<ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
+<li>Une solution clé en main pour des bâtiments et espaces de travail intelligents, connectés et optimisés.</li>
+<li>Gestion optimisée des espaces, des consommations énergétiques et des équipements pour plus de confort et d’efficacité.</li>
+<li>Pilotage centralisé, maintenance prédictive et sécurisation des accès pour une gestion simplifiée.</li>
+<li>Des services aux utilisateurs pour favoriser la collaboration et tenir compte des nouveaux modes de travail</li>
+</ul>
+</div>
+</div>
 
 ## Notre expertise Digital Workspace pour une transformation réussie
 

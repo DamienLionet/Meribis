@@ -4,6 +4,7 @@ permalink: /en/join-us/
 title: Join us
 lead: "At Meritis, people and technical excellence move forward together."
 description: "Join Meritis: our values, our culture and our career opportunities."
+heroImage: "/assets/images/brand/hero-careers.webp"
 ---
 
 We are hiring consultants who are passionate about technology and want to grow in a setting that is both **caring and demanding**.

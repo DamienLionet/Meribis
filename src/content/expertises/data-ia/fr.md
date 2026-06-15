@@ -9,6 +9,7 @@ parent:
   url: "/fr/expertises/"
 ---
 
+
 ## Vous savez que la Data et l’IA sont stratégiques.Mais la plupart des organisations bloquent au même endroit.
 
 Pas sur la technologie. Sur ce qui vient avant : le cadrage, les données, les choix d’organisation et la capacité à tenir jusqu’à l’adoption.
@@ -57,7 +58,7 @@ collaborateurs groupe
 
 4,8/5
 
-satisfaction client 
+satisfaction client
 
 ## La technologie n’est jamais la vraie cause. Voici ce qui fait réellement tenir un projet Data & IA.
 
@@ -227,21 +228,24 @@ Un échange de 30 minutes avec un expert Meritis suffit pour clarifier votre sit
 
 Ce qui distingue Meritis, c’est la capacité à couvrir l’ensemble du spectre : de l’intention à la production, sans intermédiaire entre le conseil et l’exécution. Nos quatre équipes complémentaires interviennent ensemble ou séparément selon votre stade.
 
-### Équipe Conseil Data & IA
-
-Stratégie, architecture, gouvernance. Ils cadrent votre situation, formalisent la vision et pilotent les projets complexes sur toute leur durée.
-
-### Cellule Innovation IA générative
-
-Docteurs et chercheurs en IA, activités de R&D, publications scientifiques. Auteurs d’OpenRAG. L’état de l’art traduit en solutions opérationnelles sécurisées.
-
-### Practices Data & IA
-
-Communautés d’expertise structurées : BI, Data Engineering, Data Science. Des profils opérationnels disponibles en mission, en renfort ou en conduite de projet.
-
-### Consultants Data & IA terrain
-
-Ils interviennent dans vos équipes, sur vos outils, dans votre contexte réel. En mission ou en renfort, pour construire et déployer sur le long terme.
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Équipe Conseil Data & IA</p>
+<p class="text-brand-charcoal">Stratégie, architecture, gouvernance. Ils cadrent votre situation, formalisent la vision et pilotent les projets complexes sur toute leur durée.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Cellule Innovation IA générative</p>
+<p class="text-brand-charcoal">Docteurs et chercheurs en IA, activités de R&D, publications scientifiques. Auteurs d’OpenRAG. L’état de l’art traduit en solutions opérationnelles sécurisées.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Practices Data & IA</p>
+<p class="text-brand-charcoal">Communautés d’expertise structurées : BI, Data Engineering, Data Science. Des profils opérationnels disponibles en mission, en renfort ou en conduite de projet.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Consultants Data & IA terrain</p>
+<p class="text-brand-charcoal">Ils interviennent dans vos équipes, sur vos outils, dans votre contexte réel. En mission ou en renfort, pour construire et déployer sur le long terme.</p>
+</div>
+</div>
 
 ## Ils nous ont confié leurs projets Data & IA
 

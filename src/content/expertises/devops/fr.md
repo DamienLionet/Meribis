@@ -9,6 +9,7 @@ parent:
   url: "/fr/expertises/"
 ---
 
+
 80 % des entreprises adopteront une plateforme DevOps d’ici 2027 pour rationaliser leurs opérations\*. Et vous, où en êtes-vous dans votre transformation DevOps ? [Parlez-en à nos experts.](/fr/contact/)
 
 _\*Gartner Magic Quadrant for DevOps Platforms, 2024_
@@ -120,21 +121,24 @@ Cependant, si le mot « DevOps » est connu de tous aujourd’hui, les fondeme
 
 ## Optez pour la méthode DevOps: Bénéfices immédiats
 
-Rapidité
-
-Accélérez votre Time To Market grâce à l’automatisation des pipelines CI/CD et au déploiement continu, permettant de livrer de nouvelles fonctionnalités plus rapidement et en toute sécurité.
-
-Fiabilité
-
-Améliorez la qualité du cycle de vie de vos applications et garantissez une mise en production fiable grâce à des processus automatisés et une meilleure gestion des incidents.
-
-Productivité
-
-Créez des équipes plus efficaces en instaurant une culture DevOps basée sur la collaboration entre le développement, l’infrastructure et les opérations, et sur la prise de responsabilité partagée.
-
-Évolutivité
-
-Grâce à l’Infrastructure as Code (IaC) et à l’automatisation, gérez vos environnements de développement, de test et de production de manière flexible et scalable, tout en maîtrisant vos coûts.
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Rapidité</p>
+<p class="text-brand-charcoal">Accélérez votre Time To Market grâce à l’automatisation des pipelines CI/CD et au déploiement continu, permettant de livrer de nouvelles fonctionnalités plus rapidement et en toute sécurité.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Fiabilité</p>
+<p class="text-brand-charcoal">Améliorez la qualité du cycle de vie de vos applications et garantissez une mise en production fiable grâce à des processus automatisés et une meilleure gestion des incidents.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Productivité</p>
+<p class="text-brand-charcoal">Créez des équipes plus efficaces en instaurant une culture DevOps basée sur la collaboration entre le développement, l’infrastructure et les opérations, et sur la prise de responsabilité partagée.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Évolutivité</p>
+<p class="text-brand-charcoal">Grâce à l’Infrastructure as Code (IaC) et à l’automatisation, gérez vos environnements de développement, de test et de production de manière flexible et scalable, tout en maîtrisant vos coûts.</p>
+</div>
+</div>
 
 ## Prêt à transformer vos infrastructures IT ? Parlez à un expert DevOps aujourd’hui et boostez vos projets techniques
 

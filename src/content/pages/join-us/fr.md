@@ -4,6 +4,7 @@ permalink: /fr/rejoindre-le-groupe/
 title: Rejoindre le groupe
 lead: "Chez Meritis, l'humain et l'exigence technique avancent ensemble."
 description: "Rejoindre Meritis : nos valeurs, notre culture et nos opportunités de carrière."
+heroImage: "/assets/images/brand/hero-careers.webp"
 ---
 
 Nous recrutons des consultantes et consultants passionnés par la technologie, qui veulent progresser dans un cadre à la fois **bienveillant et exigeant**.

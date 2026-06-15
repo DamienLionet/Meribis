@@ -9,6 +9,7 @@ parent:
   url: "/fr/expertises/"
 ---
 
+
 ## Notre expertise IT et Métier de la Finance de marchés
 
 ![paris la défense ](/assets/images/expertises/finance/inline-1.webp)
@@ -23,7 +24,7 @@ Meritis met à disposition de ses clients ses **équipes d’experts fonctionnel
 
 Meritis intervient sur toute la chaîne de valeur Front to Back Office en ingénierie métier (Risque /Quantitatif) jusqu’au développement des applications destinées aux équipes métiers (traders, sales , middle etc..).
 
-Les enjeux réglementaires et environnementaux imposent une évolution constante des pratiques de Banque d’investissement, des gestionnaires d’actifs et assureurs. 
+Les enjeux réglementaires et environnementaux imposent une évolution constante des pratiques de Banque d’investissement, des gestionnaires d’actifs et assureurs.
 
 Meritis met à disposition de ses clients Banques d’investissement, Asset Managers, Dépositaires, Bourses, ses équipes d’experts fonctionnels et techniques pour répondre à ces défis.
 
@@ -33,7 +34,7 @@ Meritis met à disposition de ses clients Banques d’investissement, Asset Man
 
 Que vous ayez besoin d’une ou plusieurs compétences particulières à court terme ou à plus ou moins long terme, Meritis se charge de mettre à votre disposition nos meilleurs talents.
 
-**Meritis est reconnu pour la qualité du suivi de ses missions et l’expertise de ses consultants.** 
+**Meritis est reconnu pour la qualité du suivi de ses missions et l’expertise de ses consultants.**
 
 ### Engagement de résultat
 
@@ -43,31 +44,33 @@ Nos compétences Techniques et Métier nous permettent de couvrir l’ensemble d
 
 ## Nos profils d’experts
 
-### Ingénierie métier
-
-Front Office, It Quant, Commando, Risque Management, Règlementaire, Middle Office, Actuariat, Trésorerie, Financement, Pricing, Risques, P&L
-
-### Product Owner & MOA métier
-
-Gestion d’une application ou d’un projet avec une forte expertise métier
-
-### Support applicatif
-
-Support sur les applications Front to back, Applications assurantielle
-
-### Intégration de progiciel
-
-Simcorp, Murex, Calypso, Alto, Orchestrade, Summit, Sophis, Kleva, etc.
-
-Java, Javascript, C#, C++, Python, Pl/Sql
-
-### Développement applicatif
-
-Gouvernance, Data Engineering, Data science, développeur Big Data, gestion des référentiels
-
-### Métiers Data
-
-Audit, coaching, conseil, expertise
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Ingénierie métier</p>
+<p class="text-brand-charcoal">Front Office, It Quant, Commando, Risque Management, Règlementaire, Middle Office, Actuariat, Trésorerie, Financement, Pricing, Risques, P&L</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Product Owner & MOA métier</p>
+<p class="text-brand-charcoal">Gestion d’une application ou d’un projet avec une forte expertise métier</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Support applicatif</p>
+<p class="text-brand-charcoal">Support sur les applications Front to back, Applications assurantielle</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Intégration de progiciel</p>
+<p class="text-brand-charcoal">Simcorp, Murex, Calypso, Alto, Orchestrade, Summit, Sophis, Kleva, etc.</p>
+<p class="mt-2 text-brand-charcoal">Java, Javascript, C#, C++, Python, Pl/Sql</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Développement applicatif</p>
+<p class="text-brand-charcoal">Gouvernance, Data Engineering, Data science, développeur Big Data, gestion des référentiels</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Métiers Data</p>
+<p class="text-brand-charcoal">Audit, coaching, conseil, expertise</p>
+</div>
+</div>
 
 ### Agilité, DevOps, Cloud
 

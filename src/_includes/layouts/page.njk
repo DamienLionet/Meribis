@@ -1,7 +1,17 @@
 ---
 layout: layouts/base.njk
 ---
-<article class="mx-auto max-w-3xl px-6 py-12 md:py-16">
+{% if heroImage %}
+{% set heroTitle = title %}
+{% set heroLead = lead %}
+{% include "partials/page-hero.njk" %}
+<article class="mx-auto max-w-5xl px-6 py-12 md:py-16">
+  <div class="prose-meritis">
+    {{ content | safe }}
+  </div>
+</article>
+{% else %}
+<article class="mx-auto max-w-5xl px-6 py-12 md:py-16">
   {% include "partials/breadcrumbs.njk" %}
 
   <header class="mt-6">
@@ -13,5 +23,6 @@ layout: layouts/base.njk
     {{ content | safe }}
   </div>
 </article>
+{% endif %}
 
 {% if not noCta %}{% include "partials/cta-block.njk" %}{% endif %}

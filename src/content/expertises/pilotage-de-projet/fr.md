@@ -9,6 +9,7 @@ parent:
   url: "/fr/expertises/"
 ---
 
+
 ## Meritis accompagne votre transformation digitale pour accélérer vos performances
 
 **Un accompagnement sur mesure pour de la création de valeur.**
@@ -31,21 +32,24 @@ Un chef de projet dispose de toutes les informations nécessaires pour gérer à
 
 **Meritis et ses équipes pluridisciplinaires vous accompagnent dans le pilotage de vos projets**
 
-### Création de valeur
-
-Cadrage, identification des risques et gestion du projet.
-
-### Temps rationalisé
-
-Optimisez le temps de vos équipes internes.
-
-### Time to Market
-
-Gagnez en compétitivité grâce à la maitrise des délais.
-
-### Réussitedu projet
-
-Des objectifs clairs, atteignables et un budget maitrisé.
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Création de valeur</p>
+<p class="text-brand-charcoal">Cadrage, identification des risques et gestion du projet.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Temps rationalisé</p>
+<p class="text-brand-charcoal">Optimisez le temps de vos équipes internes.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Time to Market</p>
+<p class="text-brand-charcoal">Gagnez en compétitivité grâce à la maitrise des délais.</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">Réussitedu projet</p>
+<p class="text-brand-charcoal">Des objectifs clairs, atteignables et un budget maitrisé.</p>
+</div>
+</div>
 
 * * *
 
@@ -108,24 +112,23 @@ Nous protégeons vos systèmes, garantissons la confidentialité des données, e
 
 ## Nos modes d’intervention
 
-### REGIE
-
-**Assistances techniques unitaires** (ATU) ou **groupées** (ATG) : besoin d’une compétence particulière
-
-Mise à disposition d’un ou plusieurs collaborateurs ayant l’expertise demandée 
-
-### CDC / CDS
-
-**Création de centres de compétences internes** (CDC)**
-et centres de service** (CDS)
-
-Maintenir et faire évoluer une application métier critique pour l’entreprise
-
-### FORFAIT
-
-**Accompagnement au forfai**t : Audit, Cadrage, Acculturation, coaching, développement applicatif. etc.
-
-Une équipe dédiée et engagée pour vous accompagner de manière personnalisée
+<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">REGIE</p>
+<p class="text-brand-charcoal"><strong>Assistances techniques unitaires</strong> (ATU) ou <strong>groupées</strong> (ATG) : besoin d’une compétence particulière</p>
+<p class="mt-2 text-brand-charcoal">Mise à disposition d’un ou plusieurs collaborateurs ayant l’expertise demandée</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">CDC / CDS</p>
+<p class="text-brand-charcoal"><strong>Création de centres de compétences internes</strong> (CDC)<strong> et centres de service</strong> (CDS)</p>
+<p class="mt-2 text-brand-charcoal">Maintenir et faire évoluer une application métier critique pour l’entreprise</p>
+</div>
+<div class="rounded-card bg-brand-light p-6">
+<p class="text-lg font-semibold text-brand-blue">FORFAIT</p>
+<p class="text-brand-charcoal"><strong>Accompagnement au forfai</strong>t : Audit, Cadrage, Acculturation, coaching, développement applicatif. etc.</p>
+<p class="mt-2 text-brand-charcoal">Une équipe dédiée et engagée pour vous accompagner de manière personnalisée</p>
+</div>
+</div>
 
 ## Pilotage de projet : Meritis vous accompagne de bout en bout
 
