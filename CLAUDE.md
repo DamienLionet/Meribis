@@ -15,16 +15,18 @@ claire, moderne et maintenable.
 > **Note de nommage** : `Meribis` est le nom de code interne du projet (le client/la marque
 > reste `Meritis`). L'ancien titre « Meribus » était une coquille.
 
-## État actuel : site fonctionnel (FR complet, EN partiel)
+## État actuel : site fonctionnel et entièrement bilingue (FR/EN)
 
 Le site est **construit et déployé** sur `https://damienlionet.github.io/Meribis/` (CI sur push `main`).
-`npm run build:all` génère ~100 pages. En place : accueil, **9 expertises** (FR), **blog** (10 articles
-FR+EN), **16 offres** (FR+EN), **10 actualités** (FR), pages institutionnelles (À propos, ADN, RSE,
-Nous trouver, Rejoindre le groupe, Contact, mentions légales, confidentialité), recherche Pagefind,
-`sitemap.xml`, `robots.txt`, page 404.
+En place et **bilingue FR/EN de bout en bout** : accueil, **9 expertises**, **blog** (10 articles),
+**16 offres**, **10 actualités**, pages institutionnelles (À propos, ADN, RSE, Nous trouver, Rejoindre
+le groupe, Contact, mentions légales, confidentialité), recherche Pagefind (avec état vide :
+recherches fréquentes + accès rapides), `sitemap.xml`, `robots.txt`, page 404. Chaque contenu existe
+en `fr` et `en`, reliés par `translationKey`.
 
-**Reste à faire avant une mise en prod complète** (cf. audit) : versions **EN** des expertises (9) et
-des actualités (10) ; nettoyage de quelques reliquats de migration WordPress ; relecture éditoriale.
+**Reste à faire avant une mise en prod complète** : nettoyage de quelques reliquats de migration
+WordPress dans les contenus importés ; relecture éditoriale ; **logos clients** (la home affiche une
+bande « secteurs » en attendant les fichiers).
 
 Deux documents de référence :
 - [docs/project-spec.md](docs/project-spec.md) — **spec produit/fonctionnelle**, source de vérité.
@@ -81,8 +83,10 @@ npm run build:all    # pipeline complet : CSS → site → index de recherche
 Le détail complet (routes, front matter, design tokens, composants) est dans
 [docs/project-spec.md](docs/project-spec.md). Les points structurants à garder en tête :
 
-- **Une arborescence par langue** sous `src/content/{fr,en}/` (pages, blog, jobs). Les URLs FR et EN
-  sont distinctes et accessibles en direct ; `/` redirige vers `/fr/`.
+- **Bilingue par dossier** : chaque contenu vit dans `src/content/{type}/{slug}/` avec un fichier
+  `fr` et un fichier `en` côte à côte (`type` ∈ `pages`, `blog`, `news`, `jobs`, `expertises`). La
+  `locale` est déduite du **nom de fichier** et le `translationKey` du **nom de dossier** (cf.
+  `src/content/content.11tydata.js`). Les URLs FR et EN sont distinctes ; `/` redirige vers `/fr/`.
 - **Liaison des traductions** : chaque fichier source porte un champ `locale` + un `translationKey`
   stable. C'est `translationKey` (et non le slug) qui relie la version FR et EN d'un même contenu —
   indispensable pour le sélecteur de langue et les `hreflang`.

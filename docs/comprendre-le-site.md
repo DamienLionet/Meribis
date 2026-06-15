@@ -200,8 +200,9 @@ flowchart TB
   un **service externe** (déjà prévu, adresse centralisée dans la configuration ; reste à fournir).
 - 🔎 **Recherche côté navigateur** (Pagefind) — très efficace, mais sur un texte pré-indexé, pas un
   moteur dynamique.
-- 🌍 **Traduction manuelle** — la version EN se crée à la main. Aujourd'hui blog et offres sont
-  bilingues ; actualités et fiches expertise sont en FR seulement.
+- 🌍 **Traduction manuelle** — la version EN se crée à la main, fichier par fichier. Le site est
+  aujourd'hui **entièrement bilingue** (pages, blog, actualités, offres, fiches expertise) ; toute
+  nouvelle page doit recevoir sa version EN dans le même dossier.
 - 👤 **Pas de personnalisation par visiteur** (espace connecté, contenu sur mesure) — hors de portée
   d'un site purement statique sans briques externes.
 

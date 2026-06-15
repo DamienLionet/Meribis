@@ -17,7 +17,7 @@ fait foi sur les choix techniques. `Meribis` est le nom de code du projet ; `Mer
 | Données | **JSON** dans `_data/` | Config, navigation, i18n, taxonomies |
 | Interactions | **JavaScript vanilla** | Pas de framework SPA, amélioration progressive |
 | Recherche | **Pagefind** | Index statique généré à la build, zéro maintenance |
-| Formulaires | **Service externe** | Pas de backend ; endpoint configurable |
+| Formulaires | **Microsoft Forms (iframe)** | Pas de backend ; préremplissage `?source=` |
 | Hébergement | **GitHub Pages** (page projet) | Statique, déploiement Git |
 | CI/CD | **GitHub Actions** | Build + déploiement sur push `main` |
 
@@ -35,56 +35,59 @@ CommonJS — obsolète ici).
 - **Tailwind v4 CSS-first** — tokens en `@theme` dans `src/assets/css/input.css`. **Aucun
   `tailwind.config.js`, ni PostCSS, ni Autoprefixer** (gérés nativement par v4).
 - **Recherche : Pagefind** — indexe le HTML **déjà généré**, donc après Eleventy.
-- **Formulaires : service externe** — URL d'`action` dans `_data/site.json` (`formEndpoint`), fournie
-  par le client. Contact + candidature pointent dessus.
+- **Formulaires : Microsoft Forms en iframe** — la page Contact intègre un formulaire MS Forms ; le
+  champ « source » se préremplit depuis `?source=`. Le `formEndpoint` de `_data/site.json` est un
+  vestige inutilisé (voir §9).
 - **GitHub Pages, page projet** — `https://damienlionet.github.io/Meribis/`, repo `DamienLionet/Meribis`.
   - `pathPrefix = "/Meribis/"` (override possible via `PATH_PREFIX`).
-  - Pas de backend → redirection `/ → /fr/` en HTML statique ; formulaires délégués.
+  - Pas de backend → redirection `/ → /fr/` en HTML statique.
 
 ---
 
-## 3. Arborescence cible
+## 3. Arborescence du dépôt
 
-`✅` = déjà créé (socle, étape 1) · le reste est à venir (étapes 2 à 4).
+Tout le socle ci-dessous est **en place**. Le contenu est **bilingue par dossier** : chaque élément
+vit dans un dossier contenant un fichier `fr` et un fichier `en` (la `locale` vient du nom de fichier,
+le `translationKey` du nom de dossier — cf. `src/content/content.11tydata.js`).
 
 ```
 Meribis/
-├─ CLAUDE.md                    ✅ guidance Claude Code
-├─ package.json                 ✅ scripts + dépendances
-├─ eleventy.config.js           ✅ config Eleventy v3 (ESM, pathPrefix)
-├─ .gitignore                   ✅
+├─ CLAUDE.md                  guidance Claude Code
+├─ package.json               scripts + dépendances
+├─ eleventy.config.js         config Eleventy v3 (ESM, pathPrefix, collections, filtres)
+├─ .gitignore
 ├─ docs/
-│  ├─ project-spec.md           ✅ spec produit (source de vérité fonctionnelle)
-│  └─ architecture.md           ✅ ce document
+│  ├─ project-spec.md         spec produit (source de vérité fonctionnelle)
+│  ├─ architecture.md         ce document
+│  └─ comprendre-le-site.md   vue d'ensemble non technique
 ├─ .github/workflows/
-│  └─ deploy.yml                ✅ build + déploiement Pages (via Actions)
+│  └─ deploy.yml              build + déploiement Pages (GitHub Actions)
 └─ src/
-   ├─ index.njk                 ✅ redirection racine / → /fr/
-   ├─ _data/
-   │  ├─ site.json              ✅ config globale + formEndpoint
-   │  ├─ navigation.json        ⬜
-   │  ├─ i18n.json              ⬜ libellés UI FR/EN
-   │  └─ taxonomies.json        ⬜
+   ├─ index.njk               redirection racine / → /fr/
+   ├─ 404.njk · sitemap.njk · robots.njk · .nojekyll
+   ├─ _data/                  site · navigation · i18n · taxonomies · footerLinks (+ build.js)
    ├─ _includes/
-   │  ├─ layouts/
-   │  │  ├─ base.njk            ✅ squelette HTML + CSS/JS
-   │  │  ├─ page.njk            ⬜
-   │  │  ├─ blog-post.njk       ⬜
-   │  │  └─ job-post.njk        ⬜
-   │  └─ partials/              ⬜ head, header, footer, nav,
-   │                               language-switcher, breadcrumbs, cta-block,
-   │                               card-blog, card-job, filters-blog, filters-jobs
+   │  ├─ layouts/             base · page · blog-post · news-post · job-post
+   │  └─ partials/            header · footer · language-switcher · breadcrumbs · page-hero
+   │                          · cta-block · decor-bubbles · card-blog · card-job
+   │                          · filters-blog · filters-jobs
    ├─ assets/
-   │  ├─ css/input.css          ✅ Tailwind v4 @theme (tokens de marque)
-   │  ├─ js/
-   │  │  ├─ main.js             ✅ point d'entrée vanilla
-   │  │  ├─ filters.js          ⬜ filtres blog/offres
-   │  │  └─ search.js           ⬜ intégration Pagefind
-   │  └─ images/{brand,blog,jobs}/  ⬜
-   └─ content/
-      ├─ fr/{pages,blog,jobs}/  ⬜
-      └─ en/{pages,blog,jobs}/  ⬜
+   │  ├─ css/input.css        Tailwind v4 @theme (tokens de marque) + styles
+   │  ├─ js/main.js           menu mobile, menus déroulants, bascule .no-js → .js
+   │  ├─ js/filters.js        filtres combinés blog/offres (vanilla)
+   │  ├─ fonts/               Aptos (woff2 auto-hébergés)
+   │  ├─ favicons/
+   │  └─ images/              brand · blog · news · expertise · expertises
+   └─ content/                un dossier par contenu, avec `fr` + `en` côte à côte
+      ├─ pages/{home,expertise,about,adn,rse,contact,search,blog-index,news-index,…}/{fr,en}.{njk,md}
+      ├─ blog/{slug}/{fr,en}.md
+      ├─ news/{slug}/{fr,en}.md
+      ├─ jobs/{slug}/{fr,en}.md
+      └─ expertises/{slug}/{fr,en}.md
 ```
+
+> La recherche (Pagefind UI) est intégrée **inline** dans `content/pages/search/{fr,en}.njk` — il n'y
+> a pas de `assets/js/search.js`.
 
 ---
 
@@ -126,11 +129,12 @@ Commandes (cf. `package.json`) :
 
 ## 5. Modèle de contenu & collections
 
-Chaque article de blog / offre d'emploi est **un fichier Markdown + front matter YAML** (formats
-détaillés dans [project-spec.md §8](project-spec.md)). Champs structurants :
+Chaque article de blog / actualité / offre d'emploi est **un fichier Markdown + front matter YAML**
+(formats détaillés dans [project-spec.md §8](project-spec.md)). Champs structurants :
 
-- `locale` — `fr` ou `en`.
-- `translationKey` — **clé stable et identique** entre la version FR et EN d'un même contenu.
+- `locale` et `translationKey` — **calculés automatiquement** depuis le chemin (`locale` ← nom de
+  fichier `fr`/`en`, `translationKey` ← nom de dossier), via `src/content/content.11tydata.js`. Le
+  `translationKey` relie les versions FR et EN ; rien à saisir à la main.
 - `published` — un contenu avec `published: false` est exclu des collections.
 - `date` — ISO `YYYY-MM-DD`, tri décroissant.
 
@@ -138,8 +142,8 @@ Collections définies dans `eleventy.config.js` (filtrées par langue/type, `pub
 triées par date desc) :
 
 ```
-blog_fr   blog_en   jobs_fr   jobs_en
-featured_blog_fr   featured_blog_en   published_jobs_fr   published_jobs_en
+blog_fr   blog_en   news_fr   news_en   jobs_fr   jobs_en
+featured_blog_fr   featured_blog_en
 ```
 
 Les filtres (catégorie, ville, contrat, métier…) et la recherche s'appliquent **côté client** sur
@@ -149,8 +153,8 @@ ces listes ; en l'absence de JS, les listes complètes restent affichées (amél
 
 ## 6. Multilingue & routing
 
-- **Une arborescence par langue** : `src/content/{fr,en}/`. URLs FR et EN distinctes et accessibles
-  en direct.
+- **Bilingue par dossier** : un dossier par contenu, avec `fr` + `en` côte à côte (et non une
+  arborescence `src/content/{fr,en}/`). URLs FR et EN distinctes et accessibles en direct.
 - **Liaison des traductions par `translationKey`** (et non par slug) — c'est elle qui alimente le
   sélecteur de langue et les balises `hreflang`.
 - **Libellés d'interface** dans `_data/i18n.json` (`{ fr: {...}, en: {...} }`).
@@ -188,17 +192,18 @@ la racine avec `PATH_PREFIX=/ npm run build`.
 
 - Indexation **après** le build Eleventy (`build:search` / dernier maillon de `build:all`).
 - Pagefind scanne le HTML de `dist/` et écrit son index dans `dist/pagefind/`.
-- Intégration front dans `src/assets/js/search.js` (UI Pagefind ou wrapper vanilla), branchée sur les
-  pages liste blog et offres.
+- Intégration front **inline** dans la page de recherche (`content/pages/search/{fr,en}.njk`) :
+  Pagefind UI montée sur `#search`, avec un état vide (recherches fréquentes + accès rapides) masqué
+  dès qu'une requête est saisie. Pas de `assets/js/search.js` séparé.
 
 ---
 
 ## 9. Formulaires
 
-- Pas de backend (GitHub Pages). Les formulaires (contact + candidature) postent vers un **service
-  externe** dont l'URL vit dans `_data/site.json` → `formEndpoint`.
-- Champ `applyUrl` des offres : pointe vers le service / l'ATS selon ce qui sera fourni.
-- **À fournir par le client** : l'URL d'endpoint définitive.
+- Pas de backend (GitHub Pages). Le **formulaire de contact est un iframe Microsoft Forms** intégré
+  dans `content/pages/contact/{fr,en}.njk` ; un petit script préremplit le champ « source » depuis
+  `?source=` (ex. le titre de l'offre d'où vient le clic). Sans JS, le formulaire reste utilisable.
+- Le champ `formEndpoint` de `_data/site.json` est un **vestige inutilisé** (à retirer ou réaffecter).
 
 ---
 
@@ -214,7 +219,7 @@ flowchart LR
   D --> S["damienlionet.github.io/Meribis/"]
 ```
 
-- Workflow : `.github/workflows/deploy.yml` (étape 4).
+- Workflow : `.github/workflows/deploy.yml`.
 - Émettre un fichier **`.nojekyll`** dans `dist/` pour désactiver le traitement Jekyll.
 - Redirection `/ → /fr/` : `index.html` racine (`meta refresh` + JS + `<link rel="canonical">`),
   faute de redirection serveur.
@@ -223,18 +228,20 @@ flowchart LR
 
 ## 11. État d'avancement
 
-> **Correction du 2026-06-15** : ce tableau marquait auparavant le socle comme « fichiers créés »
-> alors que le dépôt était réellement vierge (hors docs) sur le disque. Le socle a depuis été
-> **créé, installé et vérifié** — `npm run build:all` produit un `dist/` conforme (CSS de marque,
-> liens préfixés `/Meribis/`, index Pagefind, `.nojekyll`).
+> **Mise à jour** : socle, chrome bilingue, collections, contenus, recherche et filtres sont en
+> place ; le site est **entièrement bilingue FR/EN** et la home a été enrichie. Le dernier `build:all`
+> validé datait d'avant les ajouts EN / home / recherche — penser à le relancer pour revalider.
 
 | Étape | Contenu | Statut |
 |---|---|---|
-| **1. Socle build** | deps installées, `eleventy.config.js`, `input.css` (@theme + tokens), `base.njk`, `site.json`, `main.js`, page démo `/fr/`, redirect racine, `.gitignore` | **✅ Fait** — `build:all` vérifié |
-| **Déploiement (anticipé)** | workflow GitHub Actions, indexation Pagefind dans `build:all`, `.nojekyll` | **✅ En ligne** — déployé sur https://damienlionet.github.io/Meribis/ (dépôt rendu public car Pages indisponible en privé/gratuit ; Pages = source Actions) |
-| **2. Chrome + bilingue** | layouts `base` (header/`<main>`/footer/hreflang) + `page`, partials header/footer/language-switcher/breadcrumbs/cta-block, `i18n.json` / `navigation.json`, pages Accueil + À propos FR/EN reliées par `translationKey` | **✅ Fait** — `build:all` vérifié (5 pages, 2 langues) |
-| **3. Collections + contenus** | layouts `blog-post` / `job-post` (+ JSON-LD), `card-blog` / `card-job` **cliquables en entier** (lien étiré), pages liste FR/EN, collections `blog_*` / `jobs_*` / `featured_blog_*`, `taxonomies.json` ; **10 articles** (couvertures Meritis en webp, tuiles + héro) + **16 offres** FR/EN | **✅ Fait** — `build:all` vérifié (61 pages) |
-| 4. Recherche + filtres (front) | UI Pagefind (`search.js`), filtres combinés vanilla (`filters.js`), partials `filters-*` | À faire |
+| **1. Socle build** | deps, `eleventy.config.js`, `input.css` (@theme + tokens), `base.njk`, `site.json`, `main.js`, redirect racine, `.gitignore` | **✅ Fait** |
+| **Déploiement** | workflow GitHub Actions, Pagefind dans `build:all`, `.nojekyll` | **✅ En ligne** — https://damienlionet.github.io/Meribis/ (dépôt public car Pages indisponible en privé/gratuit ; source = Actions) |
+| **2. Chrome + bilingue** | layouts `base` + `page`, partials header/footer/language-switcher/breadcrumbs/cta-block/page-hero/decor-bubbles, `i18n.json` / `navigation.json` / `footerLinks.json` | **✅ Fait** |
+| **3. Collections + contenus** | layouts `blog-post` / `news-post` / `job-post` (+ JSON-LD), `card-blog` / `card-job` (lien étiré), pages liste FR/EN, collections `blog_*` / `news_*` / `jobs_*` / `featured_blog_*`, `taxonomies.json` ; 10 articles + 10 actualités + 16 offres | **✅ Fait** |
+| **4. Recherche + filtres** | Pagefind UI **inline** dans la page recherche (+ état vide : recherches fréquentes + accès rapides), filtres combinés vanilla (`filters.js`) + partials `filters-blog` / `filters-jobs` | **✅ Fait** |
+| **5. Bilingue complet + home** | versions **EN** des 9 expertises, des 10 actualités et de la liste actualités ; nav EN alignée sur le FR (menu déroulant + News) ; home refondue (indicateurs, expertises condensées, 3 entités, secteurs clients, bloc RSE/B Corp, teasers blog + offres) | **✅ Fait** — non rebuildé dans cette passe |
 
-> **Prochaine action concrète** : étape 4 — recherche Pagefind (`search.js`), filtres combinés
-> vanilla (`filters.js` + partials `filters-blog` / `filters-jobs`) sur les listes blog et offres.
+> **Prochaine action concrète** : relancer `npm run build:all` pour revalider la sortie (les derniers
+> ajouts EN / home / recherche n'ont pas été rebuildés), puis nettoyer les reliquats WordPress des
+> contenus importés, intégrer les **logos clients** (bande « secteurs » en attendant) et faire la
+> relecture éditoriale FR/EN.

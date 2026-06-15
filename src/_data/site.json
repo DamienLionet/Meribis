@@ -5,5 +5,11 @@
   "lang": "fr",
   "locales": ["fr", "en"],
   "defaultLocale": "fr",
-  "formEndpoint": ""
+  "formEndpoint": "",
+  "social": [
+    { "name": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/company/meritis-b-corp%E2%84%A2/" },
+    { "name": "instagram", "label": "Instagram", "url": "https://www.instagram.com/meritis_France/" },
+    { "name": "youtube", "label": "YouTube", "url": "https://www.youtube.com/channel/UCY4u0FkJ15GbNnSE4-_2P_g" },
+    { "name": "x", "label": "X (Twitter)", "url": "https://twitter.com/meritis" }
+  ]
 }
