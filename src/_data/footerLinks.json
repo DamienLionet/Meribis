@@ -1,0 +1,14 @@
+{
+  "fr": [
+    { "label": "Ressources", "url": "/fr/ressources/" },
+    { "label": "Contact", "url": "/fr/contact/" },
+    { "label": "Mentions légales", "url": "/fr/mentions-legales/" },
+    { "label": "Politique de confidentialité", "url": "/fr/politique-confidentialite/" }
+  ],
+  "en": [
+    { "label": "Resources", "url": "/en/resources/" },
+    { "label": "Contact", "url": "/en/contact/" },
+    { "label": "Legal notice", "url": "/en/legal-notice/" },
+    { "label": "Privacy policy", "url": "/en/privacy-policy/" }
+  ]
+}

@@ -38,10 +38,14 @@ export default function (eleventyConfig) {
 
   // Les images insérées en Markdown utilisent des chemins racine `/assets/...`
   // qui ne passent pas par le filtre `url` : on leur applique le pathPrefix ici.
-  eleventyConfig.addTransform("prefixRootAssets", function (content) {
+  eleventyConfig.addTransform("prefixRootLinks", function (content) {
     if (!(this.page.outputPath || "").endsWith(".html")) return content;
     const prefix = (process.env.PATH_PREFIX || "/Meribis/").replace(/\/+$/, "");
-    return content.replace(/(src|href)="\/(assets\/[^"]*)"/g, `$1="${prefix}/$2"`);
+    if (!prefix) return content;
+    // Liens/images en chemin racine issus du Markdown (/fr/…, /assets/…) : le filtre
+    // `url` ne s'y applique pas, on ajoute le pathPrefix ici (en sautant le déjà-préfixé).
+    const re = new RegExp(`(src|href)="(/(?!${prefix.slice(1)}/)[^"]*)"`, "g");
+    return content.replace(re, `$1="${prefix}$2"`);
   });
 
   // Collections blog / offres par langue (published !== false, tri date décroissante).

@@ -14,4 +14,4 @@ layout: layouts/base.njk
   </div>
 </article>
 
-{% include "partials/cta-block.njk" %}
+{% if not noCta %}{% include "partials/cta-block.njk" %}{% endif %}

@@ -1,16 +1,16 @@
 {
   "fr": [
-    { "label": "Accueil", "url": "/fr/" },
-    { "label": "Expertises", "url": "/fr/#expertises" },
+    { "label": "Expertises", "url": "/fr/expertises/" },
     { "label": "Blog", "url": "/fr/blog/" },
     { "label": "Offres", "url": "/fr/offres/" },
+    { "label": "Rejoindre le groupe", "url": "/fr/rejoindre-le-groupe/" },
     { "label": "À propos", "url": "/fr/a-propos/" }
   ],
   "en": [
-    { "label": "Home", "url": "/en/" },
-    { "label": "Expertise", "url": "/en/#expertise" },
+    { "label": "Expertise", "url": "/en/expertise/" },
     { "label": "Blog", "url": "/en/blog/" },
     { "label": "Jobs", "url": "/en/jobs/" },
+    { "label": "Join us", "url": "/en/join-us/" },
     { "label": "About", "url": "/en/about/" }
   ]
 }

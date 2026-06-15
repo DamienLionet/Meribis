@@ -4,25 +4,28 @@ permalink: /en/
 title: Home
 description: "Meritis — IT, finance and transformation consulting. Expert consulting teams serving large accounts."
 ---
-<section class="relative isolate overflow-hidden bg-brand-blue text-brand-ivory">
-  {% set decorClass = "right-0 top-0 h-52 w-52 text-white/25 sm:h-64 sm:w-64 md:h-80 md:w-80" %}
-  {% include "partials/decor-waves.njk" %}
-  <div class="relative z-10 mx-auto max-w-6xl px-6 py-20 md:py-28">
-    <p class="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold">Consulting · IT · Finance · Transformation</p>
-    <h1 class="max-w-3xl text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
-      Technology expertise serving large accounts.
-    </h1>
-    <p class="mt-6 max-w-2xl text-lg leading-relaxed text-brand-ivory md:text-xl">
-      We support our clients' technology transformation with expert consulting teams, through a sober,
-      premium and sustainable approach.
-    </p>
-    <div class="mt-10 flex flex-wrap gap-4">
-      <a href="#expertise" class="rounded-button bg-brand-gold px-7 py-3 font-semibold text-brand-blue-dark transition hover:bg-brand-gold-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-gold">
-        Explore our expertise
-      </a>
-      <a href="#contact" class="rounded-button border border-brand-ivory/40 px-7 py-3 font-semibold text-brand-ivory transition hover:bg-brand-ivory/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-ivory">
-        Let's talk about your project
-      </a>
+<section class="bg-brand-blue text-brand-ivory">
+  <div class="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
+    <div>
+      <p class="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold">Consulting · IT · Finance · Transformation</p>
+      <h1 class="text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
+        Technology expertise serving large accounts.
+      </h1>
+      <p class="mt-6 max-w-xl text-lg leading-relaxed text-brand-ivory">
+        We support our clients' technology transformation with expert consulting teams, through a sober,
+        premium and sustainable approach.
+      </p>
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a href="#expertise" class="rounded-button bg-brand-gold px-7 py-3 font-semibold text-brand-blue-dark transition hover:bg-brand-gold-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-gold">
+          Explore our expertise
+        </a>
+        <a href="#contact" class="rounded-button border border-brand-ivory/40 px-7 py-3 font-semibold text-brand-ivory transition hover:bg-brand-ivory/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-ivory">
+          Let's talk about your project
+        </a>
+      </div>
+    </div>
+    <div class="md:justify-self-end">
+      <img src="{{ '/assets/images/brand/hero-team.webp' | url }}" alt="The Meritis team" width="900" height="828" class="w-full rounded-card shadow-soft" />
     </div>
   </div>
 </section>
