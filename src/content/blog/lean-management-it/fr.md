@@ -43,13 +43,13 @@ Voici les points à respecter :
 -   Travailler en flux tiré : les développeurs tirent les tâches du backlog lorsqu’ils sont prêts, ce qui limite le multitâche et optimise le flux. Cela permet également une autoresponsabilisation plus forte de l’équipe.
 -   Valider continuellement tout au long du développement pour éviter l’effet tunnel et les validations lourdes en fin de projet.
 
-![](/assets/images/blog/lean-management-gestion-projet/inline-3.webp)
+![Principes du lean management en gestion de projet](/assets/images/blog/lean-management-gestion-projet/inline-3.webp)
 
 #### Lors d’une activité de planification
 
 Les étapes à suivre dans le cadre d’une activité de planification sont les suivantes :
 
-![](/assets/images/blog/lean-management-gestion-projet/inline-4.webp)
+![Étapes d'une activité de planification](/assets/images/blog/lean-management-gestion-projet/inline-4.webp)
 
 -   Prioriser les fonctionnalités ayant le plus d’impact métier et de valeur pour l’utilisateur final.
 -   Utiliser la priorisation MoSCoW :
@@ -81,13 +81,13 @@ Lors d’une activité de conception, l’application du lean management pourrai
 -   Travailler en flux tiré : les développeurs tirent les tâches du backlog lorsqu’ils sont prêts, ce qui limite le multitâche et optimise le flux. Cela permet également une autoresponsabilisation plus forte de l’équipe.
 -   Valider continuellement tout au long du développement pour éviter l’effet tunnel et les validations lourdes en fin de projet.
 
-![](/assets/images/blog/lean-management-gestion-projet/inline-5.webp)
+![Lean management en phase de développement](/assets/images/blog/lean-management-gestion-projet/inline-5.webp)
 
 #### Lors de la phase de développement
 
 Voici les étapes correspondantes à l’application du lean management en phase de développement :
 
-![](/assets/images/blog/lean-management-gestion-projet/inline-6.webp)
+![Étapes du lean management en développement](/assets/images/blog/lean-management-gestion-projet/inline-6.webp)
 
 -   Optimiser le code et les pratiques de développement en encourageant le pair programming et les revues de code pour réduire les erreurs en amont.
 -   Utiliser le cycle PDCA (Plan-Do-Check-Act) pour améliorer continuellement les processus et la qualité du code.

@@ -13,7 +13,7 @@ description: "Data warehouse, data lake, lakehouse, data mesh: strengths, limits
 ---
 
 Faced with exploding data volumes and the growing diversity of data use cases, companies need to choose suitable architectures to optimise data management and usage. But it can be difficult to navigate the different approaches: data warehouse, data lake, modern data warehouse, data fabric, data mesh... This article provides an overview of the main data architectures, focusing on how they work, their benefits and their use cases.
-![](/assets/images/blog/comparatif-architectures-data/inline-1.webp)
+![Overview of the main data architectures](/assets/images/blog/comparatif-architectures-data/inline-1.webp)
 
 ### Introduction
 

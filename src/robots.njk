@@ -2,7 +2,8 @@
 permalink: /robots.txt
 eleventyExcludeFromCollections: true
 ---
+# Démo interne (refonte de meritis.fr) — exploration bloquée.
+# NB : sur une project page GitHub, ce fichier vit sous /Meribis/ et n'est PAS lu à la
+# racine d'hôte ; l'exclusion réellement efficace vient du meta robots "noindex" (base.njk).
 User-agent: *
-Allow: /
-
-Sitemap: {{ site.url }}{{ '/sitemap.xml' | url }}
+Disallow: /

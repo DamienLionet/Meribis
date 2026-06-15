@@ -13,7 +13,7 @@ description: "Comment optimiser les pipelines CI/CD pour améliorer la productiv
 ---
 
 La performance CI/CD est aujourd’hui un enjeu clé pour les organisations qui souhaitent accélérer leurs cycles de livraison tout en maintenant un haut niveau de qualité. Les pipelines CI/CD constituent la colonne vertébrale des chaînes DevOps : elles automatisent l’intégration du code, l’exécution des tests et le déploiement des applications, afin de réduire les délais de mise en production et d’améliorer la fiabilité des livraisons.
-![mage devops performance ci cd](/assets/images/blog/performance-ci-cd-productivite/inline-1.webp)
+![Performance des pipelines CI/CD en DevOps](/assets/images/blog/performance-ci-cd-productivite/inline-1.webp)
 
 En théorie, un pipeline CI/CD performante permet aux équipes de développement de travailler plus vite, un avec moins de frictions et une meilleure visibilité sur l’état de la production logicielle. En pratique, de nombreux facteurs peuvent dégrader cette performance : temps d’attente excessifs liés à la saturation des runners, durées d’exécution trop longues, pipelines fragiles, manque de standardisation ou absence d’indicateurs permettant de piloter efficacement la chaîne CI/CD. Ces dysfonctionnements ont un impact direct sur la vélocité des équipes, la productivité globale et la satisfaction des développeurs.
 Améliorer la performance CI/CD ne consiste pas uniquement à optimiser quelques jobs ou à ajouter ponctuellement des ressources. Cela implique une démarche structurée de pilotage, combinant l’écoute des équipes, l’analyse objective des données (lead time, temps d’attente, temps d’exécution) et la mise en place de leviers techniques et organisationnels adaptés. À travers un cas client anonymisé issu d’un audit, cet article présente une approche concrète pour analyser la performance des pipelines CI/CD, objectiver les points de friction et identifier des actions mesurables permettant d’améliorer durablement la vélocité et l’alignement des équipes.
@@ -43,7 +43,14 @@ Cette approche permet aux équipes de déployer de nouvelles fonctionnalités ra
 
 #### CI vs CD : points clés
 
-<table class="has-fixed-layout"><tbody><tr><td><strong>Aspect</strong>&nbsp;</td><td><strong>Intégration Continue (CI)</strong>&nbsp;</td><td><strong>Déploiement Continu (CD)</strong>&nbsp;</td></tr><tr><td><strong>Objectif principal</strong>&nbsp;</td><td>Vérifier que les modifications de code sont compatibles&nbsp;</td><td>Livrer le code validé aux utilisateurs&nbsp;</td></tr><tr><td><strong>Processus</strong>&nbsp;</td><td>Compilation, tests unitaires et d’intégration&nbsp;</td><td>Déploiement automatisé vers divers environnements&nbsp;</td></tr><tr><td><strong>Fréquence</strong>&nbsp;</td><td>Plusieurs fois par jour&nbsp;</td><td>Après validation de l’intégration continue&nbsp;</td></tr><tr><td><strong>Résultat</strong>&nbsp;</td><td>Code testé et validé&nbsp;</td><td>de plusieurs fois par jour à moins d’une fois par an selon les organisations</td></tr></tbody></table>
+
+| **Aspect** | **Intégration Continue (CI)** | **Déploiement Continu (CD)** |
+| --- | --- | --- |
+| **Objectif principal** | Vérifier que les modifications de code sont compatibles | Livrer le code validé aux utilisateurs |
+| **Processus** | Compilation, tests unitaires et d’intégration | Déploiement automatisé vers divers environnements |
+| **Fréquence** | Plusieurs fois par jour | Après validation de l’intégration continue |
+| **Résultat** | Code testé et validé | de plusieurs fois par jour à moins d’une fois par an selon les organisations |
+
 
 Cette combinaison CI/CD permet d’améliorer significativement la vélocité des équipes tout en maintenant la qualité dans le processus de déploiement. 
 
@@ -79,7 +86,7 @@ Nous analysons ces métriques en retirant les valeurs extrêmes pour obtenir une
 
 ### 4 Voix des équipes et constats qualitatifs
 
-![](/assets/images/blog/performance-ci-cd-productivite/inline-2.webp)
+![Retours qualitatifs des équipes sur la CI/CD](/assets/images/blog/performance-ci-cd-productivite/inline-2.webp)
 
 _Représentation de la répartition des équipes du client_ 
 
@@ -117,11 +124,19 @@ _Dans les graphiques présentés ci-dessous, le temps d’attente peut être tra
 
 L’objectivation des performances par des tableaux de bord de surveillance permet d’identifier précisément les goulots d’étranglement dans la chaîne CI/CD. Notre analyse se concentre sur trois métriques essentielles : le Lead Time (temps total perçu), le temps d’exécution (Cycle Time) et le temps d’attente (Queue Time) par runner. 
 
-<table class="has-fixed-layout"><tbody><tr><td><strong>Runner</strong>&nbsp;</td><td><strong>Pipelines</strong>&nbsp;</td><td><strong>Lead Time moyen</strong>&nbsp;</td><td><strong>% Temps d’attente</strong>&nbsp;</td><td><strong>Taux de succès</strong>&nbsp;</td></tr><tr><td>BLUE&nbsp;</td><td>1 622&nbsp;</td><td>2 422 s (40 min)&nbsp;</td><td>54%&nbsp;</td><td>90,8%&nbsp;</td></tr><tr><td>RED 1&nbsp;</td><td>~3 000&nbsp;</td><td>1 020 s (17 min)&nbsp;</td><td>7,7%&nbsp;</td><td>–&nbsp;</td></tr><tr><td>RED 2&nbsp;</td><td>~750&nbsp;</td><td>720 s (12 min)&nbsp;</td><td>0,6%&nbsp;</td><td>–&nbsp;</td></tr><tr><td>GREEN 1,2,8&nbsp;</td><td>~3 000 chacun&nbsp;</td><td>100 s (1 min 40)&nbsp;</td><td>~4%&nbsp;</td><td>–&nbsp;</td></tr><tr><td>GREEN 3&nbsp;</td><td>3 500&nbsp;</td><td>150 s (2 min 30)&nbsp;</td><td>10,7%&nbsp;</td><td>–&nbsp;</td></tr></tbody></table>
+
+| **Runner** | **Pipelines** | **Lead Time moyen** | **% Temps d’attente** | **Taux de succès** |
+| --- | --- | --- | --- | --- |
+| BLUE | 1 622 | 2 422 s (40 min) | 54% | 90,8% |
+| RED 1 | ~3 000 | 1 020 s (17 min) | 7,7% | – |
+| RED 2 | ~750 | 720 s (12 min) | 0,6% | – |
+| GREEN 1,2,8 | ~3 000 chacun | 100 s (1 min 40) | ~4% | – |
+| GREEN 3 | 3 500 | 150 s (2 min 30) | 10,7% | – |
+
 
 #### Vélocité des pipelines par runner
 
-![](/assets/images/blog/performance-ci-cd-productivite/inline-3.webp)
+![Vélocité des pipelines par runner](/assets/images/blog/performance-ci-cd-productivite/inline-3.webp)
 
 _Lead time, temps de traitement et queue moyenne par runner pour les pipelines sur 9 mois_
 
@@ -131,17 +146,17 @@ BLUE est le runner où les pipelines sont les plus chronophages. Un développe
 
 L’analyse de distribution révèle que plus de 37% des pipelines dépassent 40 minutes d’exécution totale, tandis que moins de 10% s’exécutent en moins de 15 minutes. Cette répartition confirme le caractère systémique des lenteurs observées. 
 
-![](/assets/images/blog/performance-ci-cd-productivite/inline-4.webp)
+![Distribution des durées d'exécution des pipelines](/assets/images/blog/performance-ci-cd-productivite/inline-4.webp)
 
 _Nombre de pipelines selon leur durée (par paquet de durée de 300 secondes)_ 
 
 La moyenne glissante sur 7 jours montre une dégradation progressive du Lead Time, passant d’environ 1 400 secondes fin 2024 à 2 400 secondes fin août 2025. Cette augmentation de 71% se décompose en une hausse de 70% du temps d’exécution (1 000 à 1 700 secondes) et de 40% du temps d’attente (500 à 700 secondes). 
 
-![](/assets/images/blog/performance-ci-cd-productivite/inline-5.webp)
+![Évolution de la moyenne sur 7 jours du Lead Time](/assets/images/blog/performance-ci-cd-productivite/inline-5.webp)
 
 _Évolution de la moyenne sur 7 jours des Lead Time des pipelines_ 
 
-![](/assets/images/blog/performance-ci-cd-productivite/inline-6.webp)
+![Décomposition du Lead Time : temps d'exécution et temps d'attente](/assets/images/blog/performance-ci-cd-productivite/inline-6.webp)
 
 #### Team RED – Runner RED 1 et Runner RED 2
 
@@ -213,7 +228,12 @@ En reprenant l’historique des données, nous pouvons obtenir une estimation de
 
 _Évolution du Lead Time en fonction du nombre de runners pour BLUE_ 
 
-<table class="has-fixed-layout"><tbody><tr><td> &nbsp;</td><td>1&nbsp;runner(s)&nbsp;</td><td>2&nbsp;runner(s)&nbsp;</td><td>3&nbsp;runner(s)&nbsp;</td><td>4&nbsp;runner(s)&nbsp;</td><td>5&nbsp;runner(s)&nbsp;</td></tr><tr><td>Lead time d’un job sur BLUE&nbsp;</td><td>1034s – 17 min&nbsp;</td><td>732s – 12 min&nbsp;</td><td>566s – 9,5 min&nbsp;</td><td>507s – 8,5 min&nbsp;</td><td>478s – 8 min&nbsp;</td></tr><tr><td>Amélioration de la vélocité&nbsp;</td><td>0%&nbsp;</td><td>41%&nbsp;</td><td>83%&nbsp;</td><td>104%&nbsp;</td><td>117%&nbsp;</td></tr></tbody></table>
+
+|   | 1 runner(s) | 2 runner(s) | 3 runner(s) | 4 runner(s) | 5 runner(s) |
+| --- | --- | --- | --- | --- | --- |
+| Lead time d’un job sur BLUE | 1034s – 17 min | 732s – 12 min | 566s – 9,5 min | 507s – 8,5 min | 478s – 8 min |
+| Amélioration de la vélocité | 0% | 41% | 83% | 104% | 117% |
+
 
 Sur le graphique, le point d’inflexion optimal se situe à 3 runners, permettant 83% d’amélioration du Lead Time. BLUE peut réduire son temps moyen d’attente de 540 secondes (41%) avec 3 runners, pour passer d’un Lead Time du pipeline de 44 minutes à 36,5 minutes en moyenne. 
 

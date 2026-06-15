@@ -43,13 +43,13 @@ Here are the points to observe:
 -   Work in a pull flow: developers pull tasks from the backlog when they are ready, which limits multitasking and optimises flow. It also fosters stronger team ownership.
 -   Validate continuously throughout development to avoid the tunnel effect and heavy sign-offs at the end of the project.
 
-![](/assets/images/blog/lean-management-gestion-projet/inline-3.webp)
+![Lean management principles in project management](/assets/images/blog/lean-management-gestion-projet/inline-3.webp)
 
 #### During a planning activity
 
 The steps to follow as part of a planning activity are as follows:
 
-![](/assets/images/blog/lean-management-gestion-projet/inline-4.webp)
+![Steps of a planning activity](/assets/images/blog/lean-management-gestion-projet/inline-4.webp)
 
 -   Prioritise the features with the greatest business impact and value for the end user.
 -   Use MoSCoW prioritisation:
@@ -81,13 +81,13 @@ During a design activity, applying lean management could consist of:
 -   Working in a pull flow: developers pull tasks from the backlog when they are ready, which limits multitasking and optimises flow. It also fosters stronger team ownership.
 -   Validating continuously throughout development to avoid the tunnel effect and heavy sign-offs at the end of the project.
 
-![](/assets/images/blog/lean-management-gestion-projet/inline-5.webp)
+![Lean management in the development phase](/assets/images/blog/lean-management-gestion-projet/inline-5.webp)
 
 #### During the development phase
 
 Here are the steps corresponding to applying lean management in the development phase:
 
-![](/assets/images/blog/lean-management-gestion-projet/inline-6.webp)
+![Steps of lean management in development](/assets/images/blog/lean-management-gestion-projet/inline-6.webp)
 
 -   Optimise code and development practices by encouraging pair programming and code reviews to reduce errors upstream.
 -   Use the PDCA cycle (Plan-Do-Check-Act) to continuously improve processes and code quality.

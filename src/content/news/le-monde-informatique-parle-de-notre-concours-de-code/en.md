@@ -10,32 +10,20 @@ image: "/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-cod
 imageAlt: "Meritis - Code On Time in Le Monde Informatique"
 ---
 
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="620" src="/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-01.webp" alt="Code On Time by Meritis" class="wp-image-54046" style="width:142px;height:auto" /></figure>
-</div>
+![Code On Time by Meritis](/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-01.webp)
 
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+[In an article published on 28 January 2025](https://www.lemondeinformatique.fr/actualites/lire-le-concours-code-on-time-s-ouvre-aux-non-developpeurs-95891.html), *Le Monde Informatique* shone a spotlight on the 5th edition of **Code On Time**, our coding and logic contest, which took place from 23 January to 3 February 2025.
 
-<p><a href="https://www.lemondeinformatique.fr/actualites/lire-le-concours-code-on-time-s-ouvre-aux-non-developpeurs-95891.html" target="_blank" rel="noreferrer noopener nofollow">In an article published on 28 January 2025</a>, <em>Le Monde Informatique</em> shone a spotlight on the 5th edition of <strong>Code On Time</strong>, our coding and logic contest, which took place from 23 January to 3 February 2025.</p>
+This edition marked a major turning point for our event, which has established itself as **the benchmark coding contest in France**. To reach a new milestone, **Meritis** introduced several innovations:
 
-<p>This edition marked a major turning point for our event, which has established itself as <strong>the benchmark coding contest in France</strong>. To reach a new milestone, <strong>Meritis</strong> introduced several innovations:</p>
+-   **A new interactive platform**, enabling participants to create an account, track their results in real time, and replay the contest.
+-   **A brand-new immersive format**, inspired by escape rooms.
+-   **Two game modes**, catering to both IT professionals and logic enthusiasts!
 
-<ul class="wp-block-list">
-<li><strong>A new interactive platform</strong>, enabling participants to create an account, track their results in real time, and replay the contest.</li>
+Since that publication, more than **500 participants** have registered for this edition, held under the theme of **ocean clean-up**. A resounding success, now accessible on our new platform **CodeOnTime.fr**.
 
-<li><strong>A brand-new immersive format</strong>, inspired by escape rooms.</li>
+**Fancy trying again or replaying previous editions?** Head over to **CodeOnTime.fr**! ?
 
-<li><strong>Two game modes</strong>, catering to both IT professionals and logic enthusiasts!</li>
-</ul>
+[![Meritis - CodeOnTime.fr](/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-02.webp)](https://codeontime.fr/)
 
-<p>Since that publication, more than <strong>500 participants</strong> have registered for this edition, held under the theme of <strong>ocean clean-up</strong>. A resounding success, now accessible on our new platform <strong>CodeOnTime.fr</strong>.</p>
-
-<p><strong>Fancy trying again or replaying previous editions?</strong> Head over to <strong>CodeOnTime.fr</strong>! ?</p>
-
-<div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><a href="https://codeontime.fr/" target="_blank" rel="noreferrer noopener"><img width="1656" height="600" src="/assets/images/news/le-monde-informatique-parle-de-notre-concours-de-code/inline-02.webp" alt="Meritis - CodeOnTime.fr" class="wp-image-54050" style="width:738px;height:auto" /></a></figure>
-</div>
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link has-black-background-color has-background wp-element-button" href="https://codeontime.fr/" target="_blank" rel="noreferrer noopener">Play now</a></div>
-</div>
+[Play now](https://codeontime.fr/)

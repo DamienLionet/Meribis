@@ -125,7 +125,9 @@ Souvent confondues, ces deux notions de risques doivent pourtant être distingu�
 
 **Les deux approches de marchés en finance** :
 
-<table class="has-fixed-layout"><tbody><tr><td><strong>Marché primaire</strong> Titres émis pour la première fois : IPO, levée de fonds.</td><td><strong>Marché secondaire</strong> Titres échangés après leur émission initiale.</td></tr></tbody></table>
+| Marché primaire | Marché secondaire |
+| --- | --- |
+| Titres émis pour la première fois : IPO, levée de fonds. | Titres échangés après leur émission initiale. |
 
 #### Marché organisé vs marché de gré à gré
 
@@ -134,7 +136,9 @@ Souvent confondues, ces deux notions de risques doivent pourtant être distingu�
 
 **Les deux types de marchés financiers** :
 
-<table class="has-fixed-layout"><tbody><tr><td><strong>Marché organisé</strong> Réglementé Standardisé</td><td><strong>Marché de gré à gré</strong> (OTC : Over the counter) One to one</td></tr></tbody></table>
+| Marché organisé | Marché de gré à gré |
+| --- | --- |
+| Réglementé, standardisé | OTC (*Over the counter*), one to one |
 
 ### Le rôle de la Chambre de Compensation
 

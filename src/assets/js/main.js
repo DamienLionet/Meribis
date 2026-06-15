@@ -57,3 +57,31 @@ document.addEventListener("click", (event) => closeDropdowns((group) => !group.c
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") closeDropdowns(() => true);
 });
+
+// Embeds tiers (formulaire MS Forms, vidéo YouTube…) : chargés UNIQUEMENT au clic.
+// RGPD/vie privée : aucune requête ni cookie tiers tant que l'utilisateur n'a pas agi.
+// Sans JS, le déclencheur reste un lien classique vers le service (repli fonctionnel).
+document.querySelectorAll("[data-embed]").forEach((box) => {
+  const trigger = box.querySelector("[data-embed-load]");
+  if (!trigger) return;
+  trigger.addEventListener("click", (event) => {
+    event.preventDefault();
+    let src = box.dataset.embedSrc;
+    const param = box.dataset.sourceParam; // ex. champ « source » MS Forms préfilled depuis ?source=
+    if (param) {
+      const source = new URLSearchParams(location.search).get("source");
+      if (source) src += (src.includes("?") ? "&" : "?") + param + "=" + encodeURIComponent(source);
+    }
+    const iframe = document.createElement("iframe");
+    iframe.src = src;
+    iframe.title = box.dataset.embedTitle || "";
+    iframe.loading = "lazy";
+    iframe.setAttribute("allowfullscreen", "");
+    if (box.dataset.embedAllow) iframe.setAttribute("allow", box.dataset.embedAllow);
+    iframe.className = "w-full rounded-card";
+    iframe.style.border = "0";
+    if (box.dataset.embedHeight) iframe.style.height = box.dataset.embedHeight + "px";
+    else iframe.style.aspectRatio = "16 / 9";
+    box.replaceChildren(iframe);
+  });
+});

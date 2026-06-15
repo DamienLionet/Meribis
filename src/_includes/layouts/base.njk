@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    {# Démo interne (refonte de meritis.fr) : on empêche l'indexation par les moteurs.
+       Sur une project page GitHub, robots.txt (sous /Meribis/) n'est pas lu à la racine
+       d'hôte — seul ce meta « noindex » est fiable. À retirer pour une vraie mise en ligne. #}
+    <meta name="robots" content="noindex, nofollow" />
+
     <link rel="icon" href="{{ '/assets/favicons/favicon.svg' | url }}" type="image/svg+xml" />
     <link rel="icon" href="{{ '/assets/favicons/favicon-32.png' | url }}" sizes="32x32" type="image/png" />
     <link rel="apple-touch-icon" href="{{ '/assets/favicons/apple-touch-icon.png' | url }}" />

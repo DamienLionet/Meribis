@@ -76,7 +76,7 @@ In the event of a personal data breach, MERITIS HOLDING applies the procedures r
 
 Depending on the forms and services enabled, Meritis may rely on external platforms such as form, marketing, survey, recruitment or audience measurement solutions.
 
-The institutional website meritis.fr notably mentions Typeform, HubSpot, Gravity Forms, Google Analytics and Matomo. This static version may use other form services configured in the project.
+This static demonstration version runs **no audience measurement** (no Google Analytics, Matomo or equivalent). The only third-party services are a **Microsoft Forms** form (Contact page) and a **YouTube** video (in a news article); they are loaded **only after an explicit click** on your part, so that no third-party cookie is set without your action — that click constituting consent.
 
 ## Your Rights
 

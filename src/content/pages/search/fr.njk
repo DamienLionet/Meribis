@@ -53,7 +53,15 @@ description: "Recherchez dans les articles, expertises, offres et actualités de
   <script>
     window.addEventListener("DOMContentLoaded", function () {
       if (window.PagefindUI) {
-        new PagefindUI({ element: "#search", bundlePath: "{{ '/pagefind/' | url }}", showImages: false, showSubResults: true });
+        // Pagefind enregistre les URLs SANS le pathPrefix (il indexe dist/ tel quel) ; on les
+        // re-préfixe pour /Meribis/ (et rien en local où PATH_PREFIX=/), sinon les résultats 404.
+        var base = "{{ '/' | url }}".replace(/\/$/, "");
+        new PagefindUI({ element: "#search", bundlePath: "{{ '/pagefind/' | url }}", showImages: false, showSubResults: true,
+          processResult: function (r) {
+            if (r.url) r.url = base + r.url;
+            (r.sub_results || []).forEach(function (s) { if (s.url) s.url = base + s.url; });
+            return r;
+          } });
       }
       var root = document.getElementById("search");
       var empty = document.getElementById("search-empty");

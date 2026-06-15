@@ -12,7 +12,7 @@ description: "Le backtesting en trading : principe, bénéfices et limites méth
 ---
 
 Et si toutes les données passées ne se valaient pas ? Dans l’univers impitoyable des marchés financiers, les décisions d’investissement s’appuient souvent sur des modèles qui répliquent le passé pour anticiper l’avenir. C’est le principe du backtesting. Mais dans un environnement aussi instable que celui de la Bourse, faut-il vraiment accorder la même importance à une donnée vieille de dix ans qu’à une observation de la semaine dernière ? À travers une plongée dans les mathématiques financières, cet article explore l’intérêt de pondérer les données historiques en fonction de leur ancienneté, pour mieux capter les dynamiques récentes du marché et affiner ses stratégies de trading.
-![](/assets/images/blog/backtesting-trading/inline-1.webp)
+![Backtesting et pondération des données de marché](/assets/images/blog/backtesting-trading/inline-1.webp)
 
 Avant d’investir en Bourse, il est essentiel de vérifier que la stratégie de trading envisagée a donné de bons résultats par le passé. Cette étape indispensable ! , c’est le fameux « backtesting ». Elle consiste à récupérer un historique de cours de Bourse (par exemple, les cours de l’action LVMH des cinq dernières années) et d’y appliquer la stratégie souhaitée afin de constater sa performance dans le passé. Un backtest consiste, ni plus ni moins, à ‘‘rejouer’’ le passé pour confirmer une stratégie. Appliqué à la Bourse, on parle de backtesting en trading.  
 
@@ -69,11 +69,11 @@ Finalement, dans la formule ci-dessus, le seul paramètre pour lequel il va fall
 
 -   Si on souhaite accorder une très forte importance aux journées les plus récentes, alors on choisira un λ avec une valeur élevée : 
 
-![](/assets/images/blog/backtesting-trading/inline-2.webp)
+![Pondération exponentielle avec un λ élevé](/assets/images/blog/backtesting-trading/inline-2.webp)
 
 -   Si, au contraire, on souhaite que l’influence des jours anciens soit encore significative, alors on prendra un λ plus faible : 
 
-![](/assets/images/blog/backtesting-trading/inline-3.webp)
+![Pondération exponentielle avec un λ plus faible](/assets/images/blog/backtesting-trading/inline-3.webp)
 
 Dans le cas extrême où l’on choisirait que λ = 0, alors on obtiendrait Wt = 1 quel que soit _t_. Cela signifierait que toutes les observations recevraient le même poids, ce qui correspondrait à une pondération uniforme. Cela annule l’effet de la pondération exponentielle et fait disparaître tout son intérêt. Il est donc essentiel de choisir un λ > 0 pour que la pondération varie en fonction du temps et accorde plus de poids aux données récentes. 
 
@@ -81,7 +81,15 @@ Dans le cas extrême où l’on choisirait que λ = 0, alors on obtiendrait Wt =
 
 Exemple avec un échantillon de 5 rendements (pour λ = 0,1) : 
 
-<table class="has-fixed-layout"><tbody><tr><td class="has-text-align-center" data-align="center"><strong>Jour&nbsp;</strong><br><strong><em>t</em>&nbsp;</strong></td><td class="has-text-align-center" data-align="center"><strong>Rendement observé&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong><br><strong><em>R<sub>t</sub>&nbsp;</em></strong></td><td class="has-text-align-center" data-align="center"><strong>Pondération exponentielle&nbsp;&nbsp; <em>W<sub>t</sub></em>&nbsp;</strong></td><td class="has-text-align-center" data-align="center"><strong>Rendement pondéré&nbsp;</strong><br><strong><em>R<sub>t</sub></em> x <em>W<sub>t</sub></em>&nbsp;</strong></td></tr><tr><td class="has-text-align-center" data-align="center">5&nbsp;</td><td class="has-text-align-center" data-align="center">0,40%&nbsp;</td><td class="has-text-align-center" data-align="center">1,0000&nbsp;</td><td class="has-text-align-center" data-align="center">0,400%&nbsp;</td></tr><tr><td class="has-text-align-center" data-align="center">4&nbsp;</td><td class="has-text-align-center" data-align="center">0,10%&nbsp;</td><td class="has-text-align-center" data-align="center">0,9048&nbsp;</td><td class="has-text-align-center" data-align="center">0,090%&nbsp;</td></tr><tr><td class="has-text-align-center" data-align="center">3&nbsp;</td><td class="has-text-align-center" data-align="center">0,20%&nbsp;</td><td class="has-text-align-center" data-align="center">0,8187&nbsp;</td><td class="has-text-align-center" data-align="center">0,164%&nbsp;</td></tr><tr><td class="has-text-align-center" data-align="center">2&nbsp;</td><td class="has-text-align-center" data-align="center">-0,30%&nbsp;</td><td class="has-text-align-center" data-align="center">0,7408&nbsp;</td><td class="has-text-align-center" data-align="center">-0,222%&nbsp;</td></tr><tr><td class="has-text-align-center" data-align="center">1&nbsp;</td><td class="has-text-align-center" data-align="center">0,50%&nbsp;</td><td class="has-text-align-center" data-align="center">0,6703&nbsp;</td><td class="has-text-align-center" data-align="center">0,335%&nbsp;</td></tr></tbody></table>
+
+| **Jour** ***t*** | **Rendement observé** ***R<sub>t</sub>*** | **Pondération exponentielle *W<sub>t</sub>*** | **Rendement pondéré** ***R<sub>t</sub>* x *W<sub>t</sub>*** |
+| --- | --- | --- | --- |
+| 5 | 0,40% | 1,0000 | 0,400% |
+| 4 | 0,10% | 0,9048 | 0,090% |
+| 3 | 0,20% | 0,8187 | 0,164% |
+| 2 | -0,30% | 0,7408 | -0,222% |
+| 1 | 0,50% | 0,6703 | 0,335% |
+
 
 Dans l’exemple ci-dessus, on observe que seul le jour le plus récent (_t_ = 5) conserve l’intégralité de son rendement originel (0,40%) puisque la pondération appliquée est égale à 1. En revanche, pour toutes les autres journées, il y a bien une diminution très rapide des nouveaux rendements (par rapport à leur valeur initiale). Par exemple, le jour 1 était initialement le rendement le plus élevé de l’échantillon (avec 0,50%). Après application de la pondération, il devient finalement moins fort que le jour le plus récent de l’échantillon (0,335% < 0,400%). C’est l’effet de l’oubli. 
 

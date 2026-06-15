@@ -10,204 +10,78 @@ image: "/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-not
 imageAlt: "nouveau logo de la charte graphique Meritis"
 ---
 
-<p><em>Depuis sa création en 2007, Meritis a toujours mis en avant l’exigence, la rigueur et la proximité avec ses clients. Aujourd’hui, nous franchissons une nouvelle étape avec le déploiement de notre nouvelle charte graphique.</em></p>
+*Depuis sa création en 2007, Meritis a toujours mis en avant l’exigence, la rigueur et la proximité avec ses clients. Aujourd’hui, nous franchissons une nouvelle étape avec le déploiement de notre nouvelle charte graphique.*
 
-<h2 class="wp-block-heading wp-ablock-heading">Pourquoi une nouvelle charte graphique ?</h2>
+## Pourquoi une nouvelle charte graphique ?
 
-<p>Ces dernières années, Meritis a connu une croissance soutenue et une diversification de ses expertises. Nos récentes acquisitions, Navigacom en 2024 et Neofin Advisory en 2025, ont marqué une étape importante dans notre développement.</p>
+Ces dernières années, Meritis a connu une croissance soutenue et une diversification de ses expertises. Nos récentes acquisitions, Navigacom en 2024 et Neofin Advisory en 2025, ont marqué une étape importante dans notre développement.
 
-<p>Cette dynamique appelait une identité visuelle en phase avec ce que nous sommes devenus :</p>
+Cette dynamique appelait une identité visuelle en phase avec ce que nous sommes devenus :
 
-<ul class="wp-block-list">
-<li>un groupe structuré et en pleine expansion,</li>
+-   un groupe structuré et en pleine expansion,
+-   une entreprise tournée vers l’innovation,
+-   un acteur engagé auprès de ses collaborateurs, de ses clients et de la société.
 
-<li>une entreprise tournée vers l’innovation,</li>
+Notre identité graphique devait traduire cette évolution et offrir davantage de clarté et de cohérence dans toutes nos communications.
 
-<li>un acteur engagé auprès de ses collaborateurs, de ses clients et de la société.</li>
-</ul>
+### L’évolution de notre logo depuis 2007
 
-<p>Notre identité graphique devait traduire cette évolution et offrir davantage de clarté et de cohérence dans toutes nos communications.</p>
+Depuis notre création, notre logo a régulièrement évolué pour accompagner le développement et les transformations de Meritis. La version 2025 constitue une étape clé de cette histoire.
 
-<h3 class="wp-block-heading" id="h-l-evolution-de-notre-logo-depuis-2007">L’évolution de notre logo depuis 2007</h3>
+![image avec l'évolution des logos Meritis depuis sa création en 2007](/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-01.webp)
 
-<p>Depuis notre création, notre logo a régulièrement évolué pour accompagner le développement et les transformations de Meritis. La version 2025 constitue une étape clé de cette histoire.</p>
+## Une identité visuelle revisitée
 
-<figure class="wp-block-image size-large"><img width="1024" height="576" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-01.webp" alt="image avec l'évolution des logos Meritis depuis sa création en 2007" class="wp-image-55781" /></figure>
+Cette nouvelle charte graphique reflète notre évolution et incarne notre posture premium. Elle s’appuie sur :
 
-<h2 class="wp-block-heading" id="h-une-identite-visuelle-revisitee">Une identité visuelle revisitée</h2>
+-   **Un bleu profond**, associé à des tons clairs et des touches dorées, pour une esthétique élégante et sobre.
+-   **Une typographie** qui allie modernité et lisibilité.
+-   **Un allégement des arcs graphiques**, désormais réduits à deux, pour une identité plus épurée.
 
-<p>Cette nouvelle charte graphique reflète notre évolution et incarne notre posture premium. Elle s’appuie sur :</p>
+## Un design au service de la clarté
 
-<ul class="wp-block-list">
-<li><strong>Un bleu profond</strong>, associé à des tons clairs et des touches dorées, pour une esthétique élégante et sobre.</li>
+Pensée pour une expérience harmonisée, cette charte est en cours de déploiement sur l’ensemble de nos supports :
 
-<li><strong>Une typographie </strong>qui allie modernité et lisibilité.</li>
+-   documents commerciaux et présentations,
+-   modèles bureautiques,
+-   communication interne et externe.
+-   site internet et intranet,
 
-<li><strong>Un allégement des arcs graphiques</strong>, désormais réduits à deux, pour une identité plus épurée.</li>
-</ul>
+### Une continuité dans nos engagements
 
-<h2 class="wp-block-heading" id="h-un-design-au-service-de-la-clarte">Un design au service de la clarté</h2>
+Au-delà d’un nouveau design, cette évolution traduit notre volonté de :
 
-<p>Pensée pour une expérience harmonisée, cette charte est en cours de déploiement sur l’ensemble de nos supports :</p>
+-   renforcer la cohérence de nos supports,
+-   proposer une expérience claire et différenciante,
+-   accompagner notre croissance en restant fidèle à nos valeurs.
 
-<ul class="wp-block-list">
-<li>documents commerciaux et présentations,</li>
+### Et après ?
 
-<li>modèles bureautiques,</li>
+Le déploiement de la nouvelle charte graphique se poursuivra dans les prochains mois pour être pleinement incarné à travers tous nos points de contact : événements, communication institutionnelle, supports digitaux et vie interne.
 
-<li>communication interne et externe.</li>
+Cette évolution contribue aussi à affirmer l’identité du **groupe Meritis**, aux côtés de Navigacom et de Neofin Advisory, qui conservent chacun leur charte graphique propre mais avancent avec nous dans une même dynamique de croissance.
 
-<li>site internet et intranet,</li>
-</ul>
+![Sébastien VIDEMENT photo](/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-02.webp)
 
-<h3 class="wp-block-heading">Une continuité dans nos engagements</h3>
+*« Cette nouvelle charte graphique illustre notre capacité à évoluer tout en restant fidèle à nos valeurs. Elle marque le début d’un groupe plus structuré et résolument tourné vers l’avenir. »*  
+**Sébastien Videment, CEO de Meritis**
 
-<p>Au-delà d’un nouveau design, cette évolution traduit notre volonté de :</p>
+Cette nouvelle identité ne se limite pas à un changement visuel. Elle reflète notre vision, celle d’aujourd’hui et surtout de demain.
 
-<ul class="wp-block-list">
-<li>renforcer la cohérence de nos supports,</li>
+  
 
-<li>proposer une expérience claire et différenciante,</li>
+![Logo principal Meritis en couleur](/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-03.webp)
 
-<li>accompagner notre croissance en restant fidèle à nos valeurs. </li>
-</ul>
+![équipe en collaboration noir et blanc 2](/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-04.webp)
 
-<h3 class="wp-block-heading">Et après ?</h3>
+![Logo principal Meritis blanc sur fond bleu 2025](/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-05.webp)
 
-<p>Le déploiement de la nouvelle charte graphique se poursuivra dans les prochains mois pour être pleinement incarné à travers tous nos points de contact : événements, communication institutionnelle, supports digitaux et vie interne.</p>
+![Logo principal Meritis blanc sur fond jaune](/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-06.webp)
 
-<p>Cette évolution contribue aussi à affirmer l’identité du <strong>groupe Meritis</strong>, aux côtés de Navigacom et de Neofin Advisory, qui conservent chacun leur charte graphique propre mais avancent avec nous dans une même dynamique de croissance.</p>
+![équipe en noir et blanc](/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-07.webp)
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%"><div class="wp-block-image is-style-rounded">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="1024" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-02.webp" alt="Sébastien VIDEMENT photo" class="wp-image-55654" style="width:168px;height:auto" /></figure>
-</div></div>
+![palette de couleurs 2025](/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-08.webp)
 
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
-<p><em>« Cette nouvelle charte graphique illustre notre capacité à évoluer tout en restant fidèle à nos valeurs. Elle marque le début d’un groupe plus structuré et résolument tourné vers l’avenir. »</em><br><strong>Sébastien Videment, CEO de Meritis</strong></p>
-</div>
-</div>
+![équipe en collaboration noir et blanc 1](/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-09.webp)
 
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-
-</blockquote>
-
-<p>Cette nouvelle identité ne se limite pas à un changement visuel. Elle reflète notre vision, celle d’aujourd’hui et surtout de demain.</p>
-
-<p><br></p>
-
-<section class='chiffres-block blockcarousel-chiffresblock_83eeea41498c7dd2d5c9bbe5b3983a3b alignfull'>
-    <div class="container">
-        <h3 class="heading-2 block-title w-underline long underline-left underline-dark"></h3>
-    </div>
-            <div class="chiffres-slider">
-            <div class="slick-container chiffres-container container-max">
-                <div class="chiffres-wrapper slick-js custom-slick transparent-buttons">
-                                            <div class="chiffre-item">
-                            <div class="chiffre-item-inner">
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55784" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-03.webp" alt="Logo principal Meritis en couleur" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55791" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-04.webp" alt="équipe en collaboration noir et blanc 2" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55787" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-05.webp" alt="Logo principal Meritis blanc sur fond bleu 2025" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55786" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-06.webp" alt="Logo principal Meritis blanc sur fond jaune" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                            </div>
-                        </div>
-                                            <div class="chiffre-item">
-                            <div class="chiffre-item-inner">
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55790" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-07.webp" alt="équipe en noir et blanc" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55789" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-08.webp" alt="palette de couleurs 2025" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55792" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-09.webp" alt="équipe en collaboration noir et blanc 1" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55795" src="/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-10.webp" alt="" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                            </div>
-                        </div>
-                                    </div>
-            </div>
-        </div>
-    </section>
+![](/assets/images/news/charte-graphique-meritis-une-nouvelle-etape-dans-notre-histoire/inline-10.webp)

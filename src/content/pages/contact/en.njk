@@ -10,29 +10,25 @@ description: "Contact Meritis: let's talk about your technology project."
 {% include "partials/page-hero.njk" %}
 
 <section class="mx-auto max-w-3xl px-6 py-12 md:py-16">
+  {# MS Forms embed as click-to-load (GDPR): nothing loads before an explicit action.
+     The ?source= pre-fill is handled by the [data-embed] handler in main.js. #}
   <div class="overflow-hidden rounded-card bg-white shadow-soft">
-    <iframe
-      id="contact-form"
+    <div
+      data-embed
+      data-embed-src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=FKtmkg0M-k-EhJ7SirQzqpOpZcoB86VIv7udGFyMyOVUNEJINUo3MzRNNVAwMzc5QUdGWUpCRzYyRC4u&embed=true"
+      data-embed-title="Meritis contact form"
+      data-embed-height="700"
       data-source-param="r514c22bc0b9648b2975b6d1a8a495fd5"
-      title="Meritis contact form"
-      src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=FKtmkg0M-k-EhJ7SirQzqpOpZcoB86VIv7udGFyMyOVUNEJINUo3MzRNNVAwMzc5QUdGWUpCRzYyRC4u&embed=true"
-      width="100%"
-      height="700"
-      loading="lazy"
-      style="border: 0; max-width: 100%"
-      allowfullscreen>
-    </iframe>
+      class="px-6 py-12 text-center md:px-8">
+      <p class="js-only mx-auto max-w-md text-brand-charcoal">The form is provided by <strong>Microsoft Forms</strong>. It is only loaded at your request, to avoid placing any third-party cookies without your consent.</p>
+      <a
+        href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=FKtmkg0M-k-EhJ7SirQzqpOpZcoB86VIv7udGFyMyOVUNEJINUo3MzRNNVAwMzc5QUdGWUpCRzYyRC4u"
+        data-embed-load
+        target="_blank"
+        rel="noopener"
+        class="mt-6 inline-flex rounded-button bg-brand-blue px-7 py-3 font-semibold text-white transition hover:bg-brand-blue-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue">
+        Show the contact form
+      </a>
+    </div>
   </div>
 </section>
-
-{# Pre-fills the form's "source" field (MS Forms field id) from ?source= in the URL,
-   e.g. the job title the click came from. Without JS the form remains fully usable. #}
-<script>
-  (function () {
-    var f = document.getElementById("contact-form");
-    if (!f) return;
-    var source = new URLSearchParams(window.location.search).get("source");
-    var param = f.getAttribute("data-source-param");
-    if (source && param) f.src = f.src + "&" + param + "=" + encodeURIComponent(source);
-  })();
-</script>

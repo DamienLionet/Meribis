@@ -10,176 +10,54 @@ image: "/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-so
 imageAlt: "Meritis collabore avec baptiste chassagne"
 ---
 
-<p><strong>Chez Meritis, entreprise labellisée B Corp™, nous sommes intimement convaincus que le sport dépasse largement le cadre de la compétition : il est un formidable vecteur de valeurs, de cohésion, d’inspiration et de résilience. Dans cet esprit, nous sommes fiers et enthousiastes d’annoncer une nouvelle collaboration avec <a href="https://www.instagram.com/baptiste.chassagne/" target="_blank" rel="noreferrer noopener nofollow">Baptiste Chassagne</a>, athlète de haut niveau en trail-running, discipline exigeante et authentique, à l’image des engagements que nous portons.&nbsp;</strong></p>
+**Chez Meritis, entreprise labellisée B Corp™, nous sommes intimement convaincus que le sport dépasse largement le cadre de la compétition : il est un formidable vecteur de valeurs, de cohésion, d’inspiration et de résilience. Dans cet esprit, nous sommes fiers et enthousiastes d’annoncer une nouvelle collaboration avec [Baptiste Chassagne](https://www.instagram.com/baptiste.chassagne/), athlète de haut niveau en trail-running, discipline exigeante et authentique, à l’image des engagements que nous portons.** 
 
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img width="1024" height="536" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-01.webp" alt="Meritis collabore avec Baptiste Chassagne !" class="wp-image-55219" style="width:750px" /><figcaption class="wp-element-caption">📸 <strong>Crédit photos :</strong> Léo Girard / @leoskovic</figcaption></figure>
-</div>
+![Meritis collabore avec Baptiste Chassagne !](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-01.webp)
 
-<h2 class="wp-block-heading" id="h-des-valeurs-communes-nbsp"><strong>Des valeurs communes</strong>&nbsp;</h2>
+📸 **Crédit photos :** Léo Girard / @leoskovic
 
-<p>Notre collaboration se veut avant tout <strong>humaine et sincère</strong>, nourrie par des échanges bienveillants et une volonté partagée de progresser ensemble. Le parcours de Baptiste, à la fois exigeant, inspirant et profondément ancré dans le respect de la nature, fait écho à notre propre culture d’entreprise : celle de l’engagement, de l’excellence et du dépassement de soi.&nbsp;</p>
+## **Des valeurs communes** 
 
-<p>Baptiste incarne une vision du sport où performance rime avec éthique, humilité et respect du vivant. C’est précisément cette approche qui nous a séduits et convaincus de construire ensemble une aventure durable, enrichissante pour nos collaborateurs comme pour lui.&nbsp;</p>
+Notre collaboration se veut avant tout **humaine et sincère**, nourrie par des échanges bienveillants et une volonté partagée de progresser ensemble. Le parcours de Baptiste, à la fois exigeant, inspirant et profondément ancré dans le respect de la nature, fait écho à notre propre culture d’entreprise : celle de l’engagement, de l’excellence et du dépassement de soi. 
 
-<h2 class="wp-block-heading" id="h-des-temps-forts-pour-inspirer-et-transmettre-nbsp"><strong>Des temps forts pour inspirer et transmettre</strong>&nbsp;</h2>
+Baptiste incarne une vision du sport où performance rime avec éthique, humilité et respect du vivant. C’est précisément cette approche qui nous a séduits et convaincus de construire ensemble une aventure durable, enrichissante pour nos collaborateurs comme pour lui. 
 
-<p>Cette collaboration prendra vie à travers plusieurs grands temps forts annuels, conçus comme des parenthèses privilégiées pour nos équipes. Ateliers, conférences, sessions sportives ou moments d’échange : ces rendez-vous seront autant d’occasions de partager les enseignements du sport de haut niveau et de faire vivre nos valeurs d’engagement, de solidarité et de persévérance.&nbsp;</p>
+## **Des temps forts pour inspirer et transmettre** 
 
-<p>Ces instants seront également l’occasion pour Baptiste de transmettre son expérience, son approche du mental, de la gestion de l’effort, du collectif… autant de compétences transverses précieuses dans le monde professionnel.&nbsp;</p>
+Cette collaboration prendra vie à travers plusieurs grands temps forts annuels, conçus comme des parenthèses privilégiées pour nos équipes. Ateliers, conférences, sessions sportives ou moments d’échange : ces rendez-vous seront autant d’occasions de partager les enseignements du sport de haut niveau et de faire vivre nos valeurs d’engagement, de solidarité et de persévérance. 
 
-<h2 class="wp-block-heading" id="h-une-aventure-qui-s-inscrit-dans-notre-adn-nbsp"><strong>Une aventure qui s’inscrit dans notre ADN</strong>&nbsp;</h2>
+Ces instants seront également l’occasion pour Baptiste de transmettre son expérience, son approche du mental, de la gestion de l’effort, du collectif… autant de compétences transverses précieuses dans le monde professionnel. 
 
-<p>Cette collaboration s’inscrit dans la continuité de notre engagement de longue date en faveur du sport et de ses vertus, que nous avons déjà concrétisé à travers le soutien à Sébastien Rogues, Sébastien Camus ou encore la <strong><a href="https://www.epouvant-trail.com/qui-sommes-nous/" target="_blank" rel="noreferrer noopener nofollow">création de l’Épouvant Trail</a>,</strong> course nature organisée avec et pour nos collaborateurs.&nbsp;</p>
+## **Une aventure qui s’inscrit dans notre ADN** 
 
-<p>En nous associant à Baptiste Chassagne, nous réaffirmons notre volonté de promouvoir un sport porteur de sens, vecteur d’un mieux-être individuel et collectif, mais aussi reflet de notre engagement sociétal en tant qu’<a href="/fr/la-rse-chez-meritis/"><strong>entreprise responsable</strong></a>.&nbsp;</p>
+Cette collaboration s’inscrit dans la continuité de notre engagement de longue date en faveur du sport et de ses vertus, que nous avons déjà concrétisé à travers le soutien à Sébastien Rogues, Sébastien Camus ou encore la **[création de l’Épouvant Trail](https://www.epouvant-trail.com/qui-sommes-nous/),** course nature organisée avec et pour nos collaborateurs. 
 
-<p>Merci à Baptiste pour sa confiance. Nous sommes impatients d’écrire avec lui les premières pages de ce nouveau chapitre, riche en émotions, en partages et en aventures humaines.&nbsp;</p>
+En nous associant à Baptiste Chassagne, nous réaffirmons notre volonté de promouvoir un sport porteur de sens, vecteur d’un mieux-être individuel et collectif, mais aussi reflet de notre engagement sociétal en tant qu’[**entreprise responsable**](/fr/la-rse-chez-meritis/). 
 
-<section class='chiffres-block blockcarousel-chiffresblock_d0397a0024f23172d53cebb14798a9fd alignfull'>
-    <div class="container">
-        <h3 class="heading-2 block-title w-underline long underline-left underline-dark">Galerie</h3>
-    </div>
-            <div class="chiffres-slider">
-            <div class="slick-container chiffres-container container-max">
-                <div class="chiffres-wrapper slick-js custom-slick transparent-buttons">
-                                            <div class="chiffre-item">
-                            <div class="chiffre-item-inner">
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55225" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-02.webp" alt="Meritis collabore avec baptiste chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55226" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-03.webp" alt="Meritis collabore avec baptiste chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55227" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-04.webp" alt="Meritis collabore avec baptiste chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55228" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-05.webp" alt="Meritis collabore avec baptiste chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                            </div>
-                        </div>
-                                            <div class="chiffre-item">
-                            <div class="chiffre-item-inner">
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55229" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-06.webp" alt="Meritis collabore avec baptiste chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55230" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-07.webp" alt="Meritis collabore avec baptiste chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55232" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-08.webp" alt="Meritis collabore avec baptiste chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55233" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-09.webp" alt="Meritis collabore avec baptiste chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                            </div>
-                        </div>
-                                            <div class="chiffre-item">
-                            <div class="chiffre-item-inner">
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55234" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-10.webp" alt="Meritis collabore avec baptiste chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                                                                                    <!-- Format 1-->
-                                            <div class="format-1 chiffres-format">
-                                                <div class="chiffre-container">
-                                                                                                    </div>
-                                                <div class="txt-container">
-                                                    <p><img class="alignnone size-medium wp-image-55235" src="/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-11.webp" alt="Meritis collabore avec baptiste chassagne" width="300" height="300" /></p>
-                                                </div>
-                                            </div>
-                                        
-                                        
-                                        
-                                        
-                                                            </div>
-                        </div>
-                                    </div>
-            </div>
-        </div>
-    </section>
+Merci à Baptiste pour sa confiance. Nous sommes impatients d’écrire avec lui les premières pages de ce nouveau chapitre, riche en émotions, en partages et en aventures humaines. 
 
-<p>📸 <strong>Crédit photos :</strong> Léo Girard / @leoskovic</p>
+### Galerie
 
-<p>Pour plonger dans l’univers du trail de haut niveau et découvrir les coulisses d’une discipline où chaque foulée est un mélange de passion, de persévérance et d’humilité,<a href="https://www.instagram.com/baptiste.chassagne/"><strong> suivez Baptiste sur Instagram</strong></a> : une belle manière de l&rsquo;encourager au fil de ses exploits et de partager l’intensité de ses défis en pleine nature.</p>
+![Meritis collabore avec baptiste chassagne](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-02.webp)
+
+![Meritis collabore avec baptiste chassagne](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-03.webp)
+
+![Meritis collabore avec baptiste chassagne](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-04.webp)
+
+![Meritis collabore avec baptiste chassagne](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-05.webp)
+
+![Meritis collabore avec baptiste chassagne](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-06.webp)
+
+![Meritis collabore avec baptiste chassagne](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-07.webp)
+
+![Meritis collabore avec baptiste chassagne](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-08.webp)
+
+![Meritis collabore avec baptiste chassagne](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-09.webp)
+
+![Meritis collabore avec baptiste chassagne](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-10.webp)
+
+![Meritis collabore avec baptiste chassagne](/assets/images/news/meritis-x-baptiste-chassagne-une-collaboration-au-sommet-entre-performance-et-engagement/inline-11.webp)
+
+📸 **Crédit photos :** Léo Girard / @leoskovic
+
+Pour plonger dans l’univers du trail de haut niveau et découvrir les coulisses d’une discipline où chaque foulée est un mélange de passion, de persévérance et d’humilité, [**suivez Baptiste sur Instagram**](https://www.instagram.com/baptiste.chassagne/) : une belle manière de l’encourager au fil de ses exploits et de partager l’intensité de ses défis en pleine nature.

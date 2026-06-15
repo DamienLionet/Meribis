@@ -53,7 +53,15 @@ description: "Search Meritis articles, expertise, jobs and news."
   <script>
     window.addEventListener("DOMContentLoaded", function () {
       if (window.PagefindUI) {
-        new PagefindUI({ element: "#search", bundlePath: "{{ '/pagefind/' | url }}", showImages: false, showSubResults: true });
+        // Pagefind records URLs WITHOUT the pathPrefix (it indexes dist/ as-is); re-prefix them
+        // for /Meribis/ (and nothing locally where PATH_PREFIX=/), otherwise results 404.
+        var base = "{{ '/' | url }}".replace(/\/$/, "");
+        new PagefindUI({ element: "#search", bundlePath: "{{ '/pagefind/' | url }}", showImages: false, showSubResults: true,
+          processResult: function (r) {
+            if (r.url) r.url = base + r.url;
+            (r.sub_results || []).forEach(function (s) { if (s.url) s.url = base + s.url; });
+            return r;
+          } });
       }
       var root = document.getElementById("search");
       var empty = document.getElementById("search-empty");

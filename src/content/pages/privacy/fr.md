@@ -76,7 +76,7 @@ En cas de violation de données personnelles, MERITIS HOLDING applique les proc�
 
 Selon les formulaires et services activés, Meritis peut s'appuyer sur des plateformes externes telles que des solutions de formulaires, de marketing, d'enquête, de recrutement ou de mesure d'audience.
 
-Le site institutionnel meritis.fr mentionne notamment Typeform, HubSpot, Gravity Forms, Google Analytics et Matomo. La présente version statique peut utiliser d'autres services de formulaire configurés dans le projet.
+Cette version statique de démonstration ne met en œuvre **aucune mesure d'audience** (ni Google Analytics, ni Matomo, ni équivalent). Les seuls services tiers sont un formulaire **Microsoft Forms** (page Contact) et une vidéo **YouTube** (dans une actualité) ; ils ne sont chargés **qu'après un clic explicite** de votre part, de sorte qu'aucun cookie tiers n'est déposé sans votre action — ce clic valant consentement.
 
 ## Vos droits
 

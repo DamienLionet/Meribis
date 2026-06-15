@@ -12,7 +12,7 @@ description: "Backtesting in trading: principle, benefits and methodological lim
 ---
 
 What if not all past data were equal? In the unforgiving world of financial markets, investment decisions often rely on models that replicate the past to anticipate the future. That is the principle of backtesting. But in an environment as unstable as the stock market, should we really give the same importance to a ten-year-old data point as to an observation from last week? Through a dive into financial mathematics, this article explores the value of weighting historical data according to its age, in order to better capture recent market dynamics and refine trading strategies.
-![](/assets/images/blog/backtesting-trading/inline-1.webp)
+![Backtesting and weighting of market data](/assets/images/blog/backtesting-trading/inline-1.webp)
 
 Before investing on the stock market, it is essential to check that the trading strategy under consideration produced good results in the past. This indispensable step is the famous "backtesting". It consists of retrieving a history of stock prices (for example, LVMH share prices over the last five years) and applying the desired strategy to it in order to observe its past performance. A backtest is, quite simply, about "replaying" the past to confirm a strategy. Applied to the stock market, this is called backtesting in trading.
 
@@ -69,11 +69,11 @@ Ultimately, in the formula above, the only parameter for which a value must be d
 
 -   If we want to give very high importance to the most recent days, then we will choose a λ with a high value:
 
-![](/assets/images/blog/backtesting-trading/inline-2.webp)
+![Exponential weighting with a high λ](/assets/images/blog/backtesting-trading/inline-2.webp)
 
 -   If, on the contrary, we want the influence of older days to remain significant, then we will take a lower λ:
 
-![](/assets/images/blog/backtesting-trading/inline-3.webp)
+![Exponential weighting with a lower λ](/assets/images/blog/backtesting-trading/inline-3.webp)
 
 In the extreme case where we chose λ = 0, we would obtain Wt = 1 regardless of _t_. This would mean that all observations would receive the same weight, corresponding to uniform weighting. This cancels out the effect of exponential weighting and removes all its value. It is therefore essential to choose a λ > 0 so that the weighting varies over time and gives more weight to recent data.
 
