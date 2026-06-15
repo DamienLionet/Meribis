@@ -9,7 +9,7 @@ description: "Rejoignez Meritis : découvrez nos offres d'emploi et candidatez."
   <h1 class="text-4xl font-semibold tracking-tight text-brand-charcoal md:text-5xl">{{ title }}</h1>
   <p class="mt-4 max-w-2xl text-lg text-brand-charcoal/70">{{ i18n[locale].jobsIntro }}</p>
 
-  <ul class="mt-12 grid list-none gap-4 p-0">
+  <ul class="mt-12 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
     {% for post in collections["jobs_" + locale] %}
       {% include "partials/card-job.njk" %}
     {% endfor %}
