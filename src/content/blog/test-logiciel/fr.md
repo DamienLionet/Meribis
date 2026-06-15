@@ -11,7 +11,6 @@ imageAlt: "Illustration Meritis sur la réussite d'un projet de test logiciel"
 description: "Les clés d'une stratégie de test logiciel efficace : pyramide des tests, automatisation, couverture."
 ---
 
-
 **Dans un projet utilisant une approche Waterfall ou cycle en V, la gestion des tests logiciels pose souvent des défis considérables. Le temps alloué aux tests est généralement limité, les ressources peuvent être insuffisantes, et des imprévus peuvent surgir, perturbant le calendrier prévu. Dans cet article, nous nous attacherons à montrer comment réussir un projet de test logiciel.**
 
 ![Meritis - comment tester un logiciel ?](/assets/images/blog/reussir-projet-test-logiciel/inline-1.webp)
@@ -25,8 +24,6 @@ La « gestion des tests » est le processus qui consiste à planifier, coordon
 La gestion des tests ne se résume pas à une tâche isolée, mais représente plutôt une série d’activités successives que le responsable des tests doit orchestrer de manière fluide.
 
 **Envie d’approfondir les tests dans un contexte agile ?**
-
-👉 Découvrez notre article « Les tests dans une équipe agile »
 
 ![Test logiciel agile Meritis](/assets/images/blog/reussir-projet-test-logiciel/inline-2.webp)
 
@@ -59,8 +56,6 @@ On distingue deux types de risques :
 Cette étape consiste à déterminer approximativement l’effort nécessaire en termes de temps pour accomplir chaque tâche du projet de test.
 
 **A la recherche d’une ressource généraliste sur les tests ?**
-
-👉 Découvrez notre article « Tests informatiques, les bonnes pratiques »
 
 ![test informatiques ](/assets/images/blog/reussir-projet-test-logiciel/inline-5.webp)
 
@@ -155,8 +150,6 @@ Cela permet d’assurer une couverture de tests complète et auditable.
 
 **Envie de savoir comment rédiger des cas de test à partir des exigences ?**
 
-👉 Découvrez notre article « Méthode de rédaction des cas de test à partir des exigences »
-
 ![Méthode de rédaction des cas de test à partir des exigences blog meritis](/assets/images/blog/reussir-projet-test-logiciel/inline-6.webp)
 
 #### Phase 4 : implémentation
@@ -237,10 +230,6 @@ Si une nouvelle équipe doit prendre en charge la qualité du produit, cette pha
 En prenant du recul sur l’expérience passée, l’équipe de test peut ainsi améliorer la maturité de ses pratiques et la qualité de ses futurs projets.
 
 **Envie de découvrir comment optimiser votre production logicielle avec les concepts de DevOps et de Lean ?**
-
-👉 Découvrez notre article « DevOps, Lean, chaîne de valeur : optimiser la production logicielle »
-
-
 
 ### Que retenir de la gestion des tests ?
 

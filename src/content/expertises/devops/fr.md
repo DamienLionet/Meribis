@@ -9,7 +9,6 @@ parent:
   url: "/fr/expertises/"
 ---
 
-
 80 % des entreprises adopteront une plateforme DevOps d’ici 2027 pour rationaliser leurs opérations\*. Et vous, où en êtes-vous dans votre transformation DevOps ? [Parlez-en à nos experts.](/fr/contact/)
 
 _\*Gartner Magic Quadrant for DevOps Platforms, 2024_
@@ -150,16 +149,11 @@ Qu’est-ce que le DevOps et pourquoi est-il stratégique ?
 
 Le DevOps est une méthodologie qui vise à améliorer la collaboration entre les équipes de développement et d’exploitation, permettant d’accélérer les cycles de développement, de réduire les incidents, et d’améliorer la qualité des livrables.
 
-?? **Découvrez notre article de blog** qui explique le DevOps en détail.
-
 **Pour aller plus loin :**
 
 -   **5 bonnes pratiques DevOps**
 -   **Glossaire DevOps,**
 -   **Ressources** et [**articles de blog**](/fr/blog/)
-
-? **Découvrez également notre livre blanc :**
-_« 6 facteurs clés pour réussir sa démarche DevOps«_  – Un guide complet pour structurer votre transformation DevOps et maximiser vos résultats.
 
 Quels sont les 6 facteurs clés pour implémenter sa méthode DevOps avec succès
 

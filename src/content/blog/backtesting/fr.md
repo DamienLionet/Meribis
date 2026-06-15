@@ -11,7 +11,6 @@ imageAlt: "Illustration Meritis sur les mathématiques des marchés financiers"
 description: "Le backtesting en trading : principe, bénéfices et limites méthodologiques."
 ---
 
-
 Et si toutes les données passées ne se valaient pas ? Dans l’univers impitoyable des marchés financiers, les décisions d’investissement s’appuient souvent sur des modèles qui répliquent le passé pour anticiper l’avenir. C’est le principe du backtesting. Mais dans un environnement aussi instable que celui de la Bourse, faut-il vraiment accorder la même importance à une donnée vieille de dix ans qu’à une observation de la semaine dernière ? À travers une plongée dans les mathématiques financières, cet article explore l’intérêt de pondérer les données historiques en fonction de leur ancienneté, pour mieux capter les dynamiques récentes du marché et affiner ses stratégies de trading.
 ![](/assets/images/blog/backtesting-trading/inline-1.webp)
 

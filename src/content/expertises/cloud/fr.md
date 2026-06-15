@@ -9,7 +9,6 @@ parent:
   url: "/fr/expertises/"
 ---
 
-
 ## Gagnez en flexibilité pour faire évoluer rapidement votre infrastructure IT tout en optimisant vos coûts !
 
 Des entreprises de toutes tailles et tous secteurs confondus se convertissent chaque jour un peu plus au cloud. En effet, l’externalisation des serveurs est une pratique sûre, qui offre de nombreux avantages. Cependant une migration Cloud sécurisée doit s’appuyer sur des partenaires expérimentés et des méthodes industrialisées incluant la sécurité, la performance et le développement de nouvelles fonctionnalités.
@@ -122,8 +121,6 @@ Nos experts interviennent chez nos clients pour les aider à faire le bon choix
 > Global Vice President _– __L’Oréal Hair Beauty Tech Innovation___
 
 ![use case- Datalake -](/assets/images/expertises/cloud/inline-2.webp)
-
-## \[Cas client\] Mise en place d’un Data Lake full Cloud
 
 Découvrez le retour d’expérience de nos consultants experts Meritis qui vous livrent leur vision terrain.
 

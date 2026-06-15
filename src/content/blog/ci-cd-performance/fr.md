@@ -12,7 +12,6 @@ imageAlt: "Illustration éditoriale Meritis sur la performance CI/CD"
 description: "Comment optimiser les pipelines CI/CD pour améliorer la productivité des équipes sans dette technique."
 ---
 
-
 La performance CI/CD est aujourd’hui un enjeu clé pour les organisations qui souhaitent accélérer leurs cycles de livraison tout en maintenant un haut niveau de qualité. Les pipelines CI/CD constituent la colonne vertébrale des chaînes DevOps : elles automatisent l’intégration du code, l’exécution des tests et le déploiement des applications, afin de réduire les délais de mise en production et d’améliorer la fiabilité des livraisons.
 ![mage devops performance ci cd](/assets/images/blog/performance-ci-cd-productivite/inline-1.webp)
 

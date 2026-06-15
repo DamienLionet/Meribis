@@ -9,7 +9,6 @@ parent:
   url: "/fr/expertises/"
 ---
 
-
 ## Notre expertise IT et Métier de la Finance de marchés
 
 ![paris la défense ](/assets/images/expertises/finance/inline-1.webp)
@@ -119,8 +118,3 @@ Car chez Meritis, nous sommes convaincus que la transformation numérique et mé
 
 ![](/assets/images/expertises/finance/inline-5.webp)
 
-Voir nos cas clients
-
-## Vous souhaitez prendre un rendez-vous, demander un devis ou en savoir plus ?
-
-Contactez nos experts

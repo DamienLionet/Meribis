@@ -9,7 +9,6 @@ parent:
   url: "/en/expertise/"
 ---
 
-
 ## You know that Data and AI are strategic. But most organisations stall at the same point.
 
 Not on the technology. On what comes before: scoping, data quality, organisational choices, and the ability to see things through to adoption.
@@ -17,32 +16,26 @@ Not on the technology. On what comes before: scoping, data quality, organisation
 ### Why do my AI PoCs never make it to production?
 
 Our AI code diagnostic identifies blockers across 300+ engineering rules and produces an industrialisation roadmap in two to three weeks.
-→ See the diagnostic and scoping service
 
 ### How can I safeguard my AI investments and structure data governance?
 
 We formalise your AI strategy, prioritise your use cases, and build the governance framework that secures your deployments — particularly for generative AI.
-→ See the strategy and governance service
 
 ### How do I know whether my data is mature enough for my AI projects?
 
 We assess your data maturity and design AI-ready Data Platform architectures from the outset — not retrofitted after the fact.
-→ Acculturation & Ideation
 
 ### How do I build a reliable generative AI solution that my business teams will actually adopt?
 
 We develop your RAG solutions, AI agents, and Machine Learning models from feasibility study through to production, with monitoring and adoption included.
-→ See the AI development service
 
 ### How do I bring my teams along with AI training tailored to my organisation?
 
 Our ideation workshops and in-company AI training programmes create alignment between senior leaders and business teams before resources are committed.
-→ See the acculturation and ideation service
 
 ### How do I secure the use of generative AI and measure the ROI of my AI investments?
 
 We structure the LLM and RAG usage framework, GDPR compliance, and value KPIs from the scoping phase, so that every pound invested is traceable.
-→ See the strategy and governance service
 
 +140
 

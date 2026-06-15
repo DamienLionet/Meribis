@@ -11,7 +11,6 @@ imageAlt: "Illustration Meritis sur le lean management en gestion de projet"
 description: "Comment appliquer les principes du lean management à la gestion de projet IT."
 ---
 
-
 Issu du système de production de Toyota, le lean management apporte une approche pragmatique et efficace pour optimiser les processus, éliminer les gaspillages et maximiser la valeur livrée aux utilisateurs finaux. Voyons comment appliquer les principes de lean management dans la gestion de projet IT.
 ![Lean\_Management](/assets/images/blog/lean-management-gestion-projet/inline-1.webp)
 

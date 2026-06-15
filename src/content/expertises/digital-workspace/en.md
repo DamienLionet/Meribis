@@ -9,7 +9,6 @@ parent:
   url: "/en/expertise/"
 ---
 
-
 ## Modernise your workplace and build a high-performance digital work environment
 
 We support you in designing and deploying a Digital Workspace strategy aligned with your business and IT priorities.
@@ -98,19 +97,16 @@ Take your Digital Workplace to the next level with a trusted partner committed t
 
 ## Expert support for a controlled transformation
 
-
 **1. Analysis & strategic framing**
 
 -   **State of the art & benchmarking**: market analysis and client feedback
 -   **Master plan**: requirements gathering, use-case definition, and transformation roadmap
 -   **Business case**: budget assessment and ROI analysis
 
-
 ### 2. Solution selection & sourcing
 
 -   **Sourcing (RFI/RFP)**: market consultation, offer analysis, and decision structuring
 -   **Definition of an optimised roadmap** aligned with your strategic objectives
-
 
 ### 3. Deployment & field expertise
 

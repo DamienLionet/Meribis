@@ -11,7 +11,6 @@ imageAlt: "Illustration Meritis sur CQRS et Mediator en .NET"
 description: "CQRS et le pattern Mediator en .NET : principes, bénéfices et pièges à éviter."
 ---
 
-
 **Dans un monde où les applications deviennent de plus en plus complexes et distribuées, structurer proprement son code n’est plus une option, mais une nécessité. L’architecture CQRS (Command Query Responsibility Segregation), associée au pattern Mediator via la bibliothèque MediatR en .NET, s’impose comme une solution efficace pour séparer les responsabilités, améliorer la testabilité et renforcer la maintenabilité du code. Dans cet article, nous vous proposons une analyse concrète et détaillée de cette approche, appuyée par des bonnes pratiques et un retour d’expérience terrain.**
 
 ![Meritis - Architecture système CQRS](/assets/images/blog/cqrs-mediator-net/inline-1.webp)
@@ -57,8 +56,6 @@ Pour en savoir plus sur le pattern Mediator, vous pouvez consulter [le site Refa
 
 **Au delà de la technique, une bonne méthodologie vous permet d’optimiser votre production logicielle.**
 
-👉 Découvrez notre article « DevOps, Lean, chaîne de valeur : optimiser la production logicielle »
-
 ![Meritis - DevOps et lean](/assets/images/blog/cqrs-mediator-net/inline-2.webp)
 
 ### Architecture du projet
@@ -95,8 +92,6 @@ Cependant, certains développeurs pourraient décider de regrouper les **Command
 
 **Envie de découvrir le framework .Net Core, plus récent et plus flexible ?**
 
-👉 Découvrez notre article « Premiers pas avec .Net Core »
-
 ### Implémentation de CQRS avec MediatR en .NET
 
 #### 1\. Installation des MediatR et EntityFrameworkCore
@@ -118,10 +113,6 @@ Configurez le **DbContext** et ajoutez les **services de persistances** dans la 
 #### 4\. Implémentation du CQRS dans le projet CQRSProject.Application :
 
 **Envie de vous challenger avec des énigmes de développement ?**
-
-👉 Découvrez notre nouvelle plateforme CodeOnTime.fr et les résolutions de notre concours CleanSea !
-
-
 
 1.  **Création d’une Command (écriture) et du gestionnaire de cette Command sur l’entité Product.**
 
@@ -163,10 +154,6 @@ Ainsi, dans nos ApiControllers, nous ne ferons appel qu’aux **Command** et **
 
 **L’architecture serverless, la meilleure option pour réduire votre time to market !**
 
-👉 Découvrez notre article « L’architecture sans serveur, c’est vraiment sans serveur ? »
-
-
-
 ### Tests unitaires
 
 Grâce à **XUnit, Moq** (pour simuler les dépendances) et **Shouldly** (qui rend les assertions plus expressives et faciles à lire que celles d’Assert d’Xunit), nous pouvons tester nos **Handlers** efficacement. Ainsi, les tests unitaires permettent de vérifier le bon fonctionnement des handlers de commandes et de requêtes, sans dépendre de la base de données réelle.
@@ -194,5 +181,4 @@ Vous pouvez avoir un avis plus tranché sur le sujet dans [cet article sur Mediu
 L’architecture **CQRS**, combinée à **MediatR**, offre une approche efficace et bien structurée pour les projets .NET complexes. Elle favorise la modularité, la scalabilité et la testabilité, tout en réduisant le couplage. Cependant, son adoption doit être réfléchie. 
 
 Pour des projets complexes nécessitant une séparation claire des commandes et des requêtes, c’est un excellent choix. En revanche, pour des applications plus simples, la surcharge introduite peut ne pas être justifiée. Et vous, avez-vous déjà utilisé **CQRS** **avec** **MediatR** dans vos projets ? Quels ont été vos retours d’expérience ? Partagez-les en commentaire !
-
 

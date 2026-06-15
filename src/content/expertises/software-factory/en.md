@@ -9,7 +9,6 @@ parent:
   url: "/en/expertise/"
 ---
 
-
 ## Build and deliver your fully bespoke web platform — resilient, scalable, and secure
 
 When faced with challenges around performance, security, scalability, maintenance, or business alignment, identifying the right solution is rarely straightforward. As experts in bespoke software development, **Meritis designs, builds, and delivers your web platforms.** Meritis also takes care of corrective and application maintenance for the web platforms it brings into service.

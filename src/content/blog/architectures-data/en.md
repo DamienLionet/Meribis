@@ -25,10 +25,6 @@ In the rest of this article, we present the main data architectures developed ov
 
 **Want to explore the history of data architectures in more detail?**
 
-Read our article "How data architectures transformed data storage and analysis over 50 years"
-
-
-
 ### What Are The Different Types Of Data Architecture?
 
 #### 1- Data Warehouse (DW) - Definition, Operation And Use Cases
@@ -99,10 +95,6 @@ Teradata, IBM DB2 Warehouse, MS SQL - SSAS.
 
 **Download the full version of this content, enriched with additional resources.**
 
-Discover our white paper "Which data architecture should you choose for your company?"
-
-
-
 #### 2- Data Lake - Definition, Operation And Use Cases
 
 The term data lake is a metaphor describing the concept of storing large quantities of raw data in their natural format. Once the data is in the data lake, it must be cleaned and aggregated to make it useful. These processes are called data transformations.
@@ -159,10 +151,6 @@ One of the major problems encountered with data lakes is disorganised data stora
 Hadoop HDFS, AWS S3, Azure Data Lake Storage, Google Cloud Storage.
 
 **Want to implement a data lake? There is nothing like a concrete case to prepare your project properly.**
-
-Discover our client case "Implementation of a full-cloud data lake"
-
-
 
 #### 3- Modern Data Warehouse (MDW) - Definition, Operation And Use Cases
 
@@ -241,10 +229,6 @@ Key technologies for an MDW include:
 AWS Redshift, Azure Synapse Analytics, Google BigQuery and Snowflake.
 
 **Data governance problems are not inevitable.**
-
-Discover our white paper "Data governance: practical guide in 8 key steps"
-
-
 
 #### 4- Data Fabric - Definition, Operation And Use Cases
 
@@ -364,8 +348,6 @@ However, some MDWs have evolved in recent years towards a data lakehouse model, 
 
 Discover our guide to demystified AI for your company.
 
-
-
 #### 6- Data Mesh - Definition, Operation And Use Cases
 
 Traditionally, companies use centralised architectures such as data warehouses or data lakes. These models centralise all data in one place. Although practical, this often creates problems:
@@ -440,10 +422,6 @@ In summary, a data mesh architecture offers essential agility and scalability in
 
 Descriptive analytics, batch processing, data lake, deep learning, IoT... **Need a complete glossary on Big Data?**
 
-Discover our glossary "Big Data: the vocabulary you need to know"
-
-
-
 ### Comparison Of The Different Data Architectures
 
 | **Criteria** | **DW** | **Data lake** | **MDW** | **Data fabric** | **Data lakehouse** | **Data mesh** |
@@ -461,8 +439,6 @@ Comparison of the different data architectures.
 **Do you need support to implement your data architecture?**
 
 Discover an example of support in the financial services and payments sector.
-
-
 
 ### Conclusion
 
@@ -482,5 +458,4 @@ In the future, data architectures will evolve towards even more automation, with
 your enterprise data?**
 
 Test your data maturity.
-
 

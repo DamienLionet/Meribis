@@ -9,7 +9,6 @@ parent:
   url: "/fr/expertises/"
 ---
 
-
 ## Meritis Cybersécurité : notre expertise au service de votre sécurité
 
 **Ransomware** & **malware** (logiciels malveillants), **phishing** (hameçonnage par des fraudeurs) ou **intrusion au niveau du système d’information** (vol de données, usurpation d’identité , espionnage industriel) ; les sociétés sont toutes vulnérables face à ces menaces. Selon l’agence nationale de la sécurité des systèmes d’information ([ANSSI](https://cyber.gouv.fr/)), les **cyberattaques** ciblant des sociétés Françaises sont **de plus en plus nombreuses** avec des **pertes estimées à plusieurs millions d’euros**.

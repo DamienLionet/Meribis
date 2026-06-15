@@ -127,6 +127,25 @@
   margin: 1.5rem 0;
   border-radius: 0;
 }
+/* Galerie héritée d'un carrousel WordPress (slider JS absent) : on affiche les
+   vignettes en grille souple et on masque les conteneurs vides du slider. */
+.prose-meritis .chiffres-block .chiffre-container:empty {
+  display: none;
+}
+.prose-meritis .chiffres-block .chiffres-wrapper,
+.prose-meritis .chiffres-block .chiffre-item-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.prose-meritis .chiffres-block .txt-container {
+  margin: 0;
+}
+.prose-meritis .chiffres-block .txt-container img {
+  max-width: 12rem;
+}
 .prose-meritis figcaption {
   margin-top: 0.75rem;
   color: var(--color-brand-charcoal);

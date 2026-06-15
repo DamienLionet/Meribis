@@ -9,7 +9,6 @@ parent:
   url: "/en/expertise/"
 ---
 
-
 ## Our IT and Business Expertise in Capital Markets Finance
 
 ![paris la défense ](/assets/images/expertises/finance/inline-1.webp)

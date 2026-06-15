@@ -9,7 +9,6 @@ parent:
   url: "/en/expertise/"
 ---
 
-
 80% of organisations will have adopted a DevOps platform by 2027 to streamline their operations\*. Where does your DevOps transformation stand today? [Speak to our experts.](/en/contact/)
 
 _\*Gartner Magic Quadrant for DevOps Platforms, 2024_
@@ -150,16 +149,11 @@ What is DevOps and why is it strategically important?
 
 DevOps is a methodology designed to improve collaboration between development and operations teams, enabling faster development cycles, fewer incidents, and higher-quality deliverables.
 
-?? **Discover our blog article** explaining DevOps in detail.
-
 **Go further:**
 
 -   **5 DevOps best practices**
 -   **DevOps glossary**
 -   **Resources** and [**blog articles**](/en/blog/)
-
-? **Discover our white paper:**
-_"6 key factors for a successful DevOps approach"_ – A comprehensive guide to structuring your DevOps transformation and maximising results.
 
 What are the 6 key factors for implementing a successful DevOps methodology?
 

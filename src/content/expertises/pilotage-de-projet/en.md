@@ -9,7 +9,6 @@ parent:
   url: "/en/expertise/"
 ---
 
-
 ## Meritis supports your digital transformation to accelerate performance
 
 **Tailored support to create lasting value.**
@@ -193,8 +192,6 @@ An essential step in any project, the requirements-writing phase determines whic
 
 Read more ➡
 
-
-
 ### The evolution of project organisation: what role for the human dimension?
 
 The digitalisation of the economy has made it necessary to industrialise the production of software applications. Project management methods have evolved accordingly — first by borrowing general-purpose tools, then by developing methodologies specifically designed for the digital age.
@@ -205,25 +202,15 @@ Read more ➡
 
 * * *
 
-
-
 **\[Client case\] DevOps change management: coordinating Software Factory and DevOps Infrastructure teams**
 
 DevOps support: discover how the Meritis team helped a global leader in aeronautics and space to gain velocity and efficiency.
 
 Read more ➡
 
-
-
-**\[Use Case\] How to design a dynamic, high-performance dashboard in 3 months**
-
 Our client, a global leader in market research and consulting, called on Meritis to design a data analytics and collection dashboard for one of its clients, a large mining operator in Australia.
 
 Read more ➡
-
-
-
-**\[Use Case\] Supporting the launch of two motor insurance products**
 
 Meritis contributed to the launch of two motor insurance products for a major banking and insurance client, within its fire, accident and miscellaneous risks ("IARD") department.
 

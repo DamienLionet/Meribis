@@ -9,7 +9,6 @@ parent:
   url: "/fr/expertises/"
 ---
 
-
 ## Modernisez vos bureaux et créez un environnement de travail digital performant
 
 Nous vous accompagnons la conception et le déploiement d’une stratégie Digital Workspace alignée sur vos enjeux business et IT.
@@ -98,19 +97,16 @@ Faites évoluer votre Digital Workplace avec un partenaire de confiance, engagé
 
 ## Accompagnement expert pour une transformation maîtrisée
 
-
 **1. Analyse & cadrage stratégique**
 
 -   **État de l’art & benchmark** : analyse du marché et retours d’expérience clients
 -   **Schéma directeur** : recueil des besoins, définition des cas d’usage et planification de la transformation
 -   **Business case** : évaluation budgétaire et analyse du ROI
 
-
 ### 2. Sélection & sourcing des solutions
 
 -   **Sourcing (RFI/RFP)** : consultation du marché, analyse des offres et structuration des décisions
 -   **Définition d’une trajectoire optimisée** alignée sur vos objectifs stratégiques
-
 
 ### 3. Déploiement & expertise terrain
 

@@ -9,7 +9,6 @@ parent:
   url: "/fr/expertises/"
 ---
 
-
 ## Vous savez que la Data et l’IA sont stratégiques.Mais la plupart des organisations bloquent au même endroit.
 
 Pas sur la technologie. Sur ce qui vient avant : le cadrage, les données, les choix d’organisation et la capacité à tenir jusqu’à l’adoption.
@@ -17,32 +16,26 @@ Pas sur la technologie. Sur ce qui vient avant : le cadrage, les données, les c
 ### Pourquoi mes POC IA ne passent-ils jamais en production ?
 
 Notre diagnostic de code IA identifie les blocages sur +300 règles d’ingénierie et produit une roadmap d’industrialisation en 2 à 3 semaines.
-→ Voir le diagnostic et cadrage
 
 ### Comment sécuriser mes investissements IA et structurer la gouvernance des données ?
 
 Nous formalisons votre stratégie IA, priorisons vos cas d’usage et construisons la gouvernance qui sécurise vos usages, notamment sur l’IA générative.
-→ Voir la stratégie et gouvernance
 
 ### Comment savoir si mes données sont suffisamment matures pour mes projets IA ?
 
 Nous diagnostiquons votre maturité data et concevons des architectures Data Platform pensées IA-ready dès la conception, pas adaptées après coup.
-→ Acculturation & Idéation
 
 ### Comment construire une solution IA générative fiable et adoptée par mes équipes métier ?
 
 Nous développons vos solutions RAG, agents IA et Machine Learning de l’étude de faisabilité à la mise en production, avec monitoring et adoption inclus.
-→ Voir le développement IA
 
 ### Comment embarquer mes équipes avec une formation IA adaptée à mon entreprise ?
 
 Nos ateliers d’idéation et programmes de formation IA en entreprise créent l’alignement entre dirigeants et équipes métier avant d’engager les ressources.
-→ Voir l’acculturation et idéation
 
 ### Comment sécuriser l’usage de l’IA générative et mesurer le ROI de mes investissements IA ?
 
 Nous structurons le cadre d’usage LLM et RAG, la conformité RGPD et les KPIs de valeur dès le cadrage pour que chaque euro investi soit traçable.
-→ Voir la stratégie et gouvernance
 
 +140
 

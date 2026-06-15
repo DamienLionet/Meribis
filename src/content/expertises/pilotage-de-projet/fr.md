@@ -9,7 +9,6 @@ parent:
   url: "/fr/expertises/"
 ---
 
-
 ## Meritis accompagne votre transformation digitale pour accélérer vos performances
 
 **Un accompagnement sur mesure pour de la création de valeur.**
@@ -180,53 +179,5 @@ Nous accompagnons plus de 80 grands comptes et clients pour les aider à répond
 -   Test leader
 -   Product owner
 -   [Coach Agile](/fr/expertises/agile/)
-
-## Vous souhaitez échanger avec un de nos experts ou prendre rendez-vous ?
-
-## Pour aller plus loin
-
-![Businessmen Planning Project](/assets/images/expertises/pilotage-de-projet/inline-8.webp)
-
-### Méthode de rédaction des exigences d’un projet
-
-Inhérente à toute réalisation de projet, la phase de rédaction des exigences permet de déterminer quelles fonctionnalités seront disponibles et comment elles seront implémentées. Cet article aborde la manière de structurer et de rédiger des exigences à partir d’un cahier des charges à partir des définitions des différents types d’exigences et d’un cas concret d’application. Un exemple volontairement compréhensible par tous et non exhaustif. L’opportunité de vous exercer vous-même en complétant les divers points développés.
-
-Pour en savoir plus ➡
-
-
-
-### Évolution de l’organisation des projets : quelle place pour la dimension humaine ?
-
-La numérisation de l’économie a rendu nécessaire l’industrialisation de la production des applications informatiques. Les méthodes de gestion de projet ont alors évolué tout d’abord en empruntant des outils généralistes, puis en créant des méthodologies dédiées à la numérisation.
-
-Par capillarité, ces nouveaux procédés efficaces se diffusent dans les organisations. La méthode alors la plus en vogue, dite « agile », s’impose (à travers SCRUM) en diffusant l’efficacité du travail itératif pour conserver la maîtrise des coûts et des délais.
-
-Pour en savoir plus ➡
-
-* * *
-
-
-
-**\[Cas client\] Accompagnement au changement DevOps : Coordination des équipes Software Factory et DevOps Infra**
-
-Accompagnement DevOps : Découvrez comment l’équipe Meritis a permis à un leader mondial de l’aéronautique et spatial de gagner en vélocité et efficacité.
-
-Pour en savoir plus ➡
-
-
-
-**\[Use Case\] Comment concevoir un Dashboard dynamique et performant en 3 mois ?**
-
-Notre client, leader mondial en études de marché et conseil a fait appel à Meritis pour concevoir un Dashboard d’analyse et collecte de données pour un de ses clients, gros exploitant minier en Australie.
-
-Pour en savoir plus ➡
-
-
-
-**\[Use Case\] Accompagnement au lancement de deux produits d’assurance automobile**
-
-Meritis a participé au lancement de deux produits d’assurance automobile d’un client grands compte du secteur de la bancassurance, au département incendie, accidents et risques divers «IARD».
-
-Pour en savoir plus ➡
 
 ## Un projet, une question, vous souhaitez en savoir plus ? Contactez-nous !

@@ -9,7 +9,6 @@ parent:
   url: "/en/expertise/"
 ---
 
-
 ## Meritis Cybersecurity: our expertise at the service of your security
 
 **Ransomware** & **malware**, **phishing** or **intrusion into your information system** (data theft, identity fraud, industrial espionage) — every organisation is vulnerable to these threats. According to France's national information systems security agency ([ANSSI](https://cyber.gouv.fr/)), **cyberattacks** targeting French companies are **increasing in frequency**, with **estimated losses running into millions of euros**.

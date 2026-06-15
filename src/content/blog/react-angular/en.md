@@ -116,8 +116,6 @@ This change was fairly incomprehensible to developers most familiar with the sub
 
 **Want to discover how to use React Hooks?**
 
-Read our article "Getting started with React hooks: an overview of the useState hook"
-
 ![React hooks - Meritis black and white](/assets/images/blog/react-vs-angular/inline-6.webp)
 
 ### Why Is All This A Problem?

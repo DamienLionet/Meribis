@@ -9,7 +9,6 @@ parent:
   url: "/en/expertise/"
 ---
 
-
 ## Build the agile culture that fits your organisation and optimise your Time to Market
 
 **Applying agile principles means giving yourself the means to deliver a solution quickly to your users and to keep improving it continuously.** Far more than a short-term profitability imperative, agility must combine continuous adaptation (to constraints and reality) with exploration (creativity and user understanding).

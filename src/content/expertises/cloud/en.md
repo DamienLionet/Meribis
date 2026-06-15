@@ -9,7 +9,6 @@ parent:
   url: "/en/expertise/"
 ---
 
-
 ## Gain the flexibility to scale your IT infrastructure rapidly while keeping costs under control!
 
 Organisations of all sizes and across every sector are embracing the cloud at an ever-growing pace. Server externalisation is a proven, secure practice that offers a wealth of benefits. A successful cloud migration, however, requires experienced partners and industrialised methodologies that encompass security, performance, and the delivery of new capabilities.

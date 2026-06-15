@@ -12,7 +12,6 @@ featured: true
 description: "Quels défis data l'IA générative impose-t-elle aux entreprises ? Qualité, gouvernance, sécurité."
 ---
 
-
 _**Début 2026, nous disposons désormais d’un recul significatif sur l’adoption de l’intelligence artificielle générative en entreprise. Quelques rapports pertinents voient en effet le jour sur la maturité des entreprises et la concrétisation de leurs projets. McKinsey, Deloitte et MIT se sont récemment penchés sur le sujet, en tirant de premières conclusions grâce à des études menées au niveau mondial et sur plus d’un millier d’entreprises.**_
 
 _**Cependant, comme le révèlent les rapports récents de Deloitte et du MIT, les dirigeants d’entreprises font face à des défis majeurs pour concrétiser leurs ambitions, notamment en matière de qualité des données, d’infrastructures et de gouvernance. Bien que le potentiel opérationnel de ces technologies soit aujourd’hui indéniable, nous allons voir dans cet article que leur concrétisation est souvent plus compliquée que prévu.**_
@@ -66,8 +65,6 @@ Taux de scaling des POC d’IA Gen dans les entreprises
 Pour comprendre ce chiffre, il faut réaliser qu’une initiative IA est indissociablement liée à une stratégie data au sens large. Ce décalage entre ambition et concrétisation s’explique par sept points de friction majeurs :
 
 -   **Qualité des données insuffisante :** Plus d’un tiers des entreprises européennes citent la mauvaise qualité des données comme obstacle principal à la concrétisation de leurs projets d’IA générative.
-
-    📖Ces problèmes de qualité sont précisément ce qui empêche les projets de passer en production. Découvrez comment les anticiper dans notre livre blanc sur l’industrialisation des projets IA
 
 -   **Infrastructures cloisonnées :** La combinaison d’infrastructures héritées, de systèmes obsolètes et d’un manque de gouvernance freine l’adoption de technologies prometteuses.
 -   **Compétences internes & Gouvernance Data :** Selon une étude de Forbes Insights (5),  83 % des organisations considèrent la gestion des données comme leur principal défi. 43 % estiment leurs outils analytiques et infrastructures dépassés. En France, seuls 25 % des décideurs déclarent disposer de données disponibles en temps voulu. Le manque d’expertise interne sur les métiers spécifiques de la Data & l’IA est également cité régulièrement. 

@@ -25,8 +25,6 @@ Test management is not a single isolated task. Rather, it is a series of success
 
 **Want to explore testing in an agile context?**
 
-Read our article "Testing in an agile team"
-
 ![Agile software testing Meritis](/assets/images/blog/reussir-projet-test-logiciel/inline-2.webp)
 
 ### The Steps Of Test Management
@@ -58,8 +56,6 @@ There are two types of risks:
 This step consists of approximately determining the effort required, in terms of time, to complete each task in the testing project.
 
 **Looking for a general resource on testing?**
-
-Read our article "IT testing best practices"
 
 ![IT testing](/assets/images/blog/reussir-projet-test-logiciel/inline-5.webp)
 
@@ -154,8 +150,6 @@ This ensures complete and auditable test coverage.
 
 **Want to know how to write test cases from requirements?**
 
-Read our article "Method for writing test cases from requirements"
-
 ![Method for writing test cases from requirements - Meritis blog](/assets/images/blog/reussir-projet-test-logiciel/inline-6.webp)
 
 #### Phase 4: Implementation
@@ -236,10 +230,6 @@ If a new team needs to take over product quality, this closure phase allows the 
 By taking a step back from past experience, the test team can improve the maturity of its practices and the quality of future projects.
 
 **Want to discover how to optimise your software production with DevOps and Lean concepts?**
-
-Read our article "DevOps, Lean, value stream: optimising software production"
-
-
 
 ### What Should You Remember About Test Management?
 

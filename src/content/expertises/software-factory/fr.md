@@ -9,7 +9,6 @@ parent:
   url: "/fr/expertises/"
 ---
 
-
 ## Construire et délivrer votre plateforme web 100% sur mesure de manière résiliente, évolutive et sécurisée
 
 Face à des problématiques de performance, de sécurité, d’évolutivité, de maintenance ou encore d’alignement business, il n’est pas toujours facile de mettre en place la bonne solution. Experts du développement de solutions sur mesure, **Meritis conçoit, produit et délivre vos plateformes web.** Meritis s’occupe également de la maintenance corrective et applicative des plateformes web mises en service.

@@ -9,7 +9,6 @@ parent:
   url: "/fr/expertises/"
 ---
 
-
 ## Développez l’agilité qui vous correspond et optimisez votre Time To Market
 
 **Appliquer les principes d’agilité, c’est se donner les moyens de livrer une solution rapidement à ses utilisateurs et de continuer à améliorer cette solution en permanence.** Bien plus qu’une urgence de rentabilité, l’agilité doit combiner adaptation continue (aux contraintes et à la réalité) et prospection (créativité et compréhension utilisateur).

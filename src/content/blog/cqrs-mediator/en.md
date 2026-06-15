@@ -56,8 +56,6 @@ To learn more about the Mediator pattern, you can check out [the Refactoring Gur
 
 **Beyond the technique, a good methodology helps you optimise your software production.**
 
-👉 Read our article « DevOps, Lean, value chain: optimising software production »
-
 ![Meritis - DevOps and lean](/assets/images/blog/cqrs-mediator-net/inline-2.webp)
 
 ### Project architecture

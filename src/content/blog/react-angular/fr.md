@@ -11,7 +11,6 @@ imageAlt: "Illustration Meritis comparant React et Angular"
 description: "React vs Angular : philosophies, forces et critères de choix pour un projet front-end."
 ---
 
-
 **Lorsqu’il s’agit de choisir une technologie pour un projet web, la stabilité et la pérennité du framework sont des critères essentiels. Avec React et Angular, la tentation est grande de croire en une certaine fiabilité. Mais dans un contexte de restructurations, de licenciements et d’intérêts parfois divergents entre entreprises et développeurs, peut-on vraiment considérer ces frameworks soutenus par des géants de la tech comme des choix sûrs sur le long terme ?** 
 
 ![Angular et react, faut-il faire confiance aux frameworks soutenus par les géants de la tech ? ](/assets/images/blog/react-vs-angular/inline-1.webp)
@@ -48,8 +47,6 @@ Google a aussi connu des vagues de licenciements ces dernières années : 12 0
 
 **Vous ne voulez pas dépendre de frameworks lourds pour vos backends ?**
 
-👉 Regardez le replay de notre meetup « Meritis x Programmez : Frameworkless en Java »
-
 ![Rec replay meetup programmez Frameworkless en Java](/assets/images/blog/react-vs-angular/inline-2.webp)
 
 #### Le cas Flutter
@@ -67,8 +64,6 @@ Début 2025, la firme de Montain View a également annoncé un plan de départ v
 On peut mettre dans la balance la criticité beaucoup plus importante pour Google d’Angular par rapport à Flutter. Toujours est-il qu’en fin de compte, l’équipe Angular n’est pas à l’abri de départs soudains et/ou de restructurations comme l’ont été d’autres équipes chez Google. On ne peut douter de la bonne foi des personnes qui travaillent sur le projet et sont souvent très investies auprès des communautés de dev, mais la décision ne leur appartient pas.
 
 **Besoin d’une boîte à outil complète du développeur Full Stack ?**
-
-👉 Téléchargez dès maintenant la « Boîte à outil du Développeur Full Stack », faite par des Développeurs Full Stack eux-mêmes !
 
 ![boite à outils du développeur fullstack](/assets/images/blog/react-vs-angular/inline-4.webp)
 
@@ -116,8 +111,6 @@ Et même quand l’équipe de Meta s’implique, ce n’est pas toujours avec le
 Un changement assez incompréhensible par les devs les plus calés sur le sujet et qui, après investigation, se révèlera avoir été introduit… pour les besoins d’Instagram ! Le sujet avait même été couvert par des [médias en ligne spécialisés](https://javascript.developpez.com/actu/359323/React-19-une-modification-de-la-facon-dont-Suspense-gere-les-requetes-en-parallele-pourrait-potentiellement-degrader-de-maniere-significative-la-performance-de-nombreux-sites-web-qui-s-appuient-sur-React/). L’équipe fera finalement machine arrière, non sans avoir perdu la confiance d’une partie de la communauté.
 
 **Envie de découvrir comment utiliser les Hooks de React ?**
-
-👉 Lisez notre article « Démarrer avec les hooks de React : un aperçu du hook useState »
 
 ![hooks de React - meritis noir et blanc](/assets/images/blog/react-vs-angular/inline-6.webp)
 
