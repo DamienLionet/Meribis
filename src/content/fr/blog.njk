@@ -7,7 +7,7 @@ description: "Le blog de Meritis : articles, analyses et retours d'expérience d
 ---
 <section class="mx-auto max-w-6xl px-6 py-16 md:py-20">
   <h1 class="text-4xl font-semibold tracking-tight text-brand-charcoal md:text-5xl">{{ title }}</h1>
-  <p class="mt-4 max-w-2xl text-lg text-brand-charcoal/70">{{ i18n[locale].blogIntro }}</p>
+  <p class="mt-4 max-w-2xl text-lg text-brand-charcoal">{{ i18n[locale].blogIntro }}</p>
 
   <ul class="mt-12 grid list-none gap-6 p-0 md:grid-cols-2">
     {% for post in collections["blog_" + locale] %}

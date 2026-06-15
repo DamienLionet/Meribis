@@ -12,6 +12,7 @@ imageAlt: "Illustration Meritis sur la quantification des LLM"
 description: "Comprendre la quantification des LLM : principes, gains et compromis."
 ---
 
+
 Les LLM occupent, depuis quelques années, une place centrale dans nos vies et dans la manière dont nous travaillons en entreprise. Les performances des modèles utilisés semblent même s’améliorer sans cesse. Mais cette amélioration n’a rien de magique : elle est liée à une augmentation continue de la taille des modèles. En conséquence, ceux-ci deviennent plus chers, plus lents, et nécessitent des infrastructures de plus en plus importantes pour pouvoir être exécutés. D’où l’intérêt de la quantification des LLM, technique qui permet de réduire considérablement la taille des modèles sans pour autant trop dégrader leurs performances.
 ![Quantification\_des\_LLM](/assets/images/blog/quantification-llm/inline-1.webp)
 
@@ -171,11 +172,3 @@ Dans tous les cas, la quantification s’impose aujourd’hui comme une techniqu
 _\[1\] : inside-machinelearning.com_
 
 _\[2\] : medium.com_
-
-**Vous avez aimé cet article ?**
-
-Abonnez-vous à notre newsletter pour ne rien rater de l’actualité Tech et Finance.
-
-#### Pas encore de commentaires
-
-#### Publier un commentaire

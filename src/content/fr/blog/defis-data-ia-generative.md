@@ -13,6 +13,7 @@ featured: true
 description: "Quels défis data l'IA générative impose-t-elle aux entreprises ? Qualité, gouvernance, sécurité."
 ---
 
+
 _**Début 2026, nous disposons désormais d’un recul significatif sur l’adoption de l’intelligence artificielle générative en entreprise. Quelques rapports pertinents voient en effet le jour sur la maturité des entreprises et la concrétisation de leurs projets. McKinsey, Deloitte et MIT se sont récemment penchés sur le sujet, en tirant de premières conclusions grâce à des études menées au niveau mondial et sur plus d’un millier d’entreprises.**_
 
 _**Cependant, comme le révèlent les rapports récents de Deloitte et du MIT, les dirigeants d’entreprises font face à des défis majeurs pour concrétiser leurs ambitions, notamment en matière de qualité des données, d’infrastructures et de gouvernance. Bien que le potentiel opérationnel de ces technologies soit aujourd’hui indéniable, nous allons voir dans cet article que leur concrétisation est souvent plus compliquée que prévu.**_
@@ -261,24 +262,3 @@ Il n’existe pas une « meilleure » IA générative universelle, mais plutôt 
 L’IA générative est classée en plusieurs catégories en fonction des modalités qu’elle traite. Les modèles textuels (LLM) tels que GPT-5 ou Mistral produisent du contenu écrit, du code et des analyses. Les modèles visuels sont en train de concevoir des images (Midjourney, DALL-E) ou des vidéos. La voix et la musique sont produites par les modèles audio, tandis que les multimodaux combinent plusieurs types de données. L’IA générative est maintenant utilisée dans tous les domaines : assistants de code, agents conversationnels, outils de synthèse documentaire, créateurs de contenu marketing et assistants métier spécialisés. Chaque forme d’IA a un potentiel particulier en fonction des besoins spécifiques de l’entreprise, allant de l’optimisation des processus à la création de nouvelles offres.
 
 **Sources :**
-
-**Vous avez aimé cet article ?**
-
-Abonnez-vous à notre newsletter pour ne rien rater de l’actualité Tech et Finance.
-
-1.  **McKinsey : The state of AI (mars 2025)** [https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value\_final.pdf](https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf?utm_source=chatgpt.com)
-2.  **Deloitte : State of generative AI (janvier 2025)**
-    [https://www.deloitte.com/az/en/issues/generative-ai/state-of-generative-ai-in-enterprise.html](https://www.deloitte.com/az/en/issues/generative-ai/state-of-generative-ai-in-enterprise.html?utm_source=chatgpt.com)
-3.  **Accenture :** “**Une nouvelle ère de l’IA apportera une autonomie sans précédent aux entreprises” (janvier 2025)** [https://newsroom.accenture.fr/fr/news/2025/accenture-technology-vision-2025-une-nouvelle-ere-de-l-ia-apportera-une-autonomie-sans-precedent-aux-entreprises](https://newsroom.accenture.fr/fr/news/2025/accenture-technology-vision-2025-une-nouvelle-ere-de-l-ia-apportera-une-autonomie-sans-precedent-aux-entreprises?utm_source=chatgpt.com)
-4.  **MIT: The GenAI Divide: State of AI in Business 2025 (juillet 2025)**
-    [https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai\_report\_2025.pdf](https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai_report_2025.pdf)
-5.  **Forbes Insights AI (2025)**
-    [https://www.forbes.com/insights-intelai/ai-issue-1/](https://www.forbes.com/insights-intelai/ai-issue-1/)
-6.  **L’Oréal** : Rapports annuels 2024/2025 et articles sur la stratégie « Beauty Tech »
-7.  **Carrefour** : Communications sur le plan « Carrefour 2026 », le lancement du chatbot _Hopla_ et les résultats opérationnels présentés lors des salons _Tech for Retail_
-8.  **TotalEnergies** : Communication de la _Digital Factory_ et objectifs chiffrés de création de valeur (1.5 Md$/an) annoncés pour 2025
-9.  **Sanofi :** Annonces lors de _VivaTech 2024/2025_ sur l’ambition « All-in on AI » et l’accélération de la R&D
-
-#### Pas encore de commentaires
-
-#### Publier un commentaire

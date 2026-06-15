@@ -12,6 +12,7 @@ imageAlt: "Illustration Meritis sur les mathématiques des marchés financiers"
 description: "Le backtesting en trading : principe, bénéfices et limites méthodologiques."
 ---
 
+
 Et si toutes les données passées ne se valaient pas ? Dans l’univers impitoyable des marchés financiers, les décisions d’investissement s’appuient souvent sur des modèles qui répliquent le passé pour anticiper l’avenir. C’est le principe du backtesting. Mais dans un environnement aussi instable que celui de la Bourse, faut-il vraiment accorder la même importance à une donnée vieille de dix ans qu’à une observation de la semaine dernière ? À travers une plongée dans les mathématiques financières, cet article explore l’intérêt de pondérer les données historiques en fonction de leur ancienneté, pour mieux capter les dynamiques récentes du marché et affiner ses stratégies de trading.
 ![](/assets/images/blog/backtesting-trading/inline-1.webp)
 
@@ -94,12 +95,4 @@ C’est bien à partir de ces nouveaux rendements pondérés qu’il faudra réa
 
 ### Conclusion : le rôle clé de la pondération dans une stratégie de trading
 
-Les séries temporelles financières sont le reflet d’un monde en perpétuelle évolution. Dans ce contexte, toutes les observations historiques ne se valent pas. L’utilisation de pondérations, notamment exponentielles ou composites, permet de donner plus de poids aux données récentes ou critiques. Cela améliore la robustesse des backtests et la pertinence des stratégies de trading associées. En définitive, intégrer la notion d’ancienneté et de pertinence dans l’analyse des séries temporelles est une nécessité stratégique dans le cadre du backtesting en trading. 
-
-**Vous avez aimé cet article ?**
-
-Abonnez-vous à notre newsletter pour ne rien rater de l’actualité Tech et Finance.
-
-#### Pas encore de commentaires
-
-#### Publier un commentaire
+Les séries temporelles financières sont le reflet d’un monde en perpétuelle évolution. Dans ce contexte, toutes les observations historiques ne se valent pas. L’utilisation de pondérations, notamment exponentielles ou composites, permet de donner plus de poids aux données récentes ou critiques. Cela améliore la robustesse des backtests et la pertinence des stratégies de trading associées. En définitive, intégrer la notion d’ancienneté et de pertinence dans l’analyse des séries temporelles est une nécessité stratégique dans le cadre du backtesting en trading.

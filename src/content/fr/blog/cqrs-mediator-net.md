@@ -12,6 +12,7 @@ imageAlt: "Illustration Meritis sur CQRS et Mediator en .NET"
 description: "CQRS et le pattern Mediator en .NET : principes, bénéfices et pièges à éviter."
 ---
 
+
 **Dans un monde où les applications deviennent de plus en plus complexes et distribuées, structurer proprement son code n’est plus une option, mais une nécessité. L’architecture CQRS (Command Query Responsibility Segregation), associée au pattern Mediator via la bibliothèque MediatR en .NET, s’impose comme une solution efficace pour séparer les responsabilités, améliorer la testabilité et renforcer la maintenabilité du code. Dans cet article, nous vous proposons une analyse concrète et détaillée de cette approche, appuyée par des bonnes pratiques et un retour d’expérience terrain.**
 
 ![Meritis - Architecture système CQRS](/assets/images/blog/cqrs-mediator-net/inline-1.webp)
@@ -196,11 +197,3 @@ L’architecture **CQRS**, combinée à **MediatR**, offre une approche efficace
 Pour des projets complexes nécessitant une séparation claire des commandes et des requêtes, c’est un excellent choix. En revanche, pour des applications plus simples, la surcharge introduite peut ne pas être justifiée. Et vous, avez-vous déjà utilisé **CQRS** **avec** **MediatR** dans vos projets ? Quels ont été vos retours d’expérience ? Partagez-les en commentaire !
 
 [](https://infos.meritis.fr/livre_blanc_software_craftmanship)
-
-**Vous avez aimé cet article ?**
-
-Abonnez-vous à notre newsletter pour ne rien rater de l’actualité Tech et Finance.
-
-#### Pas encore de commentaires
-
-#### Publier un commentaire

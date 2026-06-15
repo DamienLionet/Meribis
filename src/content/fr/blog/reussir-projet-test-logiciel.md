@@ -12,6 +12,7 @@ imageAlt: "Illustration Meritis sur la réussite d'un projet de test logiciel"
 description: "Les clés d'une stratégie de test logiciel efficace : pyramide des tests, automatisation, couverture."
 ---
 
+
 **Dans un projet utilisant une approche Waterfall ou cycle en V, la gestion des tests logiciels pose souvent des défis considérables. Le temps alloué aux tests est généralement limité, les ressources peuvent être insuffisantes, et des imprévus peuvent surgir, perturbant le calendrier prévu. Dans cet article, nous nous attacherons à montrer comment réussir un projet de test logiciel.**
 
 ![Meritis - comment tester un logiciel ?](/assets/images/blog/reussir-projet-test-logiciel/inline-1.webp)
@@ -259,20 +260,3 @@ D’autres articles suivront pour présenter davantage certains points, vous don
 
 > « _La connaissance sans la pratique est supérieure à la pratique sans la connaissance. La pratique jointe à la connaissance est supérieure à la connaissance sans la pratique. »_
 > **Ramana Maharshi**
-
-**Vous avez aimé cet article ?**
-
-Abonnez-vous à notre newsletter pour ne rien rater de l’actualité Tech et Finance.
-
-#### Vos commentaires
-
-1.  Par Marine, le 23 Mai 2025
-
-    Super article Imane !
-    Merci
-
-2.  Par Imane, le 29 Août 2025
-
-    Merci Marine 🙂
-
-#### Publier un commentaire

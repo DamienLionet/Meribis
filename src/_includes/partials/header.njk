@@ -10,7 +10,7 @@
           {% for item in navigation[locale] %}
             {% set isActive = ("#" not in item.url) and (page.url == item.url) %}
             <li>
-              <a href="{{ item.url | url }}"{% if isActive %} aria-current="page"{% endif %} class="text-sm font-medium {% if isActive %}text-brand-blue{% else %}text-brand-charcoal/80 transition hover:text-brand-blue{% endif %}">{{ item.label }}</a>
+              <a href="{{ item.url | url }}"{% if isActive %} aria-current="page"{% endif %} class="text-sm font-medium {% if isActive %}text-brand-blue{% else %}text-brand-charcoal transition hover:text-brand-blue{% endif %}">{{ item.label }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -31,7 +31,7 @@
       {% for item in navigation[locale] %}
         {% set isActive = ("#" not in item.url) and (page.url == item.url) %}
         <li>
-          <a href="{{ item.url | url }}"{% if isActive %} aria-current="page"{% endif %} class="block rounded px-3 py-2 text-base font-medium {% if isActive %}bg-brand-light text-brand-blue{% else %}text-brand-charcoal/80 transition hover:bg-brand-light{% endif %}">{{ item.label }}</a>
+          <a href="{{ item.url | url }}"{% if isActive %} aria-current="page"{% endif %} class="block rounded px-3 py-2 text-base font-medium {% if isActive %}bg-brand-light text-brand-blue{% else %}text-brand-charcoal transition hover:bg-brand-light{% endif %}">{{ item.label }}</a>
         </li>
       {% endfor %}
       <li>

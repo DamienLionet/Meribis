@@ -6,7 +6,7 @@
           <span class="rounded px-2 py-1 font-semibold text-brand-blue" aria-current="true">{{ loc | upper }}</span>
         {% else %}
           {% set target = translations[loc] or ("/" + loc + "/") %}
-          <a href="{{ target | url }}" hreflang="{{ loc }}" class="rounded px-2 py-1 text-brand-charcoal/60 transition hover:bg-brand-light hover:text-brand-blue">{{ loc | upper }}</a>
+          <a href="{{ target | url }}" hreflang="{{ loc }}" class="rounded px-2 py-1 text-brand-charcoal transition hover:bg-brand-light hover:text-brand-blue">{{ loc | upper }}</a>
         {% endif %}
       </li>
     {% endfor %}

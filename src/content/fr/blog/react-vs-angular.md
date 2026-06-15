@@ -12,6 +12,7 @@ imageAlt: "Illustration Meritis comparant React et Angular"
 description: "React vs Angular : philosophies, forces et critères de choix pour un projet front-end."
 ---
 
+
 **Lorsqu’il s’agit de choisir une technologie pour un projet web, la stabilité et la pérennité du framework sont des critères essentiels. Avec React et Angular, la tentation est grande de croire en une certaine fiabilité. Mais dans un contexte de restructurations, de licenciements et d’intérêts parfois divergents entre entreprises et développeurs, peut-on vraiment considérer ces frameworks soutenus par des géants de la tech comme des choix sûrs sur le long terme ?** 
 
 ![Angular et react, faut-il faire confiance aux frameworks soutenus par les géants de la tech ? ](/assets/images/blog/react-vs-angular/inline-1.webp)
@@ -132,11 +133,3 @@ Je trouve que la conclusion de l’article de developpez.com cité plus tôt ré
 Mais au-delà de ces préoccupations, le cas de Flutter montre bien que, même si l’équipe en charge d’un outil est impliquée et prend en compte les retours, l’appartenance à un grand groupe crée de fait une vulnérabilité face aux décisions macroscopiques qu’une telle entreprise peut être amenée à prendre.
 
 À titre personnel, j’ai beaucoup entendu de critiques sur le statut de Vue, une librairie qui, du point de vue de certains décideurs techniques avec qui j’ai déjà échangé, ne méritait pas la même considération qu’Angular ou React du fait du soutien que Google et Meta leur apportaient. Cette indépendance m’apparaît aujourd’hui plutôt une force, mais aussi être plus proche de la philosophie d’origine de l’open source. Et la diffusion rapide des innovations portées par l’environnement Vue dans le reste de l’écosystème Javascript, avec de vrais bénéfices pour les utilisateurs, semble leur donner raison.
-
-**Vous avez aimé cet article ?**
-
-Abonnez-vous à notre newsletter pour ne rien rater de l’actualité Tech et Finance.
-
-#### Pas encore de commentaires
-
-#### Publier un commentaire

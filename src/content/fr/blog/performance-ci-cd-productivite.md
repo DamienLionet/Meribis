@@ -13,6 +13,7 @@ imageAlt: "Illustration éditoriale Meritis sur la performance CI/CD"
 description: "Comment optimiser les pipelines CI/CD pour améliorer la productivité des équipes sans dette technique."
 ---
 
+
 La performance CI/CD est aujourd’hui un enjeu clé pour les organisations qui souhaitent accélérer leurs cycles de livraison tout en maintenant un haut niveau de qualité. Les pipelines CI/CD constituent la colonne vertébrale des chaînes DevOps : elles automatisent l’intégration du code, l’exécution des tests et le déploiement des applications, afin de réduire les délais de mise en production et d’améliorer la fiabilité des livraisons.
 ![mage devops performance ci cd](/assets/images/blog/performance-ci-cd-productivite/inline-1.webp)
 
@@ -301,11 +302,3 @@ La surveillance efficace d’un pipeline CI/CD s’appuie sur le suivi de métri
 Navigacom, cabinet de conseil du groupe Meritis, accompagne les équipes IT dans l’optimisation de la performance CI/CD pour des déploiements plus rapides, plus fiables et plus sécurisés.
 
 Audit, recommandations, accompagnement opérationnel : nos experts interviennent sur toute la chaîne pour maximiser l’impact business de votre delivery logiciel.
-
-**Vous avez aimé cet article ?**
-
-Abonnez-vous à notre newsletter pour ne rien rater de l’actualité Tech et Finance.
-
-#### Pas encore de commentaires
-
-#### Publier un commentaire

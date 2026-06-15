@@ -12,6 +12,7 @@ imageAlt: "Illustration Meritis sur le lean management en gestion de projet"
 description: "Comment appliquer les principes du lean management à la gestion de projet IT."
 ---
 
+
 Issu du système de production de Toyota, le lean management apporte une approche pragmatique et efficace pour optimiser les processus, éliminer les gaspillages et maximiser la valeur livrée aux utilisateurs finaux. Voyons comment appliquer les principes de lean management dans la gestion de projet IT.
 ![Lean\_Management](/assets/images/blog/lean-management-gestion-projet/inline-1.webp)
 
@@ -139,11 +140,3 @@ En ce sens, le lean management appliqué à la gestion de projet IT permet de :
 -   Créer un environnement de travail plus fluide et motivant pour les équipes.
 
 **« Moins de gaspillage, plus de valeur, une équipe plus efficace et un client satisfait ! »** Voilà la promesse du Lean en gestion de projet !
-
-**Vous avez aimé cet article ?**
-
-Abonnez-vous à notre newsletter pour ne rien rater de l’actualité Tech et Finance.
-
-#### Pas encore de commentaires
-
-#### Publier un commentaire
