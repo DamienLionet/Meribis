@@ -113,7 +113,8 @@ Commandes (cf. `package.json`) :
 | `npm run build:css` | Compile + minifie le CSS vers `dist/` |
 | `npm run build` | Génère le site avec Eleventy (`PATH_PREFIX` appliqué) |
 | `npm run build:search` | Génère l'index Pagefind dans `dist/pagefind/` |
-| `npm run build:all` | Enchaîne les trois (= ce que lance la CI) |
+| `npm run clean` | Vide `dist/` (évite les pages périmées après renommage/suppression) |
+| `npm run build:all` | `clean` puis enchaîne les trois (= ce que lance la CI) |
 
 > **Windows / PowerShell** : les scripts préfixant une variable d'env utilisent `cross-env` pour
 > rester identiques en local **et** dans la CI Linux.
@@ -232,7 +233,7 @@ flowchart LR
 | **1. Socle build** | deps installées, `eleventy.config.js`, `input.css` (@theme + tokens), `base.njk`, `site.json`, `main.js`, page démo `/fr/`, redirect racine, `.gitignore` | **✅ Fait** — `build:all` vérifié |
 | **Déploiement (anticipé)** | workflow GitHub Actions, indexation Pagefind dans `build:all`, `.nojekyll` | **✅ En ligne** — déployé sur https://damienlionet.github.io/Meribis/ (dépôt rendu public car Pages indisponible en privé/gratuit ; Pages = source Actions) |
 | **2. Chrome + bilingue** | layouts `base` (header/`<main>`/footer/hreflang) + `page`, partials header/footer/language-switcher/breadcrumbs/cta-block, `i18n.json` / `navigation.json`, pages Accueil + À propos FR/EN reliées par `translationKey` | **✅ Fait** — `build:all` vérifié (5 pages, 2 langues) |
-| **3. Collections + types** | layouts `blog-post` / `job-post` (+ JSON-LD Article/JobPosting), `card-blog` / `card-job`, pages liste blog + offres FR/EN, collections `blog_*` / `jobs_*` / `featured_blog_*`, `taxonomies.json`, 8 contenus d'exemple FR/EN | **✅ Fait** — `build:all` vérifié (17 pages) |
+| **3. Collections + contenus** | layouts `blog-post` / `job-post` (+ JSON-LD), `card-blog` / `card-job` **cliquables en entier** (lien étiré), pages liste FR/EN, collections `blog_*` / `jobs_*` / `featured_blog_*`, `taxonomies.json` ; **10 articles** (couvertures Meritis en webp, tuiles + héro) + **16 offres** FR/EN | **✅ Fait** — `build:all` vérifié (61 pages) |
 | 4. Recherche + filtres (front) | UI Pagefind (`search.js`), filtres combinés vanilla (`filters.js`), partials `filters-*` | À faire |
 
 > **Prochaine action concrète** : étape 4 — recherche Pagefind (`search.js`), filtres combinés
