@@ -4,13 +4,16 @@ permalink: /en/jobs/
 title: Jobs
 description: "Join Meritis: explore our job openings and apply."
 ---
-<section class="mx-auto max-w-6xl px-6 py-16 md:py-20">
-  <h1 class="text-4xl font-semibold tracking-tight text-brand-charcoal md:text-5xl">{{ title }}</h1>
-  <p class="mt-4 max-w-2xl text-lg text-brand-charcoal">{{ i18n[locale].jobsIntro }}</p>
+{% set heroTitle = title %}
+{% set heroLead = i18n[locale].jobsIntro %}
+{% include "partials/page-hero.njk" %}
 
-  <ul class="mt-12 grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+<section class="mx-auto max-w-6xl px-6 py-12 md:py-16">
+  {% include "partials/filters-jobs.njk" %}
+  <ul data-list class="grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
     {% for post in collections["jobs_" + locale] %}
       {% include "partials/card-job.njk" %}
     {% endfor %}
   </ul>
+  <p data-empty hidden class="mt-8 text-brand-charcoal">{{ i18n[locale].noResults }}</p>
 </section>

@@ -1,0 +1,11 @@
+{# Hero de page habillé : fond bleu nuit + image (voilée) + bulles dynamiques.
+   Variables à définir avant l'include : heroTitle (requis), heroLead (optionnel). #}
+<section class="relative isolate overflow-hidden bg-brand-blue-dark text-brand-ivory">
+  <img src="{{ '/assets/images/brand/hero-bg.webp' | url }}" alt="" aria-hidden="true" width="1024" height="683" class="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-20" />
+  {% set decorClass = "right-[-40px] top-[-30px] h-72 w-72 text-white/10 md:h-[28rem] md:w-[28rem]" %}
+  {% include "partials/decor-bubbles.njk" %}
+  <div class="relative z-10 mx-auto max-w-6xl px-6 py-16 md:py-20">
+    <h1 class="text-4xl font-semibold tracking-tight md:text-5xl">{{ heroTitle }}</h1>
+    {% if heroLead %}<p class="mt-4 max-w-2xl text-lg leading-relaxed text-brand-ivory">{{ heroLead }}</p>{% endif %}
+  </div>
+</section>

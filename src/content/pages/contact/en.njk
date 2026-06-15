@@ -4,11 +4,12 @@ permalink: /en/contact/
 title: Contact
 description: "Contact Meritis: let's talk about your technology project."
 ---
-<section class="mx-auto max-w-3xl px-6 py-12 md:py-16">
-  <h1 class="text-4xl font-semibold tracking-tight text-brand-charcoal md:text-5xl">Let's talk about your project</h1>
-  <p class="mt-4 text-lg leading-relaxed text-brand-charcoal">A question, a project or an application? Write to us using the form below — we'll get back to you quickly.</p>
+{% set heroTitle = "Let's talk about your project" %}
+{% set heroLead = "A question, a project or an application? Write to us using the form below — we'll get back to you quickly." %}
+{% include "partials/page-hero.njk" %}
 
-  <div class="mt-8 overflow-hidden rounded-card bg-white shadow-soft">
+<section class="mx-auto max-w-3xl px-6 py-12 md:py-16">
+  <div class="overflow-hidden rounded-card bg-white shadow-soft">
     <iframe
       title="Meritis contact form"
       src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=FKtmkg0M-k-EhJ7SirQzqpOpZcoB86VIv7udGFyMyOVUNEJINUo3MzRNNVAwMzc5QUdGWUpCRzYyRC4u&embed=true"

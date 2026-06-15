@@ -4,13 +4,16 @@ permalink: /fr/blog/
 title: Blog
 description: "Le blog de Meritis : articles, analyses et retours d'expérience de nos consultants."
 ---
-<section class="mx-auto max-w-6xl px-6 py-16 md:py-20">
-  <h1 class="text-4xl font-semibold tracking-tight text-brand-charcoal md:text-5xl">{{ title }}</h1>
-  <p class="mt-4 max-w-2xl text-lg text-brand-charcoal">{{ i18n[locale].blogIntro }}</p>
+{% set heroTitle = title %}
+{% set heroLead = i18n[locale].blogIntro %}
+{% include "partials/page-hero.njk" %}
 
-  <ul class="mt-12 grid list-none gap-6 p-0 md:grid-cols-2">
+<section class="mx-auto max-w-6xl px-6 py-12 md:py-16">
+  {% include "partials/filters-blog.njk" %}
+  <ul data-list class="grid list-none gap-6 p-0 md:grid-cols-2">
     {% for post in collections["blog_" + locale] %}
       {% include "partials/card-blog.njk" %}
     {% endfor %}
   </ul>
+  <p data-empty hidden class="mt-8 text-brand-charcoal">{{ i18n[locale].noResults }}</p>
 </section>

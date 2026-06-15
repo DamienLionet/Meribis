@@ -33,7 +33,10 @@
     "remote": "Télétravail",
     "experience": "Expérience",
     "businessLine": "Métier",
-    "category": "Catégorie"
+    "category": "Catégorie",
+    "search": "Rechercher",
+    "all": "Tous",
+    "noResults": "Aucun résultat ne correspond à votre recherche."
   },
   "en": {
     "skipToContent": "Skip to main content",
@@ -69,6 +72,9 @@
     "remote": "Remote",
     "experience": "Experience",
     "businessLine": "Business line",
-    "category": "Category"
+    "category": "Category",
+    "search": "Search",
+    "all": "All",
+    "noResults": "No result matches your search."
   }
 }

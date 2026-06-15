@@ -4,11 +4,12 @@ permalink: /fr/contact/
 title: Contact
 description: "Contactez Meritis : parlons de votre projet technologique."
 ---
-<section class="mx-auto max-w-3xl px-6 py-12 md:py-16">
-  <h1 class="text-4xl font-semibold tracking-tight text-brand-charcoal md:text-5xl">Parlons de votre projet</h1>
-  <p class="mt-4 text-lg leading-relaxed text-brand-charcoal">Une question, un projet ou une candidature ? Écrivez-nous via le formulaire ci-dessous — nous revenons vers vous rapidement.</p>
+{% set heroTitle = "Parlons de votre projet" %}
+{% set heroLead = "Une question, un projet ou une candidature ? Écrivez-nous via le formulaire ci-dessous — nous revenons vers vous rapidement." %}
+{% include "partials/page-hero.njk" %}
 
-  <div class="mt-8 overflow-hidden rounded-card bg-white shadow-soft">
+<section class="mx-auto max-w-3xl px-6 py-12 md:py-16">
+  <div class="overflow-hidden rounded-card bg-white shadow-soft">
     <iframe
       title="Formulaire de contact Meritis"
       src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=FKtmkg0M-k-EhJ7SirQzqpOpZcoB86VIv7udGFyMyOVUNEJINUo3MzRNNVAwMzc5QUdGWUpCRzYyRC4u&embed=true"

@@ -1,0 +1,20 @@
+{# Filtres offres (amélioration progressive : masqués sans JS via .js-only). #}
+<div data-filters class="js-only mb-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+  <input data-search type="search" placeholder="{{ i18n[locale].search }}…" aria-label="{{ i18n[locale].search }}"
+    class="w-full rounded-button border border-brand-gray bg-white px-4 py-2 text-sm text-brand-charcoal outline-none transition focus-visible:border-brand-blue sm:w-56" />
+  <select data-filter="contract" aria-label="{{ i18n[locale].contract }}"
+    class="rounded-button border border-brand-gray bg-white px-4 py-2 text-sm text-brand-charcoal outline-none focus-visible:border-brand-blue">
+    <option value="">{{ i18n[locale].contract }} : {{ i18n[locale].all }}</option>
+    {% for c in taxonomies.jobContracts[locale] %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+  </select>
+  <select data-filter="location" aria-label="{{ i18n[locale].location }}"
+    class="rounded-button border border-brand-gray bg-white px-4 py-2 text-sm text-brand-charcoal outline-none focus-visible:border-brand-blue">
+    <option value="">{{ i18n[locale].location }} : {{ i18n[locale].all }}</option>
+    {% for l in taxonomies.locations %}<option value="{{ l }}">{{ l }}</option>{% endfor %}
+  </select>
+  <select data-filter="businessline" aria-label="{{ i18n[locale].businessLine }}"
+    class="rounded-button border border-brand-gray bg-white px-4 py-2 text-sm text-brand-charcoal outline-none focus-visible:border-brand-blue">
+    <option value="">{{ i18n[locale].businessLine }} : {{ i18n[locale].all }}</option>
+    {% for b in taxonomies.businessLines[locale] %}<option value="{{ b }}">{{ b }}</option>{% endfor %}
+  </select>
+</div>

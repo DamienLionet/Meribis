@@ -111,16 +111,16 @@ html {
   scroll-padding-top: 5rem;
 }
 
-/* --- Décor de fond : flottement très léger (désactivé si mouvement réduit) --- */
-@keyframes meribis-float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
-}
-.decor-float {
-  animation: meribis-float 9s ease-in-out infinite;
-}
+/* --- Décor : bulles flottantes, mouvement individuel léger (coupé si motion réduite) --- */
+@keyframes meribis-drift-a { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(7px, -11px); } }
+@keyframes meribis-drift-b { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-9px, -6px); } }
+@keyframes meribis-drift-c { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(5px, 9px); } }
+.decor-drift-a { animation: meribis-drift-a 7s ease-in-out infinite; }
+.decor-drift-b { animation: meribis-drift-b 9s ease-in-out infinite; }
+.decor-drift-c { animation: meribis-drift-c 8s ease-in-out infinite; }
 @media (prefers-reduced-motion: reduce) {
-  .decor-float {
-    animation: none;
-  }
+  .decor-drift-a, .decor-drift-b, .decor-drift-c { animation: none; }
 }
+
+/* Éléments activés uniquement quand JS est disponible (filtres de liste, etc.). */
+.no-js .js-only { display: none; }

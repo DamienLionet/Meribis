@@ -1,0 +1,10 @@
+{# Filtres blog (amélioration progressive : masqués sans JS via .js-only). #}
+<div data-filters class="js-only mb-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+  <input data-search type="search" placeholder="{{ i18n[locale].search }}…" aria-label="{{ i18n[locale].search }}"
+    class="w-full rounded-button border border-brand-gray bg-white px-4 py-2 text-sm text-brand-charcoal outline-none transition focus-visible:border-brand-blue sm:w-64" />
+  <select data-filter="category" aria-label="{{ i18n[locale].category }}"
+    class="rounded-button border border-brand-gray bg-white px-4 py-2 text-sm text-brand-charcoal outline-none focus-visible:border-brand-blue">
+    <option value="">{{ i18n[locale].category }} : {{ i18n[locale].all }}</option>
+    {% for cat in taxonomies.blogCategories[locale] %}<option value="{{ cat }}">{{ cat }}</option>{% endfor %}
+  </select>
+</div>

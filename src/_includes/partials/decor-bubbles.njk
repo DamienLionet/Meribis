@@ -1,9 +1,13 @@
-{# Décor : groupe de bulles flottantes, purement décoratif.
+{# Décor : grappe de bulles flottantes, mouvement individuel léger. Purement décoratif.
    `decorClass` (défini avant l'include) pilote position, taille, couleur, opacité. #}
-<svg aria-hidden="true" focusable="false" class="pointer-events-none absolute {{ decorClass }}" viewBox="0 0 240 240" fill="currentColor">
-  <circle class="decor-float" cx="64" cy="74" r="34" opacity="0.55" />
-  <circle class="decor-float" style="animation-delay:-3s" cx="158" cy="52" r="20" opacity="0.4" />
-  <circle class="decor-float" style="animation-delay:-6s" cx="122" cy="156" r="46" opacity="0.45" />
-  <circle cx="196" cy="146" r="14" opacity="0.35" />
-  <circle cx="44" cy="178" r="12" opacity="0.35" />
+<svg aria-hidden="true" focusable="false" class="pointer-events-none absolute {{ decorClass }}" viewBox="0 0 300 300" fill="currentColor">
+  <circle class="decor-drift-a" style="animation-delay:-1s" cx="50" cy="60" r="30" opacity="0.5" />
+  <circle class="decor-drift-b" style="animation-delay:-4s" cx="150" cy="40" r="18" opacity="0.35" />
+  <circle class="decor-drift-c" style="animation-delay:-2s" cx="110" cy="140" r="42" opacity="0.45" />
+  <circle class="decor-drift-a" style="animation-delay:-6s" cx="222" cy="92" r="14" opacity="0.3" />
+  <circle class="decor-drift-b" style="animation-delay:-3s" cx="250" cy="180" r="26" opacity="0.4" />
+  <circle class="decor-drift-c" style="animation-delay:-5s" cx="40" cy="205" r="16" opacity="0.3" />
+  <circle class="decor-drift-a" style="animation-delay:-7s" cx="170" cy="232" r="22" opacity="0.35" />
+  <circle class="decor-drift-b" style="animation-delay:-2.5s" cx="282" cy="52" r="10" opacity="0.3" />
+  <circle class="decor-drift-c" style="animation-delay:-4.5s" cx="92" cy="280" r="12" opacity="0.3" />
 </svg>

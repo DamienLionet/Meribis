@@ -1,4 +1,4 @@
-<li class="group relative flex flex-col rounded-card bg-white p-6 shadow-soft transition hover:-translate-y-0.5 hover:shadow-lg">
+<li data-contract="{{ post.data.contract }}" data-location="{{ post.data.location }}" data-businessline="{{ post.data.businessLine }}" class="group relative flex flex-col rounded-card bg-white p-6 shadow-soft transition hover:-translate-y-0.5 hover:shadow-lg">
   <h3 class="text-lg font-semibold text-brand-blue">
     <a href="{{ post.url | url }}" class="after:absolute after:inset-0 after:content-[''] group-hover:underline">{{ post.data.title }}</a>
   </h3>
