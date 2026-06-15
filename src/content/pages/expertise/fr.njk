@@ -2,37 +2,77 @@
 layout: layouts/base.njk
 permalink: /fr/expertises/
 title: Expertises
-description: "Les domaines d'expertise de Meritis : développement applicatif, data & IA, finance & risques, cloud, cybersécurité, conseil & agilité."
+description: "Conseil IT, ingénierie et delivery : Data & IA, fiabilité des services IT, pilotage de la transformation, Finance & conformité."
 ---
-{% set heroTitle = "Nos expertises" %}
-{% set heroLead = "De la conception à la mise en production, nos consultants couvrent l'ensemble de la chaîne de valeur technologique." %}
+{% set heroTitle = "Conseil IT, ingénierie et delivery" %}
+{% set heroLead = "Nous accompagnons les directions IT et métier avec un conseil pragmatique et orienté résultats, capable de sécuriser des transformations durables — de la décision à l'exécution." %}
+{% set noHeroImage = true %}
 {% include "partials/page-hero.njk" %}
 
 <section class="mx-auto max-w-6xl px-6 py-16 md:py-20">
-  <ul class="grid list-none gap-6 p-0 md:grid-cols-2 lg:grid-cols-3">
+  <div class="grid items-center gap-10 md:grid-cols-3">
+    <div class="md:col-span-2">
+      <h2 class="text-3xl font-semibold tracking-tight text-brand-charcoal md:text-4xl">Un conseil qui sécurise vos décisions technologiques</h2>
+      <p class="mt-4 text-lg leading-relaxed text-brand-charcoal">Nous guidons les directions générales et IT dans la définition, la structuration et la mise en œuvre de leurs stratégies technologiques, avec une expertise particulière en Finance et CIB. Nous intervenons lorsque les investissements technologiques sont structurants, les environnements complexes ou critiques, et lorsque l'écart entre vision et exécution fait courir un risque.</p>
+    </div>
+    <div class="rounded-card bg-brand-blue p-8 text-center text-brand-ivory shadow-soft">
+      <p class="text-5xl font-semibold">4,5<span class="text-2xl">/5</span></p>
+      <p class="mt-3 text-sm leading-relaxed text-brand-ivory">de satisfaction, sur plus de 1&nbsp;600 clients accompagnés.</p>
+    </div>
+  </div>
+</section>
+
+<section class="border-y border-brand-gray/50 bg-white py-16 md:py-20">
+  <div class="mx-auto max-w-6xl px-6">
+    <h2 class="text-3xl font-semibold tracking-tight text-brand-charcoal md:text-4xl">Nos domaines d'intervention</h2>
+    <div class="mt-12 flex flex-col gap-14">
+      <article class="grid items-center gap-8 md:grid-cols-2">
+        <img src="{{ '/assets/images/expertise/data-ia.webp' | url }}" alt="Data & IA chez Meritis" width="800" height="533" loading="lazy" class="w-full rounded-card shadow-soft" />
+        <div>
+          <h3 class="text-2xl font-semibold text-brand-blue">Data &amp; IA, Digital Engineering</h3>
+          <p class="mt-3 leading-relaxed text-brand-charcoal">Plateformes data, gouvernance de la donnée, IA générative, modernisation applicative et DevOps. Nous transformons la donnée en valeur, du socle technique jusqu'aux cas d'usage en production.</p>
+        </div>
+      </article>
+      <article class="grid items-center gap-8 md:grid-cols-2">
+        <img src="{{ '/assets/images/expertise/fiabilite.webp' | url }}" alt="Fiabilité et performance des services IT" width="800" height="533" loading="lazy" class="w-full rounded-card shadow-soft md:order-2" />
+        <div class="md:order-1">
+          <h3 class="text-2xl font-semibold text-brand-blue">Fiabilité &amp; performance des services IT</h3>
+          <p class="mt-3 leading-relaxed text-brand-charcoal">Cloud, réseaux, cybersécurité, environnement de travail et performance applicative. Nous garantissons des services IT robustes, sécurisés et disponibles, à la hauteur des environnements critiques.</p>
+        </div>
+      </article>
+      <article class="grid items-center gap-8 md:grid-cols-2">
+        <img src="{{ '/assets/images/expertise/pilotage.webp' | url }}" alt="Pilotage de la transformation et impact sociétal" width="800" height="533" loading="lazy" class="w-full rounded-card shadow-soft" />
+        <div>
+          <h3 class="text-2xl font-semibold text-brand-blue">Pilotage &amp; impact sociétal</h3>
+          <p class="mt-3 leading-relaxed text-brand-charcoal">Gouvernance de la transformation, organisation IT, numérique responsable et conduite du changement. Nous alignons la stratégie technologique sur vos enjeux métier et sociétaux.</p>
+        </div>
+      </article>
+      <article class="grid items-center gap-8 md:grid-cols-2">
+        <img src="{{ '/assets/images/expertise/finance.webp' | url }}" alt="Finance et conformité" width="800" height="533" loading="lazy" class="w-full rounded-card shadow-soft md:order-2" />
+        <div class="md:order-1">
+          <h3 class="text-2xl font-semibold text-brand-blue">Finance &amp; conformité</h3>
+          <p class="mt-3 leading-relaxed text-brand-charcoal">Opérations front, middle et back office, conformité et ESG. Une double expertise IT et métier au service des banques d'investissement, assureurs et asset managers.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+  <h2 class="text-3xl font-semibold tracking-tight text-brand-charcoal md:text-4xl">Un modèle structuré pour sécuriser vos décisions</h2>
+  <p class="mt-4 max-w-3xl text-lg leading-relaxed text-brand-charcoal">Le groupe réunit trois entités complémentaires, pour assurer cohérence stratégique, profondeur sectorielle et continuité d'exécution.</p>
+  <ul class="mt-10 grid list-none gap-6 p-0 md:grid-cols-3">
     <li class="rounded-card bg-white p-8 shadow-soft">
-      <h2 class="text-xl font-semibold text-brand-blue">Développement applicatif</h2>
-      <p class="mt-3 leading-relaxed text-brand-charcoal">Nous concevons, développons et livrons des plateformes web sur mesure — résilientes, scalables et sécurisées — de l'architecture au déploiement cloud. Agilité, DevOps et software craftsmanship pour livrer vite et avec qualité.</p>
+      <h3 class="text-lg font-semibold text-brand-blue">Navigacom</h3>
+      <p class="mt-2 leading-relaxed text-brand-charcoal">Architecture stratégique des systèmes d'information.</p>
     </li>
     <li class="rounded-card bg-white p-8 shadow-soft">
-      <h2 class="text-xl font-semibold text-brand-blue">Data &amp; IA</h2>
-      <p class="mt-3 leading-relaxed text-brand-charcoal">Conseil data &amp; IA de bout en bout : stratégie, gouvernance, développement et industrialisation, du POC à la production. Nos spécialistes s'attaquent d'abord aux fondations — stratégie claire et donnée de qualité — y compris sur l'IA générative.</p>
+      <h3 class="text-lg font-semibold text-brand-blue">Neofin Advisory</h3>
+      <p class="mt-2 leading-relaxed text-brand-charcoal">Transformation des métiers de la Finance et de la CIB.</p>
     </li>
     <li class="rounded-card bg-white p-8 shadow-soft">
-      <h2 class="text-xl font-semibold text-brand-blue">Finance &amp; risques</h2>
-      <p class="mt-3 leading-relaxed text-brand-charcoal">Une double expertise IT et métier sur toute la chaîne de valeur financière, du front au back office, au service des banques d'investissement, assureurs et asset managers. Assistance technique, transformation et conformité réglementaire.</p>
-    </li>
-    <li class="rounded-card bg-white p-8 shadow-soft">
-      <h2 class="text-xl font-semibold text-brand-blue">Cloud</h2>
-      <p class="mt-3 leading-relaxed text-brand-charcoal">Migration cloud de bout en bout : audit de l'existant, choix du fournisseur, mise en œuvre et accompagnement du changement. Sécurité, performance et industrialisation pour gagner en flexibilité, réduire les coûts et passer à l'échelle.</p>
-    </li>
-    <li class="rounded-card bg-white p-8 shadow-soft">
-      <h2 class="text-xl font-semibold text-brand-blue">Cybersécurité</h2>
-      <p class="mt-3 leading-relaxed text-brand-charcoal">Analyse de menaces, audits de vulnérabilité, tests d'intrusion, mise en conformité et investigations forensiques. Nos experts définissent votre stratégie de sécurité et déploient une démarche DevSecOps face aux ransomwares et aux fuites de données.</p>
-    </li>
-    <li class="rounded-card bg-white p-8 shadow-soft">
-      <h2 class="text-xl font-semibold text-brand-blue">Conseil &amp; Agilité</h2>
-      <p class="mt-3 leading-relaxed text-brand-charcoal">Nous aidons les organisations à livrer plus vite et à s'améliorer en continu grâce aux méthodes agiles. Audit, déploiement d'équipes, coordination et accompagnement du changement pour optimiser le Time To Market et la satisfaction client.</p>
+      <h3 class="text-lg font-semibold text-brand-blue">Meritis</h3>
+      <p class="mt-2 leading-relaxed text-brand-charcoal">Ingénierie et delivery technologique.</p>
     </li>
   </ul>
 </section>

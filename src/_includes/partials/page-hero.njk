@@ -1,8 +1,15 @@
-{# Hero de page habillé : fond bleu nuit + image (voilée) + bulles dynamiques.
-   Variables à définir avant l'include : heroTitle (requis), heroLead (optionnel). #}
+{# Hero de page habillé : fond bleu nuit + bulles dynamiques.
+   Variables avant l'include :
+   - heroTitle (requis), heroLead (optionnel)
+   - noHeroImage : true pour masquer l'image décorative latérale (droite). #}
 <section class="relative isolate overflow-hidden bg-brand-blue-dark text-brand-ivory">
-  <img src="{{ '/assets/images/brand/hero-bg.webp' | url }}" alt="" aria-hidden="true" width="1024" height="683" class="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-20" />
-  {% set decorClass = "right-[-40px] top-[-30px] h-72 w-72 text-white/10 md:h-[28rem] md:w-[28rem]" %}
+  {% if not noHeroImage %}
+  <div class="pointer-events-none absolute inset-y-0 right-0 hidden w-2/5 lg:block" aria-hidden="true">
+    <img src="{{ '/assets/images/brand/hero-bg.webp' | url }}" alt="" width="1024" height="683" class="h-full w-full object-cover" />
+    <div class="absolute inset-0 bg-gradient-to-r from-brand-blue-dark via-brand-blue-dark/75 to-brand-blue-dark/25"></div>
+  </div>
+  {% endif %}
+  {% set decorClass = "right-[-40px] top-[-30px] h-72 w-72 text-white/10 md:h-[26rem] md:w-[26rem]" %}
   {% include "partials/decor-bubbles.njk" %}
   <div class="relative z-10 mx-auto max-w-6xl px-6 py-16 md:py-20">
     <h1 class="text-4xl font-semibold tracking-tight md:text-5xl">{{ heroTitle }}</h1>

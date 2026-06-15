@@ -6,21 +6,42 @@ description: "Legal notice for the Meritis website."
 noCta: true
 ---
 
-> Demo page — the final legal information is to be provided by the client.
+Last updated on 6 January 2025.
 
-## Site publisher
+## Site Publisher
 
-Meritis — *[legal form, share capital, company registration to be completed]*.
-Address: *[to be completed]*. Contact: via the [contact form](/en/contact/).
+This website is published by **MERITIS HOLDING**, a French SAS registered under SIREN number **921 764 825**.
 
-## Publication director
+Registered office: **36 avenue Pierre 1er de Serbie, 75008 Paris, France**.
 
-*[Name to be completed].*
+Phone: **+33 (0)1 86 95 55 00**.
+
+The publication director is **Sébastien Videment**, acting as the legal representative of MERITIS HOLDING.
+
+## Purpose And Content Quality
+
+This website presents the consulting activities, areas of expertise, editorial content and opportunities of the Meritis Group and its subsidiaries.
+
+The information published is provided for information purposes. Meritis takes care to keep it accurate and up to date, but it does not constitute a contractual commitment without formal validation.
+
+## Intellectual Property
+
+The website, its structure, texts, visuals, data, features, trademarks and distinctive signs are protected by intellectual property law.
+
+Any reproduction, representation, distribution, adaptation, extraction or reuse, in whole or in part and by any means, is prohibited without prior written authorisation from MERITIS HOLDING.
+
+## Liability
+
+MERITIS HOLDING cannot be held liable for direct or indirect damage related to access to the website, its use, service interruption, technical error or a third-party service accessible through a hyperlink.
+
+Links to external websites or services are provided to facilitate browsing. MERITIS HOLDING does not control these services and is not responsible for their content, practices or potential unavailability.
 
 ## Hosting
 
-Static site hosted via GitHub Pages — GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.
+The current static version of this website is hosted via **GitHub Pages**, a service provided by GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States.
 
-## Intellectual property
+The reference institutional website meritis.fr also indicates OVH hosting for its current infrastructure.
 
-All content on this site (text, visuals, Meritis logo) is protected. Any reproduction, in whole or in part, without prior authorisation is prohibited.
+## Personal Data
+
+Personal data processing is described in the [privacy policy](/en/privacy-policy/).
