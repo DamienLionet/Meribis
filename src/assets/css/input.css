@@ -105,3 +105,22 @@
 .prose-meritis strong {
   font-weight: 600;
 }
+
+/* --- En-tête fixe : décale les ancres pour ne pas passer sous le header --- */
+html {
+  scroll-padding-top: 5rem;
+}
+
+/* --- Décor de fond : flottement très léger (désactivé si mouvement réduit) --- */
+@keyframes meribis-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.decor-float {
+  animation: meribis-float 9s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .decor-float {
+    animation: none;
+  }
+}

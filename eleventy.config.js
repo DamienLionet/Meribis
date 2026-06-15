@@ -6,6 +6,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "assets/js" });
   eleventyConfig.addPassthroughCopy({ "src/assets/images": "assets/images" });
   eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/favicons": "assets/favicons" });
 
   // Fichier .nojekyll : désactive le traitement Jekyll sur GitHub Pages.
   eleventyConfig.addPassthroughCopy({ "src/.nojekyll": ".nojekyll" });
