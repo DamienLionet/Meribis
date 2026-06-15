@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+permalink: /404.html
+eleventyExcludeFromCollections: true
+locale: fr
+title: Page introuvable
+description: "La page demandée est introuvable."
+noHeroImage: true
+---
+{% set heroTitle = "Page introuvable" %}
+{% set heroLead = "La page que vous cherchez n'existe pas ou a été déplacée. / The page you are looking for does not exist." %}
+{% set noHeroImage = true %}
+{% include "partials/page-hero.njk" %}
+
+<section class="mx-auto max-w-3xl px-6 py-16 text-center">
+  <p class="text-lg text-brand-charcoal">Erreur 404 — cette page est introuvable.</p>
+  <div class="mt-8 flex flex-wrap justify-center gap-4">
+    <a href="{{ '/fr/' | url }}" class="rounded-button bg-brand-blue px-6 py-3 font-semibold text-white transition hover:bg-brand-blue-dark">Accueil</a>
+    <a href="{{ '/en/' | url }}" class="rounded-button border border-brand-blue px-6 py-3 font-semibold text-brand-blue transition hover:bg-brand-light">Home (EN)</a>
+  </div>
+</section>

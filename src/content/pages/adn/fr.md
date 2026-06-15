@@ -139,7 +139,7 @@ noHeroImage: true
     <div class="chiffres-intro">
         <div class="intro-container">
 			<h2>Meritis en quelques chiffres</h2>
-			<p><p><img class="alignnone wp-image-49085 illustration" src="/assets/images/pages/adn/fr/image-08.png" alt="Badge GPTW in tech 2024" width="176" height="174" /><img class="illustration" src="/assets/images/pages/adn/fr/image-09.webp" width="197" height="197" /></p>
+			<p><p><img class="alignnone wp-image-49085 illustration" src="/assets/images/pages/adn/fr/image-08.png" alt="Badge GPTW in tech 2024" width="176" height="174" /><img class="illustration" src="/assets/images/pages/adn/fr/image-09.webp" alt="Label Great Place to Work" width="197" height="197" /></p>
 <p>Meritis met un point d&rsquo;honneur à accompagner de manière individualisée ses collaborateurs, quelles que soient leurs fonctions dans l&rsquo;entreprise, en les écoutant et en les aidant à réaliser leurs souhaits d&rsquo;évolution professionnelle et personnelle.</p>
 </p>
 			                            <div class="btn-link">

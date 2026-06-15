@@ -4,10 +4,12 @@ permalink: /fr/
 title: Accueil
 description: "Meritis — conseil en IT, finance et transformation. Des équipes de consultants au service des grands comptes."
 ---
-<section class="bg-brand-blue text-brand-ivory">
-  <div class="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
+<section class="relative isolate overflow-hidden bg-brand-blue text-brand-ivory">
+  {% set decorClass = "bottom-[-30px] left-[-40px] h-72 w-72 text-white/10 md:h-[26rem] md:w-[26rem]" %}
+  {% include "partials/decor-bubbles.njk" %}
+  <div class="relative z-10 mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
     <div>
-      <p class="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold">Conseil · IT · Finance · Transformation</p>
+      <p class="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold-light">Conseil · IT · Finance · Transformation</p>
       <h1 class="text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
         Une expertise technologique au service des grands comptes.
       </h1>
@@ -37,17 +39,17 @@ description: "Meritis — conseil en IT, finance et transformation. Des équipes
   </p>
   <ul class="mt-12 grid list-none gap-6 p-0 md:grid-cols-3">
     <li class="rounded-card bg-white p-8 shadow-soft">
-      <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-dark">01</span>
+      <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-deep">01</span>
       <h3 class="mt-3 text-xl font-semibold text-brand-blue">Développement applicatif</h3>
       <p class="mt-3 leading-relaxed text-brand-charcoal">Architecture logicielle, DevOps et qualité de code pour accélérer vos cycles de livraison.</p>
     </li>
     <li class="rounded-card bg-white p-8 shadow-soft">
-      <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-dark">02</span>
+      <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-deep">02</span>
       <h3 class="mt-3 text-xl font-semibold text-brand-blue">Data &amp; IA</h3>
       <p class="mt-3 leading-relaxed text-brand-charcoal">Pipelines de données, plateformes analytiques et intelligence artificielle à forte valeur ajoutée.</p>
     </li>
     <li class="rounded-card bg-white p-8 shadow-soft">
-      <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-dark">03</span>
+      <span class="text-sm font-semibold uppercase tracking-wider text-brand-gold-deep">03</span>
       <h3 class="mt-3 text-xl font-semibold text-brand-blue">Finance &amp; risques</h3>
       <p class="mt-3 leading-relaxed text-brand-charcoal">Accompagnement des métiers de la finance de marché, du risque et de la conformité réglementaire.</p>
     </li>

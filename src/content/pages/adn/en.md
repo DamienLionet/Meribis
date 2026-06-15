@@ -119,7 +119,7 @@ noHeroImage: true
     <div class="chiffres-intro">
         <div class="intro-container">
 			<h2>Meritis key numbers</h2>
-			<p><p><img class="alignnone wp-image-49085" src="/assets/images/pages/adn/en/image-07.png" alt="Badge GPTW in tech 2024" width="186" height="183" /><img class="" src="/assets/images/pages/adn/en/image-08.webp" width="202" height="202" /></p>
+			<p><p><img class="alignnone wp-image-49085 illustration" src="/assets/images/pages/adn/en/image-07.png" alt="Badge GPTW in tech 2024" width="186" height="183" /><img class="illustration" src="/assets/images/pages/adn/en/image-08.webp" alt="Great Place to Work label" width="202" height="202" /></p>
 
 <p>At Meritis, we place great importance on providing personalised support to all collaborators regardless their position in the company. We do this by listening to them and helping them achieve their professional and personal development goals.</p>
 </p>

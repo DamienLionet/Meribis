@@ -15,19 +15,21 @@ claire, moderne et maintenable.
 > **Note de nommage** : `Meribis` est le nom de code interne du projet (le client/la marque
 > reste `Meritis`). L'ancien titre « Meribus » était une coquille.
 
-## État actuel : dépôt vierge
+## État actuel : site fonctionnel (FR complet, EN partiel)
 
-**Il n'y a encore aucun code** — seulement la spec dans [docs/project-spec.md](docs/project-spec.md).
-Tout ce qui suit (commandes, arborescence) décrit la cible à construire, pas l'existant.
+Le site est **construit et déployé** sur `https://damienlionet.github.io/Meribis/` (CI sur push `main`).
+`npm run build:all` génère ~100 pages. En place : accueil, **9 expertises** (FR), **blog** (10 articles
+FR+EN), **16 offres** (FR+EN), **10 actualités** (FR), pages institutionnelles (À propos, ADN, RSE,
+Nous trouver, Rejoindre le groupe, Contact, mentions légales, confidentialité), recherche Pagefind,
+`sitemap.xml`, `robots.txt`, page 404.
 
-Le **socle build a été scaffoldé** (`package.json`, `eleventy.config.js`, `input.css`, `base.njk`,
-page de fumée, `.gitignore`) mais **les dépendances ne sont pas encore installées** ni le serveur
-lancé. Étapes suivantes et avancement détaillé : [docs/architecture.md §11](docs/architecture.md).
+**Reste à faire avant une mise en prod complète** (cf. audit) : versions **EN** des expertises (9) et
+des actualités (10) ; nettoyage de quelques reliquats de migration WordPress ; relecture éditoriale.
 
 Deux documents de référence :
 - [docs/project-spec.md](docs/project-spec.md) — **spec produit/fonctionnelle**, source de vérité.
-- [docs/architecture.md](docs/architecture.md) — **architecture technique cible**, pipeline de
-  build, déploiement et état d'avancement.
+- [docs/architecture.md](docs/architecture.md) — **architecture technique**, pipeline de build,
+  déploiement et état d'avancement.
 
 La spec décrivait Tailwind v3 / `.eleventy.js` CommonJS : c'est **obsolète**, les décisions
 ci-dessous priment. Lire ces docs avant de proposer une structure, et signaler tout écart.
@@ -44,9 +46,9 @@ divergence (la spec décrivait Tailwind v3 / `.eleventy.js` CommonJS — c'est o
   tokens de marque de la spec (§11) deviennent des variables `@theme`.
 - **Recherche : Pagefind** — indexation du HTML généré, après le build Eleventy. Pas d'index JSON
   maintenu à la main.
-- **Formulaires : service externe** — l'URL d'`action` n'est pas en dur. Elle vit dans
-  `src/_data/site.json` (ex. `formEndpoint`) et reste à fournir par le client. Les formulaires
-  (contact + candidature) pointent dessus.
+- **Formulaires : Microsoft Forms en iframe** — la page Contact intègre un formulaire MS Forms ;
+  le champ « source » se préremplit depuis `?source=` (ex. depuis une offre d'emploi). Le champ
+  `formEndpoint` de `src/_data/site.json` est un vestige inutilisé (à retirer ou réaffecter).
 - **Hébergement : GitHub Pages, page projet** sur `https://damienlionet.github.io/Meribis/`.
   Repo : `DamienLionet/Meribis`, déploiement sur push `main`.
   - **`pathPrefix = "/Meribis/"`** (pilotable par `process.env.PATH_PREFIX`, défaut `/Meribis/`).
@@ -86,9 +88,9 @@ Le détail complet (routes, front matter, design tokens, composants) est dans
   indispensable pour le sélecteur de langue et les `hreflang`.
 - **Contenu = Markdown + front matter YAML** (jamais en dur dans les templates) : articles de blog
   et offres d'emploi. Objectif clé : **publier sans toucher aux templates**.
-- **Collections 11ty par langue et par type** (`blog_fr`, `blog_en`, `jobs_fr`, `jobs_en`, +
-  variantes `featured_*` / `published_*`), définies dans `.eleventy.js`. Filtrer sur
-  `published !== false`, trier par date décroissante.
+- **Collections 11ty par langue et par type** (`blog_*`, `news_*`, `jobs_*`, + variante
+  `featured_blog_*`), définies dans `eleventy.config.js`. Filtrer sur `published !== false`,
+  trier par date décroissante.
 - **Templates Nunjucks** : layouts (`base`, `page`, `blog-post`, `job-post`) + partials réutilisables
   dans `src/_includes/`.
 - **Données globales** dans `src/_data/` : `site.json`, `navigation.json`, `i18n.json` (labels UI

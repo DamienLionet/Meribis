@@ -28,6 +28,12 @@
     <meta property="og:description" content="{{ description or site.description }}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url | url }}" />
     <meta property="og:locale" content="{{ locale or site.lang }}" />
+    <meta property="og:image" content="{{ site.url }}{{ (image or '/assets/images/brand/hero-team.webp') | url }}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{% if title %}{{ title }}{% else %}{{ site.name }}{% endif %}" />
+    <meta name="twitter:description" content="{{ description or site.description }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ (image or '/assets/images/brand/hero-team.webp') | url }}" />
 
     <link rel="preload" href="{{ '/assets/fonts/aptos-regular.woff2' | url }}" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="{{ '/assets/fonts/aptos-semibold.woff2' | url }}" as="font" type="font/woff2" crossorigin />

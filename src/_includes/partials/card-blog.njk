@@ -5,7 +5,7 @@
   </div>
   {% endif %}
   <div class="flex flex-1 flex-col p-6">
-    {% if post.data.category %}<span class="text-sm font-semibold text-brand-gold-dark">{{ post.data.category }}</span>{% endif %}
+    {% if post.data.category %}<span class="text-sm font-semibold text-brand-gold-deep">{{ post.data.category }}</span>{% endif %}
     <h3 class="mt-2 line-clamp-2 text-xl font-semibold text-brand-blue">
       <a href="{{ post.url | url }}" class="after:absolute after:inset-0 after:content-[''] group-hover:underline">{{ post.data.title }}</a>
     </h3>

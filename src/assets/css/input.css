@@ -19,6 +19,8 @@
 
   --color-brand-blue-dark: #0a3840;
   --color-brand-gold-dark: #b7934c;
+  --color-brand-gold-deep: #8a6d34;
+  --color-brand-gold-light: #f0cf86;
   --color-brand-blue-light: #9dcdf1;
   --color-brand-gray: #d9d9d9;
   --color-brand-blue-muted: #6ca3ab;
@@ -284,6 +286,15 @@ html {
   scroll-padding-top: 5rem;
 }
 
+/* --- Focus clavier visible et universel : currentColor s'aligne sur la couleur du
+   texte (donc contraste garanti sur fond clair comme foncé). Les CTA qui définissent
+   déjà leur propre focus-visible (utilitaires Tailwind) restent prioritaires. --- */
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 /* --- Menu déroulant (nav desktop) : visible au survol, au focus clavier, ou ouvert au clic --- */
 [data-dropdown-menu] {
   visibility: hidden;
@@ -303,9 +314,9 @@ html {
 @keyframes meribis-drift-a { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(7px, -11px); } }
 @keyframes meribis-drift-b { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-9px, -6px); } }
 @keyframes meribis-drift-c { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(5px, 9px); } }
-.decor-drift-a { animation: meribis-drift-a 7s ease-in-out infinite; }
-.decor-drift-b { animation: meribis-drift-b 9s ease-in-out infinite; }
-.decor-drift-c { animation: meribis-drift-c 8s ease-in-out infinite; }
+.decor-drift-a { animation: meribis-drift-a 3.5s ease-in-out infinite; }
+.decor-drift-b { animation: meribis-drift-b 4.5s ease-in-out infinite; }
+.decor-drift-c { animation: meribis-drift-c 4s ease-in-out infinite; }
 @media (prefers-reduced-motion: reduce) {
   .decor-drift-a, .decor-drift-b, .decor-drift-c { animation: none; }
 }

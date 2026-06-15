@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+permalink: /en/search/
+title: Search
+description: "Search Meritis articles, expertise, jobs and news."
+---
+{% set heroTitle = "Search" %}
+{% set heroLead = "Find articles, expertise, jobs and news." %}
+{% set noHeroImage = true %}
+{% include "partials/page-hero.njk" %}
+
+<section data-pagefind-ignore class="mx-auto max-w-3xl px-6 py-12 md:py-16">
+  <link rel="stylesheet" href="{{ '/pagefind/pagefind-ui.css' | url }}" />
+  <div id="search"></div>
+  <script src="{{ '/pagefind/pagefind-ui.js' | url }}"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      if (window.PagefindUI) {
+        new PagefindUI({ element: "#search", bundlePath: "{{ '/pagefind/' | url }}", showImages: false, showSubResults: true });
+      }
+    });
+  </script>
+</section>
