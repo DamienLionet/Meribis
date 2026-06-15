@@ -4,6 +4,7 @@ permalink: /en/about/
 title: About Meritis
 lead: "Meritis supports IT and business departments with pragmatic, outcome-driven consulting, from decision-making to execution."
 description: "About Meritis: IT consulting, engineering, delivery, expertise and the group's support model."
+noHeroImage: true
 ---
 
 At Meritis, we help organisations secure their technology transformations in complex or critical environments. Our role is to connect strategic vision, architecture and field execution in order to deliver concrete results.

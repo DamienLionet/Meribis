@@ -4,6 +4,7 @@ permalink: /fr/a-propos/
 title: À propos de Meritis
 lead: "Meritis accompagne les directions IT et métiers avec un conseil pragmatique, orienté résultats, de la décision à l'exécution."
 description: "À propos de Meritis : conseil IT, ingénierie, delivery, expertises et modèle d'accompagnement du groupe."
+noHeroImage: true
 ---
 
 Chez Meritis, nous aidons les organisations à sécuriser leurs transformations technologiques dans des environnements complexes ou critiques. Notre rôle : relier la vision stratégique, l'architecture et l'exécution terrain pour produire des résultats concrets.

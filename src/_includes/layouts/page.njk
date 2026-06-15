@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-{% if heroImage %}
+{% if heroImage or noHeroImage %}
 {% set heroTitle = title %}
 {% set heroLead = lead %}
 {% include "partials/page-hero.njk" %}
