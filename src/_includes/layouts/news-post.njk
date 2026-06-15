@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+---
+{% if locale == "en" %}
+  {% set newsLabel = i18n[locale].news %}
+  {% set newsUrl = "/en/news/" %}
+{% else %}
+  {% set newsLabel = i18n[locale].news %}
+  {% set newsUrl = "/fr/actualites/" %}
+{% endif %}
+{% set parent = { "label": newsLabel, "url": newsUrl } %}
+<article class="mx-auto max-w-3xl px-6 py-12 md:py-16">
+  {% include "partials/breadcrumbs.njk" %}
+
+  <header class="mt-6">
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+      {% if category %}<span class="rounded-button bg-brand-blue/10 px-3 py-1 font-semibold text-brand-blue">{{ category }}</span>{% endif %}
+      <span class="text-brand-charcoal">{{ i18n[locale].publishedOn }} <time datetime="{{ page.date | isoDate }}">{{ page.date | displayDate(locale) }}</time>{% if author %} &middot; {{ i18n[locale].by }} {{ author }}{% endif %}</span>
+    </div>
+    <h1 class="mt-4 text-4xl font-semibold tracking-tight text-brand-charcoal md:text-5xl">{{ title }}</h1>
+    {% if excerpt %}<p class="mt-4 text-xl leading-relaxed text-brand-charcoal">{{ excerpt }}</p>{% endif %}
+  </header>
+
+  {% if image %}
+  <img src="{{ image | url }}" alt="{{ imageAlt or title }}" width="1200" height="628" decoding="async" class="mt-8 aspect-[1200/628] w-full rounded-card object-cover" />
+  {% endif %}
+
+  <div class="prose-meritis mt-8">
+    {{ content | safe }}
+  </div>
+
+  {% if tags %}
+  <ul class="mt-8 flex flex-wrap gap-2 p-0">
+    {% for tag in tags %}<li class="rounded-button bg-brand-light px-3 py-1 text-sm text-brand-charcoal">{{ tag }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  <div class="mt-10">
+    <a href="{{ parent.url | url }}" class="font-semibold text-brand-blue transition hover:text-brand-blue-dark">&larr; {{ i18n[locale].backToNews }}</a>
+  </div>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": {{ title | dump | safe }},
+  {% if excerpt %}"description": {{ excerpt | dump | safe }},{% endif %}
+  "datePublished": "{{ page.date | isoDate }}",
+  {% if author %}"author": { "@type": "Person", "name": {{ author | dump | safe }} },{% endif %}
+  "publisher": { "@type": "Organization", "name": "{{ site.name }}" },
+  "inLanguage": "{{ locale }}",
+  {% if image %}"image": "{{ site.url }}{{ image | url }}",{% endif %}
+  "mainEntityOfPage": "{{ site.url }}{{ page.url | url }}"
+}
+</script>

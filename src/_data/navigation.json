@@ -1,7 +1,23 @@
 {
   "fr": [
-    { "label": "Expertises", "url": "/fr/expertises/" },
+    {
+      "label": "Expertises",
+      "url": "/fr/expertises/",
+      "children": [
+        { "label": "Nos expertises", "url": "/fr/expertises/" },
+        { "label": "Finance", "url": "/fr/expertises/finance/" },
+        { "label": "Data & IA", "url": "/fr/expertises/data-ia/" },
+        { "label": "Pilotage de projet", "url": "/fr/expertises/pilotage-de-projet/" },
+        { "label": "Cloud", "url": "/fr/expertises/cloud/" },
+        { "label": "DevOps", "url": "/fr/expertises/devops/" },
+        { "label": "Software Factory", "url": "/fr/expertises/software-factory/" },
+        { "label": "Digital Workspace", "url": "/fr/expertises/digital-workspace/" },
+        { "label": "Agilité", "url": "/fr/expertises/agile/" },
+        { "label": "Cybersécurité", "url": "/fr/expertises/service-cybersecurite/" }
+      ]
+    },
     { "label": "Blog", "url": "/fr/blog/" },
+    { "label": "Actualités", "url": "/fr/actualites/" },
     { "label": "Offres", "url": "/fr/offres/" },
     { "label": "Rejoindre le groupe", "url": "/fr/rejoindre-le-groupe/" },
     { "label": "À propos", "url": "/fr/a-propos/" }

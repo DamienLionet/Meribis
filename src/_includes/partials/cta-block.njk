@@ -6,7 +6,7 @@
       <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">{{ cta.title or i18n[locale].ctaTitle }}</h2>
       <p class="mt-3 max-w-xl text-lg text-brand-ivory">{{ cta.text or i18n[locale].ctaText }}</p>
     </div>
-    <a href="{{ ('/' + locale + '/#contact') | url }}" class="shrink-0 rounded-button bg-brand-gold px-7 py-3 font-semibold text-brand-blue-dark transition hover:bg-brand-gold-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-gold">
+    <a href="{{ ('/' + locale + '/contact/') | url }}" class="shrink-0 rounded-button bg-brand-gold px-7 py-3 font-semibold text-brand-blue-dark transition hover:bg-brand-gold-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-gold">
       {{ cta.label or i18n[locale].contact }}
     </a>
   </div>

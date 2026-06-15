@@ -55,6 +55,9 @@ export default function (eleventyConfig) {
     eleventyConfig.addCollection(`blog_${loc}`, (api) =>
       api.getFilteredByGlob(`src/content/blog/*/${loc}.md`).filter(isPublished).sort(byDateDesc)
     );
+    eleventyConfig.addCollection(`news_${loc}`, (api) =>
+      api.getFilteredByGlob(`src/content/news/*/${loc}.md`).filter(isPublished).sort(byDateDesc)
+    );
     eleventyConfig.addCollection(`jobs_${loc}`, (api) =>
       api.getFilteredByGlob(`src/content/jobs/*/${loc}.md`).filter(isPublished).sort(byDateDesc)
     );

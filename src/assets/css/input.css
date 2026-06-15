@@ -105,10 +105,102 @@
 .prose-meritis strong {
   font-weight: 600;
 }
+.prose-meritis figure {
+  margin-top: 2rem;
+}
+.prose-meritis figure img,
+.prose-meritis > img,
+.prose-meritis p > img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-card);
+}
+.prose-meritis figcaption {
+  margin-top: 0.75rem;
+  color: var(--color-brand-charcoal);
+  font-size: 0.95rem;
+  font-style: italic;
+}
+.prose-meritis blockquote {
+  border-left: 4px solid var(--color-brand-gold);
+  padding-left: 1rem;
+  color: var(--color-brand-blue-dark);
+  font-size: 1.1rem;
+}
+.prose-meritis .wp-block-columns {
+  display: grid;
+  gap: 1.5rem;
+}
+.prose-meritis .wp-block-media-text {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+}
+.prose-meritis .has-text-align-center {
+  text-align: center;
+}
+.prose-meritis .wp-block-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+.prose-meritis .is-content-justification-center {
+  justify-content: center;
+}
+.prose-meritis .wp-block-button__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-button);
+  background: var(--color-brand-blue);
+  color: white;
+  padding: 0.8rem 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+.prose-meritis .wp-block-button__link:hover {
+  background: var(--color-brand-blue-dark);
+}
+.prose-meritis .wp-block-separator {
+  border: 0;
+  border-top: 1px solid var(--color-brand-gray);
+  margin-top: 2rem;
+}
+.prose-meritis .wp-block-embed__wrapper {
+  aspect-ratio: 16 / 9;
+}
+.prose-meritis .wp-block-embed__wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: var(--radius-card);
+}
+@media (min-width: 768px) {
+  .prose-meritis .wp-block-columns {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  }
+}
 
 /* --- En-tête fixe : décale les ancres pour ne pas passer sous le header --- */
 html {
   scroll-padding-top: 5rem;
+}
+
+/* --- Menu déroulant (nav desktop) : visible au survol, au focus clavier, ou ouvert au clic --- */
+[data-dropdown-menu] {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-0.25rem);
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+}
+.group:hover > [data-dropdown-menu],
+.group:focus-within > [data-dropdown-menu],
+.group.is-open > [data-dropdown-menu] {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* --- Décor : bulles flottantes, mouvement individuel léger (coupé si motion réduite) --- */

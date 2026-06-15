@@ -269,7 +269,7 @@ Reducing wait times is a major lever for value creation, directly transforming d
 
 Exchanges between teams are now based on objectified data, providing cross-functional visibility into performance and making it possible to proactively identify slowdowns before they affect productivity. This approach not only improves operational velocity but also strengthens collaboration between development and operations teams.
 
-Our added value is based on our **experience**, **pragmatism** and **accelerator**, which optimises the quality of our interventions, both remotely and on site. Want to know more? [Contact us.](https://meritis.fr/contact/?utm_source=meritis.fr&utm_medium=blog&utm_campaign=performance-ci-cd)
+Our added value is based on our **experience**, **pragmatism** and **accelerator**, which optimises the quality of our interventions, both remotely and on site. Want to know more? [Contact us.](/en/contact/?utm_source=meritis.fr&utm_medium=blog&utm_campaign=performance-ci-cd)
 
 ### 8 FAQ - CI/CD
 

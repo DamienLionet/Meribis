@@ -268,7 +268,7 @@ La réduction des temps d’attente constitue un levier majeur de création de v
 
 Les échanges entre équipes s’appuient désormais sur des données objectivées, offrant une visibilité transverse sur les performances et permettant d’identifier proactivement les ralentissements avant qu’ils n’impactent la productivité. Cette approche améliore non seulement la vélocité opérationnelle, mais renforce également la collaboration entre les équipes de développement et d’exploitation. 
 
-Notre valeur ajoutée repose sur notre **expérience**, notre **pragmatisme** et notre **accélérateur** qui optimise la qualité de nos interventions, à distance comme sur site. Vous souhaitez en savoir plus ? [Contactez-nous.](https://meritis.fr/contact/?utm_source=meritis.fr&utm_medium=blog&utm_campaign=performance-ci-cd) 
+Notre valeur ajoutée repose sur notre **expérience**, notre **pragmatisme** et notre **accélérateur** qui optimise la qualité de nos interventions, à distance comme sur site. Vous souhaitez en savoir plus ? [Contactez-nous.](/fr/contact/?utm_source=meritis.fr&utm_medium=blog&utm_campaign=performance-ci-cd) 
 
 ### 8 FAQ – CI/CD
 

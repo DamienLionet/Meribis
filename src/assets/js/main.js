@@ -31,3 +31,29 @@ if (toggle && menu) {
     }
   });
 }
+
+// Menus déroulants (nav) : clic = ouvrir/fermer (tactile) ; survol et focus clavier
+// gérés en CSS. Fermeture au clic extérieur et à Échap.
+document.querySelectorAll("[data-dropdown-toggle]").forEach((btn) => {
+  const group = btn.closest(".group");
+  if (!group) return;
+  btn.addEventListener("click", () => {
+    const open = group.classList.toggle("is-open");
+    btn.setAttribute("aria-expanded", String(open));
+  });
+});
+
+const closeDropdowns = (predicate) => {
+  document.querySelectorAll(".group.is-open").forEach((group) => {
+    if (predicate(group)) {
+      group.classList.remove("is-open");
+      const t = group.querySelector("[data-dropdown-toggle]");
+      if (t) t.setAttribute("aria-expanded", "false");
+    }
+  });
+};
+
+document.addEventListener("click", (event) => closeDropdowns((group) => !group.contains(event.target)));
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closeDropdowns(() => true);
+});
