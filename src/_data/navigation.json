@@ -22,8 +22,24 @@
     { "label": "À propos", "url": "/fr/a-propos/" }
   ],
   "en": [
-    { "label": "Expertise", "url": "/en/expertise/" },
+    {
+      "label": "Expertise",
+      "url": "/en/expertise/",
+      "children": [
+        { "label": "Our expertise", "url": "/en/expertise/" },
+        { "label": "Finance", "url": "/en/expertise/finance/" },
+        { "label": "Data & AI", "url": "/en/expertise/data-ai/" },
+        { "label": "Project management", "url": "/en/expertise/project-management/" },
+        { "label": "Cloud", "url": "/en/expertise/cloud/" },
+        { "label": "DevOps", "url": "/en/expertise/devops/" },
+        { "label": "Software Factory", "url": "/en/expertise/software-factory/" },
+        { "label": "Digital Workspace", "url": "/en/expertise/digital-workspace/" },
+        { "label": "Agile", "url": "/en/expertise/agile/" },
+        { "label": "Cybersecurity", "url": "/en/expertise/cybersecurity/" }
+      ]
+    },
     { "label": "Blog", "url": "/en/blog/" },
+    { "label": "News", "url": "/en/news/" },
     { "label": "Jobs", "url": "/en/jobs/" },
     { "label": "About", "url": "/en/about/" }
   ]

@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+permalink: /en/news/
+title: News
+description: "Meritis news: group life, commitments, events, growth and initiatives."
+---
+{% set heroTitle = title %}
+{% set heroLead = i18n[locale].newsIntro %}
+{% set noHeroImage = true %}
+{% include "partials/page-hero.njk" %}
+
+<section class="mx-auto max-w-6xl px-6 py-12 md:py-16">
+  <ul class="grid list-none gap-6 p-0 md:grid-cols-2">
+    {% for post in collections.news_en %}
+      {% include "partials/card-blog.njk" %}
+    {% endfor %}
+  </ul>
+</section>
