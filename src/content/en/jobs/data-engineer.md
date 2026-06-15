@@ -8,22 +8,20 @@ jobType: "Consultant"
 businessLine: "Data & AI"
 location: "Paris"
 remote: "Hybrid"
-experience: "3+ years"
-summary: "Join our Data teams to support large accounts on high-value projects."
-skills: ["Python", "SQL", "Cloud", "Data pipelines"]
-description: "Permanent Data Engineer position in Paris at Meritis."
+experience: "Depending on profile"
+summary: "Design and industrialise robust data pipelines for our large-account clients."
+skills: ["Python", "SQL", "Cloud", "Spark"]
+description: "Data Engineer (M/F) — Paris, Meritis."
 ---
 
-## The mission
+## The role
 
-You design and industrialise robust data pipelines, within multidisciplinary teams, at our large-account clients.
+You design, build and industrialise reliable data pipelines within multidisciplinary teams.
 
-## The profile
+## Your profile
 
-- Strong command of **Python** and **SQL**.
-- Experience with a **cloud** provider (AWS, GCP or Azure).
-- A taste for quality and automation.
+Strong command of Python and SQL, experience with a cloud provider (AWS, GCP or Azure) and a taste for automation.
 
 ## Why join us?
 
-Tailored career support, an active technical community and high-impact assignments.
+Tailored career support, an active technical community and a culture built on excellence, benevolence, humility and proximity.

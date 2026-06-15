@@ -8,22 +8,20 @@ jobType: "Consultant"
 businessLine: "Data & IA"
 location: "Paris"
 remote: "Hybride"
-experience: "3 ans minimum"
-summary: "Rejoignez nos équipes Data pour accompagner des clients grands comptes sur des projets à forte valeur ajoutée."
-skills: ["Python", "SQL", "Cloud", "Data pipelines"]
-description: "Poste Data Engineer en CDI à Paris chez Meritis."
+experience: "Selon profil"
+summary: "Concevez et industrialisez des pipelines de données robustes chez nos clients grands comptes."
+skills: ["Python", "SQL", "Cloud", "Spark"]
+description: "Data Engineer (H/F) — Paris, Meritis."
 ---
 
-## La mission
+## Mission
 
-Vous concevez et industrialisez des pipelines de données robustes, au sein d'équipes pluridisciplinaires, chez nos clients grands comptes.
+Vous concevez, développez et industrialisez des pipelines de données fiables au sein d'équipes pluridisciplinaires.
 
-## Le profil recherché
+## Profil recherché
 
-- Solide maîtrise de **Python** et **SQL**.
-- Expérience sur un **cloud** (AWS, GCP ou Azure).
-- Goût pour la qualité et l'automatisation.
+Solide maîtrise de Python et SQL, expérience sur un cloud (AWS, GCP ou Azure) et goût pour l'automatisation.
 
 ## Pourquoi nous rejoindre ?
 
-Un accompagnement de carrière sur mesure, une communauté technique active et des missions à fort impact.
+Un accompagnement de carrière sur mesure, une communauté technique active et une culture fondée sur l'exigence, la bienveillance, l'humilité et la proximité.

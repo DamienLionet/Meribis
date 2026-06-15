@@ -8,6 +8,8 @@ category: "Application development"
 tags: ["DevOps", "CI/CD", "Quality"]
 excerpt: "Optimising your CI/CD pipelines means shorter delivery cycles while keeping a high level of quality. A look at concrete levers."
 featured: true
+image: "/assets/images/blog/performance-ci-cd-productivite.webp"
+imageAlt: "Meritis editorial illustration on CI/CD performance"
 description: "How to optimise CI/CD pipelines to improve team productivity without technical debt."
 ---
 

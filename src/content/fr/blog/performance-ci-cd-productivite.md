@@ -8,6 +8,8 @@ category: "Développement applicatif"
 tags: ["DevOps", "CI/CD", "Qualité"]
 excerpt: "Optimiser ses pipelines CI/CD, c'est raccourcir les cycles de livraison tout en maintenant un haut niveau de qualité. Retour sur les leviers concrets."
 featured: true
+image: "/assets/images/blog/performance-ci-cd-productivite.webp"
+imageAlt: "Illustration éditoriale Meritis sur la performance CI/CD"
 description: "Comment optimiser les pipelines CI/CD pour améliorer la productivité des équipes sans dette technique."
 ---
 
