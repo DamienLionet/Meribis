@@ -1,0 +1,12 @@
+{
+  "fr": [
+    { "label": "Accueil", "url": "/fr/" },
+    { "label": "Expertises", "url": "/fr/#expertises" },
+    { "label": "À propos", "url": "/fr/a-propos/" }
+  ],
+  "en": [
+    { "label": "Home", "url": "/en/" },
+    { "label": "Expertise", "url": "/en/#expertise" },
+    { "label": "About", "url": "/en/about/" }
+  ]
+}

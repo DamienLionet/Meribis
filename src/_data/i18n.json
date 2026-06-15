@@ -1,0 +1,36 @@
+{
+  "fr": {
+    "skipToContent": "Aller au contenu principal",
+    "mainNav": "Navigation principale",
+    "menu": "Menu",
+    "home": "Accueil",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "languageSwitch": "Changer de langue",
+    "breadcrumb": "Fil d'Ariane",
+    "contact": "Nous contacter",
+    "ctaTitle": "Un projet à accompagner ?",
+    "ctaText": "Échangeons sur vos enjeux technologiques et la façon dont nos consultants peuvent y répondre.",
+    "footerTagline": "Conseil en IT, finance et transformation.",
+    "footerNav": "Navigation",
+    "footerLegalNote": "Mentions légales et politique de confidentialité à venir.",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "en": {
+    "skipToContent": "Skip to main content",
+    "mainNav": "Main navigation",
+    "menu": "Menu",
+    "home": "Home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageSwitch": "Switch language",
+    "breadcrumb": "Breadcrumb",
+    "contact": "Contact us",
+    "ctaTitle": "A project to support?",
+    "ctaText": "Let's discuss your technology challenges and how our consultants can help.",
+    "footerTagline": "IT, finance and transformation consulting.",
+    "footerNav": "Navigation",
+    "footerLegalNote": "Legal notice and privacy policy coming soon.",
+    "allRightsReserved": "All rights reserved."
+  }
+}

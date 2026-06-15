@@ -4,6 +4,7 @@
 export default function (eleventyConfig) {
   // Assets copiés tels quels vers dist/ (le CSS est géré séparément par la CLI Tailwind).
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "assets/js" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/images": "assets/images" });
 
   // Fichier .nojekyll : désactive le traitement Jekyll sur GitHub Pages.
   eleventyConfig.addPassthroughCopy({ "src/.nojekyll": ".nojekyll" });
@@ -13,6 +14,14 @@ export default function (eleventyConfig) {
   eleventyConfig.setServerOptions({
     watch: ["dist/assets/css/main.css"],
   });
+
+  // Pages traduisibles (portent un translationKey + locale). Alimente le sélecteur
+  // de langue et les hreflang via la donnée calculée `translations` (content.11tydata.js).
+  eleventyConfig.addCollection("localized", (collectionApi) =>
+    collectionApi
+      .getAll()
+      .filter((item) => item.data.translationKey && item.data.locale)
+  );
 
   return {
     dir: {

@@ -8,6 +8,15 @@
     <meta name="description" content="{{ description or site.description }}" />
     <link rel="canonical" href="{{ site.url }}{{ page.url | url }}" />
 
+    {% for loc in site.locales %}
+      {%- if translations and translations[loc] %}
+    <link rel="alternate" hreflang="{{ loc }}" href="{{ site.url }}{{ translations[loc] | url }}" />
+      {%- endif %}
+    {%- endfor %}
+    {%- if translations and translations[site.defaultLocale] %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ translations[site.defaultLocale] | url }}" />
+    {%- endif %}
+
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="{{ site.name }}" />
     <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.name }}{% endif %}" />
@@ -17,8 +26,17 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}" />
   </head>
-  <body class="min-h-screen bg-brand-ivory text-brand-charcoal antialiased">
-    {{ content | safe }}
+  <body class="flex min-h-screen flex-col bg-brand-ivory text-brand-charcoal antialiased">
+    <a href="#contenu" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-button focus:bg-brand-gold focus:px-5 focus:py-2 focus:font-semibold focus:text-brand-blue-dark">{{ i18n[locale].skipToContent }}</a>
+
+    {% include "partials/header.njk" %}
+
+    <main id="contenu" class="flex-1">
+      {{ content | safe }}
+    </main>
+
+    {% include "partials/footer.njk" %}
+
     <script type="module" src="{{ '/assets/js/main.js' | url }}"></script>
   </body>
 </html>

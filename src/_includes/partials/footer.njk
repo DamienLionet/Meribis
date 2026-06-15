@@ -1,0 +1,22 @@
+<footer class="bg-brand-blue-dark text-brand-ivory">
+  <div class="mx-auto max-w-6xl px-6 py-14">
+    <div class="grid gap-10 md:grid-cols-2">
+      <div>
+        <img src="{{ '/assets/images/brand/logo.png' | url }}" width="1024" height="181" alt="Meritis" class="h-8 w-auto brightness-0 invert" />
+        <p class="mt-4 max-w-sm text-sm text-brand-ivory/70">{{ i18n[locale].footerTagline }}</p>
+      </div>
+      <nav aria-label="{{ i18n[locale].footerNav }}" class="md:justify-self-end">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-brand-gold">{{ i18n[locale].footerNav }}</h2>
+        <ul class="mt-4 space-y-2 text-sm">
+          {% for item in navigation[locale] %}
+            <li><a href="{{ item.url | url }}" class="text-brand-ivory/80 transition hover:text-white">{{ item.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+    <div class="mt-12 flex flex-col gap-2 border-t border-white/10 pt-6 text-xs text-brand-ivory/55 md:flex-row md:items-center md:justify-between">
+      <span>© {{ build.year }} Meritis. {{ i18n[locale].allRightsReserved }}</span>
+      <span>{{ i18n[locale].footerLegalNote }}</span>
+    </div>
+  </div>
+</footer>
