@@ -1,5 +1,13 @@
 # Objectif de projet — Recréation du site Meritis avec 11ty, Tailwind CSS et JavaScript vanilla
 
+> ⚠️ **Spec produit (intention).** Ce document décrit le *quoi* fonctionnel et reste la source de
+> vérité sur le périmètre. En revanche, plusieurs choix **techniques** proposés ici ont été tranchés
+> autrement à l'implémentation — **[architecture.md](architecture.md) fait foi** pour le *comment*.
+> Principales divergences : Tailwind **v4** (pas v3) ; `eleventy.config.js` **ESM** (pas
+> `.eleventy.js` CommonJS) ; contenu **bilingue par dossier** (`content/{type}/{slug}/{fr,en}`, et non
+> `src/content/{fr,en}/`) ; collections `news_*` en plus, **pas** de `published_jobs_*` ; recherche
+> **Pagefind UI inline** (pas de `search.js`) ; formulaire de contact **Microsoft Forms en iframe**.
+
 ## 1. Résumé
 
 Créer une nouvelle version responsive, bilingue FR/EN, du site Meritis en s’inspirant de l’existant, avec une stack volontairement simple :
