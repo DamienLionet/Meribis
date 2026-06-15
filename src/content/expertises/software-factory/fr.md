@@ -46,9 +46,9 @@ Meritis propose également à ses clients de les accompagner lors du déploiemen
 
 ### Nos technologies
 
-![](/assets/images/expertises/software-factory/inline-1.webp)
+<img class="illustration" src="/assets/images/expertises/software-factory/inline-1.webp" alt="Technologies Meritis" />
 
-![](/assets/images/expertises/software-factory/inline-2.webp)
+<img class="illustration" src="/assets/images/expertises/software-factory/inline-2.webp" alt="Technologies Meritis" />
 
 Notre équipe d’experts utilise un pool de technos pour répondre au plus près de vos besoins.
 

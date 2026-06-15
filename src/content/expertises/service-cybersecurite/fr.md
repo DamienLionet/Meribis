@@ -26,19 +26,19 @@ Pour répondre au plus près à vos besoins, nous avons composé une **équipe d
 
 ## La cybersécurité en France en 2020
 
-![41% n2](/assets/images/expertises/service-cybersecurite/inline-2.webp)
+<img class="illustration" src="/assets/images/expertises/service-cybersecurite/inline-2.webp" alt="41 %" />
 
 **des sociétés françaises ont subi une attaque par ransomware**
 
-![90% des organisations francaises visées par une cyberattaque en 2020](/assets/images/expertises/service-cybersecurite/inline-3.webp)
+<img class="illustration" src="/assets/images/expertises/service-cybersecurite/inline-3.webp" alt="90 % des organisations françaises visées par une cyberattaque en 2020" />
 
 des **organisations françaises** ont été visées par des cyberattaques
 
-![43% des pme ont constaté un incident de cybersécurité en 2020](/assets/images/expertises/service-cybersecurite/inline-4.webp)
+<img class="illustration" src="/assets/images/expertises/service-cybersecurite/inline-4.webp" alt="43 % des PME ont constaté un incident de cybersécurité en 2020" />
 
 des **PME** ont constaté un **incident** en cybersécurité
 
-![16% des cyberattaques menancent la survie des entreprises en 2020](/assets/images/expertises/service-cybersecurite/inline-5.webp)
+<img class="illustration" src="/assets/images/expertises/service-cybersecurite/inline-5.webp" alt="16 % des cyberattaques menaçant la survie des entreprises" />
 
 des cyberattaques **menacent la survie** d’une entreprise
 

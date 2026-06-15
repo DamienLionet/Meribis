@@ -4,6 +4,7 @@ permalink: "/en/meritis-csr/"
 title: "Meritis CSR"
 lead: "Our commitments"
 description: "Meritis CSR policy: quality of life at work, diversity, gender equality, environment, labels and partners."
+noHeroImage: true
 ---
 <p>Corporate Social Responsibility is part of Meritis' overall commitment to an employee-oriented company and well-being at work.</p>
 

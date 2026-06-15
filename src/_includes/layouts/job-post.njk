@@ -33,7 +33,7 @@ layout: layouts/base.njk
   {% endif %}
 
   <div class="mt-10 flex flex-wrap items-center gap-5">
-    <a href="{% if applyUrl %}{{ applyUrl | url }}{% else %}{{ ('/' + locale + '/contact/') | url }}{% endif %}" class="rounded-button bg-brand-gold px-7 py-3 font-semibold text-brand-blue-dark transition hover:bg-brand-gold-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-gold">{{ i18n[locale].apply }}</a>
+    <a href="{% if applyUrl %}{{ applyUrl | url }}{% else %}{{ ('/' + locale + '/contact/') | url }}?source={{ title | urlencode }}{% endif %}" class="rounded-button bg-brand-gold px-7 py-3 font-semibold text-brand-blue-dark transition hover:bg-brand-gold-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-gold">{{ i18n[locale].apply }}</a>
     <a href="{{ parent.url | url }}" class="font-semibold text-brand-blue transition hover:text-brand-blue-dark">← {{ i18n[locale].backToJobs }}</a>
   </div>
 </article>

@@ -12,6 +12,8 @@ description: "Contact Meritis: let's talk about your technology project."
 <section class="mx-auto max-w-3xl px-6 py-12 md:py-16">
   <div class="overflow-hidden rounded-card bg-white shadow-soft">
     <iframe
+      id="contact-form"
+      data-source-param="r514c22bc0b9648b2975b6d1a8a495fd5"
       title="Meritis contact form"
       src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=FKtmkg0M-k-EhJ7SirQzqpOpZcoB86VIv7udGFyMyOVUNEJINUo3MzRNNVAwMzc5QUdGWUpCRzYyRC4u&embed=true"
       width="100%"
@@ -22,3 +24,15 @@ description: "Contact Meritis: let's talk about your technology project."
     </iframe>
   </div>
 </section>
+
+{# Pre-fills the form's "source" field (MS Forms field id) from ?source= in the URL,
+   e.g. the job title the click came from. Without JS the form remains fully usable. #}
+<script>
+  (function () {
+    var f = document.getElementById("contact-form");
+    if (!f) return;
+    var source = new URLSearchParams(window.location.search).get("source");
+    var param = f.getAttribute("data-source-param");
+    if (source && param) f.src = f.src + "&" + param + "=" + encodeURIComponent(source);
+  })();
+</script>

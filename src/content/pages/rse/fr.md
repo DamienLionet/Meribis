@@ -4,6 +4,7 @@ permalink: "/fr/la-rse-chez-meritis/"
 title: "La RSE chez Meritis"
 lead: "Nos engagements"
 description: "La démarche RSE de Meritis : qualité de vie au travail, diversité, égalité professionnelle, environnement, handicap, labels et partenaires."
+noHeroImage: true
 ---
 <p>La Responsabilité Sociétale des Entreprises fait partie de l'engagement global de Meritis pour une société tournée vers ses collaborateurs et le bien-être au travail.</p>
 

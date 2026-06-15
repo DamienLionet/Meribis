@@ -4,6 +4,7 @@ permalink: "/en/our-dna/"
 title: "Our DNA"
 lead: "About us"
 description: "Meritis culture: mission, values, difference, entrepreneurial story and key numbers."
+noHeroImage: true
 ---
 <p>Meritis is a consulting firm specialising in the transformation of information systems and organisations.</p>
 

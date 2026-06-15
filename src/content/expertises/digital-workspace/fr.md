@@ -98,7 +98,6 @@ Faites évoluer votre Digital Workplace avec un partenaire de confiance, engagé
 
 ## Accompagnement expert pour une transformation maîtrisée
 
-![1 Meritis bleu](/assets/images/expertises/digital-workspace/inline-3.webp)
 
 **1. Analyse & cadrage stratégique**
 
@@ -106,14 +105,12 @@ Faites évoluer votre Digital Workplace avec un partenaire de confiance, engagé
 -   **Schéma directeur** : recueil des besoins, définition des cas d’usage et planification de la transformation
 -   **Business case** : évaluation budgétaire et analyse du ROI
 
-![2 Meritis bleu](/assets/images/expertises/digital-workspace/inline-4.webp)
 
 ### 2. Sélection & sourcing des solutions
 
 -   **Sourcing (RFI/RFP)** : consultation du marché, analyse des offres et structuration des décisions
 -   **Définition d’une trajectoire optimisée** alignée sur vos objectifs stratégiques
 
-![3 Meritis bleu](/assets/images/expertises/digital-workspace/inline-5.webp)
 
 ### 3. Déploiement & expertise terrain
 

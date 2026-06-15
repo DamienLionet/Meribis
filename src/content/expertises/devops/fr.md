@@ -25,26 +25,20 @@ Dans un monde où l’agilité et la performance des systèmes IT sont des facte
 
 ## Pourquoi choisir notre expertise DevOps ?
 
-![1 Meritis bleu](/assets/images/expertises/devops/inline-2.webp)
-
-**Optimisez vos infrastructures techniques :** 
+**1. Optimisez vos infrastructures techniques :** 
 Automatisez vos processus critiques grâce à l’**automatisation des pipelines CI/CD** et adoptez une approche de **déploiement continu** pour réduire les délais de mise en production. Nos experts vous aident à intégrer des solutions sur-mesure, adaptées à la complexité de vos infrastructures.
 
-![2 Meritis bleu](/assets/images/expertises/devops/inline-3.webp)
+**2. Renforcez la scalabilité et la sécurité :**
+Adoptez des **architectures résilientes** et évolutives pour soutenir la croissance de vos applications critiques. Avec notre expertise en **Infrastructure as Code (IaC)**, nous vous aidons à sécuriser vos systèmes tout en optimisant vos coûts.
 
-**Renforcez la scalabilité et la sécurité:
-**Adoptez des **architectures résilientes** et évolutives pour soutenir la croissance de vos applications critiques. Avec notre expertise en **Infrastructure as Code (IaC)**, nous vous aidons à sécuriser vos systèmes tout en optimisant vos coûts.
-
-![3 Meritis bleu](/assets/images/expertises/devops/inline-4.webp)
-
-**Alignez vos équipes pour une meilleure collaboration :
-**Décloisonnez vos équipes Dev, Ops et Cloud en instaurant une culture DevOps durable. Grâce à notre accompagnement, vous améliorez la collaboration inter-équipes et instaurez une démarche d’**amélioration continue**.
+**3. Alignez vos équipes pour une meilleure collaboration :**
+Décloisonnez vos équipes Dev, Ops et Cloud en instaurant une culture DevOps durable. Grâce à notre accompagnement, vous améliorez la collaboration inter-équipes et instaurez une démarche d’**amélioration continue**.
 
 * * *
 
 ## Nos solutions DevOps : Conçues pour transformer vos infrastructures IT
 
-![Audit Organisationnel DevOps meritis](/assets/images/expertises/devops/inline-5.webp)
+<img class="illustration" src="/assets/images/expertises/devops/inline-5.webp" alt="Audit Organisationnel DevOps" />
 
 ### Audit Organisationnel DevOps
 
@@ -57,7 +51,7 @@ Identifiez les leviers de performance de votre organisation DevOps. Nos experts 
 -   Alignez vos équipes autour de vos objectifs stratégiques.
 -   Optimisez la valeur délivrée à chaque étape.
 
-![Diagnostic d’Architectures Techniques Meritis](/assets/images/expertises/devops/inline-6.webp)
+<img class="illustration" src="/assets/images/expertises/devops/inline-6.webp" alt="Diagnostic d’Architectures Techniques" />
 
 ### Diagnostic d’Architectures Techniques
 
@@ -70,7 +64,7 @@ Garantissez la scalabilité et la sécurité de vos infrastructures grâce à un
 -   Alignez vos choix technologiques avec vos priorités métiers.
 -   Réduisez les risques grâce à une architecture optimisée.
 
-![Pilotage et implémentation Meritis](/assets/images/expertises/devops/inline-7.webp)
+<img class="illustration" src="/assets/images/expertises/devops/inline-7.webp" alt="Pilotage et implémentation DevOps" />
 
 ### Pilotage et Implémentation DevOps
 
