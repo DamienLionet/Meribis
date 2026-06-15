@@ -1,10 +1,19 @@
-// Données calculées appliquées à toutes les pages sous src/content/.
-// `translations` : map { locale: url } des versions partageant le même
-// translationKey. Alimente le sélecteur de langue et les balises hreflang.
+// Données calculées pour tout src/content/ :
+//   - locale         : déduite du nom de fichier (fr.md / en.md)
+//   - translationKey : déduite du nom de dossier (dossier = clé partagée FR/EN)
+//   - translations   : map { locale: url } des versions partageant ce translationKey
+//     (alimente le sélecteur de langue et les balises hreflang).
+const keyFromPath = (page) => {
+  const parts = page.filePathStem.split("/");
+  return parts[parts.length - 2];
+};
+
 export default {
   eleventyComputed: {
+    locale: (data) => data.page.fileSlug,
+    translationKey: (data) => keyFromPath(data.page),
     translations: (data) => {
-      const key = data.translationKey;
+      const key = keyFromPath(data.page);
       const localized = (data.collections && data.collections.localized) || [];
       const map = {};
       if (key) {

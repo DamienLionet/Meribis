@@ -49,14 +49,14 @@ export default function (eleventyConfig) {
   const byDateDesc = (a, b) => b.date - a.date;
   for (const loc of ["fr", "en"]) {
     eleventyConfig.addCollection(`blog_${loc}`, (api) =>
-      api.getFilteredByGlob(`src/content/${loc}/blog/*.md`).filter(isPublished).sort(byDateDesc)
+      api.getFilteredByGlob(`src/content/blog/*/${loc}.md`).filter(isPublished).sort(byDateDesc)
     );
     eleventyConfig.addCollection(`jobs_${loc}`, (api) =>
-      api.getFilteredByGlob(`src/content/${loc}/jobs/*.md`).filter(isPublished).sort(byDateDesc)
+      api.getFilteredByGlob(`src/content/jobs/*/${loc}.md`).filter(isPublished).sort(byDateDesc)
     );
     eleventyConfig.addCollection(`featured_blog_${loc}`, (api) =>
       api
-        .getFilteredByGlob(`src/content/${loc}/blog/*.md`)
+        .getFilteredByGlob(`src/content/blog/*/${loc}.md`)
         .filter(isPublished)
         .filter((item) => item.data.featured)
         .sort(byDateDesc)
