@@ -32,20 +32,20 @@ A project manager has all the information needed to handle both the project itse
 **Meritis and its multidisciplinary teams support you throughout your projects**
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Value creation</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Value creation</p>
 <p class="text-brand-charcoal">Scoping, risk identification and project management.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Streamlined time</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Streamlined time</p>
 <p class="text-brand-charcoal">Optimise the time of your internal teams.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Time to Market</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Time to Market</p>
 <p class="text-brand-charcoal">Gain a competitive edge through rigorous deadline management.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Project success</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Project success</p>
 <p class="text-brand-charcoal">Clear, achievable objectives and a controlled budget.</p>
 </div>
 </div>
@@ -112,18 +112,18 @@ We protect your systems, guarantee data confidentiality, and anticipate digital 
 ## Our engagement models
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">STAFF AUGMENTATION</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">STAFF AUGMENTATION</p>
 <p class="text-brand-charcoal"><strong>Individual technical assistance</strong> (ITA) or <strong>group technical assistance</strong> (GTA): when a specific skill set is required</p>
 <p class="mt-2 text-brand-charcoal">Deployment of one or more consultants with the requested expertise</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">COE / SERVICE CENTRE</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">COE / SERVICE CENTRE</p>
 <p class="text-brand-charcoal"><strong>Creation of internal centres of excellence</strong> (COE)<strong> and service centres</strong></p>
 <p class="mt-2 text-brand-charcoal">Maintaining and evolving a business-critical application</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">FIXED-PRICE</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">FIXED-PRICE</p>
 <p class="text-brand-charcoal"><strong>Fixed-price engagements</strong>: Audit, Scoping, Upskilling, Coaching, Application development, and more.</p>
 <p class="mt-2 text-brand-charcoal">A dedicated, committed team to support you in a personalised way</p>
 </div>

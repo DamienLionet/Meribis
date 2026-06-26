@@ -55,20 +55,20 @@ Chez Meritis, nous sommes convaincus que les méthodes et pratiques agiles **gar
 ## Optez pour la méthode Agile
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Rapidité</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Rapidité</p>
 <p class="text-brand-charcoal">Accélérer le Time To Maket de vos produits et/ou nouvelles fonctionnalités</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Fiabilité</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Fiabilité</p>
 <p class="text-brand-charcoal">Optimiser la qualité de vos applications et livrez en toute confiance</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Satisfaction client</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Satisfaction client</p>
 <p class="text-brand-charcoal">S’adapter au comportement et aux besoins du client</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Collaboration</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Collaboration</p>
 <p class="text-brand-charcoal">Optimiser la communication et l’autonomie des équipes</p>
 </div>
 </div>
@@ -80,16 +80,16 @@ Chez Meritis, nous sommes convaincus que les méthodes et pratiques agiles **gar
 #### Nos experts interviennent chez nos clients pour les aider à identifier les points bloquants, mais aussi à faire le bon choix d’architecture et d’outillage.
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Cadrage</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Cadrage</p>
 <p class="text-brand-charcoal">Audit et analyse de l’existant</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Déploiement</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Déploiement</p>
 <p class="text-brand-charcoal">Développement applicatif : accompagnement et coaching</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Formation métier</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Formation métier</p>
 <p class="text-brand-charcoal">Acculturation, coordination et formation des équipes</p>
 </div>
 </div>

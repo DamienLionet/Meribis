@@ -44,29 +44,29 @@ Our technical and business competencies allow us to cover your entire IT transfo
 ## Our Expert Profiles
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Business Engineering</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Business Engineering</p>
 <p class="text-brand-charcoal">Front Office, IT Quant, Commando, Risk Management, Regulatory, Middle Office, Actuarial, Treasury, Financing, Pricing, Risk, P&L</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Product Owner & Business Analyst</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Product Owner & Business Analyst</p>
 <p class="text-brand-charcoal">Managing an application or project with deep business expertise</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Application Support</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Application Support</p>
 <p class="text-brand-charcoal">Support for Front-to-Back applications and insurance applications</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Package Integration</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Package Integration</p>
 <p class="text-brand-charcoal">Simcorp, Murex, Calypso, Alto, Orchestrade, Summit, Sophis, Kleva, etc.</p>
 <p class="mt-2 text-brand-charcoal">Java, Javascript, C#, C++, Python, Pl/Sql</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Application Development</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Application Development</p>
 <p class="text-brand-charcoal">Governance, Data Engineering, Data Science, Big Data development, reference data management</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Data Expertise</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Data Expertise</p>
 <p class="text-brand-charcoal">Audit, coaching, advisory, expertise</p>
 </div>
 </div>

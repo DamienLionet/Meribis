@@ -55,20 +55,20 @@ At Meritis, we are convinced that agile methods and practices **guarantee the ab
 ## Choose the Agile method
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Speed</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Speed</p>
 <p class="text-brand-charcoal">Accelerate the Time to Market for your products and/or new features</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Reliability</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Reliability</p>
 <p class="text-brand-charcoal">Optimise the quality of your applications and deliver with confidence</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Client satisfaction</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Client satisfaction</p>
 <p class="text-brand-charcoal">Adapt to client behaviour and evolving needs</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Collaboration</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Collaboration</p>
 <p class="text-brand-charcoal">Optimise communication and team autonomy</p>
 </div>
 </div>
@@ -80,16 +80,16 @@ At Meritis, we are convinced that agile methods and practices **guarantee the ab
 #### Our experts work on-site with clients to help them identify blockers, as well as to make the right architectural and tooling choices.
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Scoping</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Scoping</p>
 <p class="text-brand-charcoal">Audit and analysis of the existing landscape</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Deployment</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Deployment</p>
 <p class="text-brand-charcoal">Application development: support and coaching</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Business training</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Business training</p>
 <p class="text-brand-charcoal">Acculturation, coordination and team training</p>
 </div>
 </div>

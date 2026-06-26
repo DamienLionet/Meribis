@@ -32,20 +32,20 @@ Un chef de projet dispose de toutes les informations nécessaires pour gérer à
 **Meritis et ses équipes pluridisciplinaires vous accompagnent dans le pilotage de vos projets**
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Création de valeur</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Création de valeur</p>
 <p class="text-brand-charcoal">Cadrage, identification des risques et gestion du projet.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Temps rationalisé</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Temps rationalisé</p>
 <p class="text-brand-charcoal">Optimisez le temps de vos équipes internes.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Time to Market</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Time to Market</p>
 <p class="text-brand-charcoal">Gagnez en compétitivité grâce à la maitrise des délais.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Réussitedu projet</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Réussitedu projet</p>
 <p class="text-brand-charcoal">Des objectifs clairs, atteignables et un budget maitrisé.</p>
 </div>
 </div>
@@ -112,18 +112,18 @@ Nous protégeons vos systèmes, garantissons la confidentialité des données, e
 ## Nos modes d’intervention
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">REGIE</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">REGIE</p>
 <p class="text-brand-charcoal"><strong>Assistances techniques unitaires</strong> (ATU) ou <strong>groupées</strong> (ATG) : besoin d’une compétence particulière</p>
 <p class="mt-2 text-brand-charcoal">Mise à disposition d’un ou plusieurs collaborateurs ayant l’expertise demandée</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">CDC / CDS</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">CDC / CDS</p>
 <p class="text-brand-charcoal"><strong>Création de centres de compétences internes</strong> (CDC)<strong> et centres de service</strong> (CDS)</p>
 <p class="mt-2 text-brand-charcoal">Maintenir et faire évoluer une application métier critique pour l’entreprise</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">FORFAIT</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">FORFAIT</p>
 <p class="text-brand-charcoal"><strong>Accompagnement au forfai</strong>t : Audit, Cadrage, Acculturation, coaching, développement applicatif. etc.</p>
 <p class="mt-2 text-brand-charcoal">Une équipe dédiée et engagée pour vous accompagner de manière personnalisée</p>
 </div>

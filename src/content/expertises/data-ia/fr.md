@@ -222,20 +222,20 @@ Un échange de 30 minutes avec un expert Meritis suffit pour clarifier votre sit
 Ce qui distingue Meritis, c’est la capacité à couvrir l’ensemble du spectre : de l’intention à la production, sans intermédiaire entre le conseil et l’exécution. Nos quatre équipes complémentaires interviennent ensemble ou séparément selon votre stade.
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Équipe Conseil Data & IA</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Équipe Conseil Data & IA</p>
 <p class="text-brand-charcoal">Stratégie, architecture, gouvernance. Ils cadrent votre situation, formalisent la vision et pilotent les projets complexes sur toute leur durée.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Cellule Innovation IA générative</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Cellule Innovation IA générative</p>
 <p class="text-brand-charcoal">Docteurs et chercheurs en IA, activités de R&D, publications scientifiques. Auteurs d’OpenRAG. L’état de l’art traduit en solutions opérationnelles sécurisées.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Practices Data & IA</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Practices Data & IA</p>
 <p class="text-brand-charcoal">Communautés d’expertise structurées : BI, Data Engineering, Data Science. Des profils opérationnels disponibles en mission, en renfort ou en conduite de projet.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Consultants Data & IA terrain</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Consultants Data & IA terrain</p>
 <p class="text-brand-charcoal">Ils interviennent dans vos équipes, sur vos outils, dans votre contexte réel. En mission ou en renfort, pour construire et déployer sur le long terme.</p>
 </div>
 </div>

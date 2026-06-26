@@ -59,20 +59,20 @@ All our consultants are fully conversant with current data protection legislatio
 ## Unlock every advantage the cloud has to offer
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Resilience</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Resilience</p>
 <p class="text-brand-charcoal">Improve business continuity with built-in backup and recovery capabilities</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Security</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Security</p>
 <p class="text-brand-charcoal">Protect your infrastructure with security patches applied automatically</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Time to Market</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Time to Market</p>
 <p class="text-brand-charcoal">Deliver new services faster to stay ahead of the competition</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Elasticity</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Elasticity</p>
 <p class="text-brand-charcoal">Scale with ease and offer better elasticity of access</p>
 </div>
 </div>
@@ -92,16 +92,16 @@ The DevOps movement is fundamentally about **bringing all stakeholders together 
 Our experts work alongside clients to help them make the right architectural choices for their cloud platforms, generating value and strengthening security.
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Scoping</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Scoping</p>
 <p class="text-brand-charcoal">Audit and analysis of your existing systems, data sources, and data build models</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Deployment</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Deployment</p>
 <p class="text-brand-charcoal">Guidance on selecting the right cloud provider and implementing the solution</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Support</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Support</p>
 <p class="text-brand-charcoal">Cloud migration strategy shaped around your values, security, performance, and more</p>
 </div>
 </div>

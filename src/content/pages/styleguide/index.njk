@@ -1,0 +1,172 @@
+---
+layout: layouts/base.njk
+permalink: /styleguide/
+locale: fr
+title: Styleguide
+description: "Référence interne du design system Meribis : tokens, typographie, élévation, composants. Non indexé."
+eleventyExcludeFromCollections: true
+---
+{# Page de référence INTERNE (noindex via base.njk). Affiche tokens + composants
+   définis dans input.css. Sert de test de non-régression visuelle du design system.
+   Aucun style sur-mesure ici : on n'utilise que les utilitaires/composants communs. #}
+<section class="bg-surface-dark text-brand-ivory">
+  <div class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+    <p class="eyebrow text-brand-gold-light">Design system · interne</p>
+    <h1 class="display mt-4">Styleguide Meribis</h1>
+    <p class="lead mt-6 max-w-2xl text-brand-ivory">Référence vivante des tokens et composants partagés. Tout ce qui est montré ici est défini une seule fois dans <code class="rounded bg-white/10 px-1.5 py-0.5">input.css</code>.</p>
+  </div>
+</section>
+
+<div class="mx-auto max-w-6xl space-y-20 px-6 py-16 md:py-20">
+
+  {# ---------- Couleurs ---------- #}
+  <section>
+    <h2 class="h2 text-brand-charcoal">Couleurs sémantiques</h2>
+    <p class="lead mt-3 text-text-muted">On conçoit avec les alias (surface / texte / bordure), pas avec les couleurs brutes.</p>
+    <ul class="mt-8 grid list-none grid-cols-2 gap-4 p-0 sm:grid-cols-3 lg:grid-cols-4">
+      <li class="card overflow-hidden">
+        <div class="h-20 bg-surface ring-1 ring-inset ring-border-subtle"></div>
+        <p class="p-3 text-sm"><span class="font-semibold">surface</span><br><span class="text-text-muted">fond de page</span></p>
+      </li>
+      <li class="card overflow-hidden">
+        <div class="h-20 bg-surface-elevated ring-1 ring-inset ring-border-subtle"></div>
+        <p class="p-3 text-sm"><span class="font-semibold">surface-elevated</span><br><span class="text-text-muted">carte</span></p>
+      </li>
+      <li class="card overflow-hidden">
+        <div class="h-20 bg-surface-sunken"></div>
+        <p class="p-3 text-sm"><span class="font-semibold">surface-sunken</span><br><span class="text-text-muted">creux</span></p>
+      </li>
+      <li class="card overflow-hidden">
+        <div class="h-20 bg-surface-dark"></div>
+        <p class="p-3 text-sm"><span class="font-semibold">surface-dark</span><br><span class="text-text-muted">section sombre</span></p>
+      </li>
+      <li class="card overflow-hidden">
+        <div class="h-20 bg-brand-blue"></div>
+        <p class="p-3 text-sm"><span class="font-semibold">brand-blue</span></p>
+      </li>
+      <li class="card overflow-hidden">
+        <div class="h-20 bg-accent"></div>
+        <p class="p-3 text-sm"><span class="font-semibold">accent</span><br><span class="text-text-muted">= brand-gold</span></p>
+      </li>
+      <li class="card overflow-hidden">
+        <div class="h-20 bg-brand-gold-deep"></div>
+        <p class="p-3 text-sm"><span class="font-semibold">gold-deep</span><br><span class="text-text-muted">texte sur clair</span></p>
+      </li>
+      <li class="card overflow-hidden">
+        <div class="flex h-20 items-center justify-center bg-surface-elevated"><span class="text-text-muted">texte muted</span></div>
+        <p class="p-3 text-sm"><span class="font-semibold">text-muted</span></p>
+      </li>
+    </ul>
+  </section>
+
+  {# ---------- Typographie ---------- #}
+  <section>
+    <h2 class="h2 text-brand-charcoal">Échelle typographique</h2>
+    <p class="lead mt-3 text-text-muted">Titres et corps en Aptos (sans-empattement). Échelle de tailles fluides en clamp, contraste par la taille et la graisse.</p>
+    <div class="mt-8 space-y-6 border-t border-border-subtle pt-8">
+      <div><p class="text-sm text-text-muted">.display — hero</p><p class="display text-brand-charcoal">Profondeur & caractère</p></div>
+      <div><p class="text-sm text-text-muted">.h1</p><p class="h1 text-brand-charcoal">Titre de niveau 1</p></div>
+      <div><p class="text-sm text-text-muted">.h2</p><p class="h2 text-brand-charcoal">Titre de niveau 2</p></div>
+      <div><p class="text-sm text-text-muted">.h3 — Aptos</p><p class="h3 text-brand-charcoal">Titre de niveau 3</p></div>
+      <div><p class="text-sm text-text-muted">.lead</p><p class="lead max-w-2xl text-text-default">Chapô d'introduction : une phrase de mise en bouche, plus grande que le corps, qui pose le contexte.</p></div>
+      <div><p class="text-sm text-text-muted">corps (Aptos 400)</p><p class="max-w-2xl text-text-default">Texte courant. La mesure de lecture et l'interligne du corps restent inchangés — déjà excellents sur les articles.</p></div>
+      <div><p class="text-sm text-text-muted">.eyebrow</p><p class="eyebrow text-brand-gold-deep">Surtitre de section</p></div>
+    </div>
+  </section>
+
+  {# ---------- Chiffres clés ---------- #}
+  <section>
+    <h2 class="h2 text-brand-charcoal">Chiffres clés</h2>
+    <ul class="mt-8 grid list-none grid-cols-2 gap-8 p-0 md:grid-cols-4">
+      <li><p class="stat text-brand-blue">900<span class="text-accent">+</span></p><p class="mt-2 text-sm text-text-muted">consultants experts</p></li>
+      <li><p class="stat text-brand-blue">1&nbsp;600<span class="text-accent">+</span></p><p class="mt-2 text-sm text-text-muted">clients accompagnés</p></li>
+      <li><p class="stat text-brand-blue">4,5<span class="text-2xl text-accent">/5</span></p><p class="mt-2 text-sm text-text-muted">de satisfaction</p></li>
+      <li><p class="stat text-brand-blue">B&nbsp;Corp</p><p class="mt-2 text-sm text-text-muted">certifiée à impact</p></li>
+    </ul>
+  </section>
+
+  {# ---------- Élévation ---------- #}
+  <section>
+    <h2 class="h2 text-brand-charcoal">Élévation</h2>
+    <p class="lead mt-3 text-text-muted">Trois niveaux, teintés sarcelle. e1 = fins · e2 = cartes · e3 = survol / mis en avant.</p>
+    <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
+      <div class="rounded-card bg-surface-elevated p-6 shadow-e1"><p class="font-semibold">shadow-e1</p><p class="mt-1 text-sm text-text-muted">pilules, champs, tags</p></div>
+      <div class="rounded-card bg-surface-elevated p-6 shadow-e2"><p class="font-semibold">shadow-e2</p><p class="mt-1 text-sm text-text-muted">cartes de contenu</p></div>
+      <div class="rounded-card bg-surface-elevated p-6 shadow-e3"><p class="font-semibold">shadow-e3</p><p class="mt-1 text-sm text-text-muted">survol / mis en avant</p></div>
+    </div>
+  </section>
+
+  {# ---------- Boutons & liens ---------- #}
+  <section>
+    <h2 class="h2 text-brand-charcoal">Boutons & liens</h2>
+    <div class="mt-8 flex flex-wrap items-center gap-4">
+      <button type="button" class="btn btn-primary">Bouton primaire</button>
+      <button type="button" class="btn btn-solid">Bouton plein</button>
+      <a href="#" class="link-arrow">Lien fléché <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      <a href="#" class="link-underline font-semibold text-brand-blue">Lien souligné animé</a>
+    </div>
+    <div class="mt-6 rounded-card bg-surface-dark p-6">
+      <p class="mb-4 text-sm text-brand-ivory/70">Sur fond sombre :</p>
+      <div class="flex flex-wrap items-center gap-4">
+        <button type="button" class="btn btn-primary">Primaire</button>
+        <button type="button" class="btn btn-ghost">Fantôme</button>
+      </div>
+    </div>
+  </section>
+
+  {# ---------- Cartes & pilules ---------- #}
+  <section>
+    <h2 class="h2 text-brand-charcoal">Cartes & pilules</h2>
+    <div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
+      <div class="card p-6"><h3 class="h3 text-brand-blue">Carte statique</h3><p class="mt-2 text-text-muted">.card — surface élevée, ombre e2.</p></div>
+      <a href="#" class="card card-interactive block p-6"><h3 class="h3 text-brand-blue">Carte interactive</h3><p class="mt-2 text-text-muted">.card .card-interactive — survol = translation + e3.</p></a>
+      <div class="card p-6"><h3 class="h3 text-brand-blue">Carte statique</h3><p class="mt-2 text-text-muted">Toujours élevée, jamais plate.</p></div>
+    </div>
+    <div class="mt-6 rounded-card bg-surface-dark p-6">
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div class="card-on-dark p-6"><h3 class="h3 text-brand-gold">Carte sur fond sombre</h3><p class="mt-2 text-brand-ivory">.card-on-dark — élévation par filet (ring), l'ombre ne s'y voit pas.</p></div>
+        <div class="card-on-dark p-6"><h3 class="h3 text-brand-gold">Carte sur fond sombre</h3><p class="mt-2 text-brand-ivory">Pendant sombre de .card.</p></div>
+      </div>
+    </div>
+    <ul class="mt-6 flex flex-wrap gap-3 p-0">
+      <li class="pill">Banque &amp; Assurance</li>
+      <li class="pill">Industrie</li>
+      <li class="pill">Énergie</li>
+      <li class="pill">Secteur public</li>
+    </ul>
+    <ul class="mt-4 flex flex-wrap gap-2 p-0">
+      <li><button type="button" class="chip">Chip interactif</button></li>
+      <li><button type="button" class="chip">Recherche fréquente</button></li>
+    </ul>
+  </section>
+
+  {# ---------- Iconographie ---------- #}
+  <section>
+    <h2 class="h2 text-brand-charcoal">Iconographie</h2>
+    <p class="lead mt-3 text-text-muted">Set linéaire (sprite SVG inline, <code>#i-*</code>), une icône par domaine d'expertise.</p>
+    <ul class="mt-8 grid list-none grid-cols-3 gap-6 p-0 text-center sm:grid-cols-5 lg:grid-cols-9">
+      {% for ic in ["data","workspace","agile","cloud","devops","finance","code","shield","pilotage"] %}
+      <li class="flex flex-col items-center gap-2">
+        <svg class="h-8 w-8 text-brand-gold-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-{{ ic }}" /></svg>
+        <span class="text-xs text-text-muted">i-{{ ic }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {# ---------- Imagerie & dégradé ---------- #}
+  <section>
+    <h2 class="h2 text-brand-charcoal">Imagerie & dégradé</h2>
+    <div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
+      <div>
+        <p class="mb-2 text-sm text-text-muted">.img-brand — traitement photo unifié (désaturation + voile)</p>
+        <img src="{{ '/assets/images/brand/hero-team.webp' | url }}" alt="" width="900" height="828" loading="lazy" class="img-brand w-full rounded-card" />
+      </div>
+      <div>
+        <p class="mb-2 text-sm text-text-muted">.surface-gradient — bandeau de marque</p>
+        <div class="surface-gradient flex h-full min-h-40 items-center justify-center rounded-card p-6 text-brand-ivory">sarcelle → sarcelle foncé</div>
+      </div>
+    </div>
+  </section>
+
+</div>

@@ -25,20 +25,20 @@ Meritis also offers its clients support throughout the deployment of their appli
 ## The advantages of our applications
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">ENVIRONMENT: Cloud ready</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">ENVIRONMENT: Cloud ready</p>
 <p class="text-brand-charcoal">Our products, built on a container-based architecture, can be easily deployed on a private or public cloud.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">ADAPTED INTERFACE: API</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">ADAPTED INTERFACE: API</p>
 <p class="text-brand-charcoal">All our products are API-based to maximise reusability and seamless integration within the client's information system.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">PRODUCT SECURITY</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">PRODUCT SECURITY</p>
 <p class="text-brand-charcoal">Our products are audited internally using Qualys to protect client data and prevent any data leakage.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">DATA MANAGEMENT</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">DATA MANAGEMENT</p>
 <p class="text-brand-charcoal">Our pool of Data Engineers offers a range of capabilities for managing client data: data lake creation, data analysis and visualisation, and more.</p>
 </div>
 </div>

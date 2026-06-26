@@ -59,20 +59,20 @@ Tous nos collaborateurs maîtrisent la législation en vigueur
 ## Bénéficiez de tous les avantages du Cloud
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Résilience</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Résilience</p>
 <p class="text-brand-charcoal">Améliorez la continuité des activités en proposant des fonctionnalités de sauvegarde et de récupération intégrées</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Sécurité</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Sécurité</p>
 <p class="text-brand-charcoal">Sécurisez votre infrastructure grâce à des correctifs de sécurité appliqués automatiquement</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Time to Market</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Time to Market</p>
 <p class="text-brand-charcoal">Fournissez de nouveaux services plus rapidement afin de rester compétitif</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Elasticité</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Elasticité</p>
 <p class="text-brand-charcoal">Facilitez le passage à l’échelle et offrez une meilleure élasticité d’accès</p>
 </div>
 </div>
@@ -92,16 +92,16 @@ L’objectif du mouvement DevOps reste avant tout de **mobiliser l’ensemble de
 Nos experts interviennent chez nos clients pour les aider à faire le bon choix d’architecture des plateformes Cloud pour générer de la valeur et de la sécurité.
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Cadrage</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Cadrage</p>
 <p class="text-brand-charcoal">Audit et analyse de l’existant, des sources et de vos modèles de construction Data</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Déploiement</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Déploiement</p>
 <p class="text-brand-charcoal">Aide au choix fournisseur Cloud adapté et mise en place de la solution</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Accompagnement</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Accompagnement</p>
 <p class="text-brand-charcoal">Stratégie de migration Cloud à travers vos valeurs, la sécurité, performance …</p>
 </div>
 </div>

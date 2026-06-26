@@ -44,29 +44,29 @@ Nos compétences Techniques et Métier nous permettent de couvrir l’ensemble d
 ## Nos profils d’experts
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Ingénierie métier</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Ingénierie métier</p>
 <p class="text-brand-charcoal">Front Office, It Quant, Commando, Risque Management, Règlementaire, Middle Office, Actuariat, Trésorerie, Financement, Pricing, Risques, P&L</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Product Owner & MOA métier</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Product Owner & MOA métier</p>
 <p class="text-brand-charcoal">Gestion d’une application ou d’un projet avec une forte expertise métier</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Support applicatif</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Support applicatif</p>
 <p class="text-brand-charcoal">Support sur les applications Front to back, Applications assurantielle</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Intégration de progiciel</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Intégration de progiciel</p>
 <p class="text-brand-charcoal">Simcorp, Murex, Calypso, Alto, Orchestrade, Summit, Sophis, Kleva, etc.</p>
 <p class="mt-2 text-brand-charcoal">Java, Javascript, C#, C++, Python, Pl/Sql</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Développement applicatif</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Développement applicatif</p>
 <p class="text-brand-charcoal">Gouvernance, Data Engineering, Data science, développeur Big Data, gestion des référentiels</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Métiers Data</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Métiers Data</p>
 <p class="text-brand-charcoal">Audit, coaching, conseil, expertise</p>
 </div>
 </div>

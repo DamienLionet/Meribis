@@ -98,16 +98,16 @@ Our technical and business expertise enables us to cover every aspect of your cy
 Our experts work alongside our clients to help them identify security vulnerabilities, put an effective strategy in place, and obtain the essential certifications.
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Scoping</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Scoping</p>
 <p class="text-brand-charcoal">Audit and analysis of the existing environment to identify vulnerabilities that could potentially be exploited by cybercriminals.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Deployment</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Deployment</p>
 <p class="text-brand-charcoal">Implementation of a cybersecurity strategy, remediation of threats present in the network infrastructure, and attainment of certifications.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Business training</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Business training</p>
 <p class="text-brand-charcoal">Coaching, coordination, and training of teams in DevSecOps methods and tools. Awareness-raising and cybersecurity training.</p>
 </div>
 </div>

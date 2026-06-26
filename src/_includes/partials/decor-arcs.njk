@@ -1,0 +1,18 @@
+{# Décor : arcs concentriques dérivés de l'arc/vague du logo Meritis. Purement décoratif,
+   respiration en échelle légère (arc-pulse-*, coupée si motion réduite). Variante
+   alternative des bulles (partials/decor-bubbles.njk).
+
+   Les arcs sont des quarts de cercle CENTRÉS sur l'angle haut-gauche du viewBox (le plus
+   petit arc dans le coin), bombés vers l'intérieur. Coller au bord via decorClass
+   (left-0/right-0/top-0/bottom-0) et orienter selon le coin :
+     • haut-gauche  : aucune transfo
+     • haut-droite  : -scale-x-100
+     • bas-gauche   : -scale-y-100
+     • bas-droite   : rotate-180
+   `decorClass` pilote aussi taille, couleur (currentColor) et opacité. #}
+<svg aria-hidden="true" focusable="false" class="pointer-events-none absolute {{ decorClass }}" viewBox="0 0 300 300" fill="none" stroke="currentColor" stroke-width="30" stroke-linecap="round">
+  <path class="arc-pulse-a" d="M0 70 A70 70 0 0 0 70 0" opacity="0.6" />
+  <path d="M0 130 A130 130 0 0 0 130 0" opacity="0.5" />
+  <path class="arc-pulse-b" d="M0 190 A190 190 0 0 0 190 0" opacity="0.4" />
+  <path d="M0 250 A250 250 0 0 0 250 0" opacity="0.3" />
+</svg>

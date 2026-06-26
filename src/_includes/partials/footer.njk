@@ -21,7 +21,7 @@
         <h2 class="text-sm font-semibold uppercase tracking-wider text-brand-gold">{{ i18n[locale].footerNav }}</h2>
         <ul class="mt-4 space-y-2 text-sm">
           {% for item in navigation[locale] %}
-            <li><a href="{{ item.url | url }}" class="text-brand-ivory transition hover:text-white">{{ item.label }}</a></li>
+            <li><a href="{{ item.url | url }}" class="link-underline text-brand-ivory transition hover:text-white">{{ item.label }}</a></li>
           {% endfor %}
         </ul>
       </nav>
@@ -29,7 +29,7 @@
         <h2 class="text-sm font-semibold uppercase tracking-wider text-brand-gold">{{ i18n[locale].footerInfo }}</h2>
         <ul class="mt-4 space-y-2 text-sm">
           {% for item in footerLinks[locale] %}
-            <li><a href="{{ item.url | url }}" class="text-brand-ivory transition hover:text-white">{{ item.label }}</a></li>
+            <li><a href="{{ item.url | url }}" class="link-underline text-brand-ivory transition hover:text-white">{{ item.label }}</a></li>
           {% endfor %}
         </ul>
       </nav>

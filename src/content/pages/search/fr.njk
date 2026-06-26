@@ -16,33 +16,33 @@ description: "Recherchez dans les articles, expertises, offres et actualités de
   {# État vide : aide à la navigation tant qu'aucune recherche n'est lancée (masqué dès qu'on tape). #}
   <div id="search-empty" class="mt-12">
     <div class="js-only">
-      <h2 class="text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold-deep">Recherches fréquentes</h2>
+      <h2 class="eyebrow text-brand-gold-deep">Recherches fréquentes</h2>
       <ul class="mt-4 flex flex-wrap gap-2 p-0">
-        <li><button type="button" data-search-term="Data &amp; IA" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Data &amp; IA</button></li>
-        <li><button type="button" data-search-term="Cloud" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Cloud</button></li>
-        <li><button type="button" data-search-term="DevOps" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">DevOps</button></li>
-        <li><button type="button" data-search-term="Finance" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Finance</button></li>
-        <li><button type="button" data-search-term="Cybersécurité" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Cybersécurité</button></li>
-        <li><button type="button" data-search-term="Agilité" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Agilité</button></li>
-        <li><button type="button" data-search-term="IA générative" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">IA générative</button></li>
+        <li><button type="button" data-search-term="Data &amp; IA" class="chip">Data &amp; IA</button></li>
+        <li><button type="button" data-search-term="Cloud" class="chip">Cloud</button></li>
+        <li><button type="button" data-search-term="DevOps" class="chip">DevOps</button></li>
+        <li><button type="button" data-search-term="Finance" class="chip">Finance</button></li>
+        <li><button type="button" data-search-term="Cybersécurité" class="chip">Cybersécurité</button></li>
+        <li><button type="button" data-search-term="Agilité" class="chip">Agilité</button></li>
+        <li><button type="button" data-search-term="IA générative" class="chip">IA générative</button></li>
       </ul>
     </div>
 
-    <h2 class="mt-10 text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold-deep">Parcourir le site</h2>
+    <h2 class="eyebrow mt-10 text-brand-gold-deep">Parcourir le site</h2>
     <ul class="mt-4 grid list-none gap-4 p-0 sm:grid-cols-2">
-      <li><a href="{{ '/fr/expertises/' | url }}" class="block h-full rounded-card border border-brand-gray/60 bg-white p-5 transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">
+      <li><a href="{{ '/fr/expertises/' | url }}" class="card card-interactive block h-full p-5">
         <span class="font-semibold text-brand-blue">Nos expertises</span>
         <span class="mt-1 block text-sm leading-relaxed text-brand-charcoal">Conseil, ingénierie et delivery sur 9 domaines.</span>
       </a></li>
-      <li><a href="{{ '/fr/blog/' | url }}" class="block h-full rounded-card border border-brand-gray/60 bg-white p-5 transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">
+      <li><a href="{{ '/fr/blog/' | url }}" class="card card-interactive block h-full p-5">
         <span class="font-semibold text-brand-blue">Blog</span>
         <span class="mt-1 block text-sm leading-relaxed text-brand-charcoal">Articles, analyses et retours d'expérience.</span>
       </a></li>
-      <li><a href="{{ '/fr/offres/' | url }}" class="block h-full rounded-card border border-brand-gray/60 bg-white p-5 transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">
+      <li><a href="{{ '/fr/offres/' | url }}" class="card card-interactive block h-full p-5">
         <span class="font-semibold text-brand-blue">Offres d'emploi</span>
         <span class="mt-1 block text-sm leading-relaxed text-brand-charcoal">Nos opportunités à pourvoir.</span>
       </a></li>
-      <li><a href="{{ '/fr/actualites/' | url }}" class="block h-full rounded-card border border-brand-gray/60 bg-white p-5 transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">
+      <li><a href="{{ '/fr/actualites/' | url }}" class="card card-interactive block h-full p-5">
         <span class="font-semibold text-brand-blue">Actualités</span>
         <span class="mt-1 block text-sm leading-relaxed text-brand-charcoal">La vie et les engagements du groupe.</span>
       </a></li>

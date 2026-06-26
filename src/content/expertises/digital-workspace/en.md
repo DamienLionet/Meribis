@@ -34,48 +34,48 @@ A **high-performance Digital Workspace** must be treated as a strategic lever, n
 ![Digital Workspace - french](/assets/images/expertises/digital-workspace/inline-2.webp)
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Mobility & employee experience</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Mobility & employee experience</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Secure access to resources from any device, anywhere</li>
 <li>Mobile voice &amp; data strategy (4G/5G) and Private Mobile Network</li>
 <li>Unified endpoint management (UEM, EMM) for simplified device management</li>
 </ul>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Workplace & collaboration</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Workplace & collaboration</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Microsoft 365, Google Workspace, Webex, Zoom integration…</li>
 <li>Seamless experience on-site and when working remotely</li>
 <li>Modern, flexible, and secure digital workplace</li>
 </ul>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Unified communications & performance</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Unified communications & performance</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Enterprise telephony strategy and legacy copper network migration</li>
 <li>Meeting room optimisation and video-conferencing tools</li>
 <li>Interoperability and integration of collaboration platforms</li>
 </ul>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Transformation & Governance</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Transformation & Governance</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Process structuring and organisational management</li>
 <li>Collaboration tool metrology (TEM) for effective performance and cost management</li>
 <li>Change management to drive adoption and maximise the effectiveness of new solutions</li>
 </ul>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Contact centre & customer relations</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Contact centre & customer relations</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Modernisation of infrastructure and migration to the cloud (legacy CC, CCaaS)</li>
 <li>Automation and omnichannel management of interactions for optimised customer relations</li>
 <li>Enhanced customer experience and CRM solution integration for more effective interactions</li>
 </ul>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Smart Office & Smart Building</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Smart Office & Smart Building</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>A turnkey solution for intelligent, connected, and optimised buildings and workspaces.</li>
 <li>Optimised management of spaces, energy consumption, and equipment for greater comfort and efficiency.</li>

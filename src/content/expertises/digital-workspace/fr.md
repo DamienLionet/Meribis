@@ -34,48 +34,48 @@ Un **Digital Workspace performant** doit être pensé comme un levier stratégi
 ![Digital Workspace - french](/assets/images/expertises/digital-workspace/inline-2.webp)
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Mobilité & expérience collaborateur</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Mobilité & expérience collaborateur</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Accès sécurisé aux ressources depuis n’importe quel appareil et n’importe où</li>
 <li>Stratégie voix & data mobile (4G/5G) et Private Mobile Network</li>
 <li>Unified endpoint management (UEM, EMM) pour une gestion simplifiée des terminaux</li>
 </ul>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Workplace & collaboration</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Workplace & collaboration</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Intégration Microsoft 365, Google Workspace, Webex, Zoom…</li>
 <li>Expérience fluide sur site et en télétravail</li>
 <li>Digital workplace moderne, flexible et sécurisé</li>
 </ul>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Communications unifiées & performance</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Communications unifiées & performance</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Stratégie de téléphonie d’entreprise et fin du réseau cuivre</li>
 <li>Optimisation des salles de réunion et outils de visioconférence</li>
 <li>Interopérabilité et intégration des plateformes collaboratives</li>
 </ul>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Transformation & Gouvernance</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Transformation & Gouvernance</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Structuration des processus et pilotage de l’organisation</li>
 <li>Métrologie des outils collaboratifs (TEM) pour une gestion efficace des performances et des coûts</li>
 <li>Conduite du changement pour favoriser l’adoption et maximiser l’efficacité des nouvelles solutions</li>
 </ul>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Centre de contact & relation client</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Centre de contact & relation client</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Modernisation des infrastructures et migration vers le cloud (CC legacy, CCaaS)</li>
 <li>Automatisation et gestion omnicanale des échanges pour une relation client optimisée</li>
 <li>Amélioration de l’expérience client et intégration des solutions CRM pour des interactions optimisées</li>
 </ul>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Smart Office & Smart Building</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Smart Office & Smart Building</p>
 <ul class="list-disc pl-5 space-y-1 text-brand-charcoal">
 <li>Une solution clé en main pour des bâtiments et espaces de travail intelligents, connectés et optimisés.</li>
 <li>Gestion optimisée des espaces, des consommations énergétiques et des équipements pour plus de confort et d’efficacité.</li>

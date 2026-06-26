@@ -16,33 +16,33 @@ description: "Search Meritis articles, expertise, jobs and news."
   {# Empty state: helps navigation until a search is run (hidden as soon as you type). #}
   <div id="search-empty" class="mt-12">
     <div class="js-only">
-      <h2 class="text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold-deep">Popular searches</h2>
+      <h2 class="eyebrow text-brand-gold-deep">Popular searches</h2>
       <ul class="mt-4 flex flex-wrap gap-2 p-0">
-        <li><button type="button" data-search-term="Data &amp; AI" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Data &amp; AI</button></li>
-        <li><button type="button" data-search-term="Cloud" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Cloud</button></li>
-        <li><button type="button" data-search-term="DevOps" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">DevOps</button></li>
-        <li><button type="button" data-search-term="Finance" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Finance</button></li>
-        <li><button type="button" data-search-term="Cybersecurity" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Cybersecurity</button></li>
-        <li><button type="button" data-search-term="Agile" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Agile</button></li>
-        <li><button type="button" data-search-term="Generative AI" class="rounded-button border border-brand-gray/60 bg-white px-4 py-2 text-sm font-medium text-brand-blue transition hover:border-brand-blue hover:bg-brand-light">Generative AI</button></li>
+        <li><button type="button" data-search-term="Data &amp; AI" class="chip">Data &amp; AI</button></li>
+        <li><button type="button" data-search-term="Cloud" class="chip">Cloud</button></li>
+        <li><button type="button" data-search-term="DevOps" class="chip">DevOps</button></li>
+        <li><button type="button" data-search-term="Finance" class="chip">Finance</button></li>
+        <li><button type="button" data-search-term="Cybersecurity" class="chip">Cybersecurity</button></li>
+        <li><button type="button" data-search-term="Agile" class="chip">Agile</button></li>
+        <li><button type="button" data-search-term="Generative AI" class="chip">Generative AI</button></li>
       </ul>
     </div>
 
-    <h2 class="mt-10 text-sm font-semibold uppercase tracking-[0.2em] text-brand-gold-deep">Browse the site</h2>
+    <h2 class="eyebrow mt-10 text-brand-gold-deep">Browse the site</h2>
     <ul class="mt-4 grid list-none gap-4 p-0 sm:grid-cols-2">
-      <li><a href="{{ '/en/expertise/' | url }}" class="block h-full rounded-card border border-brand-gray/60 bg-white p-5 transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">
+      <li><a href="{{ '/en/expertise/' | url }}" class="card card-interactive block h-full p-5">
         <span class="font-semibold text-brand-blue">Our expertise</span>
         <span class="mt-1 block text-sm leading-relaxed text-brand-charcoal">Consulting, engineering and delivery across 9 areas.</span>
       </a></li>
-      <li><a href="{{ '/en/blog/' | url }}" class="block h-full rounded-card border border-brand-gray/60 bg-white p-5 transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">
+      <li><a href="{{ '/en/blog/' | url }}" class="card card-interactive block h-full p-5">
         <span class="font-semibold text-brand-blue">Blog</span>
         <span class="mt-1 block text-sm leading-relaxed text-brand-charcoal">Articles, insights and field experience.</span>
       </a></li>
-      <li><a href="{{ '/en/jobs/' | url }}" class="block h-full rounded-card border border-brand-gray/60 bg-white p-5 transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">
+      <li><a href="{{ '/en/jobs/' | url }}" class="card card-interactive block h-full p-5">
         <span class="font-semibold text-brand-blue">Jobs</span>
         <span class="mt-1 block text-sm leading-relaxed text-brand-charcoal">Our open opportunities.</span>
       </a></li>
-      <li><a href="{{ '/en/news/' | url }}" class="block h-full rounded-card border border-brand-gray/60 bg-white p-5 transition hover:-translate-y-0.5 hover:border-brand-blue hover:shadow-soft">
+      <li><a href="{{ '/en/news/' | url }}" class="card card-interactive block h-full p-5">
         <span class="font-semibold text-brand-blue">News</span>
         <span class="mt-1 block text-sm leading-relaxed text-brand-charcoal">Group life and commitments.</span>
       </a></li>

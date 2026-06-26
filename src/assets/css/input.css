@@ -11,6 +11,7 @@
      --shadow-soft       -> shadow-soft
    Valeurs à confirmer avec les assets officiels (cf. project-spec.md §11). */
 @theme {
+  /* — Couleurs de marque (charte Meritis 2025) — */
   --color-brand-blue: #005a6a;
   --color-brand-gold: #e1b55e;
   --color-brand-charcoal: #3a3a3a;
@@ -25,12 +26,56 @@
   --color-brand-gray: #d9d9d9;
   --color-brand-blue-muted: #6ca3ab;
 
+  /* — Alias sémantiques : on conçoit avec ceux-ci (surface / texte / bordure),
+     pas avec les couleurs brutes. La hiérarchie des fonds est portée par le NOM
+     du token : page (ivoire) < creux (gris) < surface élevée (blanc). — */
+  --color-surface: var(--color-brand-ivory);          /* fond de page */
+  --color-surface-elevated: #ffffff;                  /* carte élevée */
+  --color-surface-sunken: var(--color-brand-light);   /* zone « en creux » */
+  --color-surface-dark: var(--color-brand-blue-dark); /* section sombre */
+  --color-border-subtle: #e4ddd1;                     /* filet discret sur fond clair */
+  --color-text-default: var(--color-brand-charcoal);
+  --color-text-muted: #5f6a6a;                         /* texte secondaire (gris sarcelle) */
+  --color-accent: var(--color-brand-gold);
+
+  /* — Familles : corps en Aptos, titres en Quicksand (géométrique fine, auto-hébergée).
+     Aptos reste en repli dans la pile display pour les glyphes absents de Quicksand. */
   --font-sans: "Aptos", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-display: "Quicksand", "Aptos", ui-sans-serif, system-ui, sans-serif;
+
+  /* — Échelle typographique fluide (clamp : min → max sans points de rupture).
+     Progression ≈ 1,25–1,3 ; le palier `display` est l'exception hero. — */
+  --text-display: clamp(2.25rem, 1.5rem + 3vw, 3.5rem);
+  --text-display--line-height: 1.08;
+  --text-h1: clamp(2rem, 1.5rem + 2.2vw, 3rem);
+  --text-h1--line-height: 1.1;
+  --text-h2: clamp(1.6rem, 1.3rem + 1.3vw, 2.25rem);
+  --text-h2--line-height: 1.15;
+  --text-h3: clamp(1.2rem, 1.05rem + 0.5vw, 1.5rem);
+  --text-h3--line-height: 1.3;
+  --text-lead: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);
+  --text-lead--line-height: 1.6;
 
   --radius-card: 1.25rem;
   --radius-button: 9999px;
+  --radius-sm: 0.625rem;
 
-  --shadow-soft: 0 18px 60px rgb(0 0 0 / 0.08);
+  /* Conteneur large : héros & sections vitrines (le conteneur de base reste max-w-6xl). */
+  --container-wide: 80rem;
+
+  /* — Échelle d'élévation, teintée sarcelle foncé (rgb 10 56 64) plutôt que noir.
+     e1 = éléments fins (pilules, champs, tags) · e2 = cartes · e3 = survol / mis en avant. — */
+  --shadow-e1: 0 1px 2px rgb(10 56 64 / 0.06), 0 2px 6px rgb(10 56 64 / 0.06);
+  --shadow-e2: 0 4px 12px rgb(10 56 64 / 0.07), 0 12px 28px rgb(10 56 64 / 0.08);
+  --shadow-e3: 0 12px 28px rgb(10 56 64 / 0.12), 0 24px 56px rgb(10 56 64 / 0.14);
+  /* Alias rétro-compatibilité : l'ancien `shadow-soft` pointe désormais sur e2.
+     (à retirer une fois toutes les pages migrées vers shadow-e*) */
+  --shadow-soft: var(--shadow-e2);
+
+  /* — Mouvement : courbe + durée standard, appliquées à tous les utilitaires `transition`. — */
+  --default-transition-duration: 250ms;
+  --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* --- Police Aptos auto-hébergée (woff2). Chemins relatifs au fichier CSS
@@ -63,6 +108,231 @@
   font-style: normal;
   font-display: swap;
 }
+/* Quicksand : fonte de titrage (variable, plage de graisses 300→700). */
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/quicksand.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================================================
+   COMPOSANTS PARTAGÉS (design system). Définis UNE seule fois ici et consommés
+   par les templates : on n'empile JAMAIS la même chaîne d'utilitaires page par
+   page. Tout repose sur les tokens @theme ci-dessus.
+   ============================================================================ */
+
+/* --- Typographie : paliers de titrage (couple display / Aptos) ---
+   .display = hero (exception) · .h1/.h2 en serif de titrage · .h3 en Aptos
+   (titre d'interface) · .lead = chapô · .eyebrow = surtitre · .stat = grand chiffre. */
+@utility display {
+  font-family: var(--font-display);
+  font-size: var(--text-display);
+  line-height: var(--text-display--line-height);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+@utility h1 {
+  font-family: var(--font-display);
+  font-size: var(--text-h1);
+  line-height: var(--text-h1--line-height);
+  font-weight: 300;
+  letter-spacing: -0.015em;
+}
+@utility h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  line-height: var(--text-h2--line-height);
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+@utility h3 {
+  font-size: var(--text-h3);
+  line-height: var(--text-h3--line-height);
+  font-weight: 300;
+}
+@utility lead {
+  font-size: var(--text-lead);
+  line-height: var(--text-lead--line-height);
+}
+@utility eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+@utility stat {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 1.8rem + 3vw, 3.5rem);
+  line-height: 1;
+  font-weight: 400; /* graisse légère : grands chiffres élégants */
+  letter-spacing: -0.01em;
+}
+
+/* --- Boutons : base + variantes. Le focus clavier est intégré ici. --- */
+@utility btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-button);
+  padding: 0.75rem 1.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: background-color var(--default-transition-duration) var(--ease-standard),
+    color var(--default-transition-duration) var(--ease-standard),
+    box-shadow var(--default-transition-duration) var(--ease-standard),
+    transform var(--default-transition-duration) var(--ease-standard);
+}
+@utility btn-primary {
+  background-color: var(--color-brand-gold);
+  color: var(--color-brand-blue-dark);
+  &:hover { background-color: var(--color-brand-gold-dark); }
+  &:focus-visible { outline: 2px solid var(--color-brand-gold); outline-offset: 3px; }
+}
+@utility btn-solid {
+  background-color: var(--color-brand-blue);
+  color: #fff;
+  &:hover { background-color: var(--color-brand-blue-dark); }
+  &:focus-visible { outline: 2px solid var(--color-brand-blue); outline-offset: 3px; }
+}
+@utility btn-ghost {
+  border: 1px solid rgb(255 255 255 / 0.4);
+  color: var(--color-brand-ivory);
+  &:hover { background-color: rgb(255 255 255 / 0.1); }
+  &:focus-visible { outline: 2px solid var(--color-brand-ivory); outline-offset: 3px; }
+}
+/* Variante compacte (CTA d'en-tête). Réduit padding + corps de texte. */
+@utility btn-sm {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+}
+
+/* --- Cartes : .card = surface élevée (toujours blanche + ombre e2).
+   .card-interactive ajoute le survol commun (translation + e3) et un focus visible
+   sur la carte entière (corrige le « lien plein-bloc » sans anneau de focus).
+   .card-on-dark = pendant pour sections sombres (l'ombre ne s'y voit pas → ring). --- */
+@utility card {
+  border-radius: var(--radius-card);
+  background-color: var(--color-surface-elevated);
+  box-shadow: var(--shadow-e2);
+}
+@utility card-interactive {
+  transition: transform var(--default-transition-duration) var(--ease-standard),
+    box-shadow var(--default-transition-duration) var(--ease-standard);
+  &:hover { transform: translateY(-3px); box-shadow: var(--shadow-e3); }
+  &:focus-within { outline: 2px solid var(--color-brand-blue); outline-offset: 2px; }
+}
+@utility card-on-dark {
+  border-radius: var(--radius-card);
+  background-color: rgb(255 255 255 / 0.05);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.12);
+}
+
+/* --- Carte de mise en avant (feature) : surface de marque en dégradé sarcelle,
+   texte ivoire, élévation forte. Pour les blocs « vitrine » colorés (RSE, satisfaction). --- */
+@utility card-feature {
+  border-radius: var(--radius-card);
+  background-image: linear-gradient(135deg, var(--color-brand-blue) 0%, var(--color-brand-blue-dark) 68%);
+  color: var(--color-brand-ivory);
+  box-shadow: var(--shadow-e3);
+}
+
+/* --- Pilule (tags, secteurs) : surface élevée fine (e1). --- */
+@utility pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-button);
+  background-color: var(--color-surface-elevated);
+  box-shadow: var(--shadow-e1);
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-brand-blue);
+}
+
+/* --- Lien fléché (« Toutes nos offres → ») : la flèche glisse au survol.
+   Encadrer la flèche d'un <span class="arrow" aria-hidden="true">. --- */
+@utility link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: var(--color-brand-blue);
+  &:hover { color: var(--color-brand-blue-dark); }
+  & .arrow { transition: transform var(--default-transition-duration) var(--ease-standard); }
+  &:hover .arrow { transform: translateX(0.25rem); }
+}
+
+/* --- Lien texte à soulignement animé (liens inline hors prose). --- */
+@utility link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size var(--default-transition-duration) var(--ease-standard);
+  &:hover { background-size: 100% 1px; }
+}
+
+/* --- Traitement d'image unifié : désaturation + léger contraste, pour homogénéiser
+   des photos d'origines diverses (cohérence chromatique premium). --- */
+@utility img-brand {
+  filter: grayscale(0.35) saturate(0.85) contrast(1.03);
+}
+
+/* --- Dégradé de marque pour les bandeaux / sections sombres (sarcelle → sarcelle foncé),
+   en remplacement des aplats unis identiques sur toutes les pages. --- */
+@utility surface-gradient {
+  background-image: linear-gradient(135deg, var(--color-brand-blue) 0%, var(--color-brand-blue-dark) 68%);
+}
+
+/* --- Fondu de l'image de héros : masque en dégradé qui rend le bord gauche de la photo
+   progressivement transparent, pour la faire fondre dans le fond (transition douce
+   fond ↔ image, plutôt qu'un rectangle net recouvert d'un calque). --- */
+@utility hero-media-mask {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 85%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 85%);
+}
+
+/* --- Chip interactif (filtres, recherches fréquentes) : pilule bordée cliquable.
+   Distinct de .pill (tag blanc élevé, non cliquable). --- */
+@utility chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-button);
+  border: 1px solid var(--color-brand-gray);
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-brand-blue);
+  transition: border-color var(--default-transition-duration) var(--ease-standard),
+    background-color var(--default-transition-duration) var(--ease-standard);
+  &:hover { border-color: var(--color-brand-blue); background-color: var(--color-surface-sunken); }
+}
+
+/* --- Révélations au scroll (amélioration progressive). N'agit qu'avec JS : sans JS le
+   contenu est visible normalement. main.js ajoute .reveal-on-scroll puis .is-visible. --- */
+.js .reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.6s var(--ease-standard), transform 0.6s var(--ease-standard);
+}
+.js .reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* --- Accessibilité : neutralise animations & transitions si l'utilisateur
+   demande moins de mouvement (couvre tout le vocabulaire de mouvement ci-dessus). --- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
 
 /* --- Menu mobile : amélioration progressive (cf. assets/js/main.js) ---
    Sans JS : le bouton est masqué et le panneau reste ouvert (liens accessibles).
@@ -85,14 +355,18 @@
 }
 .prose-meritis h2 {
   margin-top: 2.5rem;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  line-height: var(--text-h2--line-height);
+  font-weight: 300;
+  letter-spacing: -0.01em;
   color: var(--color-brand-blue);
 }
 .prose-meritis h3 {
   margin-top: 2rem;
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: var(--text-h3);
+  line-height: var(--text-h3--line-height);
+  font-weight: 300;
 }
 .prose-meritis ul {
   list-style: disc;
@@ -199,8 +473,21 @@ html {
 .decor-drift-a { animation: meribis-drift-a 3.5s ease-in-out infinite; }
 .decor-drift-b { animation: meribis-drift-b 4.5s ease-in-out infinite; }
 .decor-drift-c { animation: meribis-drift-c 4s ease-in-out infinite; }
+
+/* Décor arcs : respiration en échelle depuis l'angle (transform-origin au centre des
+   arcs = origine du viewBox). Les extrémités, posées sur les axes, glissent le long des
+   bords (et au-delà, donc rognées) : elles restent collées au bord, sans décollement. */
+@keyframes meribis-arc-a { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.04); } }
+@keyframes meribis-arc-b { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.07); } }
+@keyframes meribis-arc-c { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+.arc-pulse-a, .arc-pulse-b, .arc-pulse-c { transform-box: view-box; transform-origin: 0 0; }
+.arc-pulse-a { animation: meribis-arc-a 5s ease-in-out infinite; }
+.arc-pulse-b { animation: meribis-arc-b 6s ease-in-out infinite; }
+.arc-pulse-c { animation: meribis-arc-c 5.5s ease-in-out infinite; }
+
 @media (prefers-reduced-motion: reduce) {
-  .decor-drift-a, .decor-drift-b, .decor-drift-c { animation: none; }
+  .decor-drift-a, .decor-drift-b, .decor-drift-c,
+  .arc-pulse-a, .arc-pulse-b, .arc-pulse-c { animation: none; }
 }
 
 /* Éléments activés uniquement quand JS est disponible (filtres de liste, etc.). */

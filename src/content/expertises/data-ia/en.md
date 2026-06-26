@@ -222,20 +222,20 @@ A 30-minute conversation with a Meritis expert is enough to clarify your situati
 What sets Meritis apart is the ability to cover the full spectrum: from intent to production, with no break between advisory and execution. Our four complementary teams work together or separately depending on your stage.
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Data & AI Advisory Team</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Data & AI Advisory Team</p>
 <p class="text-brand-charcoal">Strategy, architecture, governance. They scope your situation, formalise the vision, and lead complex projects throughout their full duration.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Generative AI Innovation Unit</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Generative AI Innovation Unit</p>
 <p class="text-brand-charcoal">AI doctors and researchers, R&D activity, scientific publications. Authors of OpenRAG. State-of-the-art research translated into secure, operational solutions.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Data & AI Practices</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Data & AI Practices</p>
 <p class="text-brand-charcoal">Structured communities of expertise: BI, Data Engineering, Data Science. Operational profiles available for client engagements, reinforcement, or project management.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Field Data & AI Consultants</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Field Data & AI Consultants</p>
 <p class="text-brand-charcoal">They work within your teams, on your tools, in your real-world context. On engagement or in a support role, building and deploying over the long term.</p>
 </div>
 </div>

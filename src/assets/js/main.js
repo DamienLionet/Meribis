@@ -85,3 +85,28 @@ document.querySelectorAll("[data-embed]").forEach((box) => {
     box.replaceChildren(iframe);
   });
 });
+
+// Révélations au scroll : fondu + légère montée des cartes et des blocs marqués
+// [data-reveal]. Amélioration progressive : sans JS rien n'est masqué ; on respecte
+// prefers-reduced-motion (aucun masquage si l'utilisateur demande moins de mouvement).
+const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if (!prefersReduced && "IntersectionObserver" in window) {
+  const targets = document.querySelectorAll(".card, [data-reveal]");
+  if (targets.length) {
+    const io = new IntersectionObserver(
+      (entries, obs) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            obs.unobserve(entry.target);
+          }
+        });
+      },
+      { rootMargin: "0px 0px -10% 0px" }
+    );
+    targets.forEach((el) => {
+      el.classList.add("reveal-on-scroll");
+      io.observe(el);
+    });
+  }
+}

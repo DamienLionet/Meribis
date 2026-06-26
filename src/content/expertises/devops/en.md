@@ -115,20 +115,20 @@ Yet whilst the term "DevOps" is widely recognised today, the underlying foundati
 ## Adopt the DevOps methodology: immediate benefits
 
 <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Speed</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Speed</p>
 <p class="text-brand-charcoal">Accelerate your time-to-market through CI/CD pipeline automation and continuous deployment, enabling you to ship new features faster and with confidence.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Reliability</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Reliability</p>
 <p class="text-brand-charcoal">Improve the quality of your application lifecycle and ensure reliable releases through automated processes and more effective incident management.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Productivity</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Productivity</p>
 <p class="text-brand-charcoal">Build more effective teams by instilling a DevOps culture rooted in collaboration across development, infrastructure, and operations, and in shared ownership and accountability.</p>
 </div>
-<div class="rounded-card bg-brand-light p-6">
-<p class="text-lg font-semibold text-brand-blue">Scalability</p>
+<div class="card p-6">
+<p class="h3 text-brand-blue">Scalability</p>
 <p class="text-brand-charcoal">Through Infrastructure as Code (IaC) and automation, manage your development, test, and production environments in a flexible and scalable manner, whilst keeping costs under control.</p>
 </div>
 </div>
