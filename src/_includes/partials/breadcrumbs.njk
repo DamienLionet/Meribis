@@ -1,6 +1,6 @@
 <nav aria-label="{{ i18n[locale].breadcrumb }}" class="text-sm">
   <ol class="flex flex-wrap items-center gap-2 text-brand-charcoal">
-    <li><a href="{{ ('/' + locale + '/') | url }}" class="transition hover:text-brand-blue">{{ i18n[locale].home }}</a></li>
+    <li><a href="{{ routes.home[locale] | url }}" class="transition hover:text-brand-blue">{{ i18n[locale].home }}</a></li>
     <li aria-hidden="true" class="text-brand-gray">/</li>
     <li><span aria-current="page" class="text-brand-charcoal">{{ title }}</span></li>
   </ol>

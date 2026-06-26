@@ -17,6 +17,7 @@
     "build:js": "node scripts/minify-js.mjs",
     "build:search": "pagefind --site dist",
     "optimize:images": "node scripts/optimize-images.mjs",
+    "check": "node scripts/check-i18n.mjs",
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
     "build:all": "run-s clean build:css build build:js build:search",
     "build:local": "cross-env PATH_PREFIX=/ run-s clean build:css build build:js build:search"

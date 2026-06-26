@@ -1,0 +1,70 @@
+{# Corps de la page Recherche — structure unique, partagée FR/EN. Données : _data/search.js.
+   Le markup Pagefind et le script sont identiques FR/EN et restent ici. #}
+{% set d = search[locale] %}
+{% set heroTitle = d.heroTitle %}
+{% set heroLead = d.heroLead %}
+{% set noHeroImage = true %}
+{% include "partials/page-hero.njk" %}
+
+<section data-pagefind-ignore class="mx-auto max-w-3xl px-6 py-12 md:py-16">
+  <link rel="stylesheet" href="{{ '/pagefind/pagefind-ui.css' | url }}" />
+  <div id="search"></div>
+
+  {# État vide : aide à la navigation tant qu'aucune recherche n'est lancée (masqué dès qu'on tape). #}
+  <div id="search-empty" class="mt-12">
+    <div class="js-only">
+      <h2 class="eyebrow text-brand-gold-deep">{{ d.popularHeading }}</h2>
+      <ul class="mt-4 flex flex-wrap gap-2 p-0">
+        {% for term in d.popular %}
+        <li><button type="button" data-search-term="{{ term }}" class="chip">{{ term }}</button></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <h2 class="eyebrow mt-10 text-brand-gold-deep">{{ d.browseHeading }}</h2>
+    <ul class="mt-4 grid list-none gap-4 p-0 sm:grid-cols-2">
+      {% for b in d.browse %}
+      <li><a href="{{ routes[b.route][locale] | url }}" class="card card-interactive block h-full p-5">
+        <span class="font-semibold text-brand-blue">{{ b.title }}</span>
+        <span class="mt-1 block text-sm leading-relaxed text-brand-charcoal">{{ b.desc }}</span>
+      </a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <script src="{{ '/pagefind/pagefind-ui.js' | url }}"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      if (window.PagefindUI) {
+        // Pagefind enregistre les URLs SANS le pathPrefix (il indexe dist/ tel quel) ; on les
+        // re-préfixe pour /Meribis/ (et rien en local où PATH_PREFIX=/), sinon les résultats 404.
+        var base = "{{ '/' | url }}".replace(/\/$/, "");
+        new PagefindUI({ element: "#search", bundlePath: "{{ '/pagefind/' | url }}", showImages: false, showSubResults: true,
+          processResult: function (r) {
+            if (r.url) r.url = base + r.url;
+            (r.sub_results || []).forEach(function (s) { if (s.url) s.url = base + s.url; });
+            return r;
+          } });
+      }
+      var root = document.getElementById("search");
+      var empty = document.getElementById("search-empty");
+      if (!root || !empty) return;
+      function sync() {
+        var input = root.querySelector(".pagefind-ui__search-input");
+        empty.hidden = !!(input && input.value.trim());
+      }
+      root.addEventListener("input", sync);
+      document.querySelectorAll("[data-search-term]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var input = root.querySelector(".pagefind-ui__search-input");
+          if (!input) return;
+          input.value = btn.getAttribute("data-search-term");
+          input.dispatchEvent(new Event("input", { bubbles: true }));
+          input.focus();
+          sync();
+        });
+      });
+      setTimeout(sync, 50);
+    });
+  </script>
+</section>

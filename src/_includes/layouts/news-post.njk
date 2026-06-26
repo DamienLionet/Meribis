@@ -1,14 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-{% if locale == "en" %}
-  {% set newsLabel = i18n[locale].news %}
-  {% set newsUrl = "/en/news/" %}
-{% else %}
-  {% set newsLabel = i18n[locale].news %}
-  {% set newsUrl = "/fr/actualites/" %}
-{% endif %}
-{% set parent = { "label": newsLabel, "url": newsUrl } %}
+{% set parent = { "label": i18n[locale].news, "url": routes.news[locale] } %}
 <article class="mx-auto max-w-3xl px-6 py-12 md:py-16">
   {% include "partials/breadcrumbs.njk" %}
 

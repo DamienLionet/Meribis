@@ -1,0 +1,16 @@
+{# Bibliothèque de macros (composants paramétrés). Import : {% import "partials/macros.njk" as ui %}
+   - ui.icon(id, cls)            → <svg><use href="#id"></svg>
+   - ui.tile(url, iconId, label) → tuile carte cliquable (icône + libellé)
+   - ui.stat(value, label)       → bloc chiffre clé (value peut contenir du HTML) #}
+
+{% macro icon(id, cls="h-6 w-6") -%}
+<svg class="{{ cls }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#{{ id }}" /></svg>
+{%- endmacro %}
+
+{% macro tile(url, iconId, label) -%}
+<li><a href="{{ url | url }}" class="card card-interactive flex flex-col items-center gap-3 px-5 py-6 text-center font-medium text-brand-blue"><svg class="h-8 w-8 text-brand-gold-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#{{ iconId }}" /></svg><span>{{ label }}</span></a></li>
+{%- endmacro %}
+
+{% macro stat(value, label) -%}
+<div class="text-center"><p class="stat text-brand-blue">{{ value | safe }}</p><p class="mt-2 text-sm leading-snug text-text-muted">{{ label }}</p></div>
+{%- endmacro %}

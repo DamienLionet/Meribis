@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-{% set jobsListUrl = "/fr/offres/" if locale == "fr" else "/en/jobs/" %}
+{% set jobsListUrl = routes.jobs[locale] %}
 {% set parent = { "label": i18n[locale].jobs, "url": jobsListUrl } %}
 <article class="mx-auto max-w-3xl px-6 py-12 md:py-16">
   {% include "partials/breadcrumbs.njk" %}
@@ -33,7 +33,7 @@ layout: layouts/base.njk
   {% endif %}
 
   <div class="mt-10 flex flex-wrap items-center gap-5">
-    <a href="{% if applyUrl %}{{ applyUrl | url }}{% else %}{{ ('/' + locale + '/contact/') | url }}?source={{ title | urlencode }}{% endif %}" class="btn btn-primary">{{ i18n[locale].apply }}</a>
+    <a href="{% if applyUrl %}{{ applyUrl | url }}{% else %}{{ routes.contact[locale] | url }}?source={{ title | urlencode }}{% endif %}" class="btn btn-primary">{{ i18n[locale].apply }}</a>
     <a href="{{ parent.url | url }}" class="font-semibold text-brand-blue transition hover:text-brand-blue-dark">← {{ i18n[locale].backToJobs }}</a>
   </div>
 </article>

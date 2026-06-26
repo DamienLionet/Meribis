@@ -6,7 +6,7 @@
       <h2 class="h2">{{ cta.title or i18n[locale].ctaTitle }}</h2>
       <p class="lead mt-3 max-w-xl text-brand-ivory">{{ cta.text or i18n[locale].ctaText }}</p>
     </div>
-    <a href="{{ ('/' + locale + '/contact/') | url }}" class="btn btn-primary shrink-0">
+    <a href="{{ routes.contact[locale] | url }}" class="btn btn-primary shrink-0">
       {{ cta.label or i18n[locale].contact }}
     </a>
   </div>

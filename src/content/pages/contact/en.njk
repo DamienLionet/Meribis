@@ -4,31 +4,4 @@ permalink: /en/contact/
 title: Contact
 description: "Contact Meritis: let's talk about your technology project."
 ---
-{% set heroTitle = "Let's talk about your project" %}
-{% set heroLead = "A question, a project or an application? Write to us using the form below — we'll get back to you quickly." %}
-{% set heroImage = "/assets/images/brand/hero-contact.webp" %}
-{% include "partials/page-hero.njk" %}
-
-<section class="mx-auto max-w-3xl px-6 py-12 md:py-16">
-  {# MS Forms embed as click-to-load (GDPR): nothing loads before an explicit action.
-     The ?source= pre-fill is handled by the [data-embed] handler in main.js. #}
-  <div class="card overflow-hidden">
-    <div
-      data-embed
-      data-embed-src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=FKtmkg0M-k-EhJ7SirQzqpOpZcoB86VIv7udGFyMyOVUNEJINUo3MzRNNVAwMzc5QUdGWUpCRzYyRC4u&embed=true"
-      data-embed-title="Meritis contact form"
-      data-embed-height="700"
-      data-source-param="r514c22bc0b9648b2975b6d1a8a495fd5"
-      class="px-6 py-12 text-center md:px-8">
-      <p class="js-only mx-auto max-w-md text-brand-charcoal">The form is provided by <strong>Microsoft Forms</strong>. It is only loaded at your request, to avoid placing any third-party cookies without your consent.</p>
-      <a
-        href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=FKtmkg0M-k-EhJ7SirQzqpOpZcoB86VIv7udGFyMyOVUNEJINUo3MzRNNVAwMzc5QUdGWUpCRzYyRC4u"
-        data-embed-load
-        target="_blank"
-        rel="noopener"
-        class="btn btn-solid mt-6">
-        Show the contact form
-      </a>
-    </div>
-  </div>
-</section>
+{% include "partials/contact-body.njk" %}

@@ -1,7 +1,7 @@
-{% set searchUrl = "/fr/recherche/" if locale == "fr" else "/en/search/" %}
+{% set searchUrl = routes.search[locale] %}
 <header class="sticky top-0 z-40 border-b border-brand-gray/50 bg-white">
   <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4">
-    <a href="{{ ('/' + locale + '/') | url }}" class="shrink-0" aria-label="Meritis — {{ i18n[locale].home }}">
+    <a href="{{ routes.home[locale] | url }}" class="shrink-0" aria-label="Meritis — {{ i18n[locale].home }}">
       <img src="{{ '/assets/images/brand/logo.webp' | url }}" width="1024" height="181" alt="Meritis" loading="eager" decoding="async" class="h-8 w-auto md:h-9" />
     </a>
 
@@ -38,7 +38,7 @@
 
       {% include "partials/language-switcher.njk" %}
 
-      <a href="{{ ('/' + locale + '/contact/') | url }}" class="hidden rounded-button bg-brand-blue px-5 py-2 text-sm font-semibold text-white transition hover:bg-brand-blue-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue md:inline-flex">{{ i18n[locale].contact }}</a>
+      <a href="{{ routes.contact[locale] | url }}" class="hidden rounded-button bg-brand-blue px-5 py-2 text-sm font-semibold text-white transition hover:bg-brand-blue-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue md:inline-flex">{{ i18n[locale].contact }}</a>
 
       <button type="button" data-menu-toggle aria-controls="mobile-menu" aria-expanded="false" aria-label="{{ i18n[locale].openMenu }}" data-label-open="{{ i18n[locale].openMenu }}" data-label-close="{{ i18n[locale].closeMenu }}" class="inline-flex items-center justify-center rounded p-2 text-brand-charcoal transition hover:bg-brand-light md:hidden">
         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round" /></svg>
@@ -69,7 +69,7 @@
         <a href="{{ searchUrl | url }}" class="block rounded px-3 py-2 text-base font-medium text-brand-charcoal transition hover:bg-brand-light">{{ i18n[locale].search }}</a>
       </li>
       <li>
-        <a href="{{ ('/' + locale + '/contact/') | url }}" class="mt-2 block rounded-button bg-brand-blue px-3 py-2 text-center text-base font-semibold text-white">{{ i18n[locale].contact }}</a>
+        <a href="{{ routes.contact[locale] | url }}" class="mt-2 block rounded-button bg-brand-blue px-3 py-2 text-center text-base font-semibold text-white">{{ i18n[locale].contact }}</a>
       </li>
     </ul>
   </nav>

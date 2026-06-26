@@ -1,0 +1,31 @@
+{# Corps de la page Contact — structure unique, partagée FR/EN. Données : _data/contact.js.
+   L'embed MS Forms (src, source-param, href) est partagé et reste ici. #}
+{% set d = contact[locale] %}
+{% set heroTitle = d.heroTitle %}
+{% set heroLead = d.heroLead %}
+{% set heroImage = "/assets/images/brand/hero-contact.webp" %}
+{% include "partials/page-hero.njk" %}
+
+<section class="mx-auto max-w-3xl px-6 py-12 md:py-16">
+  {# Formulaire MS Forms en click-to-load (RGPD) : rien n'est chargé avant action explicite.
+     Le préremplissage ?source= est repris par le handler [data-embed] de main.js. #}
+  <div class="card overflow-hidden">
+    <div
+      data-embed
+      data-embed-src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=FKtmkg0M-k-EhJ7SirQzqpOpZcoB86VIv7udGFyMyOVUNEJINUo3MzRNNVAwMzc5QUdGWUpCRzYyRC4u&embed=true"
+      data-embed-title="{{ d.embedTitle }}"
+      data-embed-height="700"
+      data-source-param="r514c22bc0b9648b2975b6d1a8a495fd5"
+      class="px-6 py-12 text-center md:px-8">
+      <p class="js-only mx-auto max-w-md text-brand-charcoal">{{ d.notice | safe }}</p>
+      <a
+        href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=FKtmkg0M-k-EhJ7SirQzqpOpZcoB86VIv7udGFyMyOVUNEJINUo3MzRNNVAwMzc5QUdGWUpCRzYyRC4u"
+        data-embed-load
+        target="_blank"
+        rel="noopener"
+        class="btn btn-solid mt-6">
+        {{ d.buttonLabel }}
+      </a>
+    </div>
+  </div>
+</section>

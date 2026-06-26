@@ -1,0 +1,13 @@
+{# Corps de l'index Actualités — structure unique, partagée FR/EN (texte via i18n + front matter). #}
+{% set heroTitle = title %}
+{% set heroLead = i18n[locale].newsIntro %}
+{% set noHeroImage = true %}
+{% include "partials/page-hero.njk" %}
+
+<section class="mx-auto max-w-6xl px-6 py-12 md:py-16">
+  <ul class="grid list-none gap-6 p-0 md:grid-cols-2">
+    {% for post in collections["news_" + locale] %}
+      {% include "partials/card-blog.njk" %}
+    {% endfor %}
+  </ul>
+</section>
