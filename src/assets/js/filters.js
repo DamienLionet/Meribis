@@ -12,10 +12,8 @@ if (filtersEl && listEl) {
   const emptyEl = document.querySelector("[data-empty]");
 
   const apply = () => {
-    const query = (searchInput && searchInput.value || "").trim().toLowerCase();
-    const active = selects
-      .map((s) => [s.dataset.filter, s.value])
-      .filter(([, value]) => value);
+    const query = ((searchInput && searchInput.value) || "").trim().toLowerCase();
+    const active = selects.map((s) => [s.dataset.filter, s.value]).filter(([, value]) => value);
 
     let visible = 0;
     for (const card of cards) {

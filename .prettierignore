@@ -1,0 +1,16 @@
+dist
+node_modules
+package-lock.json
+.claude
+.codex
+src/assets/fonts
+src/assets/images
+src/assets/favicons
+src/.nojekyll
+
+# Nunjucks : Prettier n'a pas de parser fiable pour la syntaxe {% %}/{{ }} —
+# on n'y touche pas (le tri des classes Tailwind ne s'applique donc pas aux templates).
+**/*.njk
+
+# Contenu éditorial : on évite de reformater/reflow le Markdown des articles & pages.
+**/*.md

@@ -18,6 +18,8 @@
     "build:search": "pagefind --site dist",
     "optimize:images": "node scripts/optimize-images.mjs",
     "check": "node scripts/check-i18n.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
     "build:all": "run-s clean build:css build build:js build:search",
     "build:local": "cross-env PATH_PREFIX=/ run-s clean build:css build build:js build:search"
@@ -29,6 +31,8 @@
     "html-minifier-terser": "^7.2.0",
     "npm-run-all2": "^7.0.2",
     "pagefind": "^1.5.2",
+    "prettier": "^3.8.5",
+    "prettier-plugin-tailwindcss": "^0.8.0",
     "sharp": "^0.35.1",
     "tailwindcss": "^4.3.1",
     "terser": "^5.48.0"

@@ -1,0 +1,236 @@
+/* ============================================================================
+   COMPOSANTS PARTAGÉS (design system). Définis UNE seule fois ici et consommés
+   par les templates : on n'empile JAMAIS la même chaîne d'utilitaires page par
+   page. Tout repose sur les tokens @theme (tokens.css).
+   ============================================================================ */
+
+/* --- Typographie : paliers de titrage (tous en Quicksand sauf .h3/.lead en Aptos) ---
+   .display = hero (exception) · .h1/.h2 = titres display · .h3 = titre d'interface ·
+   .lead = chapô · .eyebrow = surtitre · .stat = grand chiffre. */
+@utility display {
+  font-family: var(--font-display);
+  font-size: var(--text-display);
+  line-height: var(--text-display--line-height);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+@utility h1 {
+  font-family: var(--font-display);
+  font-size: var(--text-h1);
+  line-height: var(--text-h1--line-height);
+  font-weight: 300;
+  letter-spacing: -0.015em;
+}
+@utility h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  line-height: var(--text-h2--line-height);
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+@utility h3 {
+  font-size: var(--text-h3);
+  line-height: var(--text-h3--line-height);
+  font-weight: 300;
+}
+@utility lead {
+  font-size: var(--text-lead);
+  line-height: var(--text-lead--line-height);
+}
+@utility eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+@utility stat {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 1.8rem + 3vw, 3.5rem);
+  line-height: 1;
+  font-weight: 400; /* graisse légère : grands chiffres élégants */
+  letter-spacing: -0.01em;
+}
+
+/* --- Boutons : base + variantes. Le focus clavier est intégré ici. --- */
+@utility btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-button);
+  padding: 0.75rem 1.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  transition:
+    background-color var(--default-transition-duration) var(--ease-standard),
+    color var(--default-transition-duration) var(--ease-standard),
+    box-shadow var(--default-transition-duration) var(--ease-standard),
+    transform var(--default-transition-duration) var(--ease-standard);
+}
+@utility btn-primary {
+  background-color: var(--color-brand-gold);
+  color: var(--color-brand-blue-dark);
+  &:hover {
+    background-color: var(--color-brand-gold-dark);
+  }
+  &:focus-visible {
+    outline: 2px solid var(--color-brand-gold);
+    outline-offset: 3px;
+  }
+}
+@utility btn-solid {
+  background-color: var(--color-brand-blue);
+  color: #fff;
+  &:hover {
+    background-color: var(--color-brand-blue-dark);
+  }
+  &:focus-visible {
+    outline: 2px solid var(--color-brand-blue);
+    outline-offset: 3px;
+  }
+}
+@utility btn-ghost {
+  border: 1px solid rgb(255 255 255 / 0.4);
+  color: var(--color-brand-ivory);
+  &:hover {
+    background-color: rgb(255 255 255 / 0.1);
+  }
+  &:focus-visible {
+    outline: 2px solid var(--color-brand-ivory);
+    outline-offset: 3px;
+  }
+}
+/* Variante compacte (CTA d'en-tête). Réduit padding + corps de texte. */
+@utility btn-sm {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+}
+
+/* --- Cartes : .card = surface élevée (toujours blanche + ombre e2).
+   .card-interactive ajoute le survol commun (translation + e3) et un focus visible
+   sur la carte entière (corrige le « lien plein-bloc » sans anneau de focus).
+   .card-on-dark = pendant pour sections sombres (l'ombre ne s'y voit pas → ring). --- */
+@utility card {
+  border-radius: var(--radius-card);
+  background-color: var(--color-surface-elevated);
+  box-shadow: var(--shadow-e2);
+}
+@utility card-interactive {
+  transition:
+    transform var(--default-transition-duration) var(--ease-standard),
+    box-shadow var(--default-transition-duration) var(--ease-standard);
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-e3);
+  }
+  &:focus-within {
+    outline: 2px solid var(--color-brand-blue);
+    outline-offset: 2px;
+  }
+}
+@utility card-on-dark {
+  border-radius: var(--radius-card);
+  background-color: rgb(255 255 255 / 0.05);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.12);
+}
+
+/* --- Carte de mise en avant (feature) : surface de marque en dégradé sarcelle,
+   texte ivoire, élévation forte. Pour les blocs « vitrine » colorés (RSE, satisfaction). --- */
+@utility card-feature {
+  border-radius: var(--radius-card);
+  background-image: linear-gradient(
+    135deg,
+    var(--color-brand-blue) 0%,
+    var(--color-brand-blue-dark) 68%
+  );
+  color: var(--color-brand-ivory);
+  box-shadow: var(--shadow-e3);
+}
+
+/* --- Pilule (tags, secteurs) : surface élevée fine (e1). --- */
+@utility pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-button);
+  background-color: var(--color-surface-elevated);
+  box-shadow: var(--shadow-e1);
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-brand-blue);
+}
+
+/* --- Lien fléché (« Toutes nos offres → ») : la flèche glisse au survol.
+   Encadrer la flèche d'un <span class="arrow" aria-hidden="true">. --- */
+@utility link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: var(--color-brand-blue);
+  &:hover {
+    color: var(--color-brand-blue-dark);
+  }
+  & .arrow {
+    transition: transform var(--default-transition-duration) var(--ease-standard);
+  }
+  &:hover .arrow {
+    transform: translateX(0.25rem);
+  }
+}
+
+/* --- Lien texte à soulignement animé (liens inline hors prose). --- */
+@utility link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size var(--default-transition-duration) var(--ease-standard);
+  &:hover {
+    background-size: 100% 1px;
+  }
+}
+
+/* --- Traitement d'image unifié : désaturation + léger contraste, pour homogénéiser
+   des photos d'origines diverses (cohérence chromatique premium). --- */
+@utility img-brand {
+  filter: grayscale(0.35) saturate(0.85) contrast(1.03);
+}
+
+/* --- Dégradé de marque pour les bandeaux / sections sombres (sarcelle → sarcelle foncé),
+   en remplacement des aplats unis identiques sur toutes les pages. --- */
+@utility surface-gradient {
+  background-image: linear-gradient(
+    135deg,
+    var(--color-brand-blue) 0%,
+    var(--color-brand-blue-dark) 68%
+  );
+}
+
+/* --- Fondu de l'image de héros : masque en dégradé qui rend le bord gauche de la photo
+   progressivement transparent, pour la faire fondre dans le fond (transition douce
+   fond ↔ image, plutôt qu'un rectangle net recouvert d'un calque). --- */
+@utility hero-media-mask {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 85%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 85%);
+}
+
+/* --- Chip interactif (filtres, recherches fréquentes) : pilule bordée cliquable.
+   Distinct de .pill (tag blanc élevé, non cliquable). --- */
+@utility chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-button);
+  border: 1px solid var(--color-brand-gray);
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-brand-blue);
+  transition:
+    border-color var(--default-transition-duration) var(--ease-standard),
+    background-color var(--default-transition-duration) var(--ease-standard);
+  &:hover {
+    border-color: var(--color-brand-blue);
+    background-color: var(--color-surface-sunken);
+  }
+}

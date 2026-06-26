@@ -9,7 +9,10 @@ const build = (locale) => [
   { label: locale === "fr" ? "ADN Meritis" : "Our DNA", url: routes.adn[locale] },
   { label: locale === "fr" ? "RSE chez Meritis" : "CSR commitment", url: routes.rse[locale] },
   { label: locale === "fr" ? "Mentions légales" : "Legal notice", url: routes.legalNotice[locale] },
-  { label: locale === "fr" ? "Politique de confidentialité" : "Privacy policy", url: routes.privacy[locale] },
+  {
+    label: locale === "fr" ? "Politique de confidentialité" : "Privacy policy",
+    url: routes.privacy[locale],
+  },
 ];
 
 export default { fr: build("fr"), en: build("en") };

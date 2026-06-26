@@ -25,4 +25,6 @@ for (const name of await readdir(SRC)) {
   outBytes += Buffer.byteLength(result.code);
   console.log(`  min  ${name}  ${code.length} -> ${result.code.length} o`);
 }
-console.log(`JS minifié : ${inBytes} -> ${outBytes} o (${inBytes ? Math.round((1 - outBytes / inBytes) * 100) : 0}% en moins)`);
+console.log(
+  `JS minifié : ${inBytes} -> ${outBytes} o (${inBytes ? Math.round((1 - outBytes / inBytes) * 100) : 0}% en moins)`,
+);

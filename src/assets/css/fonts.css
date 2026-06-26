@@ -1,0 +1,38 @@
+/* --- Polices auto-hébergées (woff2). Chemins relatifs au fichier CSS
+   (dist/assets/css/ -> ../fonts/) : robustes au pathPrefix /Meribis/. --- */
+@font-face {
+  font-family: "Aptos";
+  src: url("../fonts/aptos-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aptos";
+  src: url("../fonts/aptos-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aptos";
+  src: url("../fonts/aptos-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aptos";
+  src: url("../fonts/aptos-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* Quicksand : fonte de titrage (variable, plage de graisses 300→700). */
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/quicksand.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}

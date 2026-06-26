@@ -23,14 +23,18 @@ for (const [rel, allow] of Object.entries(symmetric)) {
   const d = await load("src/" + rel);
   const fr = Object.keys(d.fr || {});
   const en = Object.keys(d.en || {});
-  for (const k of fr) if (!en.includes(k) && !allow.includes(k)) errors.push(`${rel} : clé « ${k} » absente en EN`);
-  for (const k of en) if (!fr.includes(k) && !allow.includes(k)) errors.push(`${rel} : clé « ${k} » absente en FR`);
+  for (const k of fr)
+    if (!en.includes(k) && !allow.includes(k)) errors.push(`${rel} : clé « ${k} » absente en EN`);
+  for (const k of en)
+    if (!fr.includes(k) && !allow.includes(k)) errors.push(`${rel} : clé « ${k} » absente en FR`);
 }
 
 // i18n.json (libellés UI)
 const i18n = JSON.parse(readFileSync(join(root, "src/_data/i18n.json"), "utf8"));
-for (const k of Object.keys(i18n.fr || {})) if (!(k in (i18n.en || {}))) errors.push(`i18n.json : « ${k} » absent en EN`);
-for (const k of Object.keys(i18n.en || {})) if (!(k in (i18n.fr || {}))) errors.push(`i18n.json : « ${k} » absent en FR`);
+for (const k of Object.keys(i18n.fr || {}))
+  if (!(k in (i18n.en || {}))) errors.push(`i18n.json : « ${k} » absent en EN`);
+for (const k of Object.keys(i18n.en || {}))
+  if (!(k in (i18n.fr || {}))) errors.push(`i18n.json : « ${k} » absent en FR`);
 
 // 2. routes.js : chaque route a fr ET en.
 const routes = await load("src/_data/routes.js");
@@ -41,10 +45,14 @@ for (const [id, r] of Object.entries(routes)) {
 
 // 3. expertisesNav.js : mêmes ids en fr/en, et tous les ids de `order` présents.
 const exp = await load("src/_data/expertisesNav.js");
-const frIds = Object.keys(exp.items.fr), enIds = Object.keys(exp.items.en);
-for (const id of frIds) if (!enIds.includes(id)) errors.push(`expertisesNav : « ${id} » absent en EN`);
-for (const id of enIds) if (!frIds.includes(id)) errors.push(`expertisesNav : « ${id} » absent en FR`);
-for (const id of exp.order) if (!frIds.includes(id)) errors.push(`expertisesNav.order : « ${id} » introuvable dans items`);
+const frIds = Object.keys(exp.items.fr),
+  enIds = Object.keys(exp.items.en);
+for (const id of frIds)
+  if (!enIds.includes(id)) errors.push(`expertisesNav : « ${id} » absent en EN`);
+for (const id of enIds)
+  if (!frIds.includes(id)) errors.push(`expertisesNav : « ${id} » absent en FR`);
+for (const id of exp.order)
+  if (!frIds.includes(id)) errors.push(`expertisesNav.order : « ${id} » introuvable dans items`);
 
 // 4. Parité des contenus : tout dossier portant un fr.* ou en.* doit avoir les deux.
 const RE = /^(fr|en)\.(md|njk|html)$/;
@@ -60,7 +68,12 @@ const walk = (dir) => {
 walk(join(root, "src/content"));
 
 if (errors.length) {
-  console.error("✗ Parité multilingue : " + errors.length + " problème(s)\n" + errors.map((e) => "  - " + e).join("\n"));
+  console.error(
+    "✗ Parité multilingue : " +
+      errors.length +
+      " problème(s)\n" +
+      errors.map((e) => "  - " + e).join("\n"),
+  );
   process.exit(1);
 }
 console.log("✓ Parité multilingue OK");

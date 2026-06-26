@@ -1,0 +1,159 @@
+/* Comportements de base, accessibilité et décor (hors tokens/composants/éditorial). */
+
+/* --- En-tête fixe : décale les ancres pour ne pas passer sous le header --- */
+html {
+  scroll-padding-top: 5rem;
+}
+
+/* --- Focus clavier visible et universel : currentColor s'aligne sur la couleur du
+   texte (donc contraste garanti sur fond clair comme foncé). Les CTA qui définissent
+   déjà leur propre focus-visible (utilitaires Tailwind) restent prioritaires. --- */
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* --- Menu mobile : amélioration progressive (cf. assets/js/main.js) ---
+   Sans JS : le bouton est masqué et le panneau reste ouvert (liens accessibles).
+   Avec JS : le bouton apparaît et le panneau est replié par défaut. */
+.no-js [data-menu-toggle] {
+  display: none;
+}
+.js [data-mobile-menu].is-collapsed {
+  display: none;
+}
+
+/* Éléments activés uniquement quand JS est disponible (filtres de liste, etc.). */
+.no-js .js-only {
+  display: none;
+}
+
+/* --- Menu déroulant (nav desktop) : visible au survol, au focus clavier, ou ouvert au clic --- */
+[data-dropdown-menu] {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-0.25rem);
+  transition:
+    opacity 0.15s ease,
+    transform 0.15s ease,
+    visibility 0.15s;
+}
+.group:hover > [data-dropdown-menu],
+.group:focus-within > [data-dropdown-menu],
+.group.is-open > [data-dropdown-menu] {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- Révélations au scroll (amélioration progressive). N'agit qu'avec JS : sans JS le
+   contenu est visible normalement. main.js ajoute .reveal-on-scroll puis .is-visible. --- */
+.js .reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 0.6s var(--ease-standard),
+    transform 0.6s var(--ease-standard);
+}
+.js .reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* --- Décor : bulles flottantes, mouvement individuel léger (coupé si motion réduite) --- */
+@keyframes meribis-drift-a {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(7px, -11px);
+  }
+}
+@keyframes meribis-drift-b {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-9px, -6px);
+  }
+}
+@keyframes meribis-drift-c {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(5px, 9px);
+  }
+}
+.decor-drift-a {
+  animation: meribis-drift-a 3.5s ease-in-out infinite;
+}
+.decor-drift-b {
+  animation: meribis-drift-b 4.5s ease-in-out infinite;
+}
+.decor-drift-c {
+  animation: meribis-drift-c 4s ease-in-out infinite;
+}
+
+/* Décor arcs : respiration en échelle depuis l'angle (transform-origin au centre des
+   arcs = origine du viewBox). Les extrémités, posées sur les axes, glissent le long des
+   bords (et au-delà, donc rognées) : elles restent collées au bord, sans décollement. */
+@keyframes meribis-arc-a {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+}
+@keyframes meribis-arc-b {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.07);
+  }
+}
+@keyframes meribis-arc-c {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+.arc-pulse-a,
+.arc-pulse-b,
+.arc-pulse-c {
+  transform-box: view-box;
+  transform-origin: 0 0;
+}
+.arc-pulse-a {
+  animation: meribis-arc-a 5s ease-in-out infinite;
+}
+.arc-pulse-b {
+  animation: meribis-arc-b 6s ease-in-out infinite;
+}
+.arc-pulse-c {
+  animation: meribis-arc-c 5.5s ease-in-out infinite;
+}
+
+/* --- Accessibilité : neutralise animations & transitions si l'utilisateur
+   demande moins de mouvement (couvre tout le vocabulaire de mouvement du site). --- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

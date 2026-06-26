@@ -12,8 +12,22 @@
     "en": ["Consultant", "Manager", "Support role"]
   },
   "businessLines": {
-    "fr": ["Développement applicatif", "Data & IA", "Finance & risques", "Cloud", "Cybersécurité", "Conseil & Agilité"],
-    "en": ["Application development", "Data & AI", "Finance & risk", "Cloud", "Cybersecurity", "Consulting & Agile"]
+    "fr": [
+      "Développement applicatif",
+      "Data & IA",
+      "Finance & risques",
+      "Cloud",
+      "Cybersécurité",
+      "Conseil & Agilité"
+    ],
+    "en": [
+      "Application development",
+      "Data & AI",
+      "Finance & risk",
+      "Cloud",
+      "Cybersecurity",
+      "Consulting & Agile"
+    ]
   },
   "locations": ["Paris", "Lyon", "Nantes", "Bordeaux", "Toulouse", "Sophia Antipolis"]
 }

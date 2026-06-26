@@ -16,7 +16,10 @@ export default {
     stats: [
       { value: '900<span class="text-brand-gold">+</span>', label: "consultants experts" },
       { value: '1&nbsp;600<span class="text-brand-gold">+</span>', label: "clients accompagnés" },
-      { value: '4,5<span class="text-2xl text-brand-gold">/5</span>', label: "de satisfaction client" },
+      {
+        value: '4,5<span class="text-2xl text-brand-gold">/5</span>',
+        label: "de satisfaction client",
+      },
       { value: "B&nbsp;Corp", label: "entreprise certifiée à impact" },
     ],
     expTitle: "Nos expertises",
@@ -53,7 +56,10 @@ export default {
     stats: [
       { value: '900<span class="text-brand-gold">+</span>', label: "expert consultants" },
       { value: '1,600<span class="text-brand-gold">+</span>', label: "clients supported" },
-      { value: '4.5<span class="text-2xl text-brand-gold">/5</span>', label: "client satisfaction" },
+      {
+        value: '4.5<span class="text-2xl text-brand-gold">/5</span>',
+        label: "client satisfaction",
+      },
       { value: "B&nbsp;Corp", label: "certified impact company" },
     ],
     expTitle: "Our expertise",

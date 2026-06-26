@@ -22,9 +22,7 @@ export default function (eleventyConfig) {
   // Pages traduisibles (portent un translationKey + locale). Alimente le sélecteur
   // de langue et les hreflang via la donnée calculée `translations` (content.11tydata.js).
   eleventyConfig.addCollection("localized", (collectionApi) =>
-    collectionApi
-      .getAll()
-      .filter((item) => item.data.translationKey && item.data.locale)
+    collectionApi.getAll().filter((item) => item.data.translationKey && item.data.locale),
   );
 
   // Dates : ISO (données structurées) + affichage localisé.
@@ -85,20 +83,20 @@ export default function (eleventyConfig) {
   const byDateDesc = (a, b) => b.date - a.date;
   for (const loc of ["fr", "en"]) {
     eleventyConfig.addCollection(`blog_${loc}`, (api) =>
-      api.getFilteredByGlob(`src/content/blog/*/${loc}.md`).filter(isPublished).sort(byDateDesc)
+      api.getFilteredByGlob(`src/content/blog/*/${loc}.md`).filter(isPublished).sort(byDateDesc),
     );
     eleventyConfig.addCollection(`news_${loc}`, (api) =>
-      api.getFilteredByGlob(`src/content/news/*/${loc}.md`).filter(isPublished).sort(byDateDesc)
+      api.getFilteredByGlob(`src/content/news/*/${loc}.md`).filter(isPublished).sort(byDateDesc),
     );
     eleventyConfig.addCollection(`jobs_${loc}`, (api) =>
-      api.getFilteredByGlob(`src/content/jobs/*/${loc}.md`).filter(isPublished).sort(byDateDesc)
+      api.getFilteredByGlob(`src/content/jobs/*/${loc}.md`).filter(isPublished).sort(byDateDesc),
     );
     eleventyConfig.addCollection(`featured_blog_${loc}`, (api) =>
       api
         .getFilteredByGlob(`src/content/blog/*/${loc}.md`)
         .filter(isPublished)
         .filter((item) => item.data.featured)
-        .sort(byDateDesc)
+        .sort(byDateDesc),
     );
   }
 

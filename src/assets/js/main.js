@@ -53,7 +53,9 @@ const closeDropdowns = (predicate) => {
   });
 };
 
-document.addEventListener("click", (event) => closeDropdowns((group) => !group.contains(event.target)));
+document.addEventListener("click", (event) =>
+  closeDropdowns((group) => !group.contains(event.target)),
+);
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") closeDropdowns(() => true);
 });
@@ -102,7 +104,7 @@ if (!prefersReduced && "IntersectionObserver" in window) {
           }
         });
       },
-      { rootMargin: "0px 0px -10% 0px" }
+      { rootMargin: "0px 0px -10% 0px" },
     );
     targets.forEach((el) => {
       el.classList.add("reveal-on-scroll");

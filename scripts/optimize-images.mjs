@@ -30,7 +30,10 @@ const SMALL_EDGE = 256; // en deçà : picto / icône -> WebP sans perte
 const QUALITY = 80; // qualité WebP des photos
 
 const kb = (b) => `${(b / 1024).toFixed(0)} KB`;
-const exists = (p) => access(p).then(() => true).catch(() => false);
+const exists = (p) =>
+  access(p)
+    .then(() => true)
+    .catch(() => false);
 
 async function* walk(dir) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {
@@ -61,7 +64,8 @@ for await (const file of walk(IMAGES_DIR)) {
     // Pipeline de base (rotation EXIF + redimensionnement), réinstancié à chaque encodage.
     const base = () => {
       let p = sharp(file).rotate();
-      if (maxDim > MAX_EDGE) p = p.resize(MAX_EDGE, MAX_EDGE, { fit: "inside", withoutEnlargement: true });
+      if (maxDim > MAX_EDGE)
+        p = p.resize(MAX_EDGE, MAX_EDGE, { fit: "inside", withoutEnlargement: true });
       return p;
     };
 
@@ -95,7 +99,11 @@ for await (const file of walk(IMAGES_DIR)) {
     if (maxDim > MAX_EDGE) {
       const before = (await stat(file)).size;
       const tmp = `${file}.tmp`;
-      await sharp(file).rotate().resize(MAX_EDGE, MAX_EDGE, { fit: "inside", withoutEnlargement: true }).webp({ quality: QUALITY, effort: 6 }).toFile(tmp);
+      await sharp(file)
+        .rotate()
+        .resize(MAX_EDGE, MAX_EDGE, { fit: "inside", withoutEnlargement: true })
+        .webp({ quality: QUALITY, effort: 6 })
+        .toFile(tmp);
       const after = (await stat(tmp)).size;
       if (after < before) {
         await rename(tmp, file);
@@ -168,10 +176,14 @@ console.log("\n--- Résumé ---");
 console.log(`Images converties  : ${converted}`);
 console.log(`WebP redimensionnés: ${resized}`);
 console.log(`Inchangés          : ${untouched}`);
-console.log(`Gain (sur traités) : ${kb(inBytes)} -> ${kb(outBytes)} (${inBytes ? Math.round((1 - outBytes / inBytes) * 100) : 0}% en moins)`);
+console.log(
+  `Gain (sur traités) : ${kb(inBytes)} -> ${kb(outBytes)} (${inBytes ? Math.round((1 - outBytes / inBytes) * 100) : 0}% en moins)`,
+);
 console.log(`Références réécrites: ${refsChanged} dans ${filesChanged} fichier(s)`);
 console.log(`Références raster restantes : ${dangling}`);
-console.log(`Références .webp manquantes : ${missing.length}${missing.length ? " -> " + missing.join(", ") : ""}`);
+console.log(
+  `Références .webp manquantes : ${missing.length}${missing.length ? " -> " + missing.join(", ") : ""}`,
+);
 
 if (dangling > 0 || missing.length > 0) {
   console.error("\n❌ Incohérences détectées (voir ci-dessus).");
